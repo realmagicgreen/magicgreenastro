@@ -1,8 +1,11 @@
 ---
 import Layout from "../layouts/Base.astro";
+import siteData from "../data/site.json";
 import "../scss/pico.scss";
 ---
 
-<Layout title="MAGIC GREEN EVOLUTION" />
+<Layout title={siteData.tldr}>
+  <span></span>
+</Layout>
 
 <style></style>

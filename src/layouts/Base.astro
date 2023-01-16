@@ -2,8 +2,10 @@
 import { SEO } from "astro-seo";
 import Junglestar from "../components/Junglestar.astro";
 import Svgs from "../components/Svgs.astro";
+import Nav from "../components/Nav.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import siteData from "../data/site.json";
 
 export interface Props {
   title: string;
@@ -11,11 +13,11 @@ export interface Props {
 
 const { title } = Astro.props;
 
-const Brand = "MAGIC GREEN";
-const Mission = "All stuff green from south east Asia and beyond";
+const Brand = siteData.title;
+const Mission = siteData.content_is_about;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
-const siteURL = new URL(Astro.site).toString();
+const canonicalURL = new URL(Astro.url.pathname, siteData.url).toString();
+const siteURL = new URL(siteData.url).toString();
 
 const makeTitle = title
   ? Brand + " | " + title
@@ -27,7 +29,7 @@ const makeTitleOG = title
 
 const resolvedImageWithDomain = new URL(
   "assets/p/og_large_image.jpg",
-  Astro.site
+  siteData.url
 ).toString();
 ---
 
@@ -42,11 +44,11 @@ const resolvedImageWithDomain = new URL(
 
     <SEO
       title={makeTitle}
-      description="MAGIC GREEN is a showcase of examples, infos and addresses of all stuff green from South East Asia and beyond."
+      description={siteData.description}
       canonical={canonicalURL}
       twitter={{
-        creator: "@rokmatwit",
-        site: siteURL,
+        creator: siteData.author.twitter,
+        site: siteData.url,
         card: "summary_large_image",
       }}
       openGraph={{
@@ -63,17 +65,18 @@ const resolvedImageWithDomain = new URL(
       }}
     />
 
-    <meta
-      name="keywords"
-      content="magazine, natural, nature-friendly, magic-green, sustainable-business-practises, environment-friendly, renewable-energy, low-impact, Bali, Indonesia, south east Asia, environment-conscious, wise, minimal impact, healthy, water-purification-techniques, communication-platform, green-news"
-    />
+    <meta name="keywords" content={siteData.keywords} />
   </head>
   <body>
     <Svgs />
 
     <Header />
 
-    <slot />
+    <Nav />
+
+    <main>
+      <slot />
+    </main>
 
     <Footer />
     <style lang="scss" is:global>

@@ -1,0 +1,41 @@
+---
+import navigation from "../data/navigation.json";
+const sections = navigation.sections;
+
+import "../scss/pico.scss";
+---
+
+<div class="menu_toggle_buttom" id="menu_toggle_buttom">
+  <svg class="open">
+    <use xlink:href="#icn--menu"></use>
+  </svg>
+
+  <svg class="close">
+    <use xlink:href="#icn--x"></use>
+  </svg>
+</div>
+
+<nav class="menu" role="menu">
+  {
+    sections.map((section) => (
+      <a
+        class="menu_item"
+        role="menuitem"
+        href={section.url}
+        title={section.description}
+      >
+        {section.label}
+      </a>
+    ))
+  }
+</nav>
+<style>
+  .menu {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .menu_item {
+    min-height: 42px;
+    text-transform: uppercase;
+  }
+</style>
