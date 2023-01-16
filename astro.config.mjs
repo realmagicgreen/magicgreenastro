@@ -7,7 +7,5 @@ export default defineConfig({
     //maybe needed, not yet used!
     plugins: [yaml()],
   },
-  site: "https://magicgreen.junglestar.org",
-  prova: "bomba",
   outDir: "./dist",
 });
