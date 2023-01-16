@@ -1,0 +1,31 @@
+---
+import LogoText from "../components/LogoText.astro";
+---
+
+<header class="container">
+  <div class="header_block">
+    <LogoText />
+
+    <div class="menu_toggle_buttom" id="menu_toggle_buttom">
+      <svg class="open">
+        <use xlink:href="#icn--menu"></use>
+      </svg>
+
+      <svg class="close">
+        <use xlink:href="#icn--x"></use>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<style>
+  .hide {
+    display: none;
+  }
+  .close,
+  .open {
+    stroke: var(--primary);
+    width: 48px;
+    height: 48px;
+  }
+</style>

@@ -1,0 +1,195 @@
+---
+---
+
+<div class="menu_footer">
+  <div class="menu_posts" role="menu">
+    <div class="title">Latest articles</div>
+
+    <a
+      class="menu_item"
+      role="menuitem"
+      title="Travellers Choose Sustainability"
+      href="/know/travellers-choose-sustainability/"
+    >
+      <span class="page_title">Travellers Choose Sustainability</span>
+    </a>
+
+    <a
+      class="menu_item"
+      role="menuitem"
+      title="Travellers Choose Sustainability"
+      href="/know/travellers-choose-sustainability/"
+    >
+      <span class="page_title">Travellers Choose Sustainability</span>
+    </a>
+
+    <a
+      class="menu_item"
+      role="menuitem"
+      title="Travellers Choose Sustainability"
+      href="/know/travellers-choose-sustainability/"
+    >
+      <span class="page_title">Travellers Choose Sustainability</span>
+    </a>
+
+    <a
+      class="menu_item"
+      role="menuitem"
+      title="Travellers Choose Sustainability"
+      href="/know/travellers-choose-sustainability/"
+    >
+      <span class="page_title">Travellers Choose Sustainability</span>
+    </a>
+  </div>
+
+  <div class="menu_contacts" role="menu">
+    <div class="title">About Magic Green</div>
+
+    <div class="name">
+      <a class="menu_item" role="menuitem" href="/about-us/" title="about us">
+        <span>About us</span>
+      </a>
+    </div>
+
+    <div class="footer_icon facebook">
+      <a
+        class="menu_item open_in_new_window"
+        role="menuitem"
+        href="https://web.facebook.com/magicgreen.junglestar.org"
+        title="magicgreen Facebook page"
+        target="_blank"
+        rel="noopener"
+      >
+        <span>
+          <svg class="facebook">
+            <use xlink:href="#icn--facebook"></use>
+          </svg>
+        </span>
+        <span>FB: magicgreen.junglestar.org</span>
+      </a>
+    </div>
+
+    <div class="footer_icon instagram">
+      <a
+        class="menu_item open_in_new_window"
+        role="menuitem"
+        href="https://www.instagram.com/realmagicgreen"
+        title=" realmagicgreen on Instagram"
+        target="_blank"
+        rel="noopener"
+      >
+        <span>
+          <svg class="instagram">
+            <use xlink:href="#icn--instagram"></use>
+          </svg>
+        </span>
+
+        <span>IG: realmagicgreen</span>
+      </a>
+    </div>
+
+    <div class="footer_icon email">
+      <a
+        class="menu_item open_in_new_window"
+        role="menuitem"
+        href="mailto:magicgreen@junglestar.org"
+        title="magicgreen@junglestar.org"
+        target="_blank"
+        rel="noopener"
+      >
+        <span>
+          <svg class="email">
+            <use xlink:href="#icn--email"></use>
+          </svg>
+        </span>
+        <span>magicgreen@junglestar.org</span>
+      </a>
+    </div>
+
+    <div class="footer_icon qr_box">
+      <span>
+        <svg class="qr">
+          <use xlink:href="#icn--qr"></use>
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+  svg {
+    width: var(--icon_size);
+    height: var(--icon_size);
+    padding-right: 10px;
+  }
+  .qr {
+    width: 150px;
+    height: 150px;
+    margin-top: var(--small_small);
+    margin-right: 0;
+    margin-left: -6px;
+  }
+  .title {
+    padding-top: var(--space);
+    padding-bottom: calc(var(--space_small) / 3);
+    margin-bottom: calc(var(--space_small) / 3);
+    border-bottom: 1px solid var(--primary);
+    color: var(--color);
+    text-transform: uppercase;
+    width: 100%;
+    @media (min-width: 768px) {
+      border-bottom: 0 none;
+      width: auto;
+    }
+  }
+  .menu_item {
+    min-height: 42px;
+    display: flex;
+
+    &.active {
+      border-bottom: 0 none;
+    }
+  }
+
+  .menu_footer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      max-width: 700px;
+    }
+
+    .email a span,
+    .other_website a span {
+      text-transform: none;
+    }
+  }
+
+  .menu_contacts,
+  .menu_posts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    // @media (min-width: 768px) {
+    //   max-width: 47%;
+    // }
+  }
+
+  .menu_contacts {
+    > div {
+      min-height: 22px;
+      margin-bottom: var(--space) / 4;
+    }
+    .name {
+      color: black;
+    }
+  }
+
+  .menu.menu_footer .menu_item {
+    text-transform: none;
+  }
+</style>

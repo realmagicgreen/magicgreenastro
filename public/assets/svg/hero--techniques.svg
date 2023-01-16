@@ -1,0 +1,21 @@
+<svg class="slogan--techniques" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 720">
+
+  <style>
+    .st2{fill:none}
+    .st3{fill:#0c3;stroke:#000;stroke-width:.64;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
+    .st4{font-family:&apos;Dosis-ExtraBold&apos;}
+    .st5{font-size:30.72px}
+    .st6{display:none}
+    .st16{opacity:.7}
+    .st17{font-size:33.1785px}
+  </style>
+
+  <tspan x="0" y="0" class="st16 st4 st17">SUSTAINABLE </tspan>
+  <tspan x="-17.05" y="27.648" class="st16 st4 st17">AND </tspan>
+  <tspan x="-34.105" y="55.298" class="st16 st4 st17">ENVIRONMENT </tspan>
+  <tspan x="-51.16" y="82.946" class="st16 st4 st17">FRIENDLY </tspan>
+  <tspan x="-68.212" y="110.595" class="st16 st4 st17">EXAMPLES FOR </tspan>
+  <tspan x="-78.209" y="138.243" class="st16 st4 st17">THE PRESENT </tspan>
+  <tspan x="-33.38" y="165.893" class="st16 st4 st17">FUTURE</tspan>
+
+</svg>

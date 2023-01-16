@@ -1,0 +1,21 @@
+{
+  "name": "@magicgreen",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.9.2"
+  },
+  "devDependencies": {
+    "@sindresorhus/slugify": "^2.1.1",
+    "astro-seo": "^0.6.1",
+    "sass": "^1.57.1"
+  }
+}

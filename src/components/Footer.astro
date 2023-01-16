@@ -1,0 +1,23 @@
+---
+import Logo from "../components/Logo.astro";
+import FooterMenu from "../components/FooterMenu.astro";
+import FooterCopy from "../components/FooterCopy.astro";
+---
+
+<footer role="contentinfo">
+  <div class="container">
+    <Logo />
+
+    <FooterMenu />
+  </div>
+
+  <FooterCopy />
+</footer>
+
+<style lang="scss">
+  footer {
+    display: block;
+    padding: var(--space) 0 0 0;
+    width: 100%;
+  }
+</style>
