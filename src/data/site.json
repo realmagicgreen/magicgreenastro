@@ -8,7 +8,10 @@
   "description": "Magic Green magazine is a showcase of examples, infos and addresses of all stuff green from South East Asia and beyond.",
   "keywords": "magazine, natural, nature-friendly, magic-green, sustainable-business-practises, environment-friendly, renewable-energy, low-impact, Bali, Indonesia, south east Asia, environment-conscious, wise, minimal impact, healthy, water-purification-techniques, communication-platform, green-news",
   "lang": "en",
-  "license": "CC0",
+  "license": {
+    "name": "CC BY",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "qr": "yes",
   "projectimage": "assets/p/og.jpg",
   "url": "https://magicgreen.junglestar.org",
@@ -29,5 +32,9 @@
       "analytics": "UA-119013410-1",
       "verification": "google32e66f1a5601ec40"
     }
+  },
+  "producer": {
+    "url": "https://junglestar.org",
+    "name": "Junglestar"
   }
 }

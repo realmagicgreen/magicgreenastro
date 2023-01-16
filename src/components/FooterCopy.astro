@@ -1,26 +1,27 @@
 ---
+import siteData from "../data/site.json";
 ---
 
 <div class="copyright">
   <span
-    >Copyright © 2018-2023 Magic Green.
+    >Copyright © 2018-2023 {siteData.title}.
     <br class="show_on_phones" />Released under <a
       id="magicgreen-to-creativecommons"
       title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials."
-      href="https://creativecommons.org/licenses/by/4.0/"
+      href="{siteData.licence.url}"
       target="_blank"
       class="open_in_new_window"
-      rel="noopener">CC_BY license</a
+      rel="noopener">{siteData.license.name} license</a
     >.
   </span>
 
   <span>
     <br class="show_on_phones" /> Powered by <a
       id="magicgreen-to-junglestar"
-      href="https://junglestar.org"
+      href="{siteData.producer.url}"
       target="_blank"
       class="open_in_new_window"
-      rel="noopener">Junglestar</a
+      rel="noopener">{siteData.producer.name}</a
     >
   </span>
 </div>
