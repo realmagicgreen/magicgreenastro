@@ -2,13 +2,15 @@
 
 ## 2DOs:
 
-☐ PICO
+☐ add posts
+☐ add pages
+☐ make head menu responsive
 ☐ standalone web-app
 ☐ astro image
 ☐ search
 ☐ Add Patreon
 ☐ build ADD YOURSELF FORM > gform > gsheet
-☐ css ovelay ala VEGAS, via frontmatter true false, for crappy jpgs
+☐ css overlay ala VEGAS, via frontmatter true false, for crappy jpgs
 ☐ i18n + make indo posts (using G translate
 ☐ Know section: make memes img 4 social with pill statistics phrases (img)
 ☐ tooltip showing categories descriptions
@@ -26,3 +28,5 @@
 
 DONE:
 ☑ install
+☑ PICO
+☑ improved logos

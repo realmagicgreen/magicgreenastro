@@ -17,7 +17,6 @@ const Brand = siteData.title;
 const Mission = siteData.content_is_about;
 
 const canonicalURL = new URL(Astro.url.pathname, siteData.url).toString();
-const siteURL = new URL(siteData.url).toString();
 
 const makeTitle = title
   ? Brand + " | " + title
@@ -28,7 +27,7 @@ const makeTitleOG = title
   : "Junglestar - your customers should understand you!";
 
 const resolvedImageWithDomain = new URL(
-  "assets/p/og_large_image.jpg",
+  siteData.projectimage,
   siteData.url
 ).toString();
 ---
@@ -36,11 +35,16 @@ const resolvedImageWithDomain = new URL(
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
+    <meta name="version" content={siteData.version} />
     <Junglestar />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/favicons/safari-pinned-tab.svg"
+    />
 
     <SEO
       title={makeTitle}
@@ -101,10 +105,10 @@ const resolvedImageWithDomain = new URL(
         }
       }
       // breakpoints
-      // @media (min-width: 576px) Min
-      // @media (min-width: 768px) Bp1
-      // @media (min-width: 992px) Bp2
-      // @media (min-width: 1200px) Max
+      // Min  @media (min-width: 576px)
+      // Bp1  @media (min-width: 768px)
+      // Bp2  @media (min-width: 992px)
+      // Max  @media (min-width: 1200px)
     </style>
   </body>
 </html>
