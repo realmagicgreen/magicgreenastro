@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Trash Hero
 subtitle: This global phenomena is growing bigger. And it's happening in Bali too.
 category: solutions
@@ -34,10 +35,7 @@ In Bali too, people are taking it in their own hands. It's Sunday and at the [Ba
 
 They are part of their local group, [Trash Hero Sanur](http://chapter.trashhero.org/chapters/sanur), which is supported by the following sponsors: **Asli Desain, Cafe Locca Hostel, Sweet Magnolia, the Green Team Sanur**...
 
-
-
 The [Trash Hero network](https://trashhero.org/our-network/), which links communities all over the world, is concentrated in Southeast Asia, in Thailand, Indonesia, Myanmar, Malaysia and Singapore, but also extends into Europe, Africa and the USA.
-
 
 ## The Trash Hero mission
 
@@ -46,7 +44,6 @@ Trash Hero tackles waste in the environment, but also at its source. Programs ar
 > WEEKLY CLEANUPS: No Cost. No Sign-Up. Just Show Up.
 
 Bring [communities together](https://trashhero.org/our-mission/) to clean and reduce waste through action and awareness, education, sustainable projects, inspiration.
-
 
 ## INDONESIA CHAPTERS
 
@@ -69,7 +66,6 @@ Each chapter brings together residents, businesses, government agencies, schools
 - [Trash Hero Ubud](http://chapter.trashhero.org/chapters/ubud)
 
 You too can help them to do more to clean and reduce waste, by [making a donation](https://trashhero.org/donations/) today.
-
 
 **_See more:_**
 

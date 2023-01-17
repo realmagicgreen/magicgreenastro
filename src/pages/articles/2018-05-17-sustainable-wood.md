@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Sustainable Wood
 subtitle: Forest Stewardship Council is demonstrating responsible forest supply chain management
 category: services
@@ -32,11 +33,8 @@ That’s why FSC certification exists. Whether you’re a forest manager, produc
 
 Being FSC certified means that your forest, or supply chain, is managed responsibly; that you comply with our environmental, social, and economic standards. This covers much more than the trees themselves, among other things, it makes sure that local communities are respected, protects the habitats of endangered plant and animal species, and ensures workers are properly paid.
 
-
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Look for the logo before your next purchase' %}
-
-
 
 When you become certified, your product can carry an [FSC label](https://ic.fsc.org/en/for-business/business-benefits/fsc-labels). It is a trusted symbol that shows consumers and businesses that you are sustainably managing either your forest, by preserving it for future generations, or supply chain operations. It is public recognition of your responsibility.
 
@@ -48,7 +46,6 @@ Meanwhile, WWF even recommends FSC certification to consumers, forest managers, 
 
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Types of certification' %}
-
 
 Aside from showing the world your commitment to responsible forestry, FSC certification has other [business benefits](https://ic.fsc.org/en/benefits-for-business): it’s been proven that many businesses can receive financial benefits from being FSC certified (according to this [WWF cost-benefit report](http://wwf.panda.org/wwf_news/?250330)).
 
@@ -64,15 +61,13 @@ The individual certification bodies that carry out assessments on behalf of FSC 
 
 The AAF was established to support the core FSC functions and services provided to certificate holders. The fee you pay is dependent on the type of certification you hold, the size, and type, of your forest area or site, and your annual turnover.
 
-
 ### Trademark licensing: an alternative to certification
 
 If you’re a retailer, media organization, or educational institution, for example, you might not want or need to become certified, but may still want to promote FSC-labelled products or FSC certification as a framework. For these situations, FSC offer [trademark licensing](https://ic.fsc.org/en/for-business/how-to-use-fsc-trademarks).
 
-
 ## Know More Links
 
-Becoming certified:  [steps](https://ic.fsc.org/en/for-business/3-steps-to-certification)
+Becoming certified: [steps](https://ic.fsc.org/en/for-business/3-steps-to-certification)
 
 Forest Stewardship Council [website](https://ic.fsc.org/en)
 

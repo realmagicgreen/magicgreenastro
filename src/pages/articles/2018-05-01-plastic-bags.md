@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Plastic Bags
 subtitle: "Less than 1 percent of plastic bags goes into a recycle bin."
 category: know
@@ -22,6 +23,7 @@ show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
 ---
+
 Billions of plastic bags are made each year. Of these bags, one hundred billion are thrown away according to [Worldwatch Institute](http://www.worldwatch.org/), with less than 1 percent finding their way into a recycle bin.
 
 The end result of this is around 1 billion birds and mammals dying each year by the ingestion of plastic.

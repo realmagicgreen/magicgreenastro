@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Gringgo Smarter Waste Collection
 subtitle: B"orn in Bali this platform for recycling is tackling the trash problem head on."
 description: "In many places around the world, trash is a big problem and recycling is not easy, so people don't recycle. Gringgo make it easy. "
@@ -30,7 +31,6 @@ In many places around the world, trash is a big problem and recycling is not eas
 
 Gringgo was initially created as a platform for recycling aimed at local schools. Their goals was to make recycling easier, rewarding and fun. The concept has evolved and now Gringgo is tackling the trash problem head on.
 
-
 ### Gringgo Vision
 
 Smarter waste collection service that is more reliable, cheaper and greener. Creating more jobs and higher incomes for waste workers.
@@ -41,9 +41,6 @@ Innovate & create positive social & environmental impact. Build a waste network 
 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Gringgo Denpasar map' %}
-
-
-
 
 ### Data & waste service in Denpasar
 

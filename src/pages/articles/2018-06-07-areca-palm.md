@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Areca Palm
 subtitle: "Removes CO2 and produces lots of oxygen. Its health benefits will boost your energy and productivity."
 description: "Areca Palm, Yellow Palm, or Butterfly Palm is a wonder plant. Besides cleaning the air by removing pollutants it's an effective humidifier." # max 160 digits
@@ -25,6 +26,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography: # put here photographer name
 ---
+
 Dypsis lutescens, also known as golden Cane Palm, Areca Palm, Yellow Palm, or Butterfly Palm is a wonder plant.
 
 Besides cleaning the air by removing pollutants it's an effective humidifier.
@@ -35,22 +37,19 @@ Negative ions attach themselves to (and effectively remove) particles such as du
 
 The presence of negative ions is credited for increasing psychological health, productivity, and overall well-being.
 
-
 The Areca palm tree is the very best air purifying plant according to the ratings from NASA’s research and has the 8th highest removal rate for Formaldehyde according to Dr Wolverton’s data.
 
->"Areca palm is a plant which removes CO2 and converts it into oxygen. We need four shoulder-high plants per person, and in terms of plant care, we need to wipe the leaves every day in Delhi, and perhaps once a week in cleaner-air cities."_Kamal Meattle_
+> "Areca palm is a plant which removes CO2 and converts it into oxygen. We need four shoulder-high plants per person, and in terms of plant care, we need to wipe the leaves every day in Delhi, and perhaps once a week in cleaner-air cities."_Kamal Meattle_
 
 Kamal Meattle used three just three indoor plant species to increase oxygen, filter air, and boost general health at a a New Delhi business park.
 
 One of these chosen plant is the Areca palm.
-
 
 Meattle's [presentation at the TED 2009](https://www.ted.com/talks/kamal_meattle_on_how_to_grow_your_own_fresh_air) conference details a large-scale success, using thousands of plants for hundreds of workers.
 
 In any living or working space, though, the three plants—Areca palm, Mother-in-law's Tongue, and a "Money Plant" can be used to convert carbon dioxide into oxygen, remove organic compounds, and generally filter and freshen the ambient air.
 
 **Pollutants removed**: Xylene, Toluene, Formaldehyde
-
 
 ## Know More Links
 

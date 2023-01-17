@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Mosquito Repellent Plants
 subtitle: "Mosquito repellent plants that you can easily grow in your balcony or garden area. It’s about your health."
 description: "Mosquitoes spread serious diseases as malaria, dengue, yellow fever, encephalitis and West Nile and Zika viruses. They can give heart worm to pets."
@@ -41,8 +42,6 @@ Initially, they’re [attracted by the carbon dioxide we exhale.](http://theconv
 
 Body heat is probably important too, but once the mosquito gets closer, she will respond to the smell of a potential blood source’s skin.
 
-
-
 # Outdoors mosquito repellent plants
 
 ## Garlic - (Allium Sativum)
@@ -63,14 +62,11 @@ The best thing you can do is - prevent water from collecting as the mosquitoes c
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Mint plant' %}
 
-
 Most bugs despise the smell and taste of [peppermint](https://en.wikipedia.org/wiki/Peppermint), so planting it around your home is a great way to keep them from dropping by uninvited.
 
 Plus, if you do happen to get bitten, peppermint leaves rubbed directly onto the skin make a great bite relief treatment.
 
 An added bonus is the wonderful minty smell that makes a delicious addition to food and beverages. Get [peppermint seeds here](https://amzn.to/3iKA6zM) and [here](https://amzn.to/2VR2WFZ).
-
-
 
 # Indoor houseplants
 
@@ -90,7 +86,6 @@ If looking to buy citronella, be careful when choosing the plants.
 There are a few varieties of scented geraniums that go by the name mosquito plant or even citronella plant, and they are not what you’re looking for.
 
 True citronella looks a lot like thick grass, and does not have wide rippled leaves. Citronella [seeds are available here](https://amzn.to/3jS9Fb0) and [here](https://amzn.to/3xGVCK1).
-
 
 ## Lavender - (Lavandula)
 
@@ -125,7 +120,6 @@ They prefer a warm environment, so they may not be the best indoor houseplant if
 
 Otherwise, they should thrive just fine. Feel free to harvest a few leaves now and again for cooking too. Oragic [Basil seeds here](https://amzn.to/3iJ6T8l).
 
-
 ## Rosemary - (Salvia Rosmarinus)
 
 {% assign name = '-08' %}
@@ -142,7 +136,6 @@ Use a well-draining potting soil mix, watering when the surface is dry to the to
 Rosemary is also prone to powdery mildew so you have to have a lot of air movement around the plant to prevent that from settling in. Seeds [available here](https://amzn.to/2VSauZa).
 
 Like with lavender, try to find a breezy location, or even set up a small fan around your plants to keep the air moving.
-
 
 # Placement
 
@@ -165,7 +158,6 @@ Now, these aren’t things that are likely to bring them directly into your hous
 Mosquitoes are usually at their busiest at dusk and into the night, though not all species are exactly the same.
 
 This is definitely the time to be careful you’re not drawing them into the house by opening the doors too often, or attracting them as we mentioned above.
-
 
 # Other advices
 

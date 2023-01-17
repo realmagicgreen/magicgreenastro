@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Peace Lilies
 subtitle: One of the most powerful pollutant remover.
 category: health
@@ -25,17 +26,16 @@ featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name
 ---
+
 Peace lilies go by the scientific name of Spathiphyllum.
 
 NASA Clean Air Study found that it is one of the most powerful pollutant remover.
 
 While is toxic to cat and dogs, it does a fantastic job in cleaning the air that we humans pollute.
 
->"Most people don't know what's in their apartment, but formaldehyde, for instance, is in foam insulation, in beds made of veneer, in the backing of rugs and couches, in pressed-wood paneling, ry bags and wax paper, facial tissues and paper towels. Benzene is in tobacco smoke, inks and detergents... We were not meant to live in the absence of green living plants." _Dr. Wolverton - NASA._
-
+> "Most people don't know what's in their apartment, but formaldehyde, for instance, is in foam insulation, in beds made of veneer, in the backing of rugs and couches, in pressed-wood paneling, ry bags and wax paper, facial tissues and paper towels. Benzene is in tobacco smoke, inks and detergents... We were not meant to live in the absence of green living plants." _Dr. Wolverton - NASA._
 
 **Pollutants removed**: Benzene, Formaldehyde, Trichloroethylene, Xylene, Toluene, Ammonia,
-
 
 ## Know More Links
 

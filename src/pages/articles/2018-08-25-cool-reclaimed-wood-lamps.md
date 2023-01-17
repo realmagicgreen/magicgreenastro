@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Cool Reclaimed Wood Lamps
 subtitle: "Get some cool design lamps. They claim these lamps are made of up-cycled wood. Old timber turned into great furniture pieces. Really?!"
 description: "Rest easy, feel good, turn on your reclaimed wood lamp! Adjust it into a new position reflecting how you feel at the moment."
@@ -21,7 +22,7 @@ tags:
   - wood
 cover_image: /assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
-home_slideshow_caption:  # lowercase, max 12 digits, including spaces
+home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: # use 'true' to have it displayed in home
@@ -38,19 +39,15 @@ They claim it's from reclaimed wood, but neither the product nor the packaging c
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Swimming, sitting or any other position you can think of!' %}
 
-
 But, rest easy, feel good, turn on your wood lamp! Adjust it into a new position reflecting how you feel at the moment.
 
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Yoga' %}
 
-
 Now enjoy the always changing shape of your new lamp.
 
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: 'Muhammad Arifin is the designer' %}
-
-
 
 ## Know More Links
 

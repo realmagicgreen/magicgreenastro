@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Eco Regions Indonesia
 subtitle: The Eco Region approach aspire to be a game changer for large scale green development.
 category: solutions
@@ -46,7 +47,6 @@ Each eco-region will have its own set of Sustainability Regulations and Guidelin
 
 Developed by a team of sustainable architects, environmentally specialised engineers, legislators and environmental activists, the regulations intend to limit and take responsibility for the impact of the development of infrastructure and facilities. To support partners and businesses, comprehensive guidelines are created to illustrate how requirements can be implemented. Eco Regions will offer advice and will monitor performance over time.
 
-
 ### Eight Islands EcoRegion
 
 The Eight Islands EcoRegion™ is an untouched archipelago in Northwest Sumbawa, sitting on a forest of coral, surrounded by crystal clear water perfect for diving, snorkelling, kayaking and stand-up paddling.
@@ -83,11 +83,9 @@ Thanks to the cooperation with the local community and the Forestry department, 
 
 - How to get there: 57 km by car from Lombok International Airport, 15 minutes by speed boat from Telongelong harbour.
 
->“At a time when some of the most beautiful places in the world are being destroyed by thoughtless developments that damage environments and deprive local people of their land, we believe the time is ripe to set a standard for a new type of development. A development where the needs and desires of the local people are evenly balanced and integrated with environmental considerations and the needs and desires of visitors and investors...” _John Higson, Co-Founder and Executive Director_
-
+> “At a time when some of the most beautiful places in the world are being destroyed by thoughtless developments that damage environments and deprive local people of their land, we believe the time is ripe to set a standard for a new type of development. A development where the needs and desires of the local people are evenly balanced and integrated with environmental considerations and the needs and desires of visitors and investors...” _John Higson, Co-Founder and Executive Director_
 
 The company, which business goal is to sustainably develop large-scale regions for eco-tourism was founded in 2010/2011 and has 32 employees and offices in Singapore, Jakarta and Mataram.
-
 
 ## Know More Links
 

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Bali Plastic Bags Ban
 subtitle: "Denpasar just introduced a new prohibition of plastic bags, Styrofoam and plastic straws in supermarkets, convenience stores and shopping centres."
 description: "Starting 2019, Bali Denpasar area has banned the plastic bags. The ban is expected to cover the whole island coming into effect in June 2019." # max 160 digits
@@ -49,14 +50,13 @@ The **Bye-Bye Plastic Bag** campaign in Bali, created by Melati and Isabel Wijse
 
 The sisters were recently recognised by CNN as one of the world’s Young Wonders as part of the CNN Heroes event, giving the island and their movement enormous exposure.
 
->"Around 97% of our members no longer provide plastic bags for consumers,"  _Anak Agung Ngurah Agung Agraputra,  Chairman of the Indonesian Retail Business Association or Aprindo Bali_
+> "Around 97% of our members no longer provide plastic bags for consumers," _Anak Agung Ngurah Agung Agraputra, Chairman of the Indonesian Retail Business Association or Aprindo Bali_
 
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Bio degradable plastic made from cassava' %}
 
->"It is our hope that all levels of society will be able to provide smart ideas as a substitute for plastic bags... Aprindo Bali’s support was very much appreciated."
+> "It is our hope that all levels of society will be able to provide smart ideas as a substitute for plastic bags... Aprindo Bali’s support was very much appreciated."
 > --- IGN Jaya Negara, Deputy Mayor of Denpasar.
-
 
 Coming up on March 6th the [Ogoh-Ogoh parades](https://fumes.junglestar.org/photo-journalism/ogoh-ogoh/), will the effigies, traditionally constructed from bamboo and paper, but in recent years build with foam, be plastic and Styrofoam free in 2019?
 
@@ -79,17 +79,12 @@ The UN Environment Program estimates that 8 million tonnes of plastic is dumped 
 {% assign name = '-06' %}
 {% include 'partials/image.html', name: 'name', caption: 'Oxium, Indonesian biodegradable plastic' %}
 
-
-
 Bogor in West Java, introduced a similar ban on single use plastic bags on December 1 2018, and local News Wires are reporting the country's capital Jakarta could be next on the list.
 
 {% assign name = '-07' %}
 {% include 'partials/image.html', name: 'name', caption: 'Shops like Satvika Boga in Sanur, have been promoting the use of plastic alternatives, for a while now' %}
 
-
-
 We can't wait for this starting measure to spread, which could definitely be a game changer. Surely governments will need to followed up with more wide touching initiatives, covering supermarket product, currently still sold in plastic horizontal_spacings.
-
 
 Other steps will need to include helping establishing the newly born biodegradable plastic industry and a better organized trash collection system. But hey, a good starting is surely a positive news.
 

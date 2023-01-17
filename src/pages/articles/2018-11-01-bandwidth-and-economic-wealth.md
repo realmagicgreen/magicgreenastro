@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Bandwidth and Economic Wealth
 subtitle: "There is a relationship between available bandwidth and economic health. After Singapore in the lead, the six top countries for speed are all European."
 description: "After Singapore in the lead, the six top countries for speed are all European – Sweden, Denmark, Norway, Romania, Belgium and the Netherlands."
@@ -14,7 +15,7 @@ tags:
   - sustainable-development
 cover_image: /assets/p/know/bandwidth-and-economic-wealth/bandwidth-and-economic-wealth.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
-home_slideshow_caption:  # lowercase, max 12 digits, including spaces
+home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: # use 'true' to have post displaying AD
 featured: # use 'true' to have it displayed in home
@@ -34,8 +35,8 @@ Thailand score at 40th place with and average of 17 Mbps download speed and is a
 
 Malaysia at 13 Mbps, South Korea at 20 Mbps, Vietnam at 6 Mbps, Sri Lanka, Philippine and Indonesia at 5 Mbps, Laos, Myanmar, at Brunei 4 Mbps.
 
-
 After Singapore in the lead at 60.39 Mbps, the top countries for speed are all European:<br>
+
 - Singapore (60.39 Mbps)<br>
 - Sweden (46.00 Mbps)<br>
 - Denmark (43.99 Mbps)<br>
@@ -45,15 +46,14 @@ After Singapore in the lead at 60.39 Mbps, the top countries for speed are all E
 - Netherlands (35.95 Mbps)<br>
 
 Further down comes:<br>
+
 - Japan (28.94 Mbps)<br>
 - Hong Kong (26.45 Mbps)<br>
 - United States (25.86 Mbps)<br>
 - Germany (24 Mbps)<br>
 - New Zealand (24 Mbps)<br>
 
-
->“Europe, the US and thriving economic centers in the Asia-Pacific region – Singapore, Japan, Taiwan and Hong Kong – are leading the world when it comes to the provision of fast, reliable broadband, which suggests a relationship between available bandwidth and economic health. Those countries leading the world should be congratulated, but we should also be conscious of those that are being left further and further behind.” _Dan Howdle, consumer telecoms analyst at Cable_
-
+> “Europe, the US and thriving economic centers in the Asia-Pacific region – Singapore, Japan, Taiwan and Hong Kong – are leading the world when it comes to the provision of fast, reliable broadband, which suggests a relationship between available bandwidth and economic health. Those countries leading the world should be congratulated, but we should also be conscious of those that are being left further and further behind.” _Dan Howdle, consumer telecoms analyst at Cable_
 
 It’s been very interesting looking at the data for a second year running, not least because we have three times as much of it this time around.
 
@@ -64,8 +64,6 @@ A number of other countries have leapfrogged us since last year, including Franc
 Compared to many other countries both in and out of Europe, the UK has simply come too late to a full fibre solution, relying instead on copper to cover the last mile.
 
 Despite plans to roll out full fibre to UK homes across the next decade or so, the UK is likely to fall even further behind while they wait.
-
-
 
 ## Know More Links
 

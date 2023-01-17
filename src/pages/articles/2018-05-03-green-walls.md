@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Green Walls
 subtitle: "Absorb pollution, offer cooling shade and cost much less than any other walls."
 category: solutions
@@ -22,8 +23,7 @@ featured: # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: Rokma  # put here photographer name
-
+photography: Rokma # put here photographer name
 ---
 
 Green walls are not only visually pleasant, but naturally absorb CO2 and other pollutants thus cleaning the air.
@@ -34,7 +34,7 @@ They are also referred to as living walls or vertical gardens, and widely associ
 
 Green walls are found most often in urban environments where the plants reduce overall temperatures of the building.
 
->"The primary cause of heat build-up in cities is insolation, the absorption of solar radiation by roads and buildings in the city and the storage of this heat in the building material and its subsequent re-radiation. Plant surfaces however, as a result of transpiration, do not rise more than 4–5 °C above the ambient and are sometimes cooler."" _Ong, Boon Lay - "Green plot ratio: an ecological measure for architecture and urban planning". Landscape and Urban Planning"_
+> "The primary cause of heat build-up in cities is insolation, the absorption of solar radiation by roads and buildings in the city and the storage of this heat in the building material and its subsequent re-radiation. Plant surfaces however, as a result of transpiration, do not rise more than 4–5 °C above the ambient and are sometimes cooler."" _Ong, Boon Lay - "Green plot ratio: an ecological measure for architecture and urban planning". Landscape and Urban Planning"_
 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Singapore Raffles Hospital' %}
@@ -50,17 +50,12 @@ Let's not forget that trees, and green in general, created the oxygen in our atm
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Singapore Orchard Mall rooftop' %}
 
-
 Green facades typically support climbing plants that climb up the vertical face of the host wall, while green walls can accommodate a variety of plant species.
-
 
 While this solution is picking up quickly in many metropolitan areas for the specific work they do for us, in Bali too we have some, like this one in Sanur.
 
 {% assign name = '' %}
 {% include 'partials/image.html', name: 'name', caption: 'Bali, Sanur' %}
-
-
-
 
 ## Know More Links
 

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Up-cycled Glass
 subtitle: "Use recycled glass and bottles to make lamp and serve water to customers."
 category: techniques
@@ -26,6 +27,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name
 ---
+
 A clever way to limit the use of plastic bottles is serving water in up-cycled bottle and glasses.
 
 These technique adopted by [Warung Santai in Sanur](https://www.tripadvisor.com/Restaurant_Review-g297700-d6404849-Reviews-Warung_Santai_Sanur-Sanur_Denpasar_Bali.html) Bali has permitted them to completely eliminate their plastic bottle garbage.

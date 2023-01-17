@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Air Cleaning Bedroom Plants
 subtitle: "Plants that absorb pollutants and CO2 at night and help you sleep better."
 description: "Studies at NASA, Pennsylvania State University, the University of Georgia and other respected institutions suggest that plants can definitely clean the air." # max 160 digits
@@ -30,7 +31,7 @@ Sure, that potted fern is pretty, but can it really spruce up the air quality in
 
 Plants are notoriously adept at absorbing gases through pores on the surface of their leaves. It's this skill that facilitates photosynthesis, the process by which plants convert light energy and carbon dioxide into chemical energy to fuel growth.
 
-But scientists studying the air-purification capacities of indoor plants have found that plants can absorb many other gases in addition to carbon dioxide, including a long list of volatile organic compounds (VOCs). Benzene (found in some plastics, fabrics, pesticides and cigarette smoke) and formaldehyde (found in some cosmetics, dish detergent, fabric softener and carpet cleaner)  are examples of common indoor VOCs that plants help eliminate.
+But scientists studying the air-purification capacities of indoor plants have found that plants can absorb many other gases in addition to carbon dioxide, including a long list of volatile organic compounds (VOCs). Benzene (found in some plastics, fabrics, pesticides and cigarette smoke) and formaldehyde (found in some cosmetics, dish detergent, fabric softener and carpet cleaner) are examples of common indoor VOCs that plants help eliminate.
 
 These VOCs and other indoor air pollutants (such as ozone) have been linked to numerous acute conditions, including asthma and nausea, as well as chronic diseases such as cancer and respiratory illnesses.
 
@@ -47,7 +48,6 @@ In NASA's famous research looking at the air-purifying qualities of houseplants,
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Areca palm' %}
 
-
 Meanwhile, famed plant scientist Dr. B. C. Wolverton notes that a ~6-foot Areca palm can transpire 1 liter of water per 24 hours, thereby making it an effective humidifier, which can help with allergies, colds, or other breathing discomforts that can disrupt sleep.
 
 ### Aloe Vera
@@ -56,7 +56,6 @@ Easy to keep and aesthetically pleasing in any home, the aloe vera plant has bee
 
 {% assign name = '-05' %}
 {% include 'partials/image.html', name: 'name', caption: 'Aloe Vera' %}
-
 
 It releases oxygen at the night, making it an ideal bedroom addition. It also fights benzene, which is found in detergents and plastics, and formaldehyde, found in varnishes and floor finishes, so helps improving the air quality.
 
@@ -76,7 +75,6 @@ Despite the negative superstitions, Peepal tree, or Sacred fig, has several bene
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: 'Peepal tree' %}
 
-
 This sacred tree native to the Indian subcontinent hold a wealth of medicinal value and is used to treat many ailments and diseases, ranging from a snake bite to asthma, skin diseases, kidney diseases, constipation, dysentery, impotency and various blood-related problems, said Acharya Bal Krishan of the Patanjali Ayurveda Ltd. in Haridwar, Uttarakhand.
 
 ### Orchids
@@ -86,9 +84,7 @@ Beautiful and beneficial, orchids are a perfect choice to be settled in the corn
 {% assign name = '-07' %}
 {% include 'partials/image.html', name: 'name', caption: 'Orchids' %}
 
-
 When photosynthesis stops most plants switch things up and begin absorbing oxygen and releasing carbon dioxide. However, orchids, succulents and bromeliads go rebellious and take in carbon dioxide and release oxygen during the p.m. hours, making them great plants to keep the air fresh at night.
-
 
 ### Spider Plant
 
@@ -97,17 +93,14 @@ Not to be confused with the Snake Plant, the Spider Plant is also a champion cle
 {% assign name = '-08' %}
 {% include 'partials/image.html', name: 'name', caption: 'Spider Plant' %}
 
-
 Since formaldehyde is found in common household products like adhesives, grout and fillers, it’s a good idea to keep one of these plants around. Spider Plants will also absorb odors and fumes as well as sustaining oxygen levels in the room, promoting better sleep.
 
 ### Lavender
 
 Who doesn’t love the scent of lavender? It’s also probably the most well-known of all plants when it comes to inducing sleep and [reducing anxiety levels](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612440/).
 
-
 {% assign name = '-09' %}
 {% include 'partials/image.html', name: 'name', caption: 'Lavender' %}
-
 
 Research backs up these claims, with lavender scents shown to slow down heart rate, lower blood pressure and levels of stress.
 
@@ -120,9 +113,7 @@ With glossy evergreen leaves and beautifully scented blossoms, Gardenias are a p
 {% assign name = '-10' %}
 {% include 'partials/image.html', name: 'name', caption: 'Gardenia' %}
 
-
 Studies [indicate](https://www.ncbi.nlm.nih.gov/pubmed/20537515) that keeping one in your room may help you achieve a better quality of sleep, with claims that it may be [as effective as Valium](http://aktuell.ruhr-uni-bochum.de/pm2010/pm00222.html.en) in relieving anxiety and promoting sleep.
-
 
 ### English Ivy
 
@@ -131,9 +122,7 @@ Hedera helix, the common ivy, English ivy, European ivy, or just ivy, is a speci
 {% assign name = '' %}
 {% include 'partials/image.html', name: 'name', caption: 'English Ivy' %}
 
-
 As mold can affect our breathing, it’s definitely a plant to have on hand for a great night’s sleep.
-
 
 ### Jasmine
 
@@ -141,7 +130,6 @@ Jasmine plants, with its sweet fragrance and gorgeous white flowers, make for an
 
 {% assign name = '-12' %}
 {% include 'partials/image.html', name: 'name', caption: 'Jasmine' %}
-
 
 It's highly recommended for help with depression, stress, fatigue, and anxiety. Jasmine can lift your mood, calm you down, alleviate stress, and gently lull you to sleep. Studies have shown that subjects who inhaled the scent of jasmine while sleeping experienced deeper sleep, less movement throughout the night, and overall better quality of sleep.
 
@@ -151,7 +139,6 @@ A commonly used herb for cooking purposes, rosemary can also help you get better
 
 {% assign name = '-13' %}
 {% include 'partials/image.html', name: 'name', caption: 'Rosemary' %}
-
 
 Practitioners today recommend rosemary essential oil for supporting the nervous system and circulatory health, improving concentration, and relieving stress.
 

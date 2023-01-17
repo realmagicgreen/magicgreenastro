@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Travellers Choose Sustainability
 subtitle: Sustainable, eco-conscious travel, is on the rise worldwide according to recent statistics.
 category: know
@@ -36,7 +37,6 @@ Clearly, there’s strong consumer interest in eco-conscious travel. Sustainable
 Thinking green, choosing eco-friendly, traveling sustainably. Whichever term you use, the growing importance of environmental tourism can’t be ignored.
 
 According to Booking.com’s recent Sustainable Travel Report, more and more travelers want to reduce their environmental impact, avoid over-touristed attractions and simply feel good about the accommodation they choose.
-
 
 ## Know More Links
 

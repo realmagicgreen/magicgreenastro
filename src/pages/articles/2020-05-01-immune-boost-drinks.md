@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Immune Boost Drinks
 subtitle: "An interview with healthy drink producer Iris from Live Essences."
 description: "We met with Iris, an expert in the field, who shared some knowledge and shed some light about how to live healthier by listening to your guts." # max 160 digits
@@ -29,7 +30,7 @@ photography: # put here photographer name
 
 ## TLDR
 
-- Live Essences Wellness shots contains essential probiotics and vital acetic acids,  powerful remedies that aid digestion and boost the immune system and fight bad bacteria.
+- Live Essences Wellness shots contains essential probiotics and vital acetic acids, powerful remedies that aid digestion and boost the immune system and fight bad bacteria.
 
 - Their mission is to inspire to follow your gut, and trust in your innate intuitions.
 
@@ -43,14 +44,11 @@ Rooted in ancient knowledge, crafted from Mother Nature’s most powerful plants
 
 We met with Iris an expert in the field who is wishing to share some knowledge and shed some light about how to live healthier listening to your guts.
 
-
 ## Iris, the founder of Live Essences
 
 Iris is Greek-German. She works with high-quality, invigorating ingredients to deliver drinks that are potent tonics, functional to cellular health, and skin care oils, entirely chemicals free. Life elixirs promoting healing, slowing ageing and balancing our body.
 
 > My intention is to share with you all what I have learned, and all that has brought me happiness and fulfilment, in the hope this will help you on your own journey. _Iris from Live Essences_
-
-
 
 Her goal is to keep products, brand and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
@@ -66,7 +64,6 @@ Live Essences Wellness shots are carefully prepared, never overheated and minima
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Live Essences lab in Bali' %}
 
-
 Crafted from nature’s most powerful plants, LE drinks are currently produced using organic, fair-trade premium ingredients, devoid of any pesticides or harmful chemicals, sourced from the foothills of Mount Batur in Bali, Indonesia.
 
 ## Where it all started
@@ -81,10 +78,8 @@ Live Essences is inspired by the purity and power of the natural world, unlockin
 
 > Bali took me back to the warmth, simplicity, energising and nature-honouring lifestyle of Greece. I realised that by reconnecting with the essence of my childhood, I was creating a new sense for my life, and looking towards an exciting future. Today, I have put all these feelings into 5 Essences, crafted with ancient wisdom and modern techniques. _Iris from Live Essences_
 
-
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: 'Live Essences healthy stomach drink' %}
-
 
 Magicgreen asked Iris to share her story:
 
@@ -106,7 +101,6 @@ Finding natural ways to preserve them. Creating foods that love you back.
 Live Essences as a company to expand and add on numerous new products. Expanding its sales in South East Asia.
 
 We are also working on a new idea to modularise the company and streamline it for a future franchising development.
-
 
 {% assign name = '-05' %}
 {% include 'partials/image.html', name: 'name', caption: 'Live Essences and some of the ingredients used' %}
@@ -131,7 +125,6 @@ This helps very much with developing innovative products.
 
 {% assign name = '-06' %}
 {% include 'partials/image.html', name: 'name', caption: 'Live Essences source locally from organic faming facilities' %}
-
 
 ## What we need to know about your products?
 

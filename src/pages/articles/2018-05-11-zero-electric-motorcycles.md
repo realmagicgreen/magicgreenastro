@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Zero Electric Motorcycles
 subtitle: Garansindo brings Zero superbikes to Indonesia. Serious riding.
 category: products
@@ -21,7 +22,7 @@ flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography:  # put here photographer name
+photography: # put here photographer name
 ---
 
 ### Zero S
@@ -47,7 +48,6 @@ A motorcycle with performance and a sophisticated appearance. Speeds above 90 mp
 - Life of motorcycle power pack (up to 668,000 km)
 
 - 5 year / 161,000 km power pack warranty
-
 
 ## Know More Links
 

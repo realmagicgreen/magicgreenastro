@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Rethink Plastic
 subtitle: "A movement to raise awareness of plastic pollution and the existing solutions. Movies, education, and government pressure."
 description: "A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. It is creating policy and social change around the world."
@@ -25,7 +26,7 @@ flag: # new or other...
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography:  # put here photographer name
+photography: # put here photographer name
 ---
 
 Some wise people are creating a global movement that encourages all to #RethinkPlastic.
@@ -36,8 +37,6 @@ A Plastic Ocean’s message raises the awareness of plastic pollution and the ex
 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: '#RethinkPlastic' %}
-
-
 
 We continue to be humbled by the film impact that [A Plastic Ocean](https://youtu.be/6zrn4-FfbXw) continues to make around the globe.
 
@@ -68,8 +67,6 @@ We are focused on finding solutions to plastic pollution and believe that young 
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'focused on finding solutions to plastic pollution' %}
 
-
-
 Our unique program encourages the creative minds of school-aged students to develop ideas that can help in the fight against plastic pollution.
 
 The program is designed to help teams generate ideas and work with industry mentors to develop the initial steps to creating a business plan. Click below to download our program. Use our contact form for full details.
@@ -83,9 +80,6 @@ POF partners with non-profits, government agencies, businesses, universities and
 We want to engage everyone in a conversation to [rethink plastic together](https://plasticoceans.org/global-activities/). To discuss how we can work with your organization to make our oceans and humankind healthier, please [contact Brigette Allen](mailto:brigette@plasticoceans.org) to discuss our programs.
 
 You can [Help Create A Wave of Change by donating](https://plasticoceans.org/donate/)
-
-
-
 
 ## Know More Links
 

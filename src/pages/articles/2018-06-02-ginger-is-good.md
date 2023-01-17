@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Ginger Is Good
 subtitle: This root provides us with a wealth of anti-inflammatory anti-bacterial and analgesic effects.
 category: health
@@ -23,8 +24,9 @@ flag: # new or other...
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography:  # put here photographer name
+photography: # put here photographer name
 ---
+
 Ginger, is a root which provides us with a wealth of anti-inflammatory and analgesic effects. It's great for treating chronic joint problems, aches and pains.
 
 The versatility of ginger makes it an easy food to consume.
@@ -88,7 +90,6 @@ A yeast called Candida leads to fungal infections on your toenail. A fresh piece
 **Treats Cold and Flu**
 
 Ginger has been battling seasonal colds and flu for centuries. Consuming ginger by adding it chopped into your tea can treat flu and regain lost energy.
-
 
 ## Know More Links
 

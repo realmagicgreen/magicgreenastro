@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Zooming In On Biodiversity
 subtitle: "An ASEAN wide photo contest capturing the richness of biological resources in the region."
 description: "Biodiversity is the variety of life on Earth and include microorganisms, fungi, plants, and animals, the communities they form, the habitats in which they live."
@@ -26,7 +27,7 @@ flag: # new or other...
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography:  # put here photographer name
+photography: # put here photographer name
 ---
 
 Biodiversity is the variety of life on Earth. These forms of life include microorganisms, fungi, plants, and animals, including the communities that they form and the habitats in which they live.
@@ -36,17 +37,12 @@ According to the Convention on Biological Diversity, biodiversity is “the vari
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: '2015 Finalist: Golden Orb Weaving Web, Chai Wai Meng' %}
 
-
-
 Biodiversity provides us with air, water, food and materials for medicine, clothing and shelter. Millions of people rely on biodiversity for livelihood and a host of ecosystem services. However, due to the continuous growth of population and overexploitation of biological resources, this “web of life” is now under serious threat.
 
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: '2015 Finalist: Pitcher Frog, Joel Forte' %}
 
-
-
 **Zooming in on Biodiversity** is a photo contest open to all nationals from the 10 ASEAN Member States, conceptualized by the ASEAN Centre for Biodiversity.
-
 
 ### Objectives
 
@@ -55,7 +51,6 @@ This year’s Zooming in on Biodiversity aims to translate into exceptional phot
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: '2009 Third Place winner: Children plant trees in mining site, Karlo Emmanuel Victoriano' %}
 
-
 **Through this ASEAN-wide photo contest, ACB aims to:**
 
 - Promote biodiversity conservation.
@@ -63,13 +58,10 @@ This year’s Zooming in on Biodiversity aims to translate into exceptional phot
 - Increase the availability of photographs which showcase the biological richness of the ASEAN region.
 - Use the photos generated from the contest as educational tools.
 
-
 ### Overall Theme: Biodiversity richness of ASEAN
 
 {% assign name = '-05' %}
 {% include 'partials/image.html', name: 'name', caption: '2009 Third Place: Kids Collecting Water, Kyaw Kyaw Winn' %}
-
-
 
 The entries must showcase the abundance of biodiversity in the region. The photos may highlight subjects related to the following:
 
@@ -100,19 +92,14 @@ The photograph must neither be previously submitted, in whole or in part, to any
 
 Once submitted, the owners/photographers provide ACB the right to use the photos on educational and other promotional materials of ACB with appropriate credits to owner.
 
-
 ### PRIZES
 
-1st Place   USD 1,500
-2nd Place   USD 1,000
-3rd Place   USD 500
-
+1st Place USD 1,500
+2nd Place USD 1,000
+3rd Place USD 500
 
 {% assign name = '' %}
 {% include 'partials/image.html', name: 'name', caption: '2009 edition winner: Large Flying Fox, Chalid Nasution' %}
-
-
-
 
 ## Know More Links
 

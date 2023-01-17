@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Building With Bamboo
 subtitle: "Bamboo is unmatched as a sustainable building material. It grows quickly and doesn't destroy the land."
 category: techniques
@@ -24,6 +25,7 @@ show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
 ---
+
 Bamboo, technically a grass, has been used in building for centuries due to its impressive strength. It offer twice the compressive strength of concrete and about the same strength-to-weight ratio of steel in tension. [1]
 
 Bamboo provides excellent carbon sequestration, seventeen times as much carbon as a typical tree forest. [1]
@@ -31,11 +33,9 @@ Bamboo provides excellent carbon sequestration, seventeen times as much carbon a
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Bamboo Structure' %}
 
-
-
 Its leaves are a high-quality forage for livestock and its shoots are delicacy enjoyed by humans. Unlike trees that rarely grow back once cut, bamboo will continue to produce new shoots even after harvesting it.
 
->"Bamboo is unmatched as a sustainable building material. What it can do is remarkable. It grows far more quickly than timber and doesn't destroy the land it's grown on" _Ben Ripple, Big Tree Farms Bali co-founder_
+> "Bamboo is unmatched as a sustainable building material. What it can do is remarkable. It grows far more quickly than timber and doesn't destroy the land it's grown on" _Ben Ripple, Big Tree Farms Bali co-founder_
 
 All over the world buildings utilize bamboo. It is used for skeletons for his strength, for furniture, curtains, accessories or coffee tables made from thin bamboo slats.
 
@@ -47,12 +47,10 @@ One reason bamboo is so environmentally-friendly is the speed at which it grows.
 
 Studies show construction is one of the world's least sustainable industries, eating up around half of the globe's non-renewable resources, but sustainable construction is slowly taking root around the world.
 
->"In China, eucalyptus can grow at three to four meters a year, which is very impressive for timber. But building-quality bamboo will grow between six and 10 meters in that time,"_Terry Sunderland, scientist at the Centre for International Forestry Research in Indonesia_
+> "In China, eucalyptus can grow at three to four meters a year, which is very impressive for timber. But building-quality bamboo will grow between six and 10 meters in that time,"_Terry Sunderland, scientist at the Centre for International Forestry Research in Indonesia_
 
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: 'Madrid Barajas Airport' %}
-
-
 
 Bamboo has its drawbacks. Without intensive treatment, it is prone to rotting and catches fire relatively easily, which is why many countries limit bamboo structures height by law.
 
@@ -66,9 +64,6 @@ Bamboo is harvested before sunrise, when most of the starch is still in the root
 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Bamboo Forest in Japan' %}
-
-
-
 
 Only mature bamboo, between 4 and 7 years old, is harvested. Poles inside the clump are older than those growing outside. An experienced bamboo harvester will be able to tell the age of bamboo by knocking on the culm and listening the different sounds. [3]
 
@@ -86,32 +81,23 @@ When it loses its glossy appearance its restored by gently oiling and waxing the
 
 To remove bamboo mold, lemon oil or a solution of vinegar and water can be used. Bamboo furniture usually 3 coats of polyurethane is applied to ensure the conservation of the furniture after treating it with turpentine and dried out completely. [6]
 
-
 **_References:_**
 
-1.
-[All praise bamboo](http://www.cultureofpermaculture.org/blog/2014/01/all-praise-bamboo/)
+1.  [All praise bamboo](http://www.cultureofpermaculture.org/blog/2014/01/all-praise-bamboo/)
 
-2.
-[Bamboo as a top-notch construction material](http://www.asiagreenbuildings.com/9299/bamboo-top-notch-construction-material/)
+2.  [Bamboo as a top-notch construction material](http://www.asiagreenbuildings.com/9299/bamboo-top-notch-construction-material/)
 
-3.
-[When and How to Harvest Bamboo ](https://www.guaduabamboo.com/cultivation/when-and-how-to-harvest-bamboo)
+3.  [When and How to Harvest Bamboo ](https://www.guaduabamboo.com/cultivation/when-and-how-to-harvest-bamboo)
 
-4.
-[Cure bamboo](https://www.wikihow.com/Cure-Bamboo)
+4.  [Cure bamboo](https://www.wikihow.com/Cure-Bamboo)
 
-5.
-[Drying bamboo poles](https://www.guaduabamboo.com/preservation/drying-bamboo-poles)
+5.  [Drying bamboo poles](https://www.guaduabamboo.com/preservation/drying-bamboo-poles)
 
-6.
-[Remove bamboo mold](https://www.guaduabamboo.com/preservation/how-to-remove-bamboo-mold)
-
-
+6.  [Remove bamboo mold](https://www.guaduabamboo.com/preservation/how-to-remove-bamboo-mold)
 
 ## Know More Links
 
-[Building with bamboo -  the basics](https://www.buildingtrustinternational.org/BTIBambooToolkit.pdf)"
+[Building with bamboo - the basics](https://www.buildingtrustinternational.org/BTIBambooToolkit.pdf)"
 
 [Bamboo](https://en.wikipedia.org/wiki/Bamboo)
 

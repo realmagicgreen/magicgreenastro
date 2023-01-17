@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Raising Awareness
 subtitle: "Mission Blue inspires action to explore and protect the ocean for a global network of marine protected areas."
 description: "Mission Blue inspires action to explore and protect the ocean, ignite public support for a global network of marine protected areas." # max 160 digits
@@ -45,7 +46,6 @@ photography: # put here photographer name
 
 </div>
 
-
 Led by famous oceanographer Dr. Sylvia Earle, Mission Blue inspires action to explore and protect the ocean.
 
 Uniting a global coalition to inspire an upwelling of public awareness, access and support for a worldwide network of marine protected areas, Hope Spots, special places that are scientifically identified as critical to the health of the ocean.
@@ -53,7 +53,7 @@ Uniting a global coalition to inspire an upwelling of public awareness, access a
 {% assign name = '-10' %}
 {% include 'partials/image.html', name: 'name', caption: 'health of the ocean' %}
 
->"The next five years may be the most important in the next ten thousand for our planet. There are plenty of reasons for hope, yet every day, doors of opportunity close. We know what to do. Now is the time to act." _Dr. Sylvia Earle_
+> "The next five years may be the most important in the next ten thousand for our planet. There are plenty of reasons for hope, yet every day, doors of opportunity close. We know what to do. Now is the time to act." _Dr. Sylvia Earle_
 
 Under Dr. Earle’s leadership, the Mission Blue team implements communications campaigns that elevate Hope Spots to the world stage through documentaries, social media, traditional media and innovative tools like Google Earth.
 
@@ -62,8 +62,7 @@ Under Dr. Earle’s leadership, the Mission Blue team implements communications 
 
 Our Hope Spots are championed by local conservationists whom we support with communications, expeditions and scientific advisory.
 
->"I wish you would use all means at your disposal – films, expeditions, the web, new submarines, campaigns – to ignite public support for a global network of marine protected areas, Hope Spots large enough to save and restore the ocean, the blue heart of the planet" _Dr. Sylvia Earle_
-
+> "I wish you would use all means at your disposal – films, expeditions, the web, new submarines, campaigns – to ignite public support for a global network of marine protected areas, Hope Spots large enough to save and restore the ocean, the blue heart of the planet" _Dr. Sylvia Earle_
 
 Mission Blue also embarks on regular oceanic expeditions that shed light on these vital ecosystems and build support for their protection.
 
@@ -71,7 +70,6 @@ Mission Blue also embarks on regular oceanic expeditions that shed light on thes
 {% include 'partials/image.html', name: 'name', caption: 'vital ecosystems' %}
 
 In 2020, the Mission Blue alliance includes more than 200 respected ocean conservation groups and like-minded organizations, from large multinational companies to individual scientific teams doing important research.
-
 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'scientific research' %}
@@ -88,7 +86,6 @@ Hope Spots allow us to plan for the future and look beyond current marine protec
 
 {% assign name = '-07' %}
 {% include 'partials/image.html', name: 'name', caption: 'less than six percent of the ocean is protected' %}
-
 
 Hope Spots are often areas that need new protection, but they can also be existing MPAs where more action is needed.
 
@@ -115,7 +112,6 @@ Collectively all of these Hope Spots will create a global wave of community supp
 
 Since 2008, Mission Blue expeditions have visited Hope Spots around the world, documenting these vibrant marine environments and engaging local stakeholders to protect them.
 
-
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: 'engaging local stakeholders to protect the environment' %}
 
@@ -125,46 +121,41 @@ Designed to create awareness, foster partnerships and build broad public support
 
 &nbsp;
 
-
-
 ### WHERE MISSION BLUE HAVE BEEN?
 
 - [Malpelo Island Hope Spot Expedition](https://mission-blue.org/events/malpelo-island-hope-spot-expedition/). 08/08/2019.
 
-
 - [Micronesian Islands Hope Spot](https://mission-blue.org/events/micronesian-islands-hope-spot/).
-11/01/2018.
+  11/01/2018.
 
 - [Spitsbergen Island Hope Spot](https://mission-blue.org/events/spitsbergen-island-hope-spot/)
-06/23/2018.
+  06/23/2018.
 
 - [Balearic Islands Hope Spot](https://mission-blue.org/events/balearic-islands-hope-spot/)
-06/28/2017.
+  06/28/2017.
 
 - [Cocos Island, Costa Rica](https://mission-blue.org/events/cocos-island-costa-rica-2/)
-05/23/2017.
+  05/23/2017.
 
 - [Costa Rica Thermal Dome](https://mission-blue.org/events/costa-rica-thermal-dome/)
-04/02/2017.
+  04/02/2017.
 
 - [Revillagigedo Archipelago, Mexico](https://mission-blue.org/events/revillagigedo-archipelago-a-k-a-socorro/)
-01/08/2017.
+  01/08/2017.
 
 - [Gulf of California, Mexico](https://mission-blue.org/events/gulf-of-california-mexico/)
-02/25/2016.
+  02/25/2016.
 
 - [Balearic Islands, Spain](https://mission-blue.org/events/balearic-islands/)
-11/10/2015.
+  11/10/2015.
 
 - [Cashes Ledge, Gulf of Maine, USA](https://mission-blue.org/events/caches-ledge-new-england/)
-08/07/2015.
-
+  08/07/2015.
 
 &nbsp;
 
 {% assign name = '-09' %}
 {% include 'partials/image.html', name: 'name', caption: '' %}
-
 
 ## EXPEDITION PROGRAM GOALS
 
@@ -174,17 +165,13 @@ Designed to create awareness, foster partnerships and build broad public support
 
 - Magnify impact through meaningful partnerships.
 
-
 Want to support the Mission Blue Expeditions Program? [Click HERE to make it happen!](https://mission-blue.networkforgood.com/projects/24406-expeditions)
 
 We’re passionate about shark conservation. [Click HERE to dive into our shark work!](https://mission-blue.org/expeditions/mission-blue-works-to-highlight-shark-conservation/)
 
 &nbsp;
 
-
-
 # MAKE A DIFFERENCE RIGHT NOW!
-
 
 ### Lower your carbon footprint
 
@@ -193,7 +180,6 @@ Our greenhouse gas emissions are causing climate change and ocean acidification.
 By driving less and carpooling, flying less, using less electricity, choosing renewable energy (solar power, hybrid vehicles, etc) whenever possible.
 
 And voting for policymakers who believe in solving climate change, we can all make a big difference for the ocean and all of life on Earth.
-
 
 ### Choose not to eat marine wildlife.
 
@@ -221,12 +207,9 @@ Starting with single use plastic, as drinking straws, utensils, etc., we can gre
 
 That often release plastics into the ocean.
 
-
 ### Use your own special talent to help fight for the ocean.
 
-
->"Look in the mirror, consider your talents, and think about how you might use them to make a difference. Some have artistic skills, others are good with numbers or have a way with words. Everyone has power to make a difference as an individual, or by joining the company of others who share a common goal. The key is in knowing that what you do matters, including doing nothing!" _Dr. Sylvia Earle_
-
+> "Look in the mirror, consider your talents, and think about how you might use them to make a difference. Some have artistic skills, others are good with numbers or have a way with words. Everyone has power to make a difference as an individual, or by joining the company of others who share a common goal. The key is in knowing that what you do matters, including doing nothing!" _Dr. Sylvia Earle_
 
 _Mission Blue depends on the generosity of people to explore and protect Hope Spots. Every dollar donated helps our continued efforts to inspire a world where the ocean is protected and respected._
 

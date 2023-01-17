@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Gardens By The Bay
 subtitle: "An astonishing example of sustainable edutainment environment"
 category: solutions
@@ -65,7 +66,6 @@ Much effort was made to plan and design for sustainable cycles in energy and wat
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
-
 **Energetics of the conservatories**
 
 Comprising two glass biomes, the Conservatories replicate the cool-dry climate of the Mediterranean and semi-arid sub-tropical regions and the cool-moist climate of the Tropical Montane region.
@@ -76,23 +76,17 @@ The conservatories are a statement in sustainable engineering and apply a suite 
 
 This suite of technologies can help to achieve at least 30% savings in energy consumption, compared to conventional cooling technologies.
 
-
-
 **1) Minimising Solar Heat Gain**
 
 The two conservatories are fitted with specially selected glass that allows optimal light in for plants, but reduces a substantial amount of heat.
 
 The roof is fitted with a sensor-operated retractable sails that opens automatically to provide shade to the plants when it gets too hot.
 
-
-
 **2) Cooling only the occupied zones**
 
 The Conservatories apply the strategy of cooling only the lower levels, thus reducing the volume of air to be cooled.
 
 This is achieved through thermal stratification – ground cooling by chilled water pipes cast within the floor slabs enabling cool air to settle at the lower occupied zone while the warm air rises and is vented out at high levels.
-
-
 
 **3) De-humidifying the air before cooling**
 
@@ -103,16 +97,11 @@ This desiccant is recycled using the waste heat from the burning of the biomass.
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
-
-
 **4) Generating energy and harnessing waste heat**
 
 Electricity is generated on-site to run the chillers that cool the Conservatories. At the same time, waste heat is captured in the process to regenerate the liquid desiccant.
 
 This co-generation of energy is achieved by the use of a Combined Heat Power (CHP) steam turbine that is fed by horticultural waste from the Gardens and other parks around Singapore. This reduces dependency on the electrical grid.
-
-
-
 
 ## Cool-dry conservatory - Flower dome
 
@@ -142,7 +131,6 @@ Eleven of the Supertrees are embedded with environmentally sustainable functions
 
 Some have photovoltaic cells on their canopies to harvest solar energy for lighting up the Supertrees, while others are integrated with the Conservatories and serve as air exhaust receptacles.
 
-
 ## Ocbc skyway
 
 There’s nothing quite like a stroll along the [Ocbc skyway](http://www.gardensbythebay.com.sg/en/attractions/ocbc-skyway.html).
@@ -166,14 +154,11 @@ Find out how plants disperse their seeds, how mushrooms benefit rainforest commu
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
-
-
 Enjoy the sights of flowers and fruits in bloom, learn how to identify different tree species and even see some of the most primitive plants in the world! More on [World of plants](http://www.gardensbythebay.com.sg/en/attractions/world-of-plants/visitor-information.html)
 
 ## The canyon
 
 The Gardens’ newest attraction featuring the largest collection of sculptural rocks along a 400-metre-long dragon-shaped trail. More about [The canyon](http://www.gardensbythebay.com.sg/en/attractions/the-canyon/visitor-information.html)
-
 
 ## Heritage Gardens
 
@@ -184,7 +169,6 @@ Explore the Chinese, Malay, Indian, and Colonial Gardens and learn how plants ar
 ## Sun Pavilion
 
 Take a walk through the Sun Pavilion and marvel at the amazing desert-like landscapes. With over 1,000 desert plants comprising some 100 different species and varieties, the [Sun Pavilion](http://www.gardensbythebay.com.sg/en/attractions/sun-pavilion.html) is nothing short of extraordinary.
-
 
 ## Know More Links
 

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: ET Foldable Scooter
 subtitle: Charge it, un-fold it and ride smarter.
 category: products
@@ -12,7 +13,7 @@ tags:
   - electric
   - environment-friendly
 cover_image: /assets/p/products/et-foldable-scooter/et-foldable-scooter.jpg
-show_in_home_slideshow:  # use 'true' to have it displayed in home slideshow
+show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: e-scooters # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: true # use 'true' to have post displaying AD
@@ -20,6 +21,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Rokma # put here photographer name
 ---
+
 Among the big offer of e-bikes and scooters one which sticks out is definitely this slick ET foldable electric scooter.
 
 With a catchy design it guarantees you will be noticeable while feeling good emitting no pollution nor noise.

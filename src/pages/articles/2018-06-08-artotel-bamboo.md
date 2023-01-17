@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Artotel Bamboo
 subtitle: "Luxury meets sustainability. Looking good with excellent bamboo architecture in Sanur, Bali."
 description: "With a state of the art brand new bamboo construction, Artotel Beach Club in Sanur, Bali brings vibrancy and color to the island's south east."
@@ -44,8 +45,6 @@ This boutique hotel want to be a canvas showcasing thought-provoking artworks by
 
 {% assign name = '-05' %}
 {% include 'partials/image.html', name: 'name', caption: 'Artotel Beach Club in Sanur, Bali' %}
-
-
 
 ## Know More Links
 

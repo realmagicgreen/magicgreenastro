@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: SOS From The Deep
 subtitle: "CTC provides education and training to make sure that marine protected areas!"
 category: solutions
@@ -42,8 +43,6 @@ It is located in CTC’s Center for Marine Conservation in Sanur, Bali. CTC is a
 CTC provides education and training to make sure that marine protected areas within the Coral Triangle are managed effectively.
 
 They support on-the-ground conservation programs through our learning sites in Nusa Penida near Bali and the Banda Islands in Maluku.
-
-
 
 ## Know More Links
 

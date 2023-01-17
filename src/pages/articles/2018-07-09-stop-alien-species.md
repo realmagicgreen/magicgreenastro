@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Stop Alien Species
 subtitle: "At recent ASEAN meeting Indonesia pushed the need to combat invasive alien species."
 description: "Invasive Alien Species are threats to the balance of natural ecosystems. Their presence poses risk as unwanted predators of endemic species."
@@ -30,8 +31,9 @@ flag: # new or other...
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography:  # put here photographer name
+photography: # put here photographer name
 ---
+
 At recent ASEAN meeting in Canada, Indonesia, represented by Dr. Gono Semiadi of the [Indonesian Institute of Sciences (LIPI)](https://en.wikipedia.org/wiki/Indonesian_Institute_of_Sciences), stressed that the key to prevent spread of alien species is a strong border control.
 
 Weak control mechanism, lack of knowledge on various invasive species, their life cycles and their pathways for introduction, and unclear related law and regulation are among the problems that require common attention.
@@ -42,10 +44,8 @@ While thanking the CBD Secretariat for all its guidance in abating the prolifera
 
 The [Golden Apple Snail (Ampullariidae)](https://en.wikipedia.org/wiki/Ampullariidae) is an example of a well-established invasive species in Southeast Asia. It is considered as the 40th worst alien species in Europe and in the Top 100 of the World’s Worst Invasive Alien Species.
 
-
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Golden Apple Snails' %}
-
 
 Dr. Gono Semiadi stated that other well-established species, particularly in Viet Nam, include mimosa trees, water hyacinth, and caterpillars.
 
@@ -59,7 +59,7 @@ The total annual loss equivalent to the economic and environmental impacts of ha
 
 This was broken down into costs to the agricultural sector (USD 23.4–33.9 billion), human health (USD 1.4–2.5 billion), and the environment (USD 0.9–3.3 billion).
 
->“Invasive Alien Species are threats to the balance of natural ecosystems. Their presence poses risk as unwanted predators of endemic species. Many of the introduced species have become pests. Disturbing ecosystems, and affecting livelihoods of many resource-based income earners depending on ecosystem services such as on agriculture. Case in point is the golden apple snail which is an introduced species in Lao PDR and the Philippines. These IAS are now menacing rice production in these areas,”_said Dr. Theresa Mundita S. Lim, SBSTTA Chair and ASEAN Centre for Biodiversity (ACB) Executive Director._
+> “Invasive Alien Species are threats to the balance of natural ecosystems. Their presence poses risk as unwanted predators of endemic species. Many of the introduced species have become pests. Disturbing ecosystems, and affecting livelihoods of many resource-based income earners depending on ecosystem services such as on agriculture. Case in point is the golden apple snail which is an introduced species in Lao PDR and the Philippines. These IAS are now menacing rice production in these areas,”_said Dr. Theresa Mundita S. Lim, SBSTTA Chair and ASEAN Centre for Biodiversity (ACB) Executive Director._
 
 Invasive alien species have common characteristics: they can thrive under adverse conditions, reproduce and grow rapidly, have high dispersal ability and adaptability to new conditions, and survive on various food types and in a wide range of environmental conditions.
 
@@ -72,14 +72,10 @@ For example, a [common Myna](https://en.wikipedia.org/wiki/Myna), a bird of the 
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Mynas' %}
 
-
-
 [Mimosa pigra](https://en.wikipedia.org/wiki/Mimosa_pigra), a thorny shrub with buoyant seeds that grow abundantly in mudflats, can drive away migratory birds feeding and nesting in these areas.
 
 {% assign name = '' %}
 {% include 'partials/image.html', name: 'name', caption: 'Mimosa pigra' %}
-
-
 
 The ASEAN Centre for Biodiversity supports the ASEAN Member States in undertaking measures to cope with and come up with control measures on IAS through capacity building on taxonomy, information sharing through the ASEAN Clearing House Mechanism, and awareness raising.
 
@@ -92,7 +88,6 @@ All AMS are managing and controlling priority IAS, either manually or through th
 The [Integrated Pest Management (IPM) ](https://en.wikipedia.org/wiki/Integrated_pest_management) approach is also being applied particularly for IAS affecting the agriculture sector.
 
 In-depth research, survey, and analysis of priority IAS in the ASEAN region, were identified as measures to further understand IAS and draft measures for its control and eradication.
-
 
 ## Know More Links
 

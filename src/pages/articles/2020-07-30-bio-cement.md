@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Bio Cement
 subtitle: "No kiln firing, No CO2 emissions. Grown sustainable building material."
 description: "Leading innovator bioMASON® offers the lowest carbon footprint cement product in the market. Their pre-cast materials are grown employing microorganisms." # max 160 digits
@@ -25,6 +26,7 @@ show_in_home_slideshow: true # 'true' or empty
 home_slideshow_caption: bio cement # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
 ---
+
 <div class="tldr">
 
 ## TLDR
@@ -35,17 +37,14 @@ photography: # put here photographer name
 
 - Formed at ambient temperatures without dust release.
 
-
 </div>
 
 As an architect or designer, what is your role in the building industry? Are you making conscious decisions to support a sustainable economy? It all starts with the materials we use.
 
 Bio cement, 99.4% carbon free cement, is the right choice for the health of our environment without sacrificing durability or lifespan of the material.
 
-
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'carbon free biocement floor' %}
-
 
 Can a fairly new material be used in the same way as the conventional ones we have been building with for centuries?
 
@@ -54,11 +53,9 @@ Would it be a viable option to replace, say, concrete, with an environmentally r
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'environmentally responsible wall' %}
 
-
 And how can a structure be intrinsically linked to its locale?
 
 London-based designer **Asif Khan** explored with his _Wallpaper Re-Made_ project, _"Coral Reef"_, created in partnership with American cement industry innovator **BioMason**.
-
 
 ## We grow biocement. No kiln firing, No CO2 emissions.
 
@@ -76,16 +73,12 @@ Aggregate is mixed with our microorganisms, pressed into shape and fed an aqueou
 {% assign name = '-07' %}
 {% include 'partials/image.html', name: 'name', caption: 'bacteria at work' %}
 
-
 Their process enables materials to be formed in ambient temperatures by replacing the curing process with the formation of biologically controlled structural cement.
 
 Their patented biocement® **bioLITH®** tiles are available today to architects and green building leaders across the globe.
 
-
 {% assign name = '-10' %}
 {% include 'partials/image.html', name: 'name', caption: 'This brick is made from biocement material.' %}
-
-
 
 This North Carolina-based company, co-founded by CEO _Ginger Krieg Dosier_ and her partner _Michael Dosier_, is innovative.
 
@@ -100,19 +93,17 @@ It "grows" sustainable cement by employing microorganisms, just as coral reefs a
 {% assign name = '-05' %}
 {% include 'partials/image.html', name: 'name', caption: 'circular economy diagram' %}
 
-
 Instead of burning calcium carbonate to form cement, we are growing calcium carbonate cement biologically, precise, strong, durable, and real world tested, all formed in ambient conditions.
 
 **BioMason** offers ground-breaking technology and a product line unlike any other available to the building and construction industry today.
 
-
 ## How it's made.
 
->"A regate is mixed with our microorganisms, pressed into shape and fed an aqueous solution until hardened to specification."
+> "A regate is mixed with our microorganisms, pressed into shape and fed an aqueous solution until hardened to specification."
 
 Explains _Krieg Dosier_.
 
->"BioMason’s process enables materials to be formed in ambient temperatures by replacing the curing process with the formation of biologically controlled structural cement."
+> "BioMason’s process enables materials to be formed in ambient temperatures by replacing the curing process with the formation of biologically controlled structural cement."
 
 The company is also researching marine biocement with the ability to self-repair.
 
@@ -138,44 +129,43 @@ The idea for _"Coral Reef"_ was born of one of Khan’s ongoing projects in the 
 
 Currently under construction, the structure, due in 2021, present a surface made of many small stone elements, referencing traditional local coral-stone buildings and the geometry of _Arish_, the region’s palm-leaf architecture.
 
->"When we started working with BioMason, I wondered if we could recreate an element of our building from its biocement, and I wanted that product to use Sharjah’s sand as its a regate material, a resource that is plentiful..."
+> "When we started working with BioMason, I wondered if we could recreate an element of our building from its biocement, and I wanted that product to use Sharjah’s sand as its a regate material, a resource that is plentiful..."
 
 says Khan.
 
->"It’s an experiment, but the idea of making a structure from what we found on site is very simple and poetic. We decided to create a prototype section of external wall as our Re-Made project to test this possibility."
+> "It’s an experiment, but the idea of making a structure from what we found on site is very simple and poetic. We decided to create a prototype section of external wall as our Re-Made project to test this possibility."
 
 Creating the structure with Sharjah sand is not straightforward, even with BioMason’s strong, existing ties with this part of the world.
 
->"We first used the sands and indigenous a regates in Sharjah in 2009 when we created the technology,"
+> "We first used the sands and indigenous a regates in Sharjah in 2009 when we created the technology,"
 
 says Krieg Dosier.
 
->"We will seek to bring this technology full circle by using Sharjah a regates to produce our BioLith tile product, the company’s main product for commercial and residential applications, as a building façade material."
+> "We will seek to bring this technology full circle by using Sharjah a regates to produce our BioLith tile product, the company’s main product for commercial and residential applications, as a building façade material."
 
 The collaborator team agrees that more research and strength tests will be needed to ensure the end product’s workability.
 
->"BioMason’s process enables materials to be formed in ambient temperatures by replacing the curing process with the formation of biologically controlled structural cement."
+> "BioMason’s process enables materials to be formed in ambient temperatures by replacing the curing process with the formation of biologically controlled structural cement."
 
 For Re-Made, the team is trying to reimagine an element from the museum’s structure as a shelving unit built of biocement.
 
->"Fish use coral reefs as places to graze and explore. I think a shelving system can have a similar feeling for people."
+> "Fish use coral reefs as places to graze and explore. I think a shelving system can have a similar feeling for people."
 
 The piece may even become part of the museum, when it opens.
 
 But the point of this project goes beyond its practical applications.
 
-
 There’s a deep, conceptual and symbolic value to the experiment.
 
->"BioMason was founded by two architects who worked in the UAE from 2007 to 2014."
+> "BioMason was founded by two architects who worked in the UAE from 2007 to 2014."
 
 Illustrates Krieg Dosier.
 
->"The Re-Made project continues that narrative, expressing regionalism and reverence to other building materials used in the UAE. This project, design and collaboration are a proud and compassionate statement to working with materials found on site and our responsibility to place and environment."
+> "The Re-Made project continues that narrative, expressing regionalism and reverence to other building materials used in the UAE. This project, design and collaboration are a proud and compassionate statement to working with materials found on site and our responsibility to place and environment."
 
 Khan feels _"Coral Reef"_ is an exciting challenge:
 
->"I like that this project gave me the opportunity of remaking something that was precious to us the museum’s original design]. Perhaps we should all challenge our design assumptions more often."
+> "I like that this project gave me the opportunity of remaking something that was precious to us the museum’s original design]. Perhaps we should all challenge our design assumptions more often."
 
 ## Know More Links
 

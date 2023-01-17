@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Chrysanthemum Power
 subtitle: Beautiful flowers and powerful pollutant remover. A must have for an healthy home.
 category: health
@@ -25,17 +26,16 @@ featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name
 ---
+
 Chrysanthemum, known also as Pot Mum or Florist's Mum, mildly toxic and an irritant to cats and dogs is an excellent poison remover.
 
 The Pot Mum has an incredible transpiration rate and this is one of the reasons it is so effective at cleaning the air, because of this you will need to water quite often, perhaps up to twice a week. Keep the soil damp at all times.
 
 Chrysanthemum doesn't really grow indoors. However if you plant outside after flowering has finished then it will revert back to its natural growth pattern which is fast.
 
->"Most people don't know what's in their apartment, but formaldehyde, for instance, is in foam insulation, in beds made of veneer, in the backing of rugs and couches, in pressed-wood paneling, ry bags and wax paper, facial tissues and paper towels. Benzene is in tobacco smoke, inks and detergents... We were not meant to live in the absence of green living plants." _Dr. Wolverton - NASA._
-
+> "Most people don't know what's in their apartment, but formaldehyde, for instance, is in foam insulation, in beds made of veneer, in the backing of rugs and couches, in pressed-wood paneling, ry bags and wax paper, facial tissues and paper towels. Benzene is in tobacco smoke, inks and detergents... We were not meant to live in the absence of green living plants." _Dr. Wolverton - NASA._
 
 **Pollutants removed**: Benzene, Formaldehyde, Trichloroethylene, Xylene, Toluene, Ammonia,
-
 
 ## Know More Links
 

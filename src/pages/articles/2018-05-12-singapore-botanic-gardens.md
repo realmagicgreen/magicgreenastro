@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Singapore Botanic Gardens
 subtitle: "This outstanding world of plants is a must see UNESCO World Heritage Site!"
 category: solutions
@@ -35,21 +36,16 @@ Awarded the [UNESCO world heritage site](https://whc.unesco.org/en/list/1483) ti
 
 The Singapore Botanic Gardens, protected through the Planning Act of Singapore, which regulates conservation and development, is situated at the heart of the city of Singapore.
 
-
->Take nothing but photographs, leave nothing but footprints
+> Take nothing but photographs, leave nothing but footprints
 
 It demonstrates the evolution of a British tropical colonial botanic garden from a ‘Pleasure Garden’ in the English Landscape Style, to a colonial Economic Garden with facilities for horticultural and botanical research, to a modern and world-class botanic garden, scientific institution and place of conservation, recreation and education.
 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Victoria Amazonica - Giant water lilies' %}
 
-
-
 Most of the 183 acres of Singapore Botanic Gardens is in a National Park, and the other designations include: Conservation Area, Tree Conservation Area and Nature Area (applied to the rainforest area).
 
 There are 44 heritage trees within the property, and a number of protected buildings/structures such as houses 1 to 5 of the former Raffles College, Raffles Hall, E.J.H. Corner House, Burkill Hall, Holttum Hall, Ridley Hall, House 6, Garage, Bandstand and Swan Lake Gazebo.
-
-
 
 ## Rain Forest
 
@@ -67,8 +63,6 @@ The Healing Garden showcases over 400 varieties of plants used medicinally. It' 
 
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: 'Artemisia, the ancient, and still the best, cure for Malaria.' %}
-
-
 
 Spread over 2.5 hectares, it's designed as a tranquil retreat with medicinal plants traditionally used in Southeast Asia as the main focus. Here you can discover the power of plants to heal and enhance our quality of life.
 
@@ -90,11 +84,8 @@ The Learning Forest is located in the new Tyersall-Gallop Core of the Singapore 
 
 The Learning Forest features a network of boardwalks and elevated walkways that allow visitors to explore habitats ranging from a freshwater forest wetland to a lowland rainforest.
 
-
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'Ficus Kerkhovenii at Singapore botanic gardens' %}
-
-
 
 Visitors can learn about freshwater forest wetland ecosystems at the Keppel Discovery Wetlands and walk amongst a collection of some of the tallest tree species in Southeast Asia at the SPH Walk of Giants.
 
@@ -122,7 +113,6 @@ This part of the Learning Forest features tree species with specialised growth f
 
 Corner postulated that many of today's plants are descended from tree species with large fruit similar to durians.
 
-
 ### Foliage Garden
 
 The Foliage Garden will be a new and unique themed attraction at the Singapore Botanic Gardens.
@@ -134,12 +124,11 @@ It showcases a wide array of ornamental plants with colourful foliage of varying
 {% assign name = '' %}
 {% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
 
-
 Visitors can expect to spot interesting carnivorous plants such as Nepenthes or pitcher plants.
 
 These plants have evolved to adapt to nutrient-poor environments where most obtain their nutrients from trapping and digesting insects.
 
-One of the most notable specimens on display, the 'giant' form of  Raffles’ Pitcher Plant, Nepenthes rafflesiana, can be easily spotted by its distinct red cups and large funnel shaped upper pitches.
+One of the most notable specimens on display, the 'giant' form of Raffles’ Pitcher Plant, Nepenthes rafflesiana, can be easily spotted by its distinct red cups and large funnel shaped upper pitches.
 
 A stroll on the boardwalk in the garden also offers a brilliant view of aquatic plants like the Lotus, Nelumbo nucifera.
 
@@ -147,16 +136,14 @@ A stroll on the boardwalk in the garden also offers a brilliant view of aquatic 
 
 The varying colours of the leaves in the foliage garden is one thing that will be hard to miss. This is known as variegation and it is attributed to many factors such as genetics or pigmentation.
 
-
 {% assign name = '-08' %}
 {% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
-
 
 For instance, plants bearing genetic leaf variegation, chimeras, lack chlorophyll in some tissues, causing their leaves to appear yellow or white in some areas.
 
 Pigmentation can also be a cause for variegation where other pigments present mask the green pigment of chlorophyll.
 
-This is the case with some Begonia species, where the presence of  pigmented hairs cause the green leaves to appear red.
+This is the case with some Begonia species, where the presence of pigmented hairs cause the green leaves to appear red.
 
 Variegated leaves are widely used to brighten up gardens and add dimension and structure.
 
@@ -164,13 +151,12 @@ Variegated leaves are widely used to brighten up gardens and add dimension and s
 
 The foliage garden also presents an eye-opening range of various leaf shapes and textures. Different plants adapt differently to the habitats that they grow in.
 
-Leaves come in many forms such as  heart (cordate) or palm (palmate) shaped.
+Leaves come in many forms such as heart (cordate) or palm (palmate) shaped.
 
 {% assign name = '-07' %}
 {% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
 
-Leathery or thin leaves are adaptive modifications to hot and humid tropical weather.  Hairy leaves, whilst often pleasant to the touch, act as a form of self defence mechanism to deter herbivores.
-
+Leathery or thin leaves are adaptive modifications to hot and humid tropical weather. Hairy leaves, whilst often pleasant to the touch, act as a form of self defence mechanism to deter herbivores.
 
 ### Library of Botany and Horticulture
 
@@ -180,7 +166,6 @@ The Library holds over 30,000 accessioned items, a rare and irreplaceable resour
 
 {% assign name = '-06' %}
 {% include 'partials/image.html', name: 'name', caption: 'Singapore botanic gardens' %}
-
 
 The collection contains books, periodicals, field books, botanical artwork, historical maps of the Gardens and various other print and digital media.
 
@@ -200,11 +185,9 @@ Succulents and other plants of arid regions. This includes cacti and euphorbias 
 
 Succulents have fleshy leaves or stems that store water.
 
-
 In stem succulents, the stems may be green and take over from the leaves as the main organs of photosynthesis.
 
 A drainage system installed here help to simulate the dry conditions required to grow this collection.
-
 
 ### Jacob Ballas Children's Garden
 
@@ -230,7 +213,7 @@ The Trellis Garden showcases the Singapore Botanic Gardens’ climber collection
 
 Look out for the unique leaves and strange flower of the Pipe Vine, Aristolochia leuconeura from South America, and the beautiful flowers and foliage of Bauhinia semibifida, which is native to Singapore.
 
-Some are scrambling bushes with fragrant flowers such as Nyctanthes arbor-tristis  are trained to climb the trellis.
+Some are scrambling bushes with fragrant flowers such as Nyctanthes arbor-tristis are trained to climb the trellis.
 
 Many climbers attract wildlife such as butterflies and birds and in the forest they are often the super-highways, used to acces different parts of the canopy.
 
@@ -258,8 +241,6 @@ Near the bamboo area you will find the reflexology path, a joint community servi
 Open: 5am to midnight, daily
 Admission: Free
 Location: [Botanic Gardens MRT (Bukit Timah Gate)](https://goo.gl/maps/J6HD6wpGYeJ2)
-
-
 
 ## Know More Links
 

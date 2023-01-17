@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Biodegradable Indonesian Plastic
 subtitle: Avaniâ€™s cassava-based biodegradable bags and products are solutions to the worldwide plastic problem.
 description: "Every year an estimated 1 trillion plastic bags are consumed worldwide. Avani cassava-based biodegradable bags are a solution to mitigate this horrible problem."
@@ -50,25 +51,16 @@ Every year, an estimated 1 trillion plastic bags are consumed worldwide. Avaniâ€
 {% assign name = '-05' %}
 {% include 'partials/image.html', name: 'name', caption: 'cassava-based eco bags Biodegradable bag' %}
 
-
-
 Avani bags are bio-based, an ideal replacement to petroleum-based plastic bags. Compostable and biodegradable these bags can be recycled along with paper.
-
-
 
 ### Bio-poncho
 
-An eco-friendly alternative to the petroleum based rain poncho, Avani offer a rain poncho  made of renewable resources of corn, soy and sunflower seeds.
-
+An eco-friendly alternative to the petroleum based rain poncho, Avani offer a rain poncho made of renewable resources of corn, soy and sunflower seeds.
 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Biodegradable poncho' %}
 
-
-
-
 It could last up to 3 months, and then can become compost for our soil. It looks, feels and performs like plastic but is made 100% from renewables non polluting resources.
-
 
 ### Bio-cutlery
 
@@ -77,10 +69,7 @@ Avani wooden cutleries is derived from certified forests. Made from birchwood, t
 {% assign name = '-03' %}
 {% include 'partials/image.html', name: 'name', caption: 'wooden cutleries' %}
 
-
-
 Derived from sustainable, replanted forest wood and produced in an ETO sterilization facility and have been CE, FSC and ISO 13485 certified.
-
 
 ### Pla cups, straws, forks...
 
@@ -88,10 +77,6 @@ Made from polylactic acid (PLA) or corn starch, Avani PLA products will release 
 
 {% assign name = '-04' %}
 {% include 'partials/image.html', name: 'name', caption: 'polylactic acid (PLA) or corn starch glass' %}
-
-
-
-
 
 ### Established in 2014
 
@@ -114,8 +99,6 @@ Bellezza Shopping Arcade 3rd Floor n.350
 Jl. Letnan Jend. Soepeno No. 34, Kebayoran Lama
 12210 Jakarta, Indonesia
 Phone: +62 21 3048 5599
-
-
 
 ## Know More Links
 

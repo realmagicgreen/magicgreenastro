@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Xiaomi Electric Scooter
 subtitle: This convenient foldable scooter in now available in Indonesia
 category: products
@@ -21,9 +22,8 @@ flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography:  # put here photographer name
+photography: # put here photographer name
 ---
-
 
 **XIAOMI Mijia 365 Features**
 
@@ -42,7 +42,6 @@ photography:  # put here photographer name
 - There are 4 LED lights displaying the battery capacity, which is easy to know the power quantity
 
 - 3 seconds quick folding design, stable and convenient.
-
 
 **Details**
 
@@ -79,7 +78,6 @@ photography:  # put here photographer name
 - Max. load: 100 kg
 
 - Protection class: IP54
-
 
 ## Know More Links
 

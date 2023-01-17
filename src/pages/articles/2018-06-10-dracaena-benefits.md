@@ -1,7 +1,8 @@
 ---
+layout: ../../layouts/Base.astro
 title: Dracaena Benefits
 subtitle: "This plant removes many pollutants. It's perfect for an healthy home."
-description: People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species.  # max 160 digits
+description: People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species. # max 160 digits
 category: health
 date: 2018-06-10
 published: true
@@ -34,19 +35,15 @@ Caring for it is quite easy. It can withstand a certain amount of neglect. A bri
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Dracena Arborea' %}
 
-
 NASA has spent a lot of time researching air quality in sealed environments. **Dracaena marginata** is among the top 10 plants for removing indoor pollutants, according to the agency.
 
->"Because indoor air pollution extensively affects developing countries, using plants as a mitigation method could serve as a cost-effective tool in the developing world where expensive pollution mitigation technology may not be economically feasible"_Heather L. Papinchak, Department of Economics, Environmental Resources Management, The Pennsylvania State University_
+> "Because indoor air pollution extensively affects developing countries, using plants as a mitigation method could serve as a cost-effective tool in the developing world where expensive pollution mitigation technology may not be economically feasible"_Heather L. Papinchak, Department of Economics, Environmental Resources Management, The Pennsylvania State University_
 
 A World Health Organization air quality model confirms that 92% of the world's population lives in places where air quality levels exceed WHO limits. Some 3 million deaths a year are linked to exposure to outdoor air pollution. Indoor air pollution can be just as deadly. In 2012, an estimated 6.5 million deaths (11.6% of all global deaths) were associated with indoor and outdoor air pollution together.
 
 A study conducted in the University of Agriculture in Norway concluded that houseplants can actually reduce fatigue, sore throats, coughs and a range of other illnesses related to cold. They achieve this by increasing the levels of humidity in a room and reducing dust. In addition to that, the interior plant will regulate humidity in the house by releasing moisture.
 
-
-
 **Pollutants removed**: Benzene, Trichloroethylene, Formaldehyde, Carbon dioxide
-
 
 ## Know More Links
 

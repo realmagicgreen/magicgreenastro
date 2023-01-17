@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Bali Water Protection
 subtitle: "This project calls on Bali’s leadership and responsibility to address the island’s diminishing water table and rapidly dropping levels of freshwater availability."
 description: "Bali is on the verge of an environmental catastrophe. Groundwater reserves are at 20% according to Politeknik Negeri Bali in a report published by Republika."
@@ -36,14 +37,14 @@ Lake Buyan, Bali’s second largest natural reserve of freshwater, has dropped 3
 
 60% of Bali’s watersheds are declared dried (Data Badan Lingkungan Hidup (BLH) Bali News, 12 September 2011);
 
->"Salt water is moving into the empty space left by the declining water table, in some areas in the south in particular such as in Sanur/Suwug, as much as over 1 kilometer inland from the coast line and in the Kuta, Legian and  Seminyak areas, over 10 meters" _Bali Update edition 763, 25 April 2011, and Bali Advertiser, Wayan Gendo Suardana, 25 August 2012_
+> "Salt water is moving into the empty space left by the declining water table, in some areas in the south in particular such as in Sanur/Suwug, as much as over 1 kilometer inland from the coast line and in the Kuta, Legian and Seminyak areas, over 10 meters" _Bali Update edition 763, 25 April 2011, and Bali Advertiser, Wayan Gendo Suardana, 25 August 2012_
 
 The main island Bali is not only blessed with plentiful of rain but has an ideal topography to allow gravity-fed rainwater distribution for aquifer replenishment on all areas lying on all sides of the large transversal ridge of mountains dividing the island in two, from east to west.
 
 We must act now to avoid permanent damage. [IDEP](http://idepfoundation.org/bwp) and University Politeknik Bali are prepared to solve this crisis with your help.
 
->Increasing disruption in water circulation is being reported, in some areas allowing only 1 rice crop per year instead of 2 to 3; recently over 50% of Tabanan’s new reservoir initially built for wet rice farming, has been diverted to south Bandung for Tourism" _"Prof. Merit ITV to Prof. Strom Cole, University of the West of England, in A Political Ecology of Water
-Equity and Tourism, A case study from Bali, 17 January 2012_.
+> Increasing disruption in water circulation is being reported, in some areas allowing only 1 rice crop per year instead of 2 to 3; recently over 50% of Tabanan’s new reservoir initially built for wet rice farming, has been diverted to south Bandung for Tourism" _"Prof. Merit ITV to Prof. Strom Cole, University of the West of England, in A Political Ecology of Water
+> Equity and Tourism, A case study from Bali, 17 January 2012_.
 
 [IDEP](http://idepfoundation.org/bwp) prepared a [video](https://youtu.be/wK4m62BXU1Q) to present the problem and to outline the solution. they have a dedicated page to learn how you can get involved, and [make a donation today](https://fundrazr.com/campaigns/5zytb).
 

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Indonesian Waste Platform
 subtitle: "Hub promoting and facilitating cross-sector collaborations for solutions on the waste problems in Indonesia."
 category: solutions
@@ -21,11 +22,11 @@ sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
-
 ---
+
 Indonesian Waste Platform is a hub – promoting and facilitating cross-sector collaborations for solutions on the waste problems in Indonesia.
 
->"Every individual and organisation has a connection to waste. Waste concerns us all. Waste impacts us all. Not one single organisation is responsible for Waste prevention and management, nor can one single organisation solve the issues of Waste." _Nina van Toulon_
+> "Every individual and organisation has a connection to waste. Waste concerns us all. Waste impacts us all. Not one single organisation is responsible for Waste prevention and management, nor can one single organisation solve the issues of Waste." _Nina van Toulon_
 
 IWP works on a daily basis to connect stakeholders, share news and contribute to capacity building related to:
 
@@ -47,9 +48,7 @@ IWP works on a daily basis to connect stakeholders, share news and contribute to
 
 - IWP responds to requests by stakeholders, intermediate in professional volunteer placements, report on stakeholder meetings and disseminate to relevant stakeholders.
 
-Stakeholders include companies, government, universities, researchers,  Indonesian and international NGOs, community and religious leaders, fishing communities, media, individuals.
-
-
+Stakeholders include companies, government, universities, researchers, Indonesian and international NGOs, community and religious leaders, fishing communities, media, individuals.
 
 ## Know More Links
 

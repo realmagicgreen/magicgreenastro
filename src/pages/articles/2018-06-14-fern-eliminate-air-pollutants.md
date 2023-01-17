@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Ferns Eliminate Air Pollutants
 subtitle: "This ancient plant offers a superior pollutants removal efficiency. A must have for an healthy home."
 category: health
@@ -53,7 +54,6 @@ While most leafy plants are adept at purifying indoor air, some of the plants th
 
 - Peace Lilies (Spathiphyllum)
 
-
 Fern is the common name for plants in the phylum or division Pterophyta, also known as Filicophyta, sometimes called sword or ladder fern. Ferns are vascular plants that reproduce via spores and have neither seeds nor flowers.
 
 Ferns first appear in the fossil record about 360 million years ago.
@@ -62,9 +62,7 @@ These plants prefer a cool location with high humidity and indirect light. They'
 
 **Pollutants removed**: Ammonia, Benzene, Formaldehyde, Trichloroethylene, Toluene, Octane, Terpene.
 
-
 ## Know More Links
-
 
 [Tips for growing fern plants](https://www.thespruce.com/tips-for-growing-fern-plants-1402823)"
 

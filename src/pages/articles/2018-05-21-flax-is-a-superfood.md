@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Flax is a Superfood
 subtitle: Nutritional powerhouses flax or linseed are packed with fiber, omega-3, vitamins, and antioxidants.
 category: health
@@ -21,6 +22,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography: # put here photographer name
 ---
+
 Flax seeds are nutritional powerhouses. They're absolutely packed with fiber, omega-3 fatty acids, B vitamins, antioxidants, and cancer-fighting [lignans](https://en.wikipedia.org/wiki/Lignan).
 
 Flaxseed contains 75 to 800 times more lignans than other plant foods.
@@ -32,9 +34,7 @@ You can eat them raw, grind them and adding them to salads, soups or to your bak
 {% assign name = '' %}
 {% include 'partials/image.html', name: 'name', caption: 'Flax seeds' %}
 
-
 A 2013 study published in “Hypertension” concluded that flaxseed lowers blood pressure in hypertensive patients.
-
 
 ## Know More Links
 

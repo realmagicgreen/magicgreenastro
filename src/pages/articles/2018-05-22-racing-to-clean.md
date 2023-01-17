@@ -1,8 +1,9 @@
 ---
+layout: ../../layouts/Base.astro
 title: Racing To Clean
 subtitle: Volcom Indonesia offers an example of responsible action, the Red Bag race.
 category: techniques
-description: "From the great mind of Ketut \"King Kong\" Kasih, owner of Volcom Indonesia. The red bag race is a competition to collect trash at surf contests." # max 160 digits
+description: 'From the great mind of Ketut "King Kong" Kasih, owner of Volcom Indonesia. The red bag race is a competition to collect trash at surf contests.' # max 160 digits
 date: 2018-05-22
 published: true
 tags:
@@ -26,7 +27,6 @@ ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Rokma # put here photographer name
-
 ---
 
 From the great mind of Ketut "King Kong" Kasih, owner of Volcom Indonesia.
@@ -47,12 +47,9 @@ Cleaning plastic pollution is a game. Kids are given a 10 minutes and a red bag.
 
 At the end the beach is left way cleaner than it was before the local surf contest started.
 
-
 **_See the full article here:_**
 
 [The red bag race - Fumes magazine](https://fumes.junglestar.org/balance/the-red-bag-race/)
-
-
 
 ## Know More Links
 

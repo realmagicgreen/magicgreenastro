@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Golden Pothos
 subtitle: Effective in removing formaldehyde, thrives also under fluorescent lights and it's very easy to care for.
 category: health
@@ -25,6 +26,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography: # put here photographer name
 ---
+
 Epipremnum aureum is an evergreen climber with a multitude of common names including **golden pothos**, hunter's robe, ivy arum, **money plant**, silver vine, Solomon Islands ivy and taro vine.
 
 It is also called **devil's vine** or devil's ivy because it is almost impossible to kill and it stays green even when kept in the dark.
@@ -40,7 +42,6 @@ Epipremnum aureum can become a highly invasive species when introduced into trop
 Having no natural enemies, it completely overgrows the forest floor as well as the trunks of trees, causing severe ecological disruption.
 
 **Pollutants removed**: Formaldehyde, Xylene, Trichloroethylene and Benzene.
-
 
 ## Know More Links
 

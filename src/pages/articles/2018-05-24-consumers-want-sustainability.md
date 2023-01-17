@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Consumers Want Sustainability
 subtitle: Sustainable Mainstream. Eco-friendly is definitely in.
 category: know
@@ -60,7 +61,6 @@ Here are some other statistics of note from the Hartman Group study:
 - **52% said it was important for packaging to be minimal**
 
 Commenting on the study, [PackWorld.com](https://www.packworld.com/article/sustainability/material-health/infographic-how-important-eco-friendly-packaging-purchase) observes: "Although a product's essential content and use are more strongly emphasized by consumers, earth-friendly packaging may be a first step for manufacturers in creating a more environmentally responsible halo for its products."
-
 
 ## Know More Links
 

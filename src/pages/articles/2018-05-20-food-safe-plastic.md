@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Food Safe Plastic
 subtitle: The obvious solution to avoiding plastic toxicity is to avoid plastics. Reduce damage by picking the least toxic ones.
 category: know
@@ -21,15 +22,13 @@ sticky: true # 'true' or empty
 photography: # put here photographer name
 ---
 
-
 The obvious solution to avoiding plastic toxicity is to avoid plastics, which, in a world awash in plastic, is pretty difficult.
 
 In the absence of this, it makes sense to limit your close encounters with plastic as best as you can.
 
->“BPA should be considered a hazard to human development and reproduction with clear evidence of adverse effects.” _Sarah Janssen of the Natural Resources Defense Council_
+> “BPA should be considered a hazard to human development and reproduction with clear evidence of adverse effects.” _Sarah Janssen of the Natural Resources Defense Council_
 
 Look for the symbol. It indicated what type of plastic it is. Avoid buying the heavily toxic ones. This way you send a signal to producers, or at least your are not financing the dirty brands.
-
 
 ## The ABCs of Avoiding Plastics
 
@@ -47,13 +46,10 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 
 - Avoid plastics numbered #6 and #7 whenever possible.
 
-
 ## The plastic types
-
 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Look for BPA-free on the label of products' %}
-
 
 ## **1. PET: polyethylene terephthalate.**
 
@@ -86,9 +82,6 @@ PS, also popularly known as Styrofoam, is used for cups, plates, take-out contai
 ## **7. Everything else.**
 
 Any plastic item not made from the above six plastics is lumped together as a #7 plastic. Any plastic designated #7 is likely to **leach BPA and/or BPS**, both **potent endocrine disruptors** linked to interfering with proper mood, growth, development, sexual function, reproductive function, and puberty, among other essential human developmental processes. They are also suspected of **increasing the risk of adult reproductive cancers, obesity, heart disease, and type 2 diabetes**.
-
-
-
 
 ## Know More Links
 

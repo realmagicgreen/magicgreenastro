@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Recycling Aluminum
 subtitle: "Aluminum can can be recycled an unlimited number of times."
 category: know
@@ -22,6 +23,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: René DeAnda # put here photographer name
 ---
+
 Recycling one aluminum can saves enough electricity to power a TV for three hours.
 
 Aluminum can can be recycled an unlimited number of times.

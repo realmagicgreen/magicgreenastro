@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Moringa Superfood
 subtitle: Also called drumstick tree, horseradish tree, Moringa is an excellent source of vitamins, antioxidants and minerals.
 category: health
@@ -22,7 +23,7 @@ flag: # new or other...
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography:  # put here photographer name
+photography: # put here photographer name
 ---
 
 <div class="tldr">
@@ -34,7 +35,6 @@ photography:  # put here photographer name
 - They also contain beta-carotene, powerful antioxidant and Chlorogenic acid wich helps moderate blood sugar levels.
 
 </div>
-
 
 Moringa also called drumstick tree, horseradish tree, ben oil tree or benzoil tree is a fast-growing, drought-resistant tree, native to the southern foothills of the Himalayas.
 
@@ -57,8 +57,6 @@ The diet of people in developing nations sometimes lacks vitamins, minerals and 
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Moringa is available in powder and is consumed raw added to salads and shakes' %}
 
-
-
 ## Moringa benefits
 
 - Very Nutritious
@@ -67,7 +65,6 @@ The diet of people in developing nations sometimes lacks vitamins, minerals and 
 - May Reduce Inflammation
 - Can Lower Cholesterol
 - May Protect Against Arsenic Toxicity
-
 
 Antioxidants are compounds that act against free radicals in your body.
 
@@ -82,7 +79,6 @@ One study in women found that taking 1.5 teaspoons (7 grams) of moringa leaf pow
 However, there is one downside, Moringa leaves may also [contain high levels of antinutrients](https://www.sciencedirect.com/science/article/abs/pii/S0044848602004970), which can reduce the absorption of minerals and protein.
 
 The results suggest that Moringa leaf meal can be used to substitute up to 10% of dietary protein in Nile tilapia fish without significant reduction in growth. Diets with higher inclusion levels of moringa leaves significantly depressed growth performance on the fish tested.
-
 
 ## Know More Links
 

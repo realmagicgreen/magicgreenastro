@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Snake Plant
 subtitle: "Recommended for improving indoor air quality, it absorbs CO2 at night."
 category: health
@@ -43,8 +44,6 @@ It allows them to withstand drought.
 The microscopic pores on the plant's leaves, called the stomata and used to exchange gases, are only opened at night to prevent water from escaping via evaporation in the hot sun.
 
 **Pollutants removed**: benzene, formaldehyde, trichloroethylene, toluene and xylene
-
-
 
 ## Know More Links
 

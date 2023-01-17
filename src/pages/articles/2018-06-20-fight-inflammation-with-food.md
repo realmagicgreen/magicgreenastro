@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Base.astro
 title: Fight Inflammation With Food
 subtitle: "Inflammation is caused by unhealthy foods and lifestyle habits. You can treat it yourself with foods, exercise, good sleep and stress management."
 description: "Inflammation can occur in response to trauma, illness, stress, or unhealthy foods. Anti-inflammatory foods, exercise, good sleep and stress management can help."
@@ -21,8 +22,9 @@ flag: # new or other...
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography:  # put here photographer name
+photography: # put here photographer name
 ---
+
 Inflammation can occur in response to trauma, illness and stress.
 
 It can also be caused by unhealthy foods and lifestyle habits.
@@ -31,11 +33,8 @@ Anti-inflammatory foods, exercise, good sleep and stress management can help.
 
 ### Turmeric and Curcumin
 
-
 {% assign name = '' %}
 {% include 'partials/image.html', name: 'name', caption: 'Curcumin or Turmeric provides several impressive health benefits.' %}
-
-
 
 [Curcumin](https://en.wikipedia.org/wiki/Curcumin) is a component of the spice Turmeric. It provides several impressive health benefits.
 
@@ -66,7 +65,6 @@ DHA, in particular, has been shown to have anti-inflammatory effects that reduce
 {% assign name = '-02' %}
 {% include 'partials/image.html', name: 'name', caption: 'Ginger root has been shown to reduce inflammation.' %}
 
-
 [Ginger](https://en.wikipedia.org/wiki/Ginger) has been shown to reduce inflammation, as well as muscle pain and soreness after exercise.
 
 Ginger root is commonly ground into powder and added to sweet and savoury dishes.
@@ -79,7 +77,6 @@ When people with diabetes were given 1,600 mg of ginger daily, their CRP, insuli
 
 Another study found that women with breast cancer who took ginger supplements had lower CRP and IL-6 levels, especially when combined with exercise
 
-
 ### Grapes, blueberries and other fruits with purple skin.
 
 Resveratrol, a type of natural phenol (stilbenoid), and a phytoalexin produced by several plants, may reduce several inflammatory markers and provide other health benefits.
@@ -91,7 +88,6 @@ Resveratrol may reduce inflammation in individuals with heart disease, insulin r
 One study gave people with ulcerative colitis 500 mg of Resveratrol daily. Their symptoms improved and they had reductions in the inflammation markers CRP, TNF and NF-kB.
 
 In another study, Resveratrol supplements lowered inflammatory markers, triglycerides and blood sugar in people with obesity.
-
 
 ### Spirulina
 
@@ -108,11 +104,6 @@ Additionally, their levels of Adiponectin increased. This is a hormone involved 
 In general, it's best to get your anti-inflammatory nutrients from whole foods.
 
 However, in the case of excessive or chronic inflammation, supplements can often help bring things back into balance.
-
-
-
-
-
 
 ## Know More Links
 
