@@ -29,7 +29,7 @@ Aloe Vera is a miracle plant known for several health benefits. It has antiviral
 
 ## Aloe vera for beauty
 
-Once you move past the slimey texture of natural aloe vera gel and apply it to your skin, you'll notice how soothing and cooling it is.
+Once you move past the slimy texture of natural aloe vera gel and apply it to your skin, you'll notice how soothing and cooling it is.
 
 > "Since the skin needs nutrition of its own, Aloe Vera, when formulated into a properly designed personal care regimen, can treat, exfoliate, restore, reveal and provide constant, impressive nutrition to the human skin." _Bill C. Coats_
 
