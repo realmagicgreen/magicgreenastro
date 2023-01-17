@@ -7,7 +7,6 @@ description: "Let's talk trash. The Trash Hero movement is a global phenomena an
 date: 2018-06-05
 published: true
 tags:
-  - article
   - solutions
   - Bali
   - environment-friendly

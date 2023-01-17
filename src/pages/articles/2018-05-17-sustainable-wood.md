@@ -7,7 +7,6 @@ description: "The future of the world’s forests is very important to the plane
 date: 2018-05-17
 published: true
 tags:
-  - article
   - services
   - certification
   - eco-entrepreneurs

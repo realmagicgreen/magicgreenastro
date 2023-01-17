@@ -7,7 +7,6 @@ description: "Recycling one aluminum can saves enough electricity to power a TV 
 date: 2018-05-05
 published: true
 tags:
-  - article
   - know
   - aluminum
   - learning

@@ -7,7 +7,6 @@ category: know
 date: 2018-06-13
 published: true
 tags:
-  - article
   - know
   - ASEAN
   - Indonesia

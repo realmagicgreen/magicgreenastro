@@ -7,7 +7,6 @@ category: health
 date: 2018-06-16
 published: true
 tags:
-  - article
   - health
   - CO2
   - air-cleaning

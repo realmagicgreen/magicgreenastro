@@ -7,7 +7,6 @@ description: "Sansevieria Trifasciata also called mother-in-law's tongue is one 
 date: 2018-05-05
 published: true
 tags:
-  - article
   - health
   - CO2
   - bedroom-plants

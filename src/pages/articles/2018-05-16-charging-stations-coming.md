@@ -7,7 +7,6 @@ description: State electricity company PT Perusahaan Listrik Negara (PLN) in Wes
 date: 2018-05-16
 published: true
 tags:
-  - article
   - services
   - commuting
   - environment-friendly

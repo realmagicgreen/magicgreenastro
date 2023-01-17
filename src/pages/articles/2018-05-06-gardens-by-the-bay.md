@@ -7,7 +7,6 @@ description: "Rated number 3 on things to do in Singapore Tripadvisor. Reached m
 date: 2018-05-06
 published: true
 tags:
-  - article
   - solutions
   - architecture
   - biodiversity

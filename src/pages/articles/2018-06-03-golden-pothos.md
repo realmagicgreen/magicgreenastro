@@ -7,7 +7,6 @@ description: Golden Pothos is 1 of the top 3 plants that has been labeled the mo
 date: 2018-06-03
 published: true
 tags:
-  - article
   - health
   - CO2
   - air-cleaning

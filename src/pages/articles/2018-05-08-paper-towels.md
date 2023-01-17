@@ -7,7 +7,6 @@ description: "Did you know that nearly 4 billion trees are cut down each year fo
 date: 2018-05-08
 published: true
 tags:
-  - article
   - know
   - learning
   - paper

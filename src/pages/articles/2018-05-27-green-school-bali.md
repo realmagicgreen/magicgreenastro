@@ -7,7 +7,6 @@ description: "Founded and conceived by John and Cynthia Hardy in 2006, Green Sch
 date: 2018-05-27
 published: true
 tags:
-  - article
   - services
   - architecture
   - Bali

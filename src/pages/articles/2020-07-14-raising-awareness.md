@@ -7,7 +7,6 @@ category: solutions
 date: 2020-07-14
 published: true
 tags:
-  - article
   - solutions
   - biodiversity
   - Costa-Rica

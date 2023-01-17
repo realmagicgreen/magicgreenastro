@@ -6,7 +6,6 @@ category: solutions
 date: 2018-05-01
 published: true
 tags:
-  - article
   - solutions
   - air-cleaning
   - architecture

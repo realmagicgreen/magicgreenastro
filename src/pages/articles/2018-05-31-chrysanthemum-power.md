@@ -7,7 +7,6 @@ description: "Chrysanthemum, known also as Pot Mum or Florist's Mum, is an excel
 date: 2018-05-31
 published: true
 tags:
-  - article
   - health
   - know
   - CO2

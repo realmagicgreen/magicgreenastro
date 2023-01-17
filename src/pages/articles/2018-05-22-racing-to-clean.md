@@ -7,7 +7,6 @@ description: 'From the great mind of Ketut "King Kong" Kasih, owner of Volcom In
 date: 2018-05-22
 published: true
 tags:
-  - article
   - techniques
   - Bali
   - environment-friendly

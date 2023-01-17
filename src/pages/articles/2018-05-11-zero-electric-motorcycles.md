@@ -7,7 +7,6 @@ description: "Powerful. Electric and available now. Developed to aggressively ta
 date: 2018-05-11
 published: true
 tags:
-  - article
   - products
   - commuting
   - environment-friendly

@@ -7,7 +7,6 @@ category: products
 date: 2018-08-26
 published: true
 tags:
-  - article
   - products
   - design
   - environment-friendly

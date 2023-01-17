@@ -7,7 +7,6 @@ description: "A clever way to limit the use of plastic bottles is serving water 
 date: 2018-05-07
 published: true
 tags:
-  - article
   - techniques
   - Bali
   - design

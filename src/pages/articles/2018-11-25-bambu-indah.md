@@ -7,7 +7,6 @@ description: "In Bali Ubud is internationally acknowledged for its visual arts, 
 date: 2018-11-25
 published: true
 tags:
-  - article
   - services
   - architecture
   - Bali

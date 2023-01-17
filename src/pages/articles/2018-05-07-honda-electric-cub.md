@@ -7,7 +7,6 @@ description: "The new Honda EV-Cub is definitely an eyebrow raiser. Two electric
 date: 2018-05-07
 published: true
 tags:
-  - article
   - products
   - commuting
   - environment-friendly

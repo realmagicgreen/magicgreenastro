@@ -7,7 +7,6 @@ date: 2018-06-04
 updated: 2020-10-10
 published: true
 tags:
-  - article
   - products
   - Bali
   - design

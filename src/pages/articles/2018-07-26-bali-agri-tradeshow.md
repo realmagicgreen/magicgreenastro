@@ -7,7 +7,6 @@ description: "Among beautiful green booths there are many useful infos and produ
 date: 2018-07-26
 published: true
 tags:
-  - article
   - services
   - Bali
   - botany

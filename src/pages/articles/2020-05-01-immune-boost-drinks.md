@@ -7,7 +7,6 @@ category: health
 date: 2020-05-01
 published: true
 tags:
-  - article
   - health
   - Bali
   - botany

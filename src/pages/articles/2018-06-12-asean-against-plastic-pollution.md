@@ -7,7 +7,6 @@ category: solutions
 date: 2018-06-12
 published: true
 tags:
-  - article
   - solutions
   - ASEAN
   - Indonesia

@@ -7,7 +7,6 @@ category: solutions
 date: 2018-06-08
 published: true
 tags:
-  - article
   - solutions
   - architecture
   - bamboo

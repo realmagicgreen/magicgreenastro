@@ -7,7 +7,6 @@ description: "The Indonesian island of Bali is witnessing a new trend. Bamboo bu
 date: 2018-05-26
 published: true
 tags:
-  - article
   - solutions
   - architecture
   - bamboo

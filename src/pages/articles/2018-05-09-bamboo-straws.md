@@ -7,7 +7,6 @@ description: "When you really need a straw to be able to enjoy your drink, let i
 date: 2018-05-09
 published: true
 tags:
-  - article
   - products
   - Bali
   - bamboo

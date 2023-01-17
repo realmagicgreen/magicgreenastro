@@ -7,7 +7,6 @@ category: solutions
 date: 2018-07-10
 published: true
 tags:
-  - article
   - solutions
   - Bali
   - Indonesia

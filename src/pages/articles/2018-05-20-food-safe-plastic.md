@@ -7,7 +7,6 @@ description: "The obvious solution to avoiding plastic toxicity is to avoid plas
 date: 2018-05-20
 published: true
 tags:
-  - article
   - know
   - plastic
   - learning

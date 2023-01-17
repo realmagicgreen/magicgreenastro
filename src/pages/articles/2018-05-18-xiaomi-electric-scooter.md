@@ -7,7 +7,6 @@ description: "XIAOMI Mijia 365 electric scooter comes with a dual-brake system. 
 date: 2018-05-18
 published: true
 tags:
-  - article
   - products
   - Bali
   - commuting

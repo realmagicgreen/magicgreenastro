@@ -7,7 +7,6 @@ category: solutions
 date: 2018-08-01
 published: true
 tags:
-  - article
   - solutions
   - biodiversity
   - eco-entrepreneurs

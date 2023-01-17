@@ -7,7 +7,6 @@ description: "New data has found that Americans don’t want to get caught buyin
 date: 2018-05-04
 published: true
 tags:
-  - article
   - know
   - CO2
   - eco-entrepreneurs

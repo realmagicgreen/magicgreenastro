@@ -7,7 +7,6 @@ description: A"ir-purification capacities of indoor plants have found that plant
 date: 2018-06-14
 published: true
 tags:
-  - article
   - health
   - CO2
   - air-cleaning

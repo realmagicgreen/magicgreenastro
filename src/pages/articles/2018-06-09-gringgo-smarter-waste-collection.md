@@ -7,7 +7,6 @@ category: solutions
 date: 2018-06-09
 published: true
 tags:
-  - article
   - solutions
   - Bali
   - environment-friendly

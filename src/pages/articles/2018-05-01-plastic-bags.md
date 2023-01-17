@@ -6,7 +6,6 @@ category: know
 date: 2018-05-01
 published: true
 tags:
-  - article
   - know
   - learning
   - plastic

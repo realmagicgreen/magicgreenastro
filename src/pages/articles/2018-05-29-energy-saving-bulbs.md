@@ -7,7 +7,6 @@ description: "This 9 watts LED bulb produces as much light as old incandescent 1
 date: 2018-05-29
 published: true
 tags:
-  - article
   - know
   - energy-saving
   - energy-efficiency

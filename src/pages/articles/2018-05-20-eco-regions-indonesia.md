@@ -7,7 +7,6 @@ description: "The plan is to create green destination and attract the world's mo
 date: 2018-05-20
 published: true
 tags:
-  - article
   - solutions
   - biodiversity
   - eco-tourism

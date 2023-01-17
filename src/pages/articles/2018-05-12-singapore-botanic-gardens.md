@@ -7,7 +7,6 @@ description: "The Singapore Botanic Gardens, with 4 millions visitors per year, 
 date: 2018-05-12
 published: true
 tags:
-  - article
   - solutions
   - botany
   - biodiversity

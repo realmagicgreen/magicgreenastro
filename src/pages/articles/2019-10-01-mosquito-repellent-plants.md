@@ -7,7 +7,6 @@ category: solutions
 date: 2019-10-01
 published: true
 tags:
-  - article
   - solutions
   - environment-friendly
   - eco-friendly

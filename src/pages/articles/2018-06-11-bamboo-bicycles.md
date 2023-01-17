@@ -7,7 +7,6 @@ category: products
 date: 2018-06-11
 published: true
 tags:
-  - article
   - products
   - bamboo
   - Bali, design

@@ -7,7 +7,6 @@ category: solutions
 date: 2018-07-09
 published: true
 tags:
-  - article
   - solutions
   - ASEAN
   - Cambodia

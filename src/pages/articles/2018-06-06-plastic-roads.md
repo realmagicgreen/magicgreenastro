@@ -7,7 +7,6 @@ description: "The Ministry of Public Works and People's Housing Indonesia began 
 date: 2018-06-06
 published: true
 tags:
-  - article
   - solutions
   - Bali
   - Indonesia

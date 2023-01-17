@@ -7,7 +7,6 @@ description: "Flax seeds are nutritional powerhouses. They're absolutely packed 
 date: 2018-05-20
 published: true
 tags:
-  - article
   - health
   - superfood
   - learning

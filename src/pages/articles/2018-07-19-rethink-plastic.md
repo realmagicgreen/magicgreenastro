@@ -7,7 +7,6 @@ category: techniques
 date: 2018-07-19
 published: true
 tags:
-  - article
   - techniques
   - biodiversity
   - eco-entrepreneurs

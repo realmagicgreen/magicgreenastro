@@ -7,7 +7,6 @@ description: "Data show travelers preferences: 87% want to travel more sustainab
 date: 2018-05-23
 published: true
 tags:
-  - article
   - know
   - eco-entrepreneurs
   - environment-friendly

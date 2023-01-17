@@ -7,7 +7,6 @@ description: Among the big offer of e-bikes and scooters one which sticks out is
 date: 2018-05-13
 published: true
 tags:
-  - article
   - products
   - commuting
   - electric

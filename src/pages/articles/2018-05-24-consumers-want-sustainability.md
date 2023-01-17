@@ -7,7 +7,6 @@ description: "Environmental consciousness, social responsibility, and sustainabi
 date: 2018-05-24
 published: true
 tags:
-  - article
   - know
   - eco-entrepreneurs
   - environment-friendly

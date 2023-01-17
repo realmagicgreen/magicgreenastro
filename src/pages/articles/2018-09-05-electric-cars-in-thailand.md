@@ -7,7 +7,6 @@ category: solutions
 date: 2018-09-05
 published: true
 tags:
-  - article
   - solutions
   - electric
   - environment-friendly

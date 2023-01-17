@@ -7,7 +7,6 @@ description: "Coral Reefs need our help now! More than 27% of the world’s cora
 date: 2018-05-10
 published: true
 tags:
-  - article
   - solutions
   - Bali
   - biodiversity

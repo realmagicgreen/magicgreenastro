@@ -7,7 +7,6 @@ description: "Rest easy, feel good, you are sitting on a reclaimed wood chair! R
 date: 2018-08-08
 published: true
 tags:
-  - article
   - products
   - Brazil
   - design

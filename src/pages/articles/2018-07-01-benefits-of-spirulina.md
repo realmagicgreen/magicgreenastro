@@ -7,7 +7,6 @@ category: health
 date: 2018-07-01
 published: true
 tags:
-  - article
   - health
   - CO2
   - botany

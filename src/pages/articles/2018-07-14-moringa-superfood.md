@@ -7,7 +7,6 @@ description: Moringa is a fast-growing, drought-resistant tree. Leaves, rich in 
 date: 2018-07-14
 published: true
 tags:
-  - article
   - health
   - CO2
   - botany

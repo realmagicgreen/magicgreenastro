@@ -7,7 +7,6 @@ description: "Byebye plastic bags is an initiative from children to force people
 date: 2018-05-15
 published: true
 tags:
-  - article
   - solutions
   - Bali
   - eco-entrepreneurs

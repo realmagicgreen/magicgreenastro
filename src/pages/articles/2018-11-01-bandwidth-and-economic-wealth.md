@@ -7,7 +7,6 @@ category: know
 date: 2018-11-01
 published: true
 tags:
-  - article
   - know
   - architecture
   - design

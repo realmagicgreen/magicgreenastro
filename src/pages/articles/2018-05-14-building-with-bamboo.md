@@ -6,7 +6,6 @@ category: techniques
 date: 2018-05-14
 published: true
 tags:
-  - article
   - techniques
   - architecture
   - bamboo

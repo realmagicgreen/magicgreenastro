@@ -7,7 +7,6 @@ description: "NASA Clean Air Study found that it is one of the most powerful pol
 date: 2018-05-25
 published: true
 tags:
-  - article
   - health
   - CO2
   - bedroom-plants

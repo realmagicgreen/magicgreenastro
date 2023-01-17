@@ -7,7 +7,6 @@ description: "Ginger, is a root with anti-inflammatory and analgesic properties.
 date: 2018-06-02
 published: true
 tags:
-  - article
   - health
   - CO2
   - botany

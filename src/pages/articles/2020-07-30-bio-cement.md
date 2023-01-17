@@ -7,7 +7,6 @@ category: solutions
 date: 2020-07-30
 published: true
 tags:
-  - article
   - solutions
   - biodiversity
   - green-building
