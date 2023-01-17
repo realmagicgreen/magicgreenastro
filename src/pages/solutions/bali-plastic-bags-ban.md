@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Bali Plastic Bags Ban
 subtitle: "Denpasar just introduced a new prohibition of plastic bags, Styrofoam and plastic straws in supermarkets, convenience stores and shopping centres."
 description: "Starting 2019, Bali Denpasar area has banned the plastic bags. The ban is expected to cover the whole island coming into effect in June 2019." # max 160 digits

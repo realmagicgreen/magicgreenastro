@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Ferns Eliminate Air Pollutants
 subtitle: "This ancient plant offers a superior pollutants removal efficiency. A must have for an healthy home."
 category: health

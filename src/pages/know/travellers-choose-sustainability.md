@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Travellers Choose Sustainability
 subtitle: Sustainable, eco-conscious travel, is on the rise worldwide according to recent statistics.
 category: know

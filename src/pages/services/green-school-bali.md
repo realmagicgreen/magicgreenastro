@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Green School Bali
 subtitle: Architectural wonder to educate for sustainability.
 category: services

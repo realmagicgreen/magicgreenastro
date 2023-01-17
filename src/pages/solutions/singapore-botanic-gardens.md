@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Singapore Botanic Gardens
 subtitle: "This outstanding world of plants is a must see UNESCO World Heritage Site!"
 category: solutions

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Plastic Bags
 subtitle: "Less than 1 percent of plastic bags goes into a recycle bin."
 category: know

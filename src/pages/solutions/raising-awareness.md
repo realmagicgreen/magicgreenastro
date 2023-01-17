@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Raising Awareness
 subtitle: "Mission Blue inspires action to explore and protect the ocean for a global network of marine protected areas."
 description: "Mission Blue inspires action to explore and protect the ocean, ignite public support for a global network of marine protected areas." # max 160 digits

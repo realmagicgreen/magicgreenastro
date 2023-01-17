@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Bamboo Straws
 subtitle: Suck it up consciously.
 category: products

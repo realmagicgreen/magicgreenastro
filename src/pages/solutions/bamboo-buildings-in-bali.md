@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Bamboo Buildings In Bali
 subtitle: "Bamboo is booming here, showing excellent examples of a sustainable way to build."
 category: solutions

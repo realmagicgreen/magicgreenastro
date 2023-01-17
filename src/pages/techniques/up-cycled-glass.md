@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Up-cycled Glass
 subtitle: "Use recycled glass and bottles to make lamp and serve water to customers."
 category: techniques

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Flax is a Superfood
 subtitle: Nutritional powerhouses flax or linseed are packed with fiber, omega-3, vitamins, and antioxidants.
 category: health

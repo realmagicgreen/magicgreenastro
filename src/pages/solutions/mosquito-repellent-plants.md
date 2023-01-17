@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Mosquito Repellent Plants
 subtitle: "Mosquito repellent plants that you can easily grow in your balcony or garden area. It’s about your health."
 description: "Mosquitoes spread serious diseases as malaria, dengue, yellow fever, encephalitis and West Nile and Zika viruses. They can give heart worm to pets."

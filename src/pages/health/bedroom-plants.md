@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Air Cleaning Bedroom Plants
 subtitle: "Plants that absorb pollutants and CO2 at night and help you sleep better."
 description: "Studies at NASA, Pennsylvania State University, the University of Georgia and other respected institutions suggest that plants can definitely clean the air." # max 160 digits

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Rethink Plastic
 subtitle: "A movement to raise awareness of plastic pollution and the existing solutions. Movies, education, and government pressure."
 description: "A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. It is creating policy and social change around the world."

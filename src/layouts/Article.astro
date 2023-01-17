@@ -1,0 +1,42 @@
+---
+import Base from "./Base.astro";
+import IconPhotographer from "@svg/photographer.svg";
+import IconClock from "@svg/clock.svg";
+const { frontmatter } = Astro.props;
+---
+
+<Base title={frontmatter.title}>
+  <div class="post_header">
+    <h1>{frontmatter.title}</h1>
+    <h2 class="border_top border_bottom">{frontmatter.subtitle}</h2>
+
+    <div class="h5 post_metas">
+      <div class="post_meta_block">
+        <div class="post_meta_icon">
+          <IconPhotographer />
+        </div>
+
+        <div class="post_meta_text nowrap" title="photography by">
+          {frontmatter.photography}
+        </div>
+      </div>
+
+      <div class="post_meta_block">
+        <div class="post_meta_icon">
+          <IconClock />
+        </div>
+
+        <div class="post_meta_text nowrap">
+          {frontmatter.date}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>section: {frontmatter.category}</div>
+  <div>description: {frontmatter.description}</div>
+  <div>date: {frontmatter.date}</div>
+  <div>img: {frontmatter.coverImage}</div>
+  <div>photography: {frontmatter.photography}</div>
+
+  <p><slot /></p>
+</Base>

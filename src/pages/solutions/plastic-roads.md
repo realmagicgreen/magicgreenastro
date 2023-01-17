@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Plastic Roads
 subtitle: Indonesia tried plastic and rubber tires waste for road asphalt. A clever way to reduce plastic pollution.
 category: solutions

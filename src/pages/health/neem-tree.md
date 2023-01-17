@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Neem Tree
 subtitle: Improves indoor air quality absorbing CO2 at night. Perfect for your bedroom.
 category: health

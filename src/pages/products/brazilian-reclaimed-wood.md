@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Brazilian Reclaimed Wood
 subtitle: "Recycling wood is clever! From Indo to Brazil many up-cycle old timber turning it into furniture."
 category: products

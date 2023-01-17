@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Food Safe Plastic
 subtitle: The obvious solution to avoiding plastic toxicity is to avoid plastics. Reduce damage by picking the least toxic ones.
 category: know

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Green Walls
 subtitle: "Absorb pollution, offer cooling shade and cost much less than any other walls."
 category: solutions

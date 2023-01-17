@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Microplastic In Your Salt
 subtitle: "Planet or plastic? Salt produced in Indonesia, using the ancient technique of evaporating seawater contains lots of microplastics."
 description: "Microplastics were found in sea salt several years ago. Now, new research shows microplastics in 90% of the table salt brands sampled worldwide."

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Paper Towels
 subtitle: "Nearly 4 billion trees are cut down each year for paper."
 category: know

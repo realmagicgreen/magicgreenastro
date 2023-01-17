@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Cool Reclaimed Wood Lamps
 subtitle: "Get some cool design lamps. They claim these lamps are made of up-cycled wood. Old timber turned into great furniture pieces. Really?!"
 description: "Rest easy, feel good, turn on your reclaimed wood lamp! Adjust it into a new position reflecting how you feel at the moment."

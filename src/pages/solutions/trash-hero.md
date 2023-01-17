@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Trash Hero
 subtitle: This global phenomena is growing bigger. And it's happening in Bali too.
 category: solutions

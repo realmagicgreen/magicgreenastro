@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Eco Bali
 subtitle: An affordable recycling service for homes and business.
 category: services

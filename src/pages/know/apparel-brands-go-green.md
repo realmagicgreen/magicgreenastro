@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Apparel Brands Go Green
 subtitle: "Go green or go home, millennials shop Eco-Friendly, new study finds."
 category: know

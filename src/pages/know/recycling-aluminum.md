@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Recycling Aluminum
 subtitle: "Aluminum can can be recycled an unlimited number of times."
 category: know

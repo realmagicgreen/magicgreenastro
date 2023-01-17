@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Indonesian Waste Platform
 subtitle: "Hub promoting and facilitating cross-sector collaborations for solutions on the waste problems in Indonesia."
 category: solutions

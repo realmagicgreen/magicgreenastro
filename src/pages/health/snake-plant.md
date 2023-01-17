@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Snake Plant
 subtitle: "Recommended for improving indoor air quality, it absorbs CO2 at night."
 category: health

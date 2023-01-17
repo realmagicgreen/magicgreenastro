@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Bali Agri Tradeshow
 subtitle: With free entrance, you will be able to see, meet and buy plants, trees and organic products.
 category: services

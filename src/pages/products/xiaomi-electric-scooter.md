@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Xiaomi Electric Scooter
 subtitle: This convenient foldable scooter in now available in Indonesia
 category: products

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Racing To Clean
 subtitle: Volcom Indonesia offers an example of responsible action, the Red Bag race.
 category: techniques

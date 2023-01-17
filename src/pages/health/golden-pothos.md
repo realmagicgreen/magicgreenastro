@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Golden Pothos
 subtitle: Effective in removing formaldehyde, thrives also under fluorescent lights and it's very easy to care for.
 category: health

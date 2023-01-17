@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Honda Electric Cub
 subtitle: "Soon available in Indonesia the retro looking scooter with revolutionary features."
 category: products

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Bali Solar Energy
 subtitle: "PLN, Indonesia electricity company, plans to generate 50 MW of renewable electricity in 2021 from two solar powered plants in Bali."
 description: "Two privately built solar power plants in Bali are expected to beginning working in 2021. The plain is to reach 100 megawatts in 2023."

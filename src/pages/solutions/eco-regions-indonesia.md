@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Eco Regions Indonesia
 subtitle: The Eco Region approach aspire to be a game changer for large scale green development.
 category: solutions

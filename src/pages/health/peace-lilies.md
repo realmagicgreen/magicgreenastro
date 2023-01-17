@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Peace Lilies
 subtitle: One of the most powerful pollutant remover.
 category: health

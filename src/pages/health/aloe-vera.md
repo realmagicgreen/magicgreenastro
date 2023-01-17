@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Aloe Vera
 subtitle: "Exceptional properties for your skin, guts and more."
 category: health

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Consumers Want Sustainability
 subtitle: Sustainable Mainstream. Eco-friendly is definitely in.
 category: know

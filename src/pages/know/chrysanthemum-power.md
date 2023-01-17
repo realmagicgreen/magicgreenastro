@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Chrysanthemum Power
 subtitle: Beautiful flowers and powerful pollutant remover. A must have for an healthy home.
 category: health

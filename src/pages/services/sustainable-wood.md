@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Sustainable Wood
 subtitle: Forest Stewardship Council is demonstrating responsible forest supply chain management
 category: services

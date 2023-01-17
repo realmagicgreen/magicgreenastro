@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: SOS From The Deep
 subtitle: "CTC provides education and training to make sure that marine protected areas!"
 category: solutions

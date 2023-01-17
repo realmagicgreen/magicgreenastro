@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Building With Bamboo
 subtitle: "Bamboo is unmatched as a sustainable building material. It grows quickly and doesn't destroy the land."
 category: techniques

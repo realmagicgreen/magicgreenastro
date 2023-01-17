@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Byebye Plastic Bags
 subtitle: "Youth Driven Change to get the people of Bali to say no to plastic bags."
 category: solutions

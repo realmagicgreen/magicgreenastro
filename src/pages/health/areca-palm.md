@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Areca Palm
 subtitle: "Removes CO2 and produces lots of oxygen. Its health benefits will boost your energy and productivity."
 description: "Areca Palm, Yellow Palm, or Butterfly Palm is a wonder plant. Besides cleaning the air by removing pollutants it's an effective humidifier." # max 160 digits

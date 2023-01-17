@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Energy Saving Bulbs
 subtitle: "Saving the planet starts from saving energy."
 category: know

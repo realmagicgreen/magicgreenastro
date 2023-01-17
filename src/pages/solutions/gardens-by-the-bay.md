@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Gardens By The Bay
 subtitle: "An astonishing example of sustainable edutainment environment"
 category: solutions

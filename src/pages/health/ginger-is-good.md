@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Ginger Is Good
 subtitle: This root provides us with a wealth of anti-inflammatory anti-bacterial and analgesic effects.
 category: health

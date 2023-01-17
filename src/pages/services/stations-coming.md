@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: Charging Stations cComing
 subtitle: Indonesia state electricity company is developing stations in Lombok and Sumbawa.
 category: services

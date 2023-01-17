@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Base.astro
+layout: ../../layouts/Article.astro
 title: ET Foldable Scooter
 subtitle: Charge it, un-fold it and ride smarter.
 category: products
