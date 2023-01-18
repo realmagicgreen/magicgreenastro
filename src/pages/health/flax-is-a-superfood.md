@@ -11,7 +11,7 @@ tags:
   - learning
   - plants
   - wellness
-cover_image: /assets/p/health/flax-is-a-superfood/flax-is-a-superfood.jpg
+coverImage: /assets/p/health/flax-is-a-superfood/flax-is-a-superfood.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

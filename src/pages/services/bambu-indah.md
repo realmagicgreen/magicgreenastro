@@ -21,7 +21,7 @@ tags:
   - sustainable-construction
   - tropical
   - wellness
-cover_image: /assets/p/services/bambu-indah/bambu-indah.jpg
+coverImage: /assets/p/services/bambu-indah/bambu-indah.jpg
 ad: true # use 'true' to have post displaying AD
 featured: # use 'true' to have it displayed in home
 sticky: # 'true' or empty

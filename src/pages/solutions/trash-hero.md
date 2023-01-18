@@ -15,7 +15,7 @@ tags:
   - Indonesia
   - social-responsibility
   - save-oceanS
-cover_image: /assets/p/solutions/trash-hero/trash-hero.jpg
+coverImage: /assets/p/solutions/trash-hero/trash-hero.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

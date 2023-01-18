@@ -21,7 +21,7 @@ tags:
   - sustainable-development
   - save-oceans
   - water
-cover_image: /assets/p/solutions/raising-awareness/raising-awareness.jpg
+coverImage: /assets/p/solutions/raising-awareness/raising-awareness.jpg
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty

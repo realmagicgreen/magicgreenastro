@@ -13,7 +13,7 @@ tags:
   - learning
   - superfood
   - wellness
-cover_image: /assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg
+coverImage: /assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: food that cures # lowercase, max 12 digits, including spaces
 flag: # new or other...

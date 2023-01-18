@@ -14,7 +14,7 @@ tags:
   - learning
   - superfood
   - wellness
-cover_image: /assets/p/health/moringa-superfood/moringa-superfood.jpg
+coverImage: /assets/p/health/moringa-superfood/moringa-superfood.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

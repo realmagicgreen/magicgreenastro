@@ -12,7 +12,7 @@ tags:
   - pollutants-remove
   - social-responsibility
   - waste
-cover_image: /assets/p/solutions/indonesian-waste-platform/indonesian-waste-platform.jpg
+coverImage: /assets/p/solutions/indonesian-waste-platform/indonesian-waste-platform.jpg
 description: "Indonesian Waste Platform, a hub to promote and facilitate, connects stakeholders, shares news and contributes to capacity building cross-sector collaborations." # max 160 digits cos dunno how to trim it, yet......
 ad: # use 'true' to have post displaying AD
 featured: # use 'true' to have it displayed in home

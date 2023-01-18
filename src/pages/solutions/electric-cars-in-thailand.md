@@ -14,7 +14,7 @@ tags:
   - social-responsibility
   - sustainable-development
   - Thailand
-cover_image: /assets/p/solutions/electric-cars-in-thailand/electric-cars-in-thailand.jpg
+coverImage: /assets/p/solutions/electric-cars-in-thailand/electric-cars-in-thailand.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

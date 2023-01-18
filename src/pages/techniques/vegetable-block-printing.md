@@ -15,7 +15,7 @@ tags:
   - plants
   - social-responsibility
   - sustainable-development
-cover_image: /assets/p/techniques/vegetable-block-printing/vegetable-block-printing.jpg
+coverImage: /assets/p/techniques/vegetable-block-printing/vegetable-block-printing.jpg
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty

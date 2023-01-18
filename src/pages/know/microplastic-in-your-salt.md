@@ -13,7 +13,7 @@ tags:
   - plastic
   - save-oceans
   - waste
-cover_image: /assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt.jpg
+coverImage: /assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

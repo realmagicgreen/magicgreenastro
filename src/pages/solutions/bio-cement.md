@@ -16,7 +16,7 @@ tags:
   - pollutants-remove
   - social-responsibility
   - sustainable-development
-cover_image: /assets/p/solutions/bio-cement/bio-cement.jpg
+coverImage: /assets/p/solutions/bio-cement/bio-cement.jpg
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty

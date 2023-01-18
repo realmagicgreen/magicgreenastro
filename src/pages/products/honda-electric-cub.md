@@ -12,7 +12,7 @@ tags:
   - eco-friendly
   - electric
   - Indonesia
-cover_image: /assets/p/products/honda-electric-cub/honda-electric-cub.jpg
+coverImage: /assets/p/products/honda-electric-cub/honda-electric-cub.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

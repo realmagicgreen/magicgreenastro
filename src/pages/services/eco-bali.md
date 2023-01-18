@@ -13,7 +13,7 @@ tags:
   - social-responsibility
   - recycle
   - waste
-cover_image: /assets/p/services/eco-bali/eco-bali.jpg
+coverImage: /assets/p/services/eco-bali/eco-bali.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

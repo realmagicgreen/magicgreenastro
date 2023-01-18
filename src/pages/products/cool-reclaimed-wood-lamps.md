@@ -18,7 +18,7 @@ tags:
   - sustainable-construction
   - up-cycle
   - wood
-cover_image: /assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg
+coverImage: /assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

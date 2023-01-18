@@ -16,7 +16,7 @@ tags:
   - pollutants-remove
   - learning
   - wellness
-cover_image: /assets/p/health/fern-eliminate-air-pollutants/fern-eliminate-air-pollutants.jpg
+coverImage: /assets/p/health/fern-eliminate-air-pollutants/fern-eliminate-air-pollutants.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

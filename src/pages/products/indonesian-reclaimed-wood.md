@@ -17,7 +17,7 @@ tags:
   - sustainable-construction
   - up-cycle
   - wood
-cover_image: /assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood.jpg
+coverImage: /assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

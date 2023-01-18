@@ -14,7 +14,7 @@ tags:
   - plastic
   - recycle
   - sustainable-development
-cover_image: /assets/p/solutions/bali-plastic-bags-ban/bali-plastic-bags-ban.jpg
+coverImage: /assets/p/solutions/bali-plastic-bags-ban/bali-plastic-bags-ban.jpg
 ad: # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty

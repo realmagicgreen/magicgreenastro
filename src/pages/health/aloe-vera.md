@@ -15,7 +15,7 @@ tags:
   - pollutants-remove
   - wellness
   - superfood
-cover_image: /assets/p/health/aloe-vera/aloe-vera.jpg
+coverImage: /assets/p/health/aloe-vera/aloe-vera.jpg
 description: "Aloe Vera is known for antiviral and antibacterial properties. It can improve the effectiveness of your diet and maximise your weight-loss potential." # max 160 digits cos dunno how to trim it, yet......
 ad: # use 'true' to have post displaying AD
 featured: # use 'true' to have it displayed in home

@@ -20,7 +20,7 @@ tags:
   - renewable-energy
   - sustainable-construction
   - wood
-cover_image: /assets/p/services/green-school-bali/green-school-bali.jpg
+coverImage: /assets/p/services/green-school-bali/green-school-bali.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

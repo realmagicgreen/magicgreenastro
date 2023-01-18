@@ -12,7 +12,7 @@ tags:
   - recycle
   - save-trees
   - social-responsibility
-cover_image: /assets/p/know/paper-towels/paper-towels.jpg
+coverImage: /assets/p/know/paper-towels/paper-towels.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

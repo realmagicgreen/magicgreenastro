@@ -18,7 +18,7 @@ tags:
   - plants
   - Singapore
   - tropical
-cover_image: /assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens.jpg
+coverImage: /assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gardens.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

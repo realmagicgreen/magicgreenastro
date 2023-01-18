@@ -15,7 +15,7 @@ tags:
   - social-responsibility
   - sustainable-construction
   - wood
-cover_image: /assets/p/products/bamboo-straws/bamboo-straws.jpg
+coverImage: /assets/p/products/bamboo-straws/bamboo-straws.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

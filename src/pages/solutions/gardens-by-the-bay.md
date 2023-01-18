@@ -17,7 +17,7 @@ tags:
   - recycle
   - Singapore
   - sustainable-construction
-cover_image: "/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg"
+coverImage: "/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

@@ -13,7 +13,7 @@ tags:
   - initiative
   - social-responsibility
   - water
-cover_image: /assets/p/solutions/bali-water-protection/bali-water-protection.jpg
+coverImage: /assets/p/solutions/bali-water-protection/bali-water-protection.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

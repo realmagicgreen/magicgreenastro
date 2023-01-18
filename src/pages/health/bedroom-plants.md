@@ -15,7 +15,7 @@ tags:
   - pollutants-remove
   - learning
   - wellness
-cover_image: /assets/p/health/bedroom-plants/bedroom-plants.jpg
+coverImage: /assets/p/health/bedroom-plants/bedroom-plants.jpg
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: helpful plants # lowercase, max 12 digits, including spaces
 flag: # new or other...
