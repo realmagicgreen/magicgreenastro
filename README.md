@@ -1,10 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a6c689b6-d4e9-41a3-9053-718f10e49f5f/deploy-status)](https://app.netlify.com/sites/magicgreen/deploys)
+# MAGIC GREEN
 
-# Magic green
+[![magic green](/public/assets/p/og_large_image.jpg)](https://magicgreen.junglestar.org)
 
-[![magic green](src/assets/p/og_large_image-1920.jpg)](https://magicgreen.junglestar.org)
-
->"**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
+> "**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
 
 ## Feeding the green baby.
 
@@ -23,7 +21,6 @@ We are building a internet based platform to gather infos, examples and addresse
 We are open-source, copyright-free. We encourage you to print any article of our website and forward it to anyone that might be interested in your network of friends and colleagues. Print to a PDF file in order to save trees, of course.
 
 We aim to inspire responsible tourism and consumption. Follow us to know what's up!
-
 
 ## Warning:
 
