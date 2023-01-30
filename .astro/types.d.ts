@@ -68,119 +68,119 @@ declare module 'astro:content' {
   slug: "aloe-vera",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "areca-palm.md": {
   id: "areca-palm.md",
   slug: "areca-palm",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "asbestos.md": {
   id: "asbestos.md",
   slug: "asbestos",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "bedroom-plants.md": {
   id: "bedroom-plants.md",
   slug: "bedroom-plants",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "benefits-of-spirulina.md": {
   id: "benefits-of-spirulina.md",
   slug: "benefits-of-spirulina",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "dracaena-benefits.md": {
   id: "dracaena-benefits.md",
   slug: "dracaena-benefits",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "eliminate-air-pollutants.md": {
   id: "eliminate-air-pollutants.md",
   slug: "eliminate-air-pollutants",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "fight-inflammation-with-food.md": {
   id: "fight-inflammation-with-food.md",
   slug: "fight-inflammation-with-food",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "flax-is-a-superfood.md": {
   id: "flax-is-a-superfood.md",
   slug: "flax-is-a-superfood",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "ginger-is-good.md": {
   id: "ginger-is-good.md",
   slug: "ginger-is-good",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "golden-pothos.md": {
   id: "golden-pothos.md",
   slug: "golden-pothos",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "gringgo-smarter-waste-collection.md": {
   id: "gringgo-smarter-waste-collection.md",
   slug: "gringgo-smarter-waste-collection",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "immune-boost-drinks.md": {
   id: "immune-boost-drinks.md",
   slug: "immune-boost-drinks",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "moringa-superfood.md": {
   id: "moringa-superfood.md",
   slug: "moringa-superfood",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "neem-tree.md": {
   id: "neem-tree.md",
   slug: "neem-tree",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "peace-lilies.md": {
   id: "peace-lilies.md",
   slug: "peace-lilies",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 "snake-plant.md": {
   id: "snake-plant.md",
   slug: "snake-plant",
   body: string,
   collection: "health",
-  data: any
+  data: InferEntrySchema<"health">
 },
 },
 "know": {
@@ -602,5 +602,5 @@ declare module 'astro:content' {
 
 	};
 
-	type ContentConfig = never;
+	type ContentConfig = typeof import("../src/content/config");
 }

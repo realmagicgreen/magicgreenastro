@@ -1,11 +1,22 @@
 ---
 import Layout from "../layouts/Base.astro";
 import siteData from "../data/site.json";
-import "../scss/pico.scss";
+import { getCollection } from "astro:content";
+const blogEntries = await getCollection("health");
 ---
 
 <Layout title={siteData.tldr}>
-  <span></span>
+  <ul>
+    {
+      blogEntries.map((blogPostEntry) => (
+        <li>
+          <a href={`/my-blog-url/${blogPostEntry.slug}`}>
+            {blogPostEntry.data.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </Layout>
 
 <style></style>

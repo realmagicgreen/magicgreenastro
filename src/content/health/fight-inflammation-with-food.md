@@ -17,7 +17,7 @@ coverImage: /assets/p/health/fight-inflammation-with-food/fight-inflammation-wit
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: food that cures # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography: # put here photographer name
