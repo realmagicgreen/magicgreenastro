@@ -10,9 +10,10 @@ import "../scss/pico.scss";
 
 export interface Props {
   title: string;
+  description: string;
 }
 
-const { title } = Astro.props.frontmatter || Astro.props;
+const { title, description } = Astro.props.frontmatter || Astro.props;
 
 const Brand = siteData.title;
 const Mission = siteData.content_is_about;
@@ -49,7 +50,7 @@ const resolvedImageWithDomain = new URL(
 
     <SEO
       title={makeTitle}
-      description={siteData.description}
+      description={description}
       canonical={canonicalURL}
       twitter={{
         creator: siteData.author.twitter,
@@ -69,7 +70,6 @@ const resolvedImageWithDomain = new URL(
         },
       }}
     />
-
     <meta name="keywords" content={siteData.keywords} />
   </head>
   <body>

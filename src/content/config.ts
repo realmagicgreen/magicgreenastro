@@ -17,4 +17,9 @@ const blogCollection = defineCollection({
 //    This key should match your collection directory name in "src/content"
 export const collections = {
   'health': blogCollection,
+  'know': blogCollection,
+  'products': blogCollection,
+  'services': blogCollection,
+  'solutions': blogCollection,
+  'techniques': blogCollection,
 };

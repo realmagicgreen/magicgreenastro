@@ -5,7 +5,7 @@ import IconClock from "@svg/clock.svg";
 const { frontmatter } = Astro.props;
 ---
 
-<Base title={frontmatter.title}>
+<Base title={frontmatter.title} description={frontmatter.description}>
   <div class="post_header">
     <h1>{frontmatter.title}</h1>
     <h2 class="border_top border_bottom">{frontmatter.subtitle}</h2>
