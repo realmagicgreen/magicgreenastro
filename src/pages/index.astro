@@ -2,15 +2,85 @@
 import Layout from "@layouts/Base.astro";
 import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
-const blogEntries = await getCollection("health");
+
+const healthArticles = await getCollection("health");
+const knowArticles = await getCollection("know");
+const productsArticles = await getCollection("products");
+const servicesArticles = await getCollection("services");
+const solutionsArticles = await getCollection("solutions");
+const techniquesArticles = await getCollection("techniques");
 ---
 
-<Layout title={siteData.tldr}>
+<Layout title={siteData.tldr} description={siteData.description}>
+  <h2>HEALTH</h2>
   <ul>
     {
-      blogEntries.map((blogPostEntry) => (
+      healthArticles.map((blogPostEntry) => (
         <li>
           <a href={`/health/${blogPostEntry.slug}`}>
+            {blogPostEntry.data.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>KNOW</h2>
+  <ul>
+    {
+      knowArticles.map((blogPostEntry) => (
+        <li>
+          <a href={`/know/${blogPostEntry.slug}`}>{blogPostEntry.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>PRODUCTS</h2>
+  <ul>
+    {
+      productsArticles.map((blogPostEntry) => (
+        <li>
+          <a href={`/products/${blogPostEntry.slug}`}>
+            {blogPostEntry.data.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>SERVICES</h2>
+  <ul>
+    {
+      servicesArticles.map((blogPostEntry) => (
+        <li>
+          <a href={`/services/${blogPostEntry.slug}`}>
+            {blogPostEntry.data.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>SOLUTIONS</h2>
+  <ul>
+    {
+      solutionsArticles.map((blogPostEntry) => (
+        <li>
+          <a href={`/solutions/${blogPostEntry.slug}`}>
+            {blogPostEntry.data.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>TECHNIQUES</h2>
+  <ul>
+    {
+      techniquesArticles.map((blogPostEntry) => (
+        <li>
+          <a href={`/techniques/${blogPostEntry.slug}`}>
             {blogPostEntry.data.title}
           </a>
         </li>
