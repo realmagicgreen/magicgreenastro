@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: The Ocean Cleanup
 subtitle: "Trash accumulates in 5 ocean garbage patches, the largest one being the Great Pacific Garbage Patch. If left to circulate, the plastic will impact our ecosystems, health and economies."
 description: "Trash accumulates in 5 ocean patches, the largest one being the Great Pacific Garbage Patch. It is impacting our health, ecosystems and economies."
 category: solutions
-date: 2018-08-01
+pubDate: 2018-08-01
 published: true
 tags:
   - biodiversity
@@ -21,7 +20,7 @@ coverImage: /assets/p/solutions/the-ocean-cleanup/the-ocean-cleanup.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

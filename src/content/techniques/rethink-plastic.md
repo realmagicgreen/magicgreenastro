@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Rethink Plastic
 subtitle: "A movement to raise awareness of plastic pollution and the existing solutions. Movies, education, and government pressure."
 description: "A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. It is creating policy and social change around the world."
 category: techniques
-date: 2018-07-19
+pubDate: 2018-07-19
 published: true
 tags:
   - biodiversity
@@ -21,7 +20,7 @@ coverImage: /assets/p/techniques/rethink-plastic/rethink-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

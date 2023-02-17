@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Benefits of Spirulina
 subtitle: "Spirulina may literally be the single most nutritious food on the planet for how beneficial it is."
 description: "Spirulina is a type of bacteria called cyanobacterium, a blue-green algae that has been touted as one of the most potent, protective superfood in existence." # max 160 digits
 category: health
-date: 2018-07-01
+pubDate:  2018-07-01
 published: true
 tags:
   - CO2

@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Apparel Brands Go Green
 subtitle: "Go green or go home, millennials shop Eco-Friendly, new study finds."
 category: know
 description: "New data has found that Americans don’t want to get caught buying from a company exploiting the planet The findings show that 90% of millennials will buy..."
-date: 2018-05-04
+pubDate: 2018-05-04
 published: true
 tags:
   - CO2
@@ -15,7 +14,7 @@ coverImage: /assets/p/know/apparel-brands-go-green/apparel-brands-go-green.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Stella McCartney # put here photographer name

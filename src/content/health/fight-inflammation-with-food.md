@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Fight Inflammation With Food
 subtitle: "Inflammation is caused by unhealthy foods and lifestyle habits. You can treat it yourself with foods, exercise, good sleep and stress management."
 description: "Inflammation can occur in response to trauma, illness, stress, or unhealthy foods. Anti-inflammatory foods, exercise, good sleep and stress management can help."
 category: health
-date: 2018-06-20
+pubDate:  2018-06-20
 published: true
 tags:
   - CO2

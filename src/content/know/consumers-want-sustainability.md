@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Consumers Want Sustainability
 subtitle: Sustainable Mainstream. Eco-friendly is definitely in.
 category: know
 description: "Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is..."
-date: 2018-05-24
+pubDate: 2018-05-24
 published: true
 tags:
   - eco-entrepreneurs
@@ -16,7 +15,7 @@ coverImage: /assets/p/know/consumers-want-sustainability/consumers-want-sustaina
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

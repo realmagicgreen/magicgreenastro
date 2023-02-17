@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Dracaena Benefits
 subtitle: "This plant removes many pollutants. It's perfect for an healthy home."
 description: People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species. # max 160 digits
 category: health
-date: 2018-06-10
+pubDate:  2018-06-10
 published: true
 tags:
   - CO2

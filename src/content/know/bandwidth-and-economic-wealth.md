@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Bandwidth and Economic Wealth
 subtitle: "There is a relationship between available bandwidth and economic health. After Singapore in the lead, the six top countries for speed are all European."
 description: "After Singapore in the lead, the six top countries for speed are all European – Sweden, Denmark, Norway, Romania, Belgium and the Netherlands."
 category: know
-date: 2018-11-01
+pubDate: 2018-11-01
 published: true
 tags:
   - architecture
@@ -15,8 +14,8 @@ coverImage: /assets/p/know/bandwidth-and-economic-wealth/bandwidth-and-economic-
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
-featured: # use 'true' to have it displayed in home
+ad: false # use 'true' to have post displaying AD
+featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name
 ---

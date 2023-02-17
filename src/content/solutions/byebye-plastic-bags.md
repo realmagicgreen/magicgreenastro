@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Byebye Plastic Bags
 subtitle: "Youth Driven Change to get the people of Bali to say no to plastic bags."
 category: solutions
 description: "Byebye plastic bags is an initiative from children to force people to say no to plastic bags, because of the enormous environmental pollution they cause."
-date: 2018-05-15
+pubDate: 2018-05-15
 published: true
 tags:
   - Bali
@@ -18,7 +17,7 @@ coverImage: /assets/p/solutions/byebye-plastic-bags/byebye-plastic-bags.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

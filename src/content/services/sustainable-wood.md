@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Sustainable Wood
 subtitle: Forest Stewardship Council is demonstrating responsible forest supply chain management
 category: services
 description: "The future of the world’s forests is very important to the planet, to animals, to businesses, to all of us. That’s why FSC certification exists."
-date: 2018-05-17
+pubDate: 2018-05-17
 published: true
 tags:
   - certification
@@ -19,7 +18,7 @@ coverImage: /assets/p/services/sustainable-wood/sustainable-wood.jpg
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name\

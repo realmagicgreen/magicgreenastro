@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Bali Agri Tradeshow
 subtitle: With free entrance, you will be able to see, meet and buy plants, trees and organic products.
 category: services
 description: "Among beautiful green booths there are many useful infos and products to discover, like a coconut climber tool called Ponkod."
-date: 2018-07-26
+pubDate: 2018-07-26
 published: true
 tags:
   - Bali

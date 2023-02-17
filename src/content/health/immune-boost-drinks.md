@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Immune Boost Drinks
 subtitle: "An interview with healthy drink producer Iris from Live Essences."
 description: "We met with Iris, an expert in the field, who shared some knowledge and shed some light about how to live healthier by listening to your guts." # max 160 digits
 category: health
-date: 2020-05-01
+pubDate:  2020-05-01
 published: true
 tags:
   - Bali

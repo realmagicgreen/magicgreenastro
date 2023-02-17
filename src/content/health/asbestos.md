@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Asbestos
 subtitle: "This dangerous material, made forbidden in western countries more than 30 years ago, is still used everywhere in Indonesia."
 description: "The danger of using asbestos roofs for people is big. Exposition to asbestos dust leads to mesothelioma cancer."
 category: health
-date: 2018-11-11
+pubDate:  2018-11-11
 published: true
 tags:
   - architecture

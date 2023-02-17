@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Singapore Botanic Gardens
 subtitle: "This outstanding world of plants is a must see UNESCO World Heritage Site!"
 category: solutions
 description: "The Singapore Botanic Gardens, with 4 millions visitors per year, 150 years of connecting plant and people, free entrance and his own subway stop, is an..."
-date: 2018-05-12
+pubDate: 2018-05-12
 published: true
 tags:
   - botany
@@ -22,7 +21,7 @@ coverImage: /assets/p/solutions/singapore-botanic-gardens/singapore-botanic-gard
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Rokma # put here photographer name

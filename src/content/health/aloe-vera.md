@@ -1,9 +1,8 @@
 ---
-layout: ../../layouts/Article.astro
 title: Aloe Vera
 subtitle: "Exceptional properties for your skin, guts and more."
 category: health
-date: 2018-05-02
+pubDate:  2018-05-02
 published: true
 tags:
   - CO2
@@ -23,6 +22,7 @@ sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 photography: # put here photographer name
+draft: false
 ---
 
 Aloe Vera is a miracle plant known for several health benefits. It has antiviral and antibacterial properties.

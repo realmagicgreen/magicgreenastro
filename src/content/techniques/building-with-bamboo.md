@@ -1,9 +1,8 @@
 ---
-layout: ../../layouts/Article.astro
 title: Building With Bamboo
 subtitle: "Bamboo is unmatched as a sustainable building material. It grows quickly and doesn't destroy the land."
 category: techniques
-date: 2018-05-14
+pubDate: 2018-05-14
 published: true
 tags:
   - architecture
@@ -16,7 +15,7 @@ tags:
   - wood
 coverImage: /assets/p/techniques/building-with-bamboo/building-with-bamboo.jpg
 description: "Bamboo has been used in building for centuries. Impressive strength, twice the compressive strength of concrete and same strength-to-weight of steel in tension." # max 160 digits cos dunno how to trim it, yet......
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty

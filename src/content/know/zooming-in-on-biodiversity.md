@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Zooming In On Biodiversity
 subtitle: "An ASEAN wide photo contest capturing the richness of biological resources in the region."
 description: "Biodiversity is the variety of life on Earth and include microorganisms, fungi, plants, and animals, the communities they form, the habitats in which they live."
 category: know
-date: 2018-06-13
+pubDate: 2018-06-13
 published: true
 tags:
   - ASEAN
@@ -22,7 +21,7 @@ coverImage: /assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: BIO DIVERSITY # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

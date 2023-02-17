@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Neem Tree
 subtitle: Improves indoor air quality absorbing CO2 at night. Perfect for your bedroom.
 category: health
 description: "Azadirachta Indica, is part of the Mahogany family. External medicinal uses of Neem is for the treatment of dermatological disorders like psoriasis..."
-date: 2018-05-19
+pubDate:  2018-05-19
 published: true
 tags:
   - CO2

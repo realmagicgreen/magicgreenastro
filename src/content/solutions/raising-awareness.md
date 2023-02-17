@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Raising Awareness
 subtitle: "Mission Blue inspires action to explore and protect the ocean for a global network of marine protected areas."
 description: "Mission Blue inspires action to explore and protect the ocean, ignite public support for a global network of marine protected areas." # max 160 digits
 category: solutions
-date: 2020-07-14
+pubDate: 2020-07-14
 published: true
 tags:
   - biodiversity
@@ -22,7 +21,7 @@ tags:
   - save-oceans
   - water
 coverImage: /assets/p/solutions/raising-awareness/raising-awareness.jpg
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: true # 'true' or empty

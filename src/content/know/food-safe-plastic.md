@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Food Safe Plastic
 subtitle: The obvious solution to avoiding plastic toxicity is to avoid plastics. Reduce damage by picking the least toxic ones.
 category: know
 description: "The obvious solution to avoiding plastic toxicity is to avoid plastics, which, in a world awash in plastic, is pretty difficult. In the absence of this, it..."
-date: 2018-05-20
+pubDate: 2018-05-20
 published: true
 tags:
   - plastic
@@ -14,7 +13,7 @@ coverImage: /assets/p/know/food-safe-plastic/food-safe-plastic.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography: # put here photographer name

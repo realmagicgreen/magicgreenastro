@@ -6,7 +6,7 @@ subtitle: "Block printing is the process of printing onto fabric or paper using 
 description: "Block printing technique is super fun and easy once you know the basics. You can print fabric, paper or whatever, just pick the right type of ink.
 " # max 160 digits
 category: techniques
-date: 2021-08-08
+pubDate: 2021-08-08
 published: # notyet or empty
 tags:
   - design
@@ -16,7 +16,7 @@ tags:
   - social-responsibility
   - sustainable-development
 coverImage: /assets/p/techniques/vegetable-block-printing/vegetable-block-printing.jpg
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow:  # 'true' or empty

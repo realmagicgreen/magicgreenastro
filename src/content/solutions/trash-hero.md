@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Trash Hero
 subtitle: This global phenomena is growing bigger. And it's happening in Bali too.
 category: solutions
 description: "Let's talk trash. The Trash Hero movement is a global phenomena and is growing bigger. They educate and act. In Bali too, people are taking action."
-date: 2018-06-05
+pubDate: 2018-06-05
 published: true
 tags:
   - Bali
@@ -19,7 +18,7 @@ coverImage: /assets/p/solutions/trash-hero/trash-hero.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Rokma # put here photographer name

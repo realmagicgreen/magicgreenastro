@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: SOS From The Deep
 subtitle: "CTC provides education and training to make sure that marine protected areas!"
 category: solutions
 description: "Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs..."
-date: 2018-05-10
+pubDate: 2018-05-10
 published: true
 tags:
   - Bali
@@ -20,7 +19,7 @@ coverImage: /assets/p/solutions/sos-from-the-deep/sos-from-the-deep.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

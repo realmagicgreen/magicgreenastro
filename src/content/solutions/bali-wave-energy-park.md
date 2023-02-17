@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Bali Wave Energy Park
 subtitle: "Wello will build a 10 MegaWatts Wave Energy Park in Nusa Penida an island close to Bali."
 description: "Over 60% of the worlds electricity comes from fossil fuels. Wello Penguin floats on water capturing ocean kinetic energy. Electricity without emissions."
 category: solutions
-date: 2018-07-10
+pubDate: 2018-07-10
 published: true
 tags:
   - Bali
@@ -22,7 +21,7 @@ coverImage: /assets/p/solutions/bali-wave-energy-park/bali-wave-energy-park.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

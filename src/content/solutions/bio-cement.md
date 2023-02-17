@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Bio Cement
 subtitle: "No kiln firing, No CO2 emissions. Grown sustainable building material."
 description: "Leading innovator bioMASON® offers the lowest carbon footprint cement product in the market. Their pre-cast materials are grown employing microorganisms." # max 160 digits
 category: solutions
-date: 2020-07-30
+pubDate: 2020-07-30
 published: true
 tags:
   - biodiversity
@@ -17,7 +16,7 @@ tags:
   - social-responsibility
   - sustainable-development
 coverImage: /assets/p/solutions/bio-cement/bio-cement.jpg
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: true # 'true' or empty

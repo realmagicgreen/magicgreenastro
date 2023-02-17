@@ -1,9 +1,11 @@
 ---
 import Layout from "@layouts/Base.astro";
 import siteData from "@data/site.json";
-import { getCollection } from "astro:content";
+import { getCollection, getEntryBySlug } from "astro:content";
 
-const healthArticles = await getCollection("health");
+const healthArticles = await getCollection("health", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
 const knowArticles = await getCollection("know");
 const productsArticles = await getCollection("products");
 const servicesArticles = await getCollection("services");

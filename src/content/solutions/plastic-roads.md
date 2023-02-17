@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Plastic Roads
 subtitle: Indonesia tried plastic and rubber tires waste for road asphalt. A clever way to reduce plastic pollution.
 category: solutions
 description: "The Ministry of Public Works and People's Housing Indonesia began testing a mix of plastic and rubber tires waste in the asphalt mix."
-date: 2018-06-06
+pubDate: 2018-06-06
 published: true
 tags:
   - Bali
@@ -17,7 +16,7 @@ coverImage: /assets/p/solutions/plastic-roads/plastic-roads.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

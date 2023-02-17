@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Zero Electric Motorcycles
 subtitle: Garansindo brings Zero superbikes to Indonesia. Serious riding.
 category: products
 description: "Powerful. Electric and available now. Developed to aggressively take on urban environments while encouraging occasional detours to your favorite stretch..."
-date: 2018-05-11
+pubDate: 2018-05-11
 published: true
 tags:
   - commuting

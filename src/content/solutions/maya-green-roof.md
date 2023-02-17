@@ -1,9 +1,8 @@
 ---
-layout: ../../layouts/Article.astro
 title: Maya Green Roof
 subtitle: "Luxury meets efficiency. Cutting energy bill and looking good in Sanur, Bali."
 category: solutions
-date: 2018-05-01
+pubDate: 2018-05-01
 published: true
 tags:
   - air-cleaning
@@ -17,7 +16,7 @@ tags:
 coverImage: /assets/p/solutions/maya-green-roof/maya-green-roof.jpg
 description: "Designed by Budiman Hendropurnomo, Maya new Sanur Resort in Bali features an innovative design with a stunning rooftop garden, intimate spaces and pond views." # max 160 digits cos dunno how to trim it, yet...
 ad: true # use 'true' to have post displaying AD
-featured: # use 'true' to have it displayed in home
+featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces

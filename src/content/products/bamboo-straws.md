@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Bamboo Straws
 subtitle: Suck it up consciously.
 category: products
-description: "When you really need a straw to be able to enjoy your drink, let it be environment-friendly. These bamboo straws are locally made in Bali. You can safely throw...s"
-date: 2018-05-09
+description: "When you really need a straw to be able to enjoy your drink, let it be environment-friendly. These bamboo straws are locally made in Bali..."
+pubDate: 2018-05-09
 published: true
 tags:
   - Bali
@@ -19,7 +18,7 @@ coverImage: /assets/p/products/bamboo-straws/bamboo-straws.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

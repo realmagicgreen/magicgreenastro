@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Eco Bali
 subtitle: An affordable recycling service for homes and business.
 category: services
 description: "Eco Bali invented a two bin system. Red for non-organic waste, green bin for paper. They provide the bags and collect your waste as often you as you decide. "
-date: 2018-05-28
+pubDate: 2018-05-28
 published: true
 tags:
   - Bali
@@ -17,7 +16,7 @@ coverImage: /assets/p/services/eco-bali/eco-bali.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or emptyy
 photography: # put here photographer name

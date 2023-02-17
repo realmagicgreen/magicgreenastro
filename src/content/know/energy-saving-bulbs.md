@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Energy Saving Bulbs
 subtitle: "Saving the planet starts from saving energy."
 category: know
 description: "This 9 watts LED bulb produces as much light as old incandescent 100w bulbs, and last much longer. Save money, and contribute to reducing energy consumption."
-date: 2018-05-29
+pubDate: 2018-05-29
 published: true
 tags:
   - energy-saving
@@ -15,7 +14,7 @@ coverImage: /assets/p/know/energy-saving-bulbs/energy-saving-bulbs.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Rokma # put here photographer name

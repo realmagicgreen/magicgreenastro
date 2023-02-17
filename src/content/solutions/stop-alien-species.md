@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Stop Alien Species
 subtitle: "At recent ASEAN meeting Indonesia pushed the need to combat invasive alien species."
 description: "Invasive Alien Species are threats to the balance of natural ecosystems. Their presence poses risk as unwanted predators of endemic species."
 category: solutions
-date: 2018-07-09
+pubDate: 2018-07-09
 published: true
 tags:
   - ASEAN
@@ -26,7 +25,7 @@ coverImage: /assets/p/solutions/stop-alien-species/stop-alien-species.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: ASEAN Against Plastic Pollution
 subtitle: A"SEAN Centre for Biodiversity (ACB) joins the movement against the use of plastics, supports the initiatives in banning plastic use."
 description: "Every year, the world produces around 5 trillion plastic bags. That is about 700 per person. Utilized for just a few minutes, take centuries to decompose."
 category: solutions
-date: 2018-06-12
+pubDate: 2018-06-12
 published: true
 tags:
   - ASEAN
@@ -21,7 +20,7 @@ coverImage: /assets/p/solutions/asean-against-plastic-pollution/asean-against-pl
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name

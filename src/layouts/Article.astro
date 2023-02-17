@@ -1,14 +1,29 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import Base from "@layouts/Base.astro";
 import IconPhotographer from "@svg/photographer.svg";
 import IconClock from "@svg/clock.svg";
-const { frontmatter } = Astro.props;
+
+import FormattedDate from "@components/FormattedDate.astro";
+
+type Props = CollectionEntry<"health">["data"];
+
+const {
+  title,
+  subtitle,
+  description,
+  category,
+  photography,
+  coverImage,
+  pubDate,
+  updatedDate,
+} = Astro.props;
 ---
 
-<Base title={frontmatter.title} description={frontmatter.description}>
+<Base title={title} description={description}>
   <div class="post_header">
-    <h1>{frontmatter.title}</h1>
-    <h2 class="border_top border_bottom">{frontmatter.subtitle}</h2>
+    <h1>{title}</h1>
+    <h2 class="border_top border_bottom">{subtitle}</h2>
 
     <div class="h5 post_metas">
       <div class="post_meta_block">
@@ -17,7 +32,7 @@ const { frontmatter } = Astro.props;
         </div>
 
         <div class="post_meta_text nowrap" title="photography by">
-          {frontmatter.photography}
+          {photography}
         </div>
       </div>
 
@@ -25,18 +40,23 @@ const { frontmatter } = Astro.props;
         <div class="post_meta_icon">
           <IconClock />
         </div>
-
-        <div class="post_meta_text nowrap">
-          {frontmatter.date}
-        </div>
       </div>
     </div>
   </div>
 
-  <div>section: {frontmatter.category}</div>
-  <div>date: {frontmatter.date}</div>
-  <div>img: {frontmatter.coverImage}</div>
-  <div>photography: {frontmatter.photography}</div>
+  <div>section: {category}</div>
+  <div>
+    date: <FormattedDate date={pubDate} />
+    {
+      updatedDate && (
+        <div class="last-updated-on">
+          Last updated on <FormattedDate date={updatedDate} />
+        </div>
+      )
+    }
+  </div>
+  <div>img: {coverImage}</div>
+  <div>photography: {photography}</div>
 
   <slot />
 </Base>

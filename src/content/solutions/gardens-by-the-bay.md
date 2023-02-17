@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Gardens By The Bay
 subtitle: "An astonishing example of sustainable edutainment environment"
 category: solutions
 description: "Rated number 3 on things to do in Singapore Tripadvisor. Reached more than 40 million visitors to date. World's top 20 most checked-in places on Facebook."
-date: 2018-05-06
+pubDate: 2018-05-06
 published: true
 tags:
   - architecture
@@ -21,7 +20,7 @@ coverImage: "/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Rocco Marosi # put here photographer name

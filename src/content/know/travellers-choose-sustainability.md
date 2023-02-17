@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Travellers Choose Sustainability
 subtitle: Sustainable, eco-conscious travel, is on the rise worldwide according to recent statistics.
 category: know
 description: "Data show travelers preferences: 87% want to travel more sustainably. 39% manage to travel sustainably. 67% can spend at least 5% more to reduce their impact."
-date: 2018-05-23
+pubDate: 2018-05-23
 published: true
 tags:
   - eco-entrepreneurs
@@ -18,7 +17,7 @@ coverImage: /assets/p/know/travellers-choose-sustainability/travellers-choose-su
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Rocco Marosi # put here photographer name

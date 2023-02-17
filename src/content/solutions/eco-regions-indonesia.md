@@ -1,10 +1,9 @@
 ---
-layout: ../../layouts/Article.astro
 title: Eco Regions Indonesia
 subtitle: The Eco Region approach aspire to be a game changer for large scale green development.
 category: solutions
 description: "The plan is to create green destination and attract the world's most engaged green partners and most passionate eco-tourists. Envision sustainable development."
-date: 2018-05-20
+pubDate: 2018-05-20
 published: true
 tags:
   - biodiversity
@@ -21,7 +20,7 @@ coverImage: /assets/p/solutions/eco-regions-indonesia/eco-regions-indonesia.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: # put here photographer name
