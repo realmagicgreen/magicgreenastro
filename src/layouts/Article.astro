@@ -1,5 +1,5 @@
 ---
-import Base from "./Base.astro";
+import Base from "@layouts/Base.astro";
 import IconPhotographer from "@svg/photographer.svg";
 import IconClock from "@svg/clock.svg";
 const { frontmatter } = Astro.props;
@@ -34,7 +34,6 @@ const { frontmatter } = Astro.props;
   </div>
 
   <div>section: {frontmatter.category}</div>
-  <div>description: {frontmatter.description}</div>
   <div>date: {frontmatter.date}</div>
   <div>img: {frontmatter.coverImage}</div>
   <div>photography: {frontmatter.photography}</div>

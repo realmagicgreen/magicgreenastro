@@ -1,6 +1,6 @@
 ---
-import Layout from "../layouts/Base.astro";
-import siteData from "../data/site.json";
+import Layout from "@layouts/Base.astro";
+import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
 const blogEntries = await getCollection("health");
 ---

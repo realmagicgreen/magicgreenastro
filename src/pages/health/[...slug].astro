@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const blogEntries = await getCollection("health");
@@ -8,10 +9,10 @@ export async function getStaticPaths() {
     props: { entry },
   }));
 }
+
 // 2. When it's time to render, you can get the entry directly from the prop
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<!-- <h1>{entry.data.title}</h1> -->
 <Content />
