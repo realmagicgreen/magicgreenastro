@@ -2,7 +2,8 @@
 title: Aloe Vera
 subtitle: "Exceptional properties for your skin, guts and more."
 category: health
-pubDate:  2018-05-02
+pubDate: 2018-05-02
+updatedDate: 2023-02-17
 published: true
 tags:
   - CO2
@@ -29,7 +30,7 @@ Aloe Vera is a miracle plant known for several health benefits. It has antiviral
 
 ## Aloe vera for beauty
 
-Once you move past the slimy texture of natural aloe vera gel and apply it to your skin, you'll notice how soothing and cooling it is.
+Once you move past the slimy texture of natural Aloe Vera gel and apply it to your skin, you'll notice how soothing and cooling it is.
 
 > "Since the skin needs nutrition of its own, Aloe Vera, when formulated into a properly designed personal care regimen, can treat, exfoliate, restore, reveal and provide constant, impressive nutrition to the human skin." _Bill C. Coats_
 

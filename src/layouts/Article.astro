@@ -1,10 +1,12 @@
 ---
 import type { CollectionEntry } from "astro:content";
+
 import Base from "@layouts/Base.astro";
-import IconPhotographer from "@svg/photographer.svg";
-import IconClock from "@svg/clock.svg";
 
 import FormattedDate from "@components/FormattedDate.astro";
+
+import IconPhotographer from "@svgs/photographer.svg";
+import IconClock from "@svgs/clock.svg";
 
 type Props = CollectionEntry<"health">["data"];
 
