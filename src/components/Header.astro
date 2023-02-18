@@ -2,20 +2,19 @@
 import LogoText from "../components/LogoText.astro";
 ---
 
-<header class="container">
-  <div class="header_block">
-    <LogoText />
+<header>
+  <div class="container header_block">
+    <LogoText title="MAGICGREEN" />
   </div>
 </header>
 
 <style>
-  .hide {
-    display: none;
+  header {
+    position: relative;
+    top: -7rem;
   }
-  .close,
-  .open {
-    stroke: var(--primary);
-    width: 48px;
-    height: 48px;
+
+  h2 {
+    top: -2rem;
   }
 </style>

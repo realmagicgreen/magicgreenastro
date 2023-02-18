@@ -1,0 +1,224 @@
+---
+import { SEO } from "astro-seo";
+import Junglestar from "@components/Junglestar.astro";
+import Svgs from "@components/Svgs.astro";
+import Nav from "@components/Nav.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import siteData from "@data/site.json";
+import "../scss/pico.scss";
+
+export interface Props {
+  title: string;
+  description: string;
+  bodyClass: string;
+}
+
+const { title, description } = Astro.props.frontmatter || Astro.props;
+
+const Brand = siteData.title;
+const Mission = siteData.content_is_about;
+
+const canonicalURL = new URL(Astro.url.pathname, siteData.url).toString();
+
+const makeTitle = title
+  ? Brand + " | " + title
+  : "Junglestar - your customers should understand you!";
+
+const makeTitleOG = title
+  ? Brand + ", " + Mission + ", " + title
+  : "Junglestar - your customers should understand you!";
+
+const resolvedImageWithDomain = new URL(
+  siteData.projectimage,
+  siteData.url
+).toString();
+---
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta name="version_name" content={siteData.version_name} />
+    <meta name="version" content={siteData.version} />
+    <Junglestar />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="format-detection" content="telephone=no" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/favicons/safari-pinned-tab.svg"
+    />
+
+    <SEO
+      title={makeTitle}
+      description={description}
+      canonical={canonicalURL}
+      twitter={{
+        creator: siteData.author.twitter,
+        site: siteData.url,
+        card: "summary_large_image",
+      }}
+      openGraph={{
+        basic: {
+          url: canonicalURL,
+          type: "website",
+          title: makeTitleOG,
+          image: resolvedImageWithDomain,
+        },
+        image: {
+          secureUrl: resolvedImageWithDomain,
+          alt: Mission,
+        },
+      }}
+    />
+    <meta name="keywords" content={siteData.keywords} />
+  </head>
+  <body>
+    <Svgs />
+
+    <Nav />
+
+    <Header />
+
+    <main class="container">
+      <div class="sarung">
+        <slot />
+      </div>
+    </main>
+
+    <Footer />
+    <style lang="scss" is:global>
+      :root {
+        --up_shift: -3rem;
+      }
+
+      .sarung {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .up_shift {
+        position: relative;
+        top: var(--up_shift);
+      }
+      .hide {
+        display: none;
+      }
+      body {
+        margin: 0;
+      }
+      .outline_color {
+        fill: black;
+      }
+      .fill_color {
+        fill: var(--primary);
+        &:hover {
+          fill: var(--primary-hover);
+        }
+      }
+      .show_on_phones {
+        @media (min-width: 576px) {
+          display: none !important;
+        }
+      }
+      // breakpoints
+      // Min  @media (min-width: 640px)
+      // Bp1  @media (min-width: 880px)
+      // Bp2  @media (min-width: 1024px)
+      // Max  @media (min-width: 1920px)
+
+      h1 {
+        padding-top: 4vh;
+        font-size: initial; /* Fallback value */
+        font-size: clamp(6rem, 30vw, 50vw) !important;
+        font-weight: 100;
+        line-height: 0.75;
+        position: relative;
+        top: -2rem;
+      }
+
+      h2 {
+        font-size: initial; /* Fallback value */
+        font-size: clamp(4rem, 7vw, 18vw) !important;
+        font-weight: 100;
+        line-height: 0.75;
+        position: relative;
+        top: -1rem;
+      }
+
+      h3 {
+        font-size: initial; /* Fallback value */
+        font-size: clamp(3rem, 5vw, 13vw);
+        font-weight: 100;
+        line-height: 0.75;
+      }
+      blockquote p {
+        font-size: initial; /* Fallback value */
+        font-size: clamp(2.15rem, 2.75vw, 11vw) !important;
+        font-weight: 200;
+        line-height: 0.9 !important;
+        padding-left: 2rem;
+      }
+
+      .vertical {
+        color: black;
+        display: block;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        text-transform: uppercase;
+        .active & {
+          font-size: 110%;
+        }
+      }
+      .novanta {
+        user-select: none;
+        color: seagreen;
+        display: block;
+        transform: rotate(-71deg);
+        position: relative;
+        top: -12rem;
+        transform-origin: bottom right;
+        text-transform: uppercase;
+        font-size: 500% !important;
+        .active & {
+          font-size: 150%;
+        }
+        &:hover {
+          transform: rotate(0deg);
+        }
+      }
+
+      .cinkuenta {
+        user-select: none;
+        z-index: -1;
+        color: lime;
+        display: block;
+        transform: rotate(-49deg);
+        position: relative;
+        top: -12rem;
+        right: 12rem;
+        transform-origin: bottom right;
+        text-transform: uppercase;
+        font-size: 750% !important;
+        .active & {
+          font-size: 150%;
+        }
+      }
+
+      nav {
+        a {
+        }
+      }
+
+      ul li {
+        list-style-type: none !important; /* Remove bullets */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margins */
+      }
+      .is_relative {
+        position: relative !important;
+      }
+    </style>
+  </body>
+</html>

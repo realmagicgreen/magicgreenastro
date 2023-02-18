@@ -3,7 +3,7 @@ import { Picture } from "@astrojs/image/components";
 
 import type { CollectionEntry } from "astro:content";
 
-import Base from "@layouts/Base.astro";
+import Layout from "@layouts/Layout.astro";
 
 import FormattedDate from "@components/FormattedDate.astro";
 
@@ -21,84 +21,92 @@ const {
 } = Astro.props;
 ---
 
-<Base title={title} description={description}>
-  <div class="cover_image">
-    <Picture
-      src={coverImage}
-      widths={[640, 880, 1024, 1920]}
-      aspectRatio="16:9"
-      sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
-      alt={coverImage}
-    />
-  </div>
+<Layout title={title} description={description}>
+  <article>
+    <div class="cover_image">
+      <Picture
+        src={coverImage}
+        widths={[640, 880, 1024, 1920]}
+        aspectRatio="1:1"
+        sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
+        alt={coverImage}
+      />
+    </div>
 
-  <div class="post_header">
-    <h1>{title}</h1>
-    <h2 class="border_top border_bottom">{subtitle}</h2>
+    <div class="post_header">
+      <h1 class="ftw">{title}</h1>
+      <h1 class="ftw ftw_shadow">{title}</h1>
+      <h2 class="border_top border_bottom">{subtitle}</h2>
 
-    <div class="h5 post_metas">
-      <div class="post_meta_block">
-        <div class="post_meta_icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon_photographer"
-            ><path
-              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-            ></path><circle cx="12" cy="13" r="4"></circle></svg
-          >
+      <div class="h5 post_metas">
+        <div class="post_meta_block">
+          <div class="post_meta_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon_photographer"
+              ><path
+                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+              ></path><circle cx="12" cy="13" r="4"></circle></svg
+            >
+          </div>
+
+          <div class="post_meta_text nowrap" title="photography by">
+            {photography}
+          </div>
         </div>
 
-        <div class="post_meta_text nowrap" title="photography by">
-          {photography}
-        </div>
-      </div>
-
-      <div class="post_meta_block">
-        <div class="post_meta_icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon_clock"
-            ><circle cx="12" cy="12" r="10"></circle><polyline
-              points="12 6 12 12 16 14"></polyline></svg
-          >
+        <div class="post_meta_block">
+          <div class="post_meta_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon_clock"
+              ><circle cx="12" cy="12" r="10"></circle><polyline
+                points="12 6 12 12 16 14"></polyline></svg
+            >
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div>section: {category.toUpperCase()}</div>
-  <div>
-    date: <FormattedDate date={pubDate} />
-    {
-      updatedDate && (
-        <div class="last-updated-on">
-          Last updated on <FormattedDate date={updatedDate} />
-        </div>
-      )
-    }
-  </div>
+    <div>section: {category.toUpperCase()}</div>
+    <div>
+      date: <FormattedDate date={pubDate} />
+      {
+        updatedDate && (
+          <div class="last-updated-on">
+            Last updated on <FormattedDate date={updatedDate} />
+          </div>
+        )
+      }
+    </div>
 
-  <div>photography: {photography}</div>
+    <div>photography: {photography}</div>
 
-  <slot />
-</Base>
+    <slot />
+  </article>
+</Layout>
 <style lang="scss">
+  .post_header {
+    position: relative;
+    overflow: hidden;
+  }
+
   picture {
     &::after {
       content: url({coverImage});
@@ -115,10 +123,33 @@ const {
 
   h2 {
     font-size: initial; /* Fallback value */
-    font-size: clamp(32px, 4.5vw, 18vw);
+    font-size: clamp(32px, 4.5vw, 18vw) !important;
     font-weight: 100;
     line-height: 0.75;
     position: relative;
     top: -4vh;
+  }
+
+  h3 {
+    font-size: initial; /* Fallback value */
+    font-size: clamp(24px, 3.5vw, 15vw);
+    font-weight: 100;
+    line-height: 0.75;
+    position: relative;
+    top: -4vh;
+  }
+  .ftw {
+    line-height: 0.75;
+    line-height: 1ch;
+    position: relative;
+    z-index: 10;
+  }
+  .ftw_shadow {
+    line-height: 0.5;
+    position: absolute;
+    top: 10px;
+    left: -50px;
+    z-index: 01;
+    color: black;
   }
 </style>
