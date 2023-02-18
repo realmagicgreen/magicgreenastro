@@ -8,18 +8,28 @@ import image from "@astrojs/image";
 // https://astro.build/config
 export default defineConfig({
   markdown: {
-    drafts: true
+    drafts: true,
   },
-  integrations: [mdx({
-    extendMarkdownConfig: false,
-    smartypants: true,
-    gfm: true,
-    drafts: true
-  }), image()],
+  integrations: [
+    mdx({
+      extendMarkdownConfig: false,
+      smartypants: true,
+      gfm: true,
+      drafts: true,
+    }),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+      // may be useful if your hosting provider allows caching between CI builds
+      cacheDir: "./.cache/image",
+      // supported levels: 'debug' | 'info' | 'warn' | 'error' | 'silent'
+      // default: 'info'
+      logLevel: "debug",
+    }),
+  ],
   vite: {
     //maybe needed, not yet used!
-    plugins: [yaml()]
+    plugins: [yaml()],
   },
   outDir: "./dist",
-  site: "https://magicgreen.junglestar.org/"
+  site: "https://magicgreen.junglestar.org/",
 });

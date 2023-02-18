@@ -1,4 +1,6 @@
 ---
+import { Picture } from "@astrojs/image/components";
+
 import type { CollectionEntry } from "astro:content";
 
 import Base from "@layouts/Base.astro";
@@ -20,6 +22,16 @@ const {
 ---
 
 <Base title={title} description={description}>
+  <div class="cover_image">
+    <Picture
+      src={coverImage}
+      widths={[640, 880, 1024, 1920]}
+      aspectRatio="16:9"
+      sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
+      alt={coverImage}
+    />
+  </div>
+
   <div class="post_header">
     <h1>{title}</h1>
     <h2 class="border_top border_bottom">{subtitle}</h2>
@@ -70,7 +82,7 @@ const {
     </div>
   </div>
 
-  <div>section: {category}</div>
+  <div>section: {category.toUpperCase()}</div>
   <div>
     date: <FormattedDate date={pubDate} />
     {
@@ -81,8 +93,32 @@ const {
       )
     }
   </div>
-  <div>img: {coverImage}</div>
+
   <div>photography: {photography}</div>
 
   <slot />
 </Base>
+<style lang="scss">
+  picture {
+    &::after {
+      content: url({coverImage});
+    }
+  }
+
+  h1 {
+    padding-top: 4vh;
+    font-size: initial; /* Fallback value */
+    font-size: clamp(48px, 15vw, 40vw);
+    font-weight: 100;
+    line-height: 0.75;
+  }
+
+  h2 {
+    font-size: initial; /* Fallback value */
+    font-size: clamp(32px, 4.5vw, 18vw);
+    font-weight: 100;
+    line-height: 0.75;
+    position: relative;
+    top: -4vh;
+  }
+</style>

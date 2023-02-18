@@ -1,5 +1,5 @@
 {
-  "version": "4.3.1",
+  "version": "4.4.0",
   "title": "Magic Green",
   "tldr": "Environment Friendly Examples",
   "subtitle": "Sustainable and environment friendly examples for the present future",
@@ -35,5 +35,11 @@
   "producer": {
     "url": "https://junglestar.org",
     "name": "Junglestar"
+  },
+  "breakpoints": {
+    "s": "640",
+    "m": "880",
+    "l": "1024",
+    "xl": "1920"
   }
 }
