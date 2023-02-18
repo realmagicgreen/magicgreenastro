@@ -5,9 +5,6 @@ import Base from "@layouts/Base.astro";
 
 import FormattedDate from "@components/FormattedDate.astro";
 
-import IconPhotographer from "@svgs/photographer.svg";
-import IconClock from "@svgs/clock.svg";
-
 type Props = CollectionEntry<"health">["data"];
 
 const {
@@ -30,7 +27,21 @@ const {
     <div class="h5 post_metas">
       <div class="post_meta_block">
         <div class="post_meta_icon">
-          <IconPhotographer />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon_photographer"
+            ><path
+              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+            ></path><circle cx="12" cy="13" r="4"></circle></svg
+          >
         </div>
 
         <div class="post_meta_text nowrap" title="photography by">
@@ -40,7 +51,20 @@ const {
 
       <div class="post_meta_block">
         <div class="post_meta_icon">
-          <IconClock />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon_clock"
+            ><circle cx="12" cy="12" r="10"></circle><polyline
+              points="12 6 12 12 16 14"></polyline></svg
+          >
         </div>
       </div>
     </div>
