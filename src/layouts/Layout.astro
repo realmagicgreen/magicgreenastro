@@ -161,7 +161,6 @@ const resolvedImageWithDomain = new URL(
       }
 
       .vertical {
-        color: black;
         display: block;
         writing-mode: vertical-rl;
         transform: rotate(180deg);
@@ -173,6 +172,8 @@ const resolvedImageWithDomain = new URL(
       .novanta {
         user-select: none;
         color: seagreen;
+        opacity: 0.75;
+
         display: block;
         transform: rotate(-71deg);
         position: relative;
@@ -182,8 +183,10 @@ const resolvedImageWithDomain = new URL(
         font-size: 500% !important;
         .active & {
           font-size: 150%;
+          opacity: 1;
         }
         &:hover {
+          opacity: 1;
           transform: rotate(0deg);
         }
       }
