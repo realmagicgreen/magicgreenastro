@@ -18,95 +18,85 @@ const techniquesArticles = await getCollection("techniques");
   description={siteData.description}
   bodyClass="index"
 >
-  <section>
-    <div class="health">
-      <h2 class="cinkuenta">HEALTH</h2>
-      <div class="ul vertical">
-        {
-          healthArticles.map((blogPostEntry) => (
-            <div class="fotifai up_shift">
-              <a href={`/health/${blogPostEntry.slug}`}>
-                {blogPostEntry.data.title}
-              </a>
-            </div>
-          ))
-        }
-      </div>
+  <section class="health">
+    <h2 class="cinkuenta">HEALTH</h2>
+    <div class="ul vertical">
+      {
+        healthArticles.map((blogPostEntry) => (
+          <div class="fotifai up_shift">
+            <a href={`/health/${blogPostEntry.slug}`}>
+              {blogPostEntry.data.title}
+            </a>
+          </div>
+        ))
+      }
     </div>
   </section>
 
-  <section>
-    <div class="know">
-      <h2 class="fotifai is_relative">KNOW</h2>
-      <div class="ul">
-        {
-          knowArticles.map((blogPostEntry) => (
-            <div class="li align_natural ">
-              <a class="vertical" href={`/know/${blogPostEntry.slug}`}>
-                {blogPostEntry.data.title}
-              </a>
-            </div>
-          ))
-        }
-      </div>
+  <section class="know">
+    <h2 class="fotifai is_relative">KNOW</h2>
+    <div class="ul">
+      {
+        knowArticles.map((blogPostEntry) => (
+          <div class="li align_natural ">
+            <a class="vertical" href={`/know/${blogPostEntry.slug}`}>
+              {blogPostEntry.data.title}
+            </a>
+          </div>
+        ))
+      }
     </div>
   </section>
 
-  <section>
-    <div class="products">
-      <h2 class="vertical">PRODUCTS</h2>
-      <div class="ul is_relative">
-        <div class="li fotifai">
-          <h2 class="horizontal up_shift">PRODUCTS</h2>
-        </div>
-        {
-          productsArticles.map((blogPostEntry) => (
-            <div class="li">
-              <a class="vertical" href={`/products/${blogPostEntry.slug}`}>
-                {blogPostEntry.data.title}
-              </a>
-            </div>
-          ))
-        }
+  <section class="products">
+    <h2 class="vertical">PRODUCTS</h2>
+    <div class="ul is_relative">
+      <div class="li fotifai">
+        <h2 class="horizontal up_shift">PRODUCTS</h2>
       </div>
+      {
+        productsArticles.map((blogPostEntry) => (
+          <div class="li">
+            <a class="vertical" href={`/products/${blogPostEntry.slug}`}>
+              {blogPostEntry.data.title}
+            </a>
+          </div>
+        ))
+      }
     </div>
   </section>
 
-  <section>
-    <div class="services">
-      <h2 class="vertical">SERVICES</h2>
-      <div class="ul">
-        {
-          servicesArticles.map((blogPostEntry) => (
-            <div class="li align_natural">
-              <a class="vertical" href={`/services/${blogPostEntry.slug}`}>
-                {blogPostEntry.data.title}
-              </a>
-            </div>
-          ))
-        }
-      </div>
+  <section class="services">
+    <h2 class="vertical">SERVICES</h2>
+    <div class="ul">
+      {
+        servicesArticles.map((blogPostEntry) => (
+          <div class="li align_natural">
+            <a class="vertical" href={`/services/${blogPostEntry.slug}`}>
+              {blogPostEntry.data.title}
+            </a>
+          </div>
+        ))
+      }
     </div>
   </section>
 
-  <section>
-    <div class="solutions">
-      <h2 class="novanta">SOLUTIONS</h2>
-      <div class="ul">
-        {
-          solutionsArticles.map((blogPostEntry) => (
-            <div class="li spaced">
-              <a class="" href={`/solutions/${blogPostEntry.slug}`}>
-                {blogPostEntry.data.title}
-              </a>
-            </div>
-          ))
-        }
-      </div>
+  <section class="solutions">
+    <h2 class="novanta">SOLUTIONS</h2>
+    <div class="ul">
+      {
+        solutionsArticles.map((blogPostEntry) => (
+          <div class="li spaced">
+            <a class="" href={`/solutions/${blogPostEntry.slug}`}>
+              {blogPostEntry.data.title}
+            </a>
+          </div>
+        ))
+      }
     </div>
   </section>
 
-  <section>
+  <section class="techniques">
     <h2 class="">TECHNIQUES</h2>
     <div class="ul">
       {
@@ -123,11 +113,6 @@ const techniquesArticles = await getCollection("techniques");
 </Layout>
 
 <style lang="scss">
-  .vertical {
-    display: block;
-    color: var(--color);
-    padding: 10px;
-  }
   .ul {
     display: flex;
     flex-direction: row;
@@ -137,55 +122,14 @@ const techniquesArticles = await getCollection("techniques");
       min-width: 42px;
     }
   }
-  .align_natural {
-    display: flex;
-    align-content: center !important;
-    justify-content: center !important;
-    font-size: 350% !important;
-    font-weight: 100;
-    text-align: center !important;
-    line-height: 0.75;
-    text-align: center !important;
-  }
-  .fotifai {
-    color: var(--color);
-    position: relative;
-    right: 20rem;
-    top: 32rem;
-    display: block;
-    writing-mode: sideways-lr;
-    transform: rotate(45deg);
-    text-transform: uppercase;
-    line-height: 0.75;
-    font-size: 200%;
-  }
-  .horizontal {
-    transform: rotate(0deg);
-    color: red !important;
-  }
-  .spaced {
-    font-size: 3rem;
-    font-weight: 100;
-    line-height: 0.35;
-    margin: 1rem !important;
-    & > * {
-      padding: 0.5rem !important;
-      line-height: 0.5;
-    }
-  }
-  .solutions {
-    margin: 1rem !important;
-    line-height: 0.5;
-    a:hover {
-      color: red !important;
-      line-height: 1;
-    }
-    & > * {
-      padding: 1rem !important;
-      line-height: 0.5;
-      &:hover {
-        color: red !important;
-      }
+
+  .techniques {
+    .li a.vertical {
+      display: block;
+      font-size: 1.5rem;
+      font-size: clamp(3.33rem, 5.55vw, 111px) !important;
+      font-weight: 100;
+      line-height: 0.75;
     }
   }
 </style>

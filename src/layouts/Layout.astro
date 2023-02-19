@@ -6,7 +6,7 @@ import Nav from "@components/Nav.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import siteData from "@data/site.json";
-import "../scss/pico.scss";
+import "@styles/pico.slim.scss";
 
 export interface Props {
   title: string;
@@ -93,10 +93,21 @@ const resolvedImageWithDomain = new URL(
       :root {
         --up_shift: -3rem;
       }
+
+      body {
+        content-visibility: auto;
+      }
       .sarung {
         display: flex;
         flex-wrap: wrap;
       }
+
+      .health {
+        position: relative;
+        width: auto;
+        object-fit: contain;
+      }
+
       .up_shift {
         position: relative;
         top: var(--up_shift);
@@ -161,6 +172,8 @@ const resolvedImageWithDomain = new URL(
       }
 
       .vertical {
+        color: var(--color);
+        padding: 10px;
         display: block;
         writing-mode: vertical-rl;
         transform: rotate(180deg);
@@ -191,6 +204,17 @@ const resolvedImageWithDomain = new URL(
         }
       }
 
+      .spaced {
+        font-size: 3rem;
+        font-weight: 100;
+        line-height: 0.35;
+        margin: 1rem !important;
+        & > * {
+          padding: 0.5rem !important;
+          line-height: 0.5;
+        }
+      }
+
       .cinkuenta {
         user-select: none;
         z-index: -1;
@@ -208,6 +232,31 @@ const resolvedImageWithDomain = new URL(
         }
       }
 
+      .fotifai {
+        color: var(--color);
+        position: relative;
+        right: 45;
+        top: 23rem;
+        display: block;
+        writing-mode: sideways-lr;
+        transform: rotate(45deg);
+        transform-origin: top left;
+        text-transform: uppercase;
+        line-height: 2;
+        font-size: 300%;
+        content-visibility: auto;
+      }
+
+      .align_natural {
+        display: flex;
+        align-content: center !important;
+        justify-content: center !important;
+        font-size: 350% !important;
+        font-weight: 100;
+        text-align: center !important;
+        line-height: 0.75;
+        text-align: center !important;
+      }
       nav {
         a {
         }
@@ -220,6 +269,22 @@ const resolvedImageWithDomain = new URL(
       }
       .is_relative {
         position: relative !important;
+      }
+
+      .horizontal {
+        transform: rotate(0deg);
+        transform-origin: center;
+        color: red !important;
+        line-height: 6;
+      }
+
+      //fix pico.slim
+      article,
+      main {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
       }
     </style>
   </body>

@@ -6,17 +6,17 @@ const blogEntries = await getCollection("health");
 ---
 
 <Layout title={siteData.tldr}>
-  <ul>
+  <div class="ul health">
     {
       blogEntries.map((blogPostEntry) => (
-        <li>
+        <div class="li">
           <a href={`/health/${blogPostEntry.slug}`}>
             {blogPostEntry.data.title}
           </a>
-        </li>
+        </div>
       ))
     }
-  </ul>
+  </div>
 </Layout>
 
 <style></style>

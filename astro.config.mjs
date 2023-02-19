@@ -13,7 +13,7 @@ export default defineConfig({
   integrations: [
     mdx({
       extendMarkdownConfig: false,
-      smartypants: true,
+      // smartypants: true,
       gfm: true,
       drafts: true,
     }),
