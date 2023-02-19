@@ -10,7 +10,7 @@ const blogEntries = await getCollection("solutions");
     {
       blogEntries.map((blogPostEntry) => (
         <li>
-          <a href={`/health/${blogPostEntry.slug}`}>
+          <a href={`/solutions/${blogPostEntry.slug}`}>
             {blogPostEntry.data.title}
           </a>
         </li>
