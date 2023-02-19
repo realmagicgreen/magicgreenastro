@@ -8,7 +8,7 @@
 
 ## Feeding the green baby.
 
-The growing concern about the ecological impact is a fact worldwide. Scientists and upstreamists are urging us to clean up our actions and change the way we live and operate. Lots of press has appeared in recent years here and there but somehow infos are spread all over the place.
+The growing concern about the ecological impact is a fact worldwide. Scientists and Up-stream-ists are urging us to clean up our actions and change the way we live and operate. Lots of press has appeared in recent years here and there but somehow infos are spread all over the place.
 
 Ecologically sustainable business needs to communicate about their low impact practices and policies. Green minded business must let customers know in order to beat the competition.
 
