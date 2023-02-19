@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de436131-f602-4445-ac13-c558ae7d3f6a/deploy-status)](https://app.netlify.com/sites/magicgreen5/deploys)
+
 # MAGIC GREEN
 
 [![magic green](/public/assets/p/og_large_image.jpg)](https://magicgreen.junglestar.org)
