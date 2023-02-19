@@ -95,11 +95,16 @@ const resolvedImageWithDomain = new URL(
       }
 
       body {
+        min-width: 100vw;
+        width: 100vw;
         content-visibility: auto;
+        overflow: hidden;
       }
       .sarung {
+        margin: 0;
+        padding: 0;
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
       }
 
       .health {
@@ -177,6 +182,7 @@ const resolvedImageWithDomain = new URL(
         display: block;
         writing-mode: vertical-rl;
         transform: rotate(180deg);
+        transform-origin: top right;
         text-transform: uppercase;
         .active & {
           font-size: 110%;
@@ -191,7 +197,7 @@ const resolvedImageWithDomain = new URL(
         transform: rotate(-71deg);
         position: relative;
         top: -12rem;
-        transform-origin: bottom right;
+        transform-origin: center center;
         text-transform: uppercase;
         font-size: 500% !important;
         .active & {
@@ -201,6 +207,7 @@ const resolvedImageWithDomain = new URL(
         &:hover {
           opacity: 1;
           transform: rotate(0deg);
+          transform-origin: center center;
         }
       }
 
@@ -222,9 +229,9 @@ const resolvedImageWithDomain = new URL(
         display: block;
         transform: rotate(-49deg);
         position: relative;
-        top: -12rem;
-        right: 12rem;
-        transform-origin: bottom right;
+        top: 0rem;
+        right: 0rem;
+        transform-origin: center center;
         text-transform: uppercase;
         font-size: 750% !important;
         .active & {
@@ -235,15 +242,15 @@ const resolvedImageWithDomain = new URL(
       .fotifai {
         color: var(--color);
         position: relative;
-        right: 45;
-        top: 23rem;
+        right: 0;
+        top: -30rem;
         display: block;
         writing-mode: sideways-lr;
         transform: rotate(45deg);
         transform-origin: top left;
         text-transform: uppercase;
-        line-height: 2;
-        font-size: 300%;
+        line-height: 1.5;
+        font-size: 333;
         content-visibility: auto;
       }
 
@@ -251,7 +258,7 @@ const resolvedImageWithDomain = new URL(
         display: flex;
         align-content: center !important;
         justify-content: center !important;
-        font-size: 350% !important;
+        font-size: 333% !important;
         font-weight: 100;
         text-align: center !important;
         line-height: 0.75;
@@ -281,6 +288,7 @@ const resolvedImageWithDomain = new URL(
       //fix pico.slim
       article,
       main {
+        background-color: unset;
         padding-top: 0 !important;
         padding-left: 0 !important;
         padding-right: 0 !important;

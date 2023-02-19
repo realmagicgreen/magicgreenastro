@@ -123,7 +123,27 @@ const techniquesArticles = await getCollection("techniques");
     }
   }
 
-  .techniques {
+  .health .fotifai {
+    color: var(--color);
+    position: relative;
+    right: unset;
+    left: -27rem;
+    bottom: -75vw;
+    display: block;
+    writing-mode: sideways-lr;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    text-transform: uppercase;
+    line-height: 0.75;
+    font-size: 333;
+    content-visibility: auto;
+    a {
+      display: block;
+      height: 20px;
+    }
+  }
+  .techniques,
+  .products {
     .li a.vertical {
       display: block;
       font-size: 1.5rem;
@@ -131,5 +151,21 @@ const techniquesArticles = await getCollection("techniques");
       font-weight: 100;
       line-height: 0.75;
     }
+  }
+
+  .health .fotifai {
+    color: var(--color);
+    position: relative;
+    right: unset;
+    left: 31rem;
+    bottom: 0;
+    display: block;
+    writing-mode: sideways-lr;
+    /* transform: rotate(45deg); */
+    transform-origin: center;
+    text-transform: uppercase;
+    line-height: 1.25;
+    font-size: 333;
+    content-visibility: auto;
   }
 </style>
