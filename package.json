@@ -1,7 +1,7 @@
 {
   "name": "@magicgreen",
   "type": "module",
-  "version": "5.5.7",
+  "version": "5.5.8",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -11,14 +11,14 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.15.0",
+    "@astrojs/image": "^0.15.1",
     "@astrojs/mdx": "^0.15.2",
     "@astrojs/rss": "^2.1.1",
     "@rollup/plugin-yaml": "^4.0.1",
     "@sindresorhus/slugify": "^2.2.0",
-    "astro": "^2.0.14",
+    "astro": "^2.0.16",
     "astro-seo": "^0.6.1",
-    "rollup": "^3.17.0",
+    "rollup": "^3.18.0",
     "sass": "^1.58.3"
   },
   "dependencies": {
