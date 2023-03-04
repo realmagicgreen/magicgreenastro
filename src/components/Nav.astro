@@ -1,19 +1,20 @@
 ---
-import navigation from "../data/navigation.json";
+import navigation from "@data/navigation.json";
 const sections = navigation.sections;
 
-import "../scss/pico.scss";
+import "@styles/pico.slim.scss";
 ---
 
-<nav class="top_menu" role="menu">
+<nav class="nav_top" role="menu">
   {
     sections.map((section) => (
       <a
-        class="menu_item vertical"
-        role="menuitem"
+        class={section.color_name}
         href={section.url}
         title={section.description}
+        role="menuitem"
       >
+        <div class="nav_item vertical" />
         {section.label}
       </a>
     ))
@@ -24,7 +25,7 @@ import "../scss/pico.scss";
     min-height: 50vw;
     padding-bottom: 1rem;
   }
-  .top_menu {
+  .nav_top {
     background-color: #7ed6ff;
     // position: fixed;
     // width: 100%;
@@ -51,7 +52,7 @@ import "../scss/pico.scss";
       }
     }
   }
-  .menu_item {
+  .nav_item {
     display: flex;
     align-items: center;
     justify-content: end;

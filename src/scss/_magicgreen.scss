@@ -1,11 +1,11 @@
 /* Green Light scheme (Default) */
 /* Can be forced with data-theme="light" */
-[data-theme="light"],
-:root:not([data-theme="dark"]) {
+[data-theme='light'],
+:root:not([data-theme='dark']) {
   --primary: hsla(92, 100%, 15%, 1);
-  --primary-hover: hsla(92, 100%, 25%, 1);// #388e3c;
+  --primary-hover: hsla(92, 100%, 25%, 1); // #388e3c;
   --primary-focus: rgba(67, 160, 71, 0.125);
-  --primary-inverse: #FFF;
+  --primary-inverse: #fff;
   --background-color: hsla(92, 100%, 90%, 1);
   --color: black;
 }
@@ -13,11 +13,11 @@
 /* Green Dark scheme (Auto) */
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
+  :root:not([data-theme='light']) {
     --primary: hsla(92, 100%, 50%, 1);
-    --primary-hover: hsla(92, 100%, 40%, 1);// #4caf50;
+    --primary-hover: hsla(92, 100%, 40%, 1); // #4caf50;
     --primary-focus: rgba(67, 160, 71, 0.25);
-    --primary-inverse: #FFF;
+    --primary-inverse: #fff;
     --background-color: hsla(170, 100%, 6%, 1);
     --color: #fff;
   }
@@ -25,11 +25,11 @@
 
 /* Green Dark scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
-[data-theme="dark"] {
+[data-theme='dark'] {
   --primary: hsla(92, 100%, 50%, 1);
-  --primary-hover: hsla(92, 100%, 40%, 1);// #4caf50;
+  --primary-hover: hsla(92, 100%, 40%, 1); // #4caf50;
   --primary-focus: rgba(67, 160, 71, 0.25);
-  --primary-inverse: #FFF;
+  --primary-inverse: #fff;
   --background-color: hsla(170, 100%, 6%, 1);
   --color: black;
 }
@@ -40,10 +40,8 @@
   --form-element-focus-color: var(--primary-focus);
   --switch-color: var(--primary-inverse);
   --switch-checked-background-color: var(--primary);
-}
 
-
-:root {
+  --up_shift: -3rem;
   --space: 2rem;
   --space_small: 1rem;
   --radius: 4px;
@@ -65,13 +63,10 @@
 
   //shadows
   --transition_shadow: box-shadow 0.2s ease;
-  --top_shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.12),
-    0 -4px 10px 0 rgba(0, 0, 0, 0.24);
+  --top_shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.12), 0 -4px 10px 0 rgba(0, 0, 0, 0.24);
   --bottom_shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.24);
-  --card_shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.12),
-    2px 2px 3px 0 rgba(0, 0, 0, 0.24);
-  --card_shadow--hover: 4px 4px 8px 0 rgba(0, 0, 0, 0.12),
-    8px 8px 8px 0 rgba(0, 0, 0, 0.24);
+  --card_shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.12), 2px 2px 3px 0 rgba(0, 0, 0, 0.24);
+  --card_shadow--hover: 4px 4px 8px 0 rgba(0, 0, 0, 0.12), 8px 8px 8px 0 rgba(0, 0, 0, 0.24);
 
   //typography
 
@@ -90,4 +85,202 @@
   // --heading3: 1.7rem/10 * 7;
   // --heading4: 1.7rem/10 * 6.5;
   // --heading5: 1.7rem/10 * 5.5;
+}
+
+body {
+  min-width: 100vw;
+  width: 100vw;
+  content-visibility: auto;
+  overflow: hidden;
+}
+.sarung {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  // flex-wrap: wrap;
+}
+
+.health {
+  position: relative;
+  width: auto;
+  object-fit: contain;
+}
+
+.up_shift {
+  position: relative;
+  top: var(--up_shift);
+}
+.hide {
+  display: none;
+}
+body {
+  margin: 0;
+}
+.outline_color {
+  fill: black;
+}
+.fill_color {
+  fill: var(--primary);
+  &:hover {
+    fill: var(--primary-hover);
+  }
+}
+.show_on_phones {
+  @media (min-width: 576px) {
+    display: none !important;
+  }
+}
+
+h1 {
+  padding-top: 4vh;
+  font-size: initial; /* Fallback value */
+  font-size: clamp(6rem, 30vw, 50vw) !important;
+  font-weight: 100;
+  line-height: 0.75;
+  position: relative;
+  top: -2rem;
+}
+
+h2 {
+  font-size: initial; /* Fallback value */
+  font-size: clamp(4rem, 7vw, 18vw) !important;
+  font-weight: 100;
+  line-height: 0.75;
+  position: relative;
+  top: -1rem;
+}
+
+h3 {
+  font-size: initial; /* Fallback value */
+  font-size: clamp(3rem, 5vw, 13vw);
+  font-weight: 100;
+  line-height: 0.75;
+}
+blockquote p {
+  font-size: initial; /* Fallback value */
+  font-size: clamp(2.15rem, 2.75vw, 11vw) !important;
+  font-weight: 200;
+  line-height: 0.9 !important;
+  padding-left: 2rem;
+}
+
+.vertical {
+  color: var(--color);
+  padding: 10px;
+  display: block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  transform-origin: top right;
+  text-transform: uppercase;
+  .active & {
+    font-size: 110%;
+  }
+}
+.novanta {
+  user-select: none;
+  color: seagreen;
+  opacity: 0.75;
+
+  display: block;
+  transform: rotate(-71deg);
+  position: relative;
+  top: -12rem;
+  transform-origin: center center;
+  text-transform: uppercase;
+  font-size: 500% !important;
+  .active & {
+    font-size: 150%;
+    opacity: 1;
+  }
+  &:hover {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: center center;
+  }
+}
+
+.spaced {
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 0.35;
+  margin: 1rem !important;
+  & > * {
+    padding: 0.5rem !important;
+    line-height: 0.5;
+  }
+}
+
+.cinkuenta {
+  user-select: none;
+  z-index: -1;
+  color: lime;
+  display: block;
+  transform: rotate(-49deg);
+  position: relative;
+  top: 0rem;
+  right: 0rem;
+  transform-origin: center center;
+  text-transform: uppercase;
+  font-size: 750% !important;
+  .active & {
+    font-size: 150%;
+  }
+}
+
+.fotifai {
+  color: var(--color);
+  position: relative;
+  right: 0;
+  top: -30rem;
+  display: block;
+  writing-mode: sideways-lr;
+  transform: rotate(45deg);
+  transform-origin: top left;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 333;
+  content-visibility: auto;
+}
+
+.align_natural {
+  display: flex;
+  align-content: center !important;
+  justify-content: center !important;
+  font-size: 333% !important;
+  font-weight: 100;
+  text-align: center !important;
+  line-height: 0.75;
+  text-align: center !important;
+}
+nav {
+  a {
+  }
+}
+
+ul li {
+  list-style-type: none !important; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+.is_relative {
+  position: relative !important;
+}
+
+.horizontal {
+  transform: rotate(0deg);
+  transform-origin: center;
+  color: red !important;
+  line-height: 6;
+}
+
+//fix pico.slim
+article,
+main {
+  background-color: unset;
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }

@@ -2,7 +2,7 @@
 // ––––––––––––––––––––
 
 // Set the root element for $enable-semantic-container and $enable-responsive-spacings
-$semantic-root-element: "body" !default;
+$semantic-root-element: 'body' !default;
 
 // Enable <header>, <main>, <footer> inside $semantic-root-element as containers
 $enable-semantic-container: true !default;
@@ -60,10 +60,10 @@ $breakpoints: (
 ) !default;
 
 // Viewports
+// 'null' disable the viewport on a breakpoint
 $viewports: (
-  // 'null' disable the viewport on a breakpoint
   sm: 510px,
   md: 700px,
   lg: 920px,
-  xl: 1130px
+  xl: 1130px,
 ) !default;
