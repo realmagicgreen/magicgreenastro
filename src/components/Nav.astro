@@ -14,8 +14,7 @@ import "@styles/pico.slim.scss";
         title={section.description}
         role="menuitem"
       >
-        <div class="nav_item vertical" />
-        {section.label}
+        <h2 class="nav_item ">{section.label}</h2>
       </a>
     ))
   }
@@ -27,47 +26,24 @@ import "@styles/pico.slim.scss";
   }
   .nav_top {
     background-color: #7ed6ff;
-    // position: fixed;
-    // width: 100%;
-    // min-width: 100vw;
-    // min-height: 100vw;
-    display: flex;
-    flex-direction: row;
-    padding: 0 !important;
-    margin: 0 !important;
-
-    @media (min-width: 768px) {
-      padding-left: 10ch;
-      padding-right: 10ch;
-      padding: 1ch 0 15ch;
-    }
 
     a {
       display: flex;
       align-items: center;
-      color: black !important;
       font-weight: 500;
-      @media (min-width: 768px) {
-        font-weight: 100;
-      }
+      text-transform: uppercase;
     }
   }
   .nav_item {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    color: black !important;
-    font-weight: 300;
+    // inside the button
+    font-weight: 900 !important;
     min-height: 42px;
     text-transform: uppercase;
     font-size: clamp(1rem, 6vw, 15vh) !important;
-    font-weight: 200;
+    font-weight: 900;
     margin: 0 !important;
     &:hover {
       font-weight: 500 !important;
-    }
-    @media (min-width: 640px) {
-      font-weight: 100;
     }
   }
 </style>

@@ -1,0 +1,24 @@
+h1,
+.h1 {
+  padding-top: 4vh;
+  font-size: initial; /* Fallback value */
+  font-size: clamp(6rem, 30vw, 50vw) !important;
+  font-weight: 100;
+  line-height: 0.75;
+}
+
+h2,
+.h2 {
+  font-size: initial; /* Fallback value */
+  font-size: clamp(4rem, 7vw, 18vw) !important;
+  font-weight: 100;
+  line-height: 0.75;
+}
+
+h3,
+.h3 {
+  font-size: initial; /* Fallback value */
+  font-size: clamp(3rem, 5vw, 13vw);
+  font-weight: 100;
+  line-height: 0.75;
+}
