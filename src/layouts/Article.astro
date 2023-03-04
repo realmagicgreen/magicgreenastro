@@ -99,11 +99,17 @@ const {
 
     <div>photography: {photography}</div>
 
-    <slot />
+    <div class="container">
+      <slot />
+    </div>
   </article>
 </Layout>
 
 <style lang="scss">
+  article {
+    width: 94vw !important;
+    margin: 0 auto;
+  }
   .post_header {
     position: relative;
     overflow: hidden;
