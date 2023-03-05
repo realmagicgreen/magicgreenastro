@@ -1,7 +1,7 @@
 ---
-import Logo from "../components/Logo.astro";
-import FooterMenu from "../components/FooterMenu.astro";
-import FooterCopy from "../components/FooterCopy.astro";
+import Logo from "@components/Logo.astro";
+import FooterMenu from "@components/FooterMenu.astro";
+import FooterCopy from "@components/FooterCopy.astro";
 
 export interface Props {
   title: string;
@@ -25,6 +25,11 @@ const title = "fixed";
     /* place on the bottom */
     position: sticky !important;
     background-color: var(--hearth_color);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      var(--hearth_color) 100%
+    );
     bottom: 0;
     left: 0;
     width: 100%;

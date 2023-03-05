@@ -172,7 +172,9 @@ ul li {
 
 //fix pico.slim
 article,
-main {
+main,
+footer {
+  width: 100vw !important;
   background-color: unset;
   padding-top: 0 !important;
   padding-left: 0 !important;

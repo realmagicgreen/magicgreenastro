@@ -1,0 +1,42 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Svgs from "@components/Svgs.astro";
+import Nav from "@components/Nav.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+
+export interface Props {
+  cssClass: string;
+}
+
+const { cssClass } = Astro.props.frontmatter || Astro.props;
+---
+
+<Layout>
+  <body>
+    <Svgs />
+
+    <Nav title={cssClass} />
+
+    <Header title={cssClass} />
+
+    <main>
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</Layout>
+<style lang="scss">
+  main {
+    min-height: 100vh;
+    background-color: var(--background-color);
+    z-index: 1;
+    max-width: none !important;
+    padding-top: var(--space) !important;
+    padding-bottom: var(--space) !important;
+
+    padding-left: var(--space_small) !important;
+    padding-right: var(--space_small) !important;
+  }
+</style>

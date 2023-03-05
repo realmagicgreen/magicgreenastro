@@ -29,7 +29,7 @@ $enable-important: true;
 
 // Layout
 @import 'layout/document'; // html
-@import 'layout/sectioning'; // body, header, main, footer
+//@import 'layout/sectioning'; // body, header, main, footer
 @import 'layout/container'; // .container, .container-fluid
 @import 'layout/section'; // section
 @import 'layout/grid'; // .grid
@@ -49,4 +49,4 @@ $enable-important: true;
 //customization for magicgreen
 @import '01magicgreen';
 @import '02headings';
-@import '03carson';
+//@import '03carson';

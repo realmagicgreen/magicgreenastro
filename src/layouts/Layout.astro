@@ -1,13 +1,10 @@
 ---
-//components
-import Junglestar from "@components/Junglestar.astro";
-import Svgs from "@components/Svgs.astro";
-import Nav from "@components/Nav.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
-
 //styles
 import "@styles/pico.slim.scss";
+
+//components
+import Junglestar from "@components/Junglestar.astro";
+import Body from "@layouts/Body.astro";
 
 //plugins
 import { SEO } from "astro-seo";
@@ -17,7 +14,6 @@ export interface Props {
   title: string;
   description: string;
   bodyClass: string;
-  cssClass: string;
 }
 
 const { title, description, cssClass } = Astro.props.frontmatter || Astro.props;
@@ -45,6 +41,7 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
   <head>
     <meta name="version_name" content={site.version_name} />
     <meta name="version" content={site.version} />
+
     <Junglestar />
 
     <meta charset="UTF-8" />
@@ -80,29 +77,8 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
     />
     <meta name="keywords" content={site.keywords} />
   </head>
-  <body>
-    <Svgs />
 
-    <Nav title={cssClass} />
-
-    <Header title={cssClass} />
-
-    <main class="half_screen_down container">
-      <slot />
-    </main>
-
-    <Footer />
-    <style>
-      main {
-        /* make sure to cover the screen */
-        min-height: 100vh;
-
-        background-color: var(--background-color);
-
-        /* put on top */
-        position: relative;
-        z-index: 1;
-      }
-    </style>
-  </body>
+  <slot>
+    <Body />
+  </slot>
 </html>
