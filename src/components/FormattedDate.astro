@@ -1,7 +1,8 @@
 ---
-const { date } = Astro.props;
+const { date } = Astro.props.frontmatter || Astro.props;
 ---
 
+<!--
 <time datetime={date.toISOString()}>
   {
     date.toLocaleDateString("en-us", {
@@ -10,4 +11,4 @@ const { date } = Astro.props;
       day: "numeric",
     })
   }
-</time>
+</time> -->

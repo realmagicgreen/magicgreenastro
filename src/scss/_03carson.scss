@@ -1,0 +1,82 @@
+// DAVID CARSON STYLES
+.up_shift {
+  position: relative;
+  top: var(--up_shift);
+}
+
+.vertical {
+  color: var(--color);
+  padding: 10px;
+  display: block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  transform-origin: top left;
+  text-transform: uppercase;
+  .active & {
+    font-size: 110%;
+  }
+}
+
+.novanta {
+  user-select: none;
+  color: seagreen;
+  opacity: 0.75;
+
+  display: block;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  text-transform: uppercase;
+  font-size: 200% !important;
+  .active & {
+    font-size: 150%;
+    opacity: 1;
+  }
+  &:hover {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: top left;
+  }
+}
+
+.cinkuenta {
+  user-select: none;
+  z-index: -1;
+  color: lime;
+  display: block;
+  transform: rotate(-49deg);
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  transform-origin: top left;
+  text-transform: uppercase;
+  font-size: 750% !important;
+  .active & {
+    font-size: 150%;
+  }
+}
+
+.fotifai {
+  color: var(--color);
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  display: block;
+  writing-mode: sideways-lr;
+  transform: rotate(45deg);
+  transform-origin: top left;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 333;
+  content-visibility: auto;
+}
+
+.align_natural {
+  display: flex;
+  align-content: center !important;
+  justify-content: center !important;
+  font-size: 333% !important;
+  font-weight: 100;
+  text-align: center !important;
+  line-height: 0.75;
+  text-align: center !important;
+}

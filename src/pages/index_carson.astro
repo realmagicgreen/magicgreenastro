@@ -19,11 +19,11 @@ const techniquesArticles = await getCollection("techniques");
   bodyClass="index"
 >
   <section class="health">
-    <h2 class="">HEALTH</h2>
-    <div class="">
+    <h2 class="cinkuenta">HEALTH</h2>
+    <div class="ul vertical">
       {
         healthArticles.map((blogPostEntry) => (
-          <div class="">
+          <div class="fotifai up_shift">
             <a href={`/health/${blogPostEntry.slug}`}>
               {blogPostEntry.data.title}
             </a>
@@ -34,12 +34,12 @@ const techniquesArticles = await getCollection("techniques");
   </section>
 
   <section class="know">
-    <h2 class="">KNOW</h2>
+    <h2 class="fotifai is_relative">KNOW</h2>
     <div class="ul">
       {
         knowArticles.map((blogPostEntry) => (
-          <div class="">
-            <a class="" href={`/know/${blogPostEntry.slug}`}>
+          <div class="li align_natural ">
+            <a class="vertical" href={`/know/${blogPostEntry.slug}`}>
               {blogPostEntry.data.title}
             </a>
           </div>
@@ -49,12 +49,15 @@ const techniquesArticles = await getCollection("techniques");
   </section>
 
   <section class="products">
-    <h2 class="">PRODUCTS</h2>
-    <div class="">
+    <h2 class="vertical">PRODUCTS</h2>
+    <div class="ul is_relative">
+      <div class="li fotifai">
+        <h2 class="horizontal up_shift">PRODUCTS</h2>
+      </div>
       {
         productsArticles.map((blogPostEntry) => (
-          <div class="">
-            <a class="" href={`/products/${blogPostEntry.slug}`}>
+          <div class="li">
+            <a class="vertical" href={`/products/${blogPostEntry.slug}`}>
               {blogPostEntry.data.title}
             </a>
           </div>
@@ -64,12 +67,12 @@ const techniquesArticles = await getCollection("techniques");
   </section>
 
   <section class="services">
-    <h2 class="">SERVICES</h2>
-    <div class="">
+    <h2 class="vertical">SERVICES</h2>
+    <div class="ul">
       {
         servicesArticles.map((blogPostEntry) => (
-          <div class="">
-            <a class="" href={`/services/${blogPostEntry.slug}`}>
+          <div class="li align_natural">
+            <a class="vertical" href={`/services/${blogPostEntry.slug}`}>
               {blogPostEntry.data.title}
             </a>
           </div>
@@ -79,11 +82,11 @@ const techniquesArticles = await getCollection("techniques");
   </section>
 
   <section class="solutions">
-    <h2 class="">SOLUTIONS</h2>
-    <div class="">
+    <h2 class="novanta">SOLUTIONS</h2>
+    <div class="ul">
       {
         solutionsArticles.map((blogPostEntry) => (
-          <div class="">
+          <div class="li spaced">
             <a class="" href={`/solutions/${blogPostEntry.slug}`}>
               {blogPostEntry.data.title}
             </a>
@@ -99,7 +102,7 @@ const techniquesArticles = await getCollection("techniques");
       {
         techniquesArticles.map((blogPostEntry) => (
           <div class="li">
-            <a class="" href={`/techniques/${blogPostEntry.slug}`}>
+            <a class="vertical" href={`/techniques/${blogPostEntry.slug}`}>
               {blogPostEntry.data.title}
             </a>
           </div>
@@ -120,7 +123,7 @@ const techniquesArticles = await getCollection("techniques");
     }
   }
 
-  .health . {
+  .health .fotifai {
     color: var(--color);
     position: relative;
     right: unset;
@@ -150,7 +153,7 @@ const techniquesArticles = await getCollection("techniques");
     }
   }
 
-  .health . {
+  .health .fotifai {
     color: var(--color);
     position: relative;
     right: unset;

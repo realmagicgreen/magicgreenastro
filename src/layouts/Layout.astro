@@ -1,7 +1,4 @@
 ---
-//data
-import site from "@data/site.json";
-
 //components
 import Junglestar from "@components/Junglestar.astro";
 import Svgs from "@components/Svgs.astro";
@@ -20,10 +17,13 @@ export interface Props {
   title: string;
   description: string;
   bodyClass: string;
+  cssClass: string;
 }
 
-const { title, description } = Astro.props.frontmatter || Astro.props;
+const { title, description, cssClass } = Astro.props.frontmatter || Astro.props;
 
+//data
+import site from "@data/site.json";
 const Brand = site.title;
 const Mission = site.content_is_about;
 
@@ -83,20 +83,15 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
   <body>
     <Svgs />
 
-    <Nav />
+    <Nav title={cssClass} />
 
-    <Header />
+    <Header title={cssClass} />
 
-    <main class="container">
+    <main class="half_screen_down container">
       <slot />
     </main>
 
     <Footer />
-    <style>
-      .container {
-        width: 100vw;
-        min-width: 100vw;
-      }
-    </style>
+    <style></style>
   </body>
 </html>

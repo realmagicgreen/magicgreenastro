@@ -109,11 +109,6 @@ body {
   object-fit: contain;
 }
 
-.up_shift {
-  position: relative;
-  top: var(--up_shift);
-}
-
 .hide {
   display: none;
 }
@@ -166,7 +161,7 @@ ul li {
 
 .horizontal {
   transform: rotate(0deg);
-  transform-origin: center;
+  transform-origin: center center;
   color: red !important;
   line-height: 6;
 }
@@ -183,81 +178,10 @@ main {
   margin-right: 0 !important;
 }
 
-.vertical {
-  color: var(--color);
-  padding: 10px;
-  display: block;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  transform-origin: top right;
-  text-transform: uppercase;
-  .active & {
-    font-size: 110%;
-  }
+.container {
+  margin: 0 auto !important;
 }
 
-.novanta {
-  user-select: none;
-  color: seagreen;
-  opacity: 0.75;
-
-  display: block;
-  transform: rotate(-71deg);
-  position: relative;
-  top: -12rem;
-  transform-origin: center center;
-  text-transform: uppercase;
-  font-size: 500% !important;
-  .active & {
-    font-size: 150%;
-    opacity: 1;
-  }
-  &:hover {
-    opacity: 1;
-    transform: rotate(0deg);
-    transform-origin: center center;
-  }
-}
-
-.cinkuenta {
-  user-select: none;
-  z-index: -1;
-  color: lime;
-  display: block;
-  transform: rotate(-49deg);
-  position: relative;
-  top: 0rem;
-  right: 0rem;
-  transform-origin: center center;
-  text-transform: uppercase;
-  font-size: 750% !important;
-  .active & {
-    font-size: 150%;
-  }
-}
-
-.fotifai {
-  color: var(--color);
-  position: relative;
-  right: 0;
-  top: -30rem;
-  display: block;
-  writing-mode: sideways-lr;
-  transform: rotate(45deg);
-  transform-origin: top left;
-  text-transform: uppercase;
-  line-height: 1.5;
-  font-size: 333;
-  content-visibility: auto;
-}
-
-.align_natural {
-  display: flex;
-  align-content: center !important;
-  justify-content: center !important;
-  font-size: 333% !important;
-  font-weight: 100;
-  text-align: center !important;
-  line-height: 0.75;
-  text-align: center !important;
+.half_screen_down {
+  padding-top: 50vh !important;
 }

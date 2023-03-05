@@ -4,8 +4,7 @@ import { Picture } from "@astrojs/image/components";
 //import type { CollectionEntry } from "astro:content";
 
 import Layout from "@layouts/Layout.astro";
-
-import FormattedDate from "@components/FormattedDate.astro";
+import PostMetas from "@components/PostMetas.astro";
 
 // type Props = CollectionEntry<"health">["data"];
 
@@ -33,78 +32,19 @@ const {
       />
     </div>
 
-    <div class="post_header">
+    <div class="post_header container">
       <h1 class="ftw">{title}</h1>
       <h1 class="ftw ftw_shadow">{title}</h1>
       <h2 class="border_top border_bottom">{subtitle}</h2>
 
-      <div class="h5 post_metas">
-        <div class="post_meta_block">
-          <div class="post_meta_icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon_photographer"
-              ><path
-                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-              ></path><circle cx="12" cy="13" r="4"></circle></svg
-            >
-          </div>
-
-          <div class="post_meta_text nowrap" title="photography by">
-            {photography}
-          </div>
-        </div>
-
-        <div class="post_meta_block">
-          <div class="post_meta_icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon_clock"
-              ><circle cx="12" cy="12" r="10"></circle><polyline
-                points="12 6 12 12 16 14"></polyline></svg
-            >
-          </div>
-        </div>
-      </div>
+      <PostMetas />
     </div>
-
-    <div>section: {category.toUpperCase()}</div>
-
-    <div>
-      date: <FormattedDate date={pubDate} />
-      {
-        updatedDate && (
-          <div class="last-updated-on">
-            Last updated on <FormattedDate date={updatedDate} />
-          </div>
-        )
-      }
-    </div>
-
-    <div>photography: {photography}</div>
 
     <div class="container">
       <slot />
     </div>
   </article>
 </Layout>
-
 <style lang="scss">
   article {
     width: 94vw !important;

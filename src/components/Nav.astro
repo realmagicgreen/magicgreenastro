@@ -2,10 +2,21 @@
 import navigation from "@data/navigation.json";
 const sections = navigation.sections;
 
+// const navCssClass = "nav_top";
+// export interface Props {
+//   navCssClass: string;
+// }
+
+export interface Props {
+  title: string;
+}
+
+const title = "top_pad";
+
 import "@styles/pico.slim.scss";
 ---
 
-<nav class="nav_top" role="menu">
+<nav class={title} role="menu">
   {
     sections.map((section) => (
       <a
@@ -20,21 +31,57 @@ import "@styles/pico.slim.scss";
   }
 </nav>
 <style lang="scss">
-  nav {
-    min-height: 50vw;
-    padding-bottom: 1rem;
-  }
-  .nav_top {
-    background-color: #7ed6ff;
+  .top_pad {
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vw;
+    display: block;
+
+    transform: rotateZ(90deg);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+
+    background-color: hsla(199, 100%, 69%, 1);
+    background: linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0) 0%,
+      hsla(199, 100%, 69%, 0.5) 50%,
+      hsla(199, 100%, 69%, 0.75) 75%,
+      hsla(199, 100%, 69%, 1) 100%
+    );
+
+    &.day {
+      background-color: hsla(199, 100%, 69%, 1);
+      background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0%,
+        hsla(199, 100%, 69%, 0.5) 50%,
+        hsla(199, 100%, 69%, 0.75) 75%,
+        hsla(199, 100%, 69%, 1) 100%
+      );
+    }
+
+    &.night {
+      background-color: hsla(199, 100%, 69%, 1);
+      background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0%,
+        hsla(199, 100%, 69%, 0.5) 50%,
+        hsla(199, 100%, 69%, 0.75) 75%,
+        hsla(199, 100%, 69%, 1) 100%
+      );
+    }
 
     a {
-      display: flex;
-      align-items: center;
       font-weight: 500;
       text-transform: uppercase;
     }
   }
   .nav_item {
+    width: 100vw;
     // inside the button
     font-weight: 900 !important;
     min-height: 42px;
