@@ -41,9 +41,13 @@
   --switch-color: var(--primary-inverse);
   --switch-checked-background-color: var(--primary);
 
+  --hearth_color: hsl(36, 88%, 12%);
+
   --up_shift: -3rem;
   --space: 2rem;
   --space_small: 1rem;
+  --space_horizontal: 0.5rem;
+
   --radius: 4px;
   --icon_size: 40px; //all svg icons are square
 
@@ -178,10 +182,18 @@ main {
   margin-right: 0 !important;
 }
 
-.container {
-  margin: 0 auto !important;
+.half_screen_down {
+  margin-top: 50vh !important;
 }
 
-.half_screen_down {
-  padding-top: 50vh !important;
+.half_screen_up {
+  padding-bottom: 50vh !important;
+}
+
+.one_screen_down {
+  padding-top: 100vh !important;
+}
+
+.one_screen_up {
+  padding-bottom: 100vh !important;
 }

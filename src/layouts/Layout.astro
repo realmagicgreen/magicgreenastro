@@ -92,6 +92,17 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
     </main>
 
     <Footer />
-    <style></style>
+    <style>
+      main {
+        /* make sure to cover the screen */
+        min-height: 100vh;
+
+        background-color: var(--background-color);
+
+        /* put on top */
+        position: relative;
+        z-index: 1;
+      }
+    </style>
   </body>
 </html>
