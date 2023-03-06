@@ -39,8 +39,14 @@ $enable-important: true;
 @import 'content/typography'; // a, headings, p, ul, blockquote, ...
 @import 'content/embedded'; // audio, canvas, iframe, img, svg, video
 @import 'content/button'; // button, a[role=button], type=button, type=submit ...
-//@import "content/form"; // input, select, textarea, label, fieldset, legend
-//@import "content/table"; // table, tr, td, ...
+
+// Components
+@import 'components/accordion'; // details, summary
+@import 'components/card'; // article
+@import 'components/modal'; // dialog
+@import 'components/nav'; // nav
+//@import 'components/progress'; // progress
+@import 'components/dropdown'; // dropdown
 
 // Utilities
 @import 'utilities/accessibility'; // -ms-touch-action, aria-*

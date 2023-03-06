@@ -1,8 +1,6 @@
 ---
-//styles
-import "@styles/pico.slim.scss";
-
 //components
+import Styles from "@components/Styles.astro";
 import Junglestar from "@components/Junglestar.astro";
 import Body from "@layouts/Body.astro";
 
@@ -81,4 +79,5 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
   <slot>
     <Body />
   </slot>
+  <Styles />
 </html>

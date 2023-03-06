@@ -11,7 +11,7 @@ export interface Props {
   title: string;
 }
 
-const title = "top_pad";
+const title = "nav";
 
 import "@styles/pico.slim.scss";
 ---
@@ -31,9 +31,10 @@ import "@styles/pico.slim.scss";
   }
 </nav>
 <style lang="scss">
-  .top_pad {
+  .nav {
     position: fixed;
-    z-index: -1;
+    top: 0;
+    z-index: -1; //0main,-1nav,-2footer,
     width: 100vw;
     height: 100vw;
     display: block;
