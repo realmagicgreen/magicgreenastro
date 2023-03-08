@@ -121,6 +121,9 @@ ul li {
 
 .hide {
   display: none;
+  &.show {
+    display: inherit;
+  }
 }
 
 .outline_color {

@@ -1,9 +1,9 @@
 ---
 ---
 
-<div class="menu_footer">
-  <div class="menu_contacts" role="menu">
-    <div class="footer_icon facebook">
+<div class="menu_footer centered">
+  <div class="menu_section" role="menu">
+    <div class="footer_icon magicgreen">
       <a
         class="menu_item open_in_new_window"
         role="menuitem"
@@ -13,11 +13,11 @@
         rel="noopener"
       >
         <span>
-          <svg class="facebook">
+          <svg class="magicgreen">
             <use xlink:href="#icn--magicgreen"></use>
           </svg>
         </span>
-        <span>About Magic Green</span>
+        <span>About MAGIC GREEN</span>
       </a>
     </div>
 
@@ -122,16 +122,17 @@
   }
 
   .menu_footer {
-    width: 100%;
+    width: 93%;
+    padding-left: 7%;
     max-width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @media (min-width: 768px) {
-      flex-direction: row;
-      max-width: 700px;
-    }
+    // @media (min-width: 768px) {
+    //   flex-direction: row;
+    //   max-width: 700px;
+    // }
 
     .email a span,
     .other_website a span {
@@ -139,8 +140,7 @@
     }
   }
 
-  .menu_contacts,
-  .menu_posts {
+  .menu_section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -161,5 +161,13 @@
 
   .menu.menu_footer .menu_item {
     text-transform: none;
+  }
+
+  .qr_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
   }
 </style>

@@ -4,18 +4,19 @@ const today = new Date();
 ---
 
 <div class="copyright">
-  <span
-    >Copyright © 2018-{today.getFullYear()}
-    {siteData.title}.
-    <br class="show_on_phones" />Released under <a
-      id="magicgreen-to-creativecommons"
-      title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials."
-      href={siteData.license.url}
-      target="_blank"
-      class="open_in_new_window"
-      rel="noopener">{siteData.license.name} license</a
-    >.
-  </span>
+  <span>Copyright © 2018-{today.getFullYear()}</span>
+  <span class="uppercase">{siteData.title}.</span>
+  <br class="show_on_phones" />Released under
+
+  <a
+    id="magicgreen-to-creativecommons"
+    title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials."
+    href={siteData.license.url}
+    target="_blank"
+    class="open_in_new_window"
+    rel="noopener"
+    >{siteData.license.name}
+  </a>
 
   <span>
     <br class="show_on_phones" /> Powered by <a

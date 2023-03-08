@@ -21,20 +21,23 @@ const {
 
 <Layout bodyClass="article" title={title} description={description}>
   <article>
-    <Picture
-      src={coverImage}
-      widths={[640, 880, 1024, 1920]}
-      aspectRatio="1:1"
-      sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
-      alt={coverImage}
-    />
-
     <div class="post_header container">
       <h1 class="compacted centered">{title}</h1>
       <h2 class="centered border_top border_bottom">{subtitle}</h2>
-
-      <PostMetas />
     </div>
+
+    <div class="hero">
+      <Picture
+        class="hero_picture"
+        src={coverImage}
+        widths={[640, 880, 1024, 1920]}
+        aspectRatio="1:1"
+        sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
+        alt={coverImage}
+      />
+    </div>
+
+    <PostMetas />
 
     <div class="post_content container padding_top">
       <slot />
@@ -57,14 +60,18 @@ const {
   }
 
   picture {
-    &::after {
-      content: url({coverImage});
+    object-fit: none;
+    // &::after {
+    //   content: url({coverImage});
+    // }
+    img.hero {
+      display: block !important;
+      position: relative !important;
+      // top: 20%;
+      // left: 0;
+      // transform: scale(150%) !important;
+      // transform-origin: top center;
+      height: 700px !important;
     }
   }
-
-  // .ftw {
-  //   line-height: 0.75;
-  //   line-height: 1ch;
-
-  // }
 </style>
