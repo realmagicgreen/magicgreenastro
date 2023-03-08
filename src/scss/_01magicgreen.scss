@@ -98,6 +98,12 @@ body {
   content-visibility: auto;
 }
 
+ul li {
+  list-style-type: none !important; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
 .sarung {
   margin: 0 3%;
   min-width: 94%;
@@ -142,6 +148,23 @@ blockquote p {
   padding-left: 2rem;
 }
 
+.centered {
+  text-align: center;
+}
+
+.compacted {
+  line-height: 0.75;
+  line-height: 1ch;
+}
+
+.padding_top {
+  padding-top: var(--space);
+}
+
+.padding_bottom {
+  padding-bottom: var(--space);
+}
+
 .spaced {
   font-size: 3rem;
   font-weight: 100;
@@ -151,12 +174,6 @@ blockquote p {
     padding: 0.5rem !important;
     line-height: 0.5;
   }
-}
-
-ul li {
-  list-style-type: none !important; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
 }
 
 .is_relative {
@@ -182,20 +199,4 @@ footer {
   margin-top: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-}
-
-.half_screen_down {
-  margin-top: 50vh !important;
-}
-
-.half_screen_up {
-  padding-bottom: 50vh !important;
-}
-
-.one_screen_down {
-  padding-top: 100vh !important;
-}
-
-.one_screen_up {
-  padding-bottom: 100vh !important;
 }

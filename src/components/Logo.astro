@@ -1,14 +1,9 @@
 ---
-export interface Props {
-  title: string;
-}
-
-const { title } = Astro.props;
 ---
 
-<div class="logo_block_wrap">
+<div class="logo_block">
   <a href="/" title="Magic Green Logo | T-shirts are available, sustain us!">
-    <svg class="logo" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
+    <svg alt="" class="logo" xmlns="http://www.w3.org/2000/svg">
       <path
         class="fill_color"
         stroke="#000"
@@ -18,39 +13,25 @@ const { title } = Astro.props;
       ></path>
     </svg>
   </a>
-
-  <h1 class="hide">{title}</h1>
 </div>
 
 <style lang="scss">
   .logo_block {
-    // a
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: var(--space);
-    padding-bottom: var(--space);
-    //position: relative;
-    top: 0;
-    display: block;
-    z-index: inherit;
-    height: 250px;
-    z-index: 0;
-  }
-  svg.logo {
-    display: block;
-    min-height: 250px;
-    position: absolute;
-    z-index: 0;
-    //transform: scale(0.95);
-    &:hover {
-      transform: scale(1.5);
-    }
   }
 
-  .logo_block_wrap {
+  a {
     display: block;
-    transform: scale(1.25);
-    overflow: hidden;
+    object-fit: contain !important;
+  }
+
+  svg.logo {
+    display: block;
+    height: 350px;
+    width: 400px;
+    padding: 1rem;
+    //margin: 1rem;
   }
 </style>

@@ -66,7 +66,16 @@ declare module 'astro:content' {
 	};
 
 	const entryMap: {
-		"health": {
+		"about": {
+"about-us.md": {
+  id: "about-us.md",
+  slug: "about-us",
+  body: string,
+  collection: "about",
+  data: any
+},
+},
+"health": {
 "aloe-vera.md": {
   id: "aloe-vera.md",
   slug: "aloe-vera",

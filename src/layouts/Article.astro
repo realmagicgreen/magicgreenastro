@@ -30,13 +30,13 @@ const {
     />
 
     <div class="post_header container">
-      <h1 class="ftw">{title}</h1>
-      <h2 class="border_top border_bottom">{subtitle}</h2>
+      <h1 class="compacted centered">{title}</h1>
+      <h2 class="centered border_top border_bottom">{subtitle}</h2>
 
       <PostMetas />
     </div>
 
-    <div class="container padding_top">
+    <div class="post_content container padding_top">
       <slot />
     </div>
   </article>
@@ -50,9 +50,10 @@ const {
     padding-right: var(--space_horizontal);
     padding-left: var(--space_horizontal);
   }
-  .post_header {
-    position: relative;
-    overflow: hidden;
+
+  .post_content {
+    padding-right: 10vw;
+    padding-left: 10vw;
   }
 
   picture {
@@ -61,21 +62,9 @@ const {
     }
   }
 
-  .ftw {
-    line-height: 0.75;
-    line-height: 1ch;
-    position: relative;
-    z-index: 10;
-  }
-  .ftw_shadow {
-    line-height: 0.5;
-    position: absolute;
-    top: 10px;
-    left: -50px;
-    z-index: 01;
-  }
+  // .ftw {
+  //   line-height: 0.75;
+  //   line-height: 1ch;
 
-  .padding_top {
-    padding-top: var(--space);
-  }
+  // }
 </style>

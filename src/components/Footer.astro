@@ -11,39 +11,13 @@ const title = "fixed";
 ---
 
 <footer class={title} role="contentinfo">
-  <div class="container">
-    <Logo />
+  <Logo />
 
+  <div class="container">
     <FooterMenu />
   </div>
 
   <FooterCopy />
 </footer>
 
-<style lang="scss">
-  footer {
-    /* place on the bottom */
-    position: sticky !important;
-    background-color: hsla(36, 88%, 12%, 1);
-    background: linear-gradient(
-      180deg,
-      hsla(36, 88%, 12%, 0) 0%,
-      hsla(36, 88%, 12%, 0) 5%,
-      hsla(36, 88%, 12%, 0.25) 15%,
-      hsla(36, 88%, 12%, 0.75) 50%,
-      hsla(36, 88%, 12%, 1) 100%
-    );
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    padding: 0 !important;
-    //padding-top: 60vh !important;
-    margin-top: 100vh;
-    z-index: -2;
-    .container {
-      padding: 50px;
-    }
-  }
-</style>
+<style lang="scss"></style>

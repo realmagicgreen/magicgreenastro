@@ -1,0 +1,22 @@
+---
+import Layout from "@layouts/Body.astro";
+import siteData from "@data/site.json";
+import { getCollection } from "astro:content";
+const blogEntries = await getCollection("about");
+---
+
+<Layout title={siteData.tldr}>
+  <div class="ul about">
+    {
+      blogEntries.map((blogPostEntry) => (
+        <div class="li">
+          <a href={`/about/${blogPostEntry.slug}`}>
+            {blogPostEntry.data.title}
+          </a>
+        </div>
+      ))
+    }
+  </div>
+</Layout>
+
+<style></style>

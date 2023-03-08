@@ -25,75 +25,23 @@ import "@styles/pico.slim.scss";
         title={section.description}
         role="menuitem"
       >
-        <h2 class="nav_item ">{section.label}</h2>
+        {section.label}
       </a>
     ))
   }
 </nav>
 <style lang="scss">
-  .nav {
-    position: fixed;
-    top: 0;
-    z-index: -1; //0main,-1nav,-2footer,
-    width: 100vw;
-    height: 100vw;
-    display: block;
-
-    transform: rotateZ(90deg);
+  nav {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    align-content: space-evenly;
-
-    background-color: hsla(199, 100%, 69%, 1);
-    background: linear-gradient(
-      270deg,
-      rgba(0, 0, 0, 0) 0%,
-      hsla(199, 100%, 69%, 0.5) 50%,
-      hsla(199, 100%, 69%, 0.75) 75%,
-      hsla(199, 100%, 69%, 1) 100%
-    );
-
-    &.day {
-      background-color: hsla(199, 100%, 69%, 1);
-      background: linear-gradient(
-        270deg,
-        rgba(0, 0, 0, 0) 0%,
-        hsla(199, 100%, 69%, 0.5) 50%,
-        hsla(199, 100%, 69%, 0.75) 75%,
-        hsla(199, 100%, 69%, 1) 100%
-      );
-    }
-
-    &.night {
-      background-color: hsla(199, 100%, 69%, 1);
-      background: linear-gradient(
-        270deg,
-        rgba(0, 0, 0, 0) 0%,
-        hsla(199, 100%, 69%, 0.5) 50%,
-        hsla(199, 100%, 69%, 0.75) 75%,
-        hsla(199, 100%, 69%, 1) 100%
-      );
-    }
-
+    padding-left: var(--space_small);
+    padding-right: var(--space_small);
+    justify-content: center;
     a {
-      display: block;
-      padding-left: var(--space);
-      font-weight: 500;
       text-transform: uppercase;
-    }
-  }
-  .nav_item {
-    width: 100vw;
-    // inside the button
-    font-weight: 900 !important;
-    min-height: 42px;
-    text-transform: uppercase;
-    font-size: clamp(1rem, 6vw, 15vh) !important;
-    font-weight: 900;
-    margin: 0 !important;
-    &:hover {
-      font-weight: 500 !important;
+      min-height: 48px;
+      padding-left: var(--space_small);
+      padding-right: var(--space_small);
     }
   }
 </style>
