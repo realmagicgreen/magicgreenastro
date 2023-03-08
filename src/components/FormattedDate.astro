@@ -1,9 +1,9 @@
 ---
 const { date } = Astro.props.frontmatter || Astro.props;
+//const { dateString } = date.toISOString();
 ---
 
-<!--
-<time datetime={date.toISOString()}>
+<!-- <time datetime={dateString}>
   {
     date.toLocaleDateString("en-us", {
       year: "numeric",

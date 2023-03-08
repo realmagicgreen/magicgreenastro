@@ -18,6 +18,8 @@ const blogCollection = defineCollection({
       .transform((str) => (str ? new Date(str) : undefined)),
     tags: z.array(z.string()),
     coverImage: z.string().optional(),
+    // coverImage: image().refine((img) => img.width >= 1080, { message: 'Cover image must be at least 1080 pixels wide!' }),
+
     description: z
       .string()
       .max(

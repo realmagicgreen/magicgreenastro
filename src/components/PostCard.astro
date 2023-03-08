@@ -17,9 +17,9 @@ const { title, date, author, image, description, category } = data;
 
 <article class="card">
   <small>
-    <a href={`/category/${category}/`} class="badge">{category}</a>
+    <a href={`/${category}/`} class="badge">{category}</a>
   </small>
-  <a href={`/blog/${url}/`} aria-hidden="true" tabindex="-1">
+  <a href={`/${url}/`} aria-hidden="true" tabindex="-1">
     <Image
       src={image.src}
       alt={image.alt}

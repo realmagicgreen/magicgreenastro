@@ -11,7 +11,8 @@
       "@js/*": ["src/js/*"],
       "@svgs/*": ["public/assets/svgs/*"],
       "@styles/*": ["src/scss/*"],
-      "@p/*": ["public/assets/p/*"]
+      "@p/*": ["public/assets/p/*"],
+      "@overlays/*": ["public/assets/overlays/*"]
     }
   }
 }

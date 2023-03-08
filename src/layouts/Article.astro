@@ -13,10 +13,15 @@ const {
   pubDate,
   updatedDate,
 } = Astro.props.frontmatter || Astro.props;
+
+export interface Props {
+  description: string;
+  bodyClass: string;
+}
 ---
 
-<Layout bodyClass="article" title={title} description={description}>
-  <article>
+<Layout cssClass="article" title={title} description={description}>
+  <article class={category}>
     <div class="post_header container">
       <h1 class="compacted centered">{title}</h1>
       <h2 class="centered border_top border_bottom">{subtitle}</h2>
@@ -35,9 +40,10 @@ const {
         />
       </div>
     </div>
+    <hr />
 
     <PostMetas />
-
+    <hr />
     <div class="post_content container padding_top">
       <slot />
     </div>
