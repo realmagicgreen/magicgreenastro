@@ -1,7 +1,8 @@
 ---
 import FormattedDate from "@components/FormattedDate.astro";
 
-const { category, photography, pubDate, updatedDate } = Astro.props;
+const { category, photography, pubDate, updatedpubDate } =
+  Astro.props.frontmatter || Astro.props;
 ---
 
 <div class="h5 post_metas">
@@ -25,7 +26,7 @@ const { category, photography, pubDate, updatedDate } = Astro.props;
     </div>
 
     <div class="post_meta_text nowrap" title="photography by">
-      {photography}
+      {frontmatter.photography}
     </div>
   </div>
 
@@ -47,21 +48,21 @@ const { category, photography, pubDate, updatedDate } = Astro.props;
   </div>
 
   <div class="uppercase">
-    section: {category}
+    SECTION: {category}
   </div>
 
   <div>
-    date: <FormattedDate date={pubDate} />
+    DATE: <FormattedDate date={pubDate} />
     {
-      updatedDate && (
+      updatedpubDate && (
         <div class="last-updated-on">
-          Last updated on <FormattedDate date={updatedDate} />
+          Updated on <FormattedDate date={updatedpubDate} />
         </div>
       )
     }
   </div>
   <div>
-    photography: {photography}
+    PHOTOGRAPHY: {photography}
   </div>
 </div>
 
