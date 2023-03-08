@@ -3,9 +3,6 @@ import mdx from "@astrojs/mdx";
 import yaml from "@rollup/plugin-yaml"; //maybe needed, currently using .json
 import image from "@astrojs/image";
 
-// https://astro.build/config
-
-// https://astro.build/config
 export default defineConfig({
   markdown: {
     drafts: true,
@@ -31,5 +28,5 @@ export default defineConfig({
     plugins: [yaml()],
   },
   outDir: "./dist",
-  site: "https://magicgreen.junglestar.org/",
+  site: "https://m.junglestar.org/",
 });

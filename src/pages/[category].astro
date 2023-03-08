@@ -38,7 +38,7 @@ const { category } = Astro.params;
 const { name } = Astro.props;
 
 const allPosts = await getCollection("blog");
-const formattedPosts: CollectionEntry<"blog">[] = formatBlogPosts(allPosts);
+const formattedPosts: CollectionEntry<"category">[] = formatBlogPosts(allPosts);
 const catPosts = formattedPosts.filter(
   (post) => slugify(post.data.category) === category
 );

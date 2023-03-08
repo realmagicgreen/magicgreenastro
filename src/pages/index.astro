@@ -6,11 +6,21 @@ import { getCollection } from "astro:content";
 const healthArticles = await getCollection("health", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
 });
-const knowArticles = await getCollection("know");
-const productsArticles = await getCollection("products");
-const servicesArticles = await getCollection("services");
-const solutionsArticles = await getCollection("solutions");
-const techniquesArticles = await getCollection("techniques");
+const knowArticles = await getCollection("know", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
+const productsArticles = await getCollection("products", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
+const servicesArticles = await getCollection("services", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
+const solutionsArticles = await getCollection("solutions", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
+const techniquesArticles = await getCollection("techniques", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
 ---
 
 <Layout

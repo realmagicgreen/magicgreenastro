@@ -1,11 +1,7 @@
 ---
 import { Picture } from "@astrojs/image/components";
-
 import Layout from "@layouts/Body.astro";
 import PostMetas from "@components/PostMetas.astro";
-
-//import type { CollectionEntry } from "astro:content";
-// type Props = CollectionEntry<"health">["data"];
 
 const {
   title,
@@ -16,7 +12,7 @@ const {
   coverImage,
   pubDate,
   updatedDate,
-} = Astro.props;
+} = Astro.props.frontmatter || Astro.props;
 ---
 
 <Layout bodyClass="article" title={title} description={description}>
@@ -26,15 +22,18 @@ const {
       <h2 class="centered border_top border_bottom">{subtitle}</h2>
     </div>
 
-    <div class="hero">
-      <Picture
-        class="hero_picture"
-        src={coverImage}
-        widths={[640, 880, 1024, 1920]}
-        aspectRatio="1:1"
-        sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
-        alt={coverImage}
-      />
+    <div class="hero vegas_container">
+      <div class="vegas_overlay"></div>
+      <div class="vegas_slide">
+        <Picture
+          attributes={{ class: "hero_picture" }}
+          src={coverImage}
+          widths={[640, 880, 1024, 1920]}
+          aspectRatio="1:1"
+          sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
+          alt={coverImage}
+        />
+      </div>
     </div>
 
     <PostMetas />
@@ -73,5 +72,43 @@ const {
       // transform-origin: top center;
       height: 700px !important;
     }
+  }
+
+  //rok recent
+
+  .post_header {
+    padding-top: var(--space);
+  }
+  .hero {
+    position: relative;
+  }
+  .vegas_overlay {
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: transparent url("/assets/overlays/07.png") center center repeat;
+  }
+
+  body .vegas_container {
+    overflow: hidden !important;
+    position: relative;
+  }
+
+  body.vegas_container {
+    overflow: auto;
+    position: static;
+    z-index: -2;
+  }
+
+  body.vegas_container > .vegas_slide {
+    position: fixed;
+    z-index: -1;
   }
 </style>
