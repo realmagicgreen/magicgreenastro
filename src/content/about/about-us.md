@@ -2,19 +2,21 @@
 title: About us
 subtitle: Working towards a necessary future.
 category: about
-description: We are a network of communication professionals, with a solid experience producing communication tools, who feel the need to make something meaningful and necessary. We'd like to give a contribution to push the world towards the right direction. Help us spread the word.
+pubDate: 2018-05-02
+updatedDate: 2023-03-03
+description: We are a network of communication professionals who feel the need to make something meaningful and necessary. To push the world towards the right direction.
 cover_image: /assets/p/about/about-us/about-us.jpg
-many_pictures: # 'true' or empty
-publish: # use 'notyet' to print 'coming soon'
-tag:
-  - page
-  - about-us # new or other...
-featured: # use 'true' to have it displayed in home
+many_pictures: false # 'true' or empty
+tags:
+  - magicgreen
+featured: false # use 'true' to have it displayed in home
+draft: false
+ad: false
 ---
->"**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
 
->"**Tidak ada yang sekuat sebuah gagasan yang waktunya telah tiba.**" _Victor Hugo_
+> "**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
 
+> "**Tidak ada yang sekuat sebuah gagasan yang waktunya telah tiba.**" _Victor Hugo_
 
 # Feeding the green baby.
 
@@ -23,7 +25,6 @@ The growing concern about the ecological impact is a fact worldwide. Scientists 
 Ecologically sustainable business needs to communicate about their low impact practices and policies. Green minded business must let customers know in order to beat the competition.
 
 Green and sustainable businesses practices are both necessary and a growing reality today. Conscious consumers want to know who is doing the right thing and are ready to support them. The time is perfect to fill this gap.
-
 
 # The Magic Green project
 

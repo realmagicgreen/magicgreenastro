@@ -5,7 +5,7 @@ const blogCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     subtitle: z.string(),
-    category: z.enum(["health", "know", "products", "services", "solutions", "techniques"]),
+    category: z.enum(["health", "know", "products", "services", "solutions", "techniques", "about"]),
     // pubDate: z.date(),
     // Transform string to Date object
     pubDate: z
@@ -25,7 +25,7 @@ const blogCollection = defineCollection({
         "For best SEO results, please keep the description under 160 characters."
       ),
     ad: z.boolean().optional().default(false),
-    featured: z.boolean().default(false),
+    featured: z.boolean().optional().default(false),
     draft: z.boolean().optional(),
   }),
 });
@@ -38,4 +38,5 @@ export const collections = {
   'services': blogCollection,
   'solutions': blogCollection,
   'techniques': blogCollection,
+  'about': blogCollection,
 };

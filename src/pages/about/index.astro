@@ -6,17 +6,7 @@ const blogEntries = await getCollection("about");
 ---
 
 <Layout title={siteData.tldr}>
-  <div class="ul about">
-    {
-      blogEntries.map((blogPostEntry) => (
-        <div class="li">
-          <a href={`/about/${blogPostEntry.slug}`}>
-            {blogPostEntry.data.title}
-          </a>
-        </div>
-      ))
-    }
-  </div>
+  <div class="about"></div>
 </Layout>
 
 <style></style>
