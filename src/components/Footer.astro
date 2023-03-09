@@ -4,13 +4,13 @@ import FooterMenu from "@components/FooterMenu.astro";
 import FooterCopy from "@components/FooterCopy.astro";
 
 export interface Props {
-  title: string;
+  cssClass: string;
 }
 
-const title = "footer";
+const cssClass = "footer";
 ---
 
-<footer class={title} role="contentinfo">
+<footer class={cssClass} role="contentinfo">
   <Logo />
 
   <div class="container">
