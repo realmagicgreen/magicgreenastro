@@ -34,10 +34,9 @@ const { title, subtitle, description, category, coverImage } =
         />
       </div>
     </div>
-    <hr />
 
     <PostMetas />
-    <hr />
+
     <div class="post_content container padding_top">
       <slot />
     </div>
@@ -51,6 +50,12 @@ const { title, subtitle, description, category, coverImage } =
     align-items: center;
     padding-right: var(--space_horizontal);
     padding-left: var(--space_horizontal);
+    box-shadow: none;
+    .know-more-links {
+      border-bottom: 4px solid var(--primary) !important;
+      border-radius: 5px;
+      color: red !important;
+    }
   }
 
   .post_content {
@@ -60,16 +65,11 @@ const { title, subtitle, description, category, coverImage } =
 
   picture {
     object-fit: none;
-    // &::after {
-    //   content: url({coverImage});
-    // }
+
     img.hero {
       display: block !important;
       position: relative !important;
-      // top: 20%;
-      // left: 0;
-      // transform: scale(150%) !important;
-      // transform-origin: top center;
+
       height: 700px !important;
     }
   }
