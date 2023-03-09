@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/image': ^0.15.1
+  '@astrojs/markdown-remark': ^2.1.0
   '@astrojs/mdx': ^0.15.2
   '@astrojs/rss': ^2.2.0
   '@rollup/plugin-yaml': ^4.0.1
@@ -9,12 +10,14 @@ specifiers:
   astro: ^2.1.2
   astro-icon: ^0.8.0
   astro-seo: ^0.6.1
+  remark-toc: ^8.0.1
   rollup: ^3.18.0
   sass: ^1.58.3
   sharp: ^0.31.3
 
 devDependencies:
   '@astrojs/image': 0.15.1_astro@2.1.2+sharp@0.31.3
+  '@astrojs/markdown-remark': 2.1.0_astro@2.1.2
   '@astrojs/mdx': 0.15.2_astro@2.1.2+rollup@3.18.0
   '@astrojs/rss': 2.2.0
   '@rollup/plugin-yaml': 4.0.1_rollup@3.18.0
@@ -22,6 +25,7 @@ devDependencies:
   astro: 2.1.2_sass@1.58.3+sharp@0.31.3
   astro-icon: 0.8.0
   astro-seo: 0.6.1
+  remark-toc: 8.0.1
   rollup: 3.18.0
   sass: 1.58.3
   sharp: 0.31.3
@@ -829,6 +833,10 @@ packages:
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
+    dev: true
+
+  /@types/extend/3.0.1:
+    resolution: {integrity: sha512-R1g/VyKFFI2HLC1QGAeTtCBWCo6n75l41OnsVYNbmKG+kempOESaodf6BeJyUM3Q0rKa/NQcTHbB2+66lNnxLw==}
     dev: true
 
   /@types/hast/2.3.4:
@@ -2362,6 +2370,18 @@ packages:
       '@types/mdast': 3.0.10
     dev: true
 
+  /mdast-util-toc/6.1.1:
+    resolution: {integrity: sha512-Er21728Kow8hehecK2GZtb7Ny3omcoPUVrmObiSUwmoRYVZaXLR751QROEFjR8W/vAQdHMLj49Lz20J55XaNpw==}
+    dependencies:
+      '@types/extend': 3.0.1
+      '@types/mdast': 3.0.10
+      extend: 3.0.2
+      github-slugger: 2.0.0
+      mdast-util-to-string: 3.1.1
+      unist-util-is: 5.2.1
+      unist-util-visit: 4.1.2
+    dev: true
+
   /mdn-data/2.0.14:
     resolution: {integrity: sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==}
     dev: true
@@ -3182,6 +3202,14 @@ packages:
       retext: 8.1.0
       retext-smartypants: 5.2.0
       unist-util-visit: 4.1.2
+    dev: true
+
+  /remark-toc/8.0.1:
+    resolution: {integrity: sha512-7he2VOm/cy13zilnOTZcyAoyoolV26ULlon6XyCFU+vG54Z/LWJnwphj/xKIDLOt66QmJUgTyUvLVHi2aAElyg==}
+    dependencies:
+      '@types/mdast': 3.0.10
+      mdast-util-toc: 6.1.1
+      unified: 10.1.2
     dev: true
 
   /resolve-from/5.0.0:

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: About us
 subtitle: Working towards a necessary future.
 category: about

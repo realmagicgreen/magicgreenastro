@@ -1,12 +1,17 @@
 ---
 import Layout from "@layouts/Body.astro";
 import siteData from "@data/site.json";
-import { getCollection } from "astro:content";
-//const posts = await getCollection("about");
+import { getCollection, getEntryBySlug } from "astro:content";
+
+//const allBlogPosts = await getCollection("about");
+// Get a single entry from a collection. Requires the name of the collection and the entry's slug as arguments.
+const oneBlogPost = await getEntryBySlug("about", "about-us");
 ---
 
 <Layout title={siteData.tldr}>
-  <div class="about"></div>
+  <div class="about">
+    <slot />
+  </div>
 </Layout>
 
 <style></style>

@@ -7,6 +7,7 @@ const blogCollection = defineCollection({
     subtitle: z.string(),
     category: z.enum(["health", "know", "products", "services", "solutions", "techniques", "about"]),
     // pubDate: z.date(),
+    publishDate: z.string().transform((str) => new Date(str)),
     // Transform string to Date object
     pubDate: z
       .string()
@@ -29,6 +30,8 @@ const blogCollection = defineCollection({
     featured: z.boolean().optional().default(false),
     draft: z.boolean().optional(),
     photography: z.string().optional(),
+    // Advanced: Validate that the string is also a URL
+    canonicalURL: z.string().url(),
   }),
 });
 

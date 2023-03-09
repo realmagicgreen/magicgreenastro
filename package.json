@@ -1,7 +1,7 @@
 {
   "name": "@magicgreen",
   "type": "module",
-  "version": "5.8.0",
+  "version": "5.8.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -12,6 +12,8 @@
   },
   "devDependencies": {
     "@astrojs/image": "^0.15.1",
+    "@astrojs/markdown-remark": "^2.1.0",
+    "remark-toc": "^8.0.1",
     "@astrojs/mdx": "^0.15.2",
     "@astrojs/rss": "^2.2.0",
     "@rollup/plugin-yaml": "^4.0.1",
