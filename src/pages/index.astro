@@ -1,7 +1,7 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
-import { getCollection } from "astro:content";
 
 const healthArticles = await getCollection("health", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
