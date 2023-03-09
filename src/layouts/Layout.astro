@@ -23,13 +23,11 @@ const Mission = site.content_is_about;
 
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
 
-const makeTitle = title
-  ? Brand + " | " + title
-  : "Junglestar - your customers should understand you!";
+const makeTitle = title ? Brand + " | " + title : "J|makeTitle";
 
 const makeTitleOG = title
-  ? Brand + ", " + Mission + ", " + title
-  : "Junglestar - your customers should understand you!";
+  ? Brand + ", " + Mission + " | " + title
+  : "J|makeTitleOG!";
 
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
 ---

@@ -17,7 +17,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 There is a relationship between available bandwidth and economic health.

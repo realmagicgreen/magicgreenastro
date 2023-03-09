@@ -2,22 +2,16 @@
 import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Body.astro";
 import PostMetas from "@components/PostMetas.astro";
-
-const {
-  title,
-  subtitle,
-  description,
-  category,
-  photography,
-  coverImage,
-  pubDate,
-  updatedDate,
-} = Astro.props.frontmatter || Astro.props;
-
 export interface Props {
   description: string;
   bodyClass: string;
+  title: string;
+  category: string;
+  coverImage: URL;
 }
+
+const { title, subtitle, description, category, coverImage } =
+  Astro.props.frontmatter || Astro.props;
 ---
 
 <Layout cssClass="article" title={title} description={description}>

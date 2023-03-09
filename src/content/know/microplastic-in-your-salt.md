@@ -19,7 +19,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 <div class="tldr">
@@ -48,8 +48,7 @@ Of 39 salt brands tested, 36 had microplastics in them, according to a new analy
 
 Using prior salt studies, this new effort is the first of its scale to look at the geographical spread of microplastics in table salt and their correlation to where plastic pollution is found in the environment.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Salt brands tested.' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Salt brands tested.' %}
 
 > “The findings suggest that human ingestion of microplastics via marine products is strongly related to emissions in a given region,”_Seung-Kyu Kim, marine science professor at Incheon National University in South Korea._
 
@@ -61,8 +60,7 @@ Using prior salt studies, this new effort is the first of its scale to look at t
 
 > “The earlier studies found traces of microplastics in salt products sold in those countries, but we haven’t known how much.”_Sherri Mason_
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'Assessing the impact of microplastics' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Assessing the impact of microplastics' %}
 
 ## We know the solutions.
 

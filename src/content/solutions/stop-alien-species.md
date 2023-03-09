@@ -28,7 +28,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 At recent ASEAN meeting in Canada, Indonesia, represented by Dr. Gono Semiadi of the [Indonesian Institute of Sciences (LIPI)](https://en.wikipedia.org/wiki/Indonesian_Institute_of_Sciences), stressed that the key to prevent spread of alien species is a strong border control.
@@ -41,8 +41,7 @@ While thanking the CBD Secretariat for all its guidance in abating the prolifera
 
 The [Golden Apple Snail (Ampullariidae)](https://en.wikipedia.org/wiki/Ampullariidae) is an example of a well-established invasive species in Southeast Asia. It is considered as the 40th worst alien species in Europe and in the Top 100 of the World’s Worst Invasive Alien Species.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Golden Apple Snails' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Golden Apple Snails' %}
 
 Dr. Gono Semiadi stated that other well-established species, particularly in Viet Nam, include mimosa trees, water hyacinth, and caterpillars.
 
@@ -66,13 +65,11 @@ Vital ecosystem functions, such as pollination, soil regeneration, and nutrient 
 
 For example, a [common Myna](https://en.wikipedia.org/wiki/Myna), a bird of the starling family, can drive away native birds by occupying their nesting areas.
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'Mynas' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Mynas' %}
 
 [Mimosa pigra](https://en.wikipedia.org/wiki/Mimosa_pigra), a thorny shrub with buoyant seeds that grow abundantly in mudflats, can drive away migratory birds feeding and nesting in these areas.
 
-{% assign name = '' %}
-{% include 'partials/image.html', name: 'name', caption: 'Mimosa pigra' %}
+{% assign name = '' %} {% include 'partials/image.html', name: 'name', caption: 'Mimosa pigra' %}
 
 The ASEAN Centre for Biodiversity supports the ASEAN Member States in undertaking measures to cope with and come up with control measures on IAS through capacity building on taxonomy, information sharing through the ASEAN Clearing House Mechanism, and awareness raising.
 

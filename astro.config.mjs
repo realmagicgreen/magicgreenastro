@@ -1,4 +1,7 @@
 import { defineConfig } from "astro/config";
+import { rehypeHeadingIds } from "@astrojs/markdown-remark";
+import remarkToc from "remark-toc";
+
 import mdx from "@astrojs/mdx";
 import yaml from "@rollup/plugin-yaml"; //maybe needed, currently using .json
 import image from "@astrojs/image";
@@ -6,6 +9,8 @@ import image from "@astrojs/image";
 export default defineConfig({
   markdown: {
     drafts: true,
+    rehypePlugins: [rehypeHeadingIds],
+    remarkPlugins: [[remarkToc, { heading: "contents" }]],
   },
   integrations: [
     mdx({

@@ -2,17 +2,15 @@
 import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
-const blogEntries = await getCollection("solutions");
+const posts = await getCollection("solutions");
 ---
 
 <Layout title={siteData.tldr}>
   <ul>
     {
-      blogEntries.map((blogPostEntry) => (
+      posts.map((post) => (
         <li>
-          <a href={`/solutions/${blogPostEntry.slug}`}>
-            {blogPostEntry.data.title}
-          </a>
+          <a href={`/solutions/${post.slug}`}>{post.data.title}</a>
         </li>
       ))
     }

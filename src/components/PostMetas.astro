@@ -1,8 +1,9 @@
 ---
 import FormattedDate from "@components/FormattedDate.astro";
 
-const { category, photography, pubDate, updatedpubDate } =
-  Astro.props.frontmatter || Astro.props;
+const { category } = Astro.props.frontmatter || Astro.props;
+
+const photography = "UNKNOWN";
 ---
 
 <div class="h5 post_metas">
@@ -23,10 +24,12 @@ const { category, photography, pubDate, updatedpubDate } =
           d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
         ></path><circle cx="12" cy="13" r="4"></circle></svg
       >
-    </div>
-
-    <div class="post_meta_text nowrap" title="photography by">
-      {frontmatter.photography}
+      <span
+        class="post_meta_text nowrap"
+        title="'photography by' + '{photography}'"
+      >
+        {photography}
+      </span>
     </div>
   </div>
 
@@ -45,24 +48,11 @@ const { category, photography, pubDate, updatedpubDate } =
       ><circle cx="12" cy="12" r="10"></circle><polyline
         points="12 6 12 12 16 14"></polyline></svg
     >
+    <FormattedDate />
   </div>
 
   <div class="uppercase">
     SECTION: {category}
-  </div>
-
-  <div>
-    DATE: <FormattedDate date={pubDate} />
-    {
-      updatedpubDate && (
-        <div class="last-updated-on">
-          Updated on <FormattedDate date={updatedpubDate} />
-        </div>
-      )
-    }
-  </div>
-  <div>
-    PHOTOGRAPHY: {photography}
   </div>
 </div>
 

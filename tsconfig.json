@@ -13,6 +13,8 @@
       "@styles/*": ["src/scss/*"],
       "@p/*": ["public/assets/p/*"],
       "@overlays/*": ["public/assets/overlays/*"]
-    }
+    },
+    "strictNullChecks": true,
+    "allowJs": true
   }
 }

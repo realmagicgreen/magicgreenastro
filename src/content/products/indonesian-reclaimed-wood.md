@@ -23,7 +23,7 @@ flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 Rest easy, feel good, you are sitting on a reclaimed timber chair!
@@ -34,8 +34,7 @@ In the last few years in Indonesia and specially in Bali, we have seen a big boo
 
 A quick search on google can reveal you how many companies are offering a wide variety of furniture and designs all made using wood has been reclaimed or salvaged.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Reclaimed timber is trendy now!' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Reclaimed timber is trendy now!' %}
 
 They take unused old structures such as boats, bridges, jetties and factories and turn them into surely solid timber products, sometime beautiful other time funky and kitsch, including flooring, decking, panelling, and countertops.
 
@@ -43,8 +42,7 @@ This ‘full circle’ production, reduce waste and utilize woods to the max. Af
 
 Some companies, like [Recycle teak](http://www.recycleteak.com/about-us/) are conscious enough to get certified by FSC, to show customers their effort and care about our environment.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Reclaimed timber is trendy now!' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Reclaimed timber is trendy now!' %}
 
 Some companies even go a step further and donate 10% of proceeds go to no-profits. For example [boat wood furniture Bali](http://boatwoodfurniturebali.com/) supprt Ypac Jimbaran, a local organization helping the physically handicapped children of bali.
 

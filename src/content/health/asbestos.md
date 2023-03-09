@@ -3,7 +3,7 @@ title: Asbestos
 subtitle: "This dangerous material, made forbidden in western countries more than 30 years ago, is still used everywhere in Indonesia."
 description: "The danger of using asbestos roofs for people is big. Exposition to asbestos dust leads to mesothelioma cancer."
 category: health
-pubDate:  2018-11-11
+pubDate: 2018-11-11
 published: true
 tags:
   - architecture
@@ -20,7 +20,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 The danger of using asbestos roofs for people is big. Exposition to asbestos dust leads to mesothelioma cancer.
@@ -29,18 +29,15 @@ Made illegal in western countries more than 30 years ago, asbestos is still used
 
 There are many resources online to know about it and understand its health hazards.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Asbestos is still used everywhere in Indonesia' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Asbestos is still used everywhere in Indonesia' %}
 
 [This video](https://www.youtube.com/watch?v=C4LczoPA1bs) explains how asbestos fiber dust affects human health and how to deal with it... hopefully useful!
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'Please spread the word about asbestos dangers' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'Please spread the word about asbestos dangers' %}
 
 Bahaya penggunaan atap asbes bagi masyarakat apabila terpapar debu asbes terus menerus, sebagai salah satu penyebab penyakit kangker mesothelioma.
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'Asbestos fiber dust is very dangerous' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Asbestos fiber dust is very dangerous' %}
 
 Dalam [video ini](https://www.youtube.com/watch?v=C4LczoPA1bs) menjelaskan bagaimana debu serat asbes mempengaruhi kesehatan manusia dan bagaimana cara penanggulangannya... semoga bermanfaat!
 

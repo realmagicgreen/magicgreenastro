@@ -21,7 +21,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 When you really need a straw to be able to enjoy your drink, let it be environment-friendly. These bamboo straws are locally made in Bali.

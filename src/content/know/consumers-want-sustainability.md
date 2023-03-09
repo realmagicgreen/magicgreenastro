@@ -18,7 +18,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is: do these topics really matter to consumers?

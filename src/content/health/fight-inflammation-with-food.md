@@ -3,7 +3,7 @@ title: Fight Inflammation With Food
 subtitle: "Inflammation is caused by unhealthy foods and lifestyle habits. You can treat it yourself with foods, exercise, good sleep and stress management."
 description: "Inflammation can occur in response to trauma, illness, stress, or unhealthy foods. Anti-inflammatory foods, exercise, good sleep and stress management can help."
 category: health
-pubDate:  2018-06-20
+pubDate: 2018-06-20
 published: true
 tags:
   - CO2
@@ -19,7 +19,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 Inflammation can occur in response to trauma, illness and stress.
@@ -30,8 +30,7 @@ Anti-inflammatory foods, exercise, good sleep and stress management can help.
 
 ### Turmeric and Curcumin
 
-{% assign name = '' %}
-{% include 'partials/image.html', name: 'name', caption: 'Curcumin or Turmeric provides several impressive health benefits.' %}
+{% assign name = '' %} {% include 'partials/image.html', name: 'name', caption: 'Curcumin or Turmeric provides several impressive health benefits.' %}
 
 [Curcumin](https://en.wikipedia.org/wiki/Curcumin) is a component of the spice Turmeric. It provides several impressive health benefits.
 
@@ -59,8 +58,7 @@ DHA, in particular, has been shown to have anti-inflammatory effects that reduce
 
 ### Ginger
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Ginger root has been shown to reduce inflammation.' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Ginger root has been shown to reduce inflammation.' %}
 
 [Ginger](https://en.wikipedia.org/wiki/Ginger) has been shown to reduce inflammation, as well as muscle pain and soreness after exercise.
 

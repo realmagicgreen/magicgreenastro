@@ -32,11 +32,9 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
     <h2 class="">HEALTH</h2>
     <div class="">
       {
-        healthArticles.map((blogPostEntry) => (
+        healthArticles.map((post) => (
           <div class="">
-            <a href={`/health/${blogPostEntry.slug}`}>
-              {blogPostEntry.data.title}
-            </a>
+            <a href={`/health/${post.slug}`}>{post.data.title}</a>
           </div>
         ))
       }
@@ -47,10 +45,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
     <h2 class="">KNOW</h2>
     <div class="ul">
       {
-        knowArticles.map((blogPostEntry) => (
+        knowArticles.map((post) => (
           <div class="">
-            <a class="" href={`/know/${blogPostEntry.slug}`}>
-              {blogPostEntry.data.title}
+            <a class="" href={`/know/${post.slug}`}>
+              {post.data.title}
             </a>
           </div>
         ))
@@ -62,10 +60,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
     <h2 class="">PRODUCTS</h2>
     <div class="">
       {
-        productsArticles.map((blogPostEntry) => (
+        productsArticles.map((post) => (
           <div class="">
-            <a class="" href={`/products/${blogPostEntry.slug}`}>
-              {blogPostEntry.data.title}
+            <a class="" href={`/products/${post.slug}`}>
+              {post.data.title}
             </a>
           </div>
         ))
@@ -77,10 +75,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
     <h2 class="">SERVICES</h2>
     <div class="">
       {
-        servicesArticles.map((blogPostEntry) => (
+        servicesArticles.map((post) => (
           <div class="">
-            <a class="" href={`/services/${blogPostEntry.slug}`}>
-              {blogPostEntry.data.title}
+            <a class="" href={`/services/${post.slug}`}>
+              {post.data.title}
             </a>
           </div>
         ))
@@ -92,10 +90,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
     <h2 class="">SOLUTIONS</h2>
     <div class="">
       {
-        solutionsArticles.map((blogPostEntry) => (
+        solutionsArticles.map((post) => (
           <div class="">
-            <a class="" href={`/solutions/${blogPostEntry.slug}`}>
-              {blogPostEntry.data.title}
+            <a class="" href={`/solutions/${post.slug}`}>
+              {post.data.title}
             </a>
           </div>
         ))
@@ -107,10 +105,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
     <h2 class="">TECHNIQUES</h2>
     <div class="ul">
       {
-        techniquesArticles.map((blogPostEntry) => (
+        techniquesArticles.map((post) => (
           <div class="li">
-            <a class="" href={`/techniques/${blogPostEntry.slug}`}>
-              {blogPostEntry.data.title}
+            <a class="" href={`/techniques/${post.slug}`}>
+              {post.data.title}
             </a>
           </div>
         ))

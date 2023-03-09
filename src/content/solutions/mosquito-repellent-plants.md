@@ -16,7 +16,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: # put here photographer name
+# photography:
 ---
 
 <div class="tldr">
@@ -43,8 +43,7 @@ Body heat is probably important too, but once the mosquito gets closer, she will
 
 ## Garlic - (Allium Sativum)
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'Garlic plant' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Garlic plant' %}
 
 [Garlic](https://en.wikipedia.org/wiki/Garlic) is another natural way to stay away from mosquitoes. You can use it by chopping it in small pieces and spread it around your living areas.
 
@@ -56,8 +55,7 @@ The best thing you can do is - prevent water from collecting as the mosquitoes c
 
 ## Peppermint - (Mentha × piperita)
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Mint plant' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Mint plant' %}
 
 Most bugs despise the smell and taste of [peppermint](https://en.wikipedia.org/wiki/Peppermint), so planting it around your home is a great way to keep them from dropping by uninvited.
 
@@ -69,8 +67,7 @@ An added bonus is the wonderful minty smell that makes a delicious addition to f
 
 ## Citronella - (Cymbopogon nardus)
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'Citronella plant' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'Citronella plant' %}
 
 This is by far the most well-known mosquito repellent because the compounds in its leaves are a common ingredient in commercial repellent products. It has a pleasant lemon smell and is very powerful at driving away mosquitoes.
 
@@ -86,8 +83,7 @@ True citronella looks a lot like thick grass, and does not have wide rippled lea
 
 ## Lavender - (Lavandula)
 
-{% assign name = '-05' %}
-{% include 'partials/image.html', name: 'name', caption: 'Lavender plant' %}
+{% assign name = '-05' %} {% include 'partials/image.html', name: 'name', caption: 'Lavender plant' %}
 
 [Lavender](https://en.wikipedia.org/wiki/Lavandula) is an excellent mosquito repellent. Much more common as an outdoor plant, you can keep a few small pots of it inside to help with the bugs.
 
@@ -95,8 +91,7 @@ It can be finicky, liking as much sun as you can find as well as a spot with goo
 
 ## Catnip - (Nepeta Cataria)
 
-{% assign name = '-06' %}
-{% include 'partials/image.html', name: 'name', caption: 'Catnip plant' %}
+{% assign name = '-06' %} {% include 'partials/image.html', name: 'name', caption: 'Catnip plant' %}
 
 [Catnip](https://en.wikipedia.org/wiki/Catnip) is also an effective mosquito repellent. Nepetalactone is one of the main active ingredients in Catnip, which was found to be 10 times stronger than even DEET, according to a recent study.
 
@@ -104,8 +99,7 @@ Catnip is also a good non-toxic substitute to traditional chemical sprays. Catni
 
 ## Basil - (Ocimum basilicum)
 
-{% assign name = '-07' %}
-{% include 'partials/image.html', name: 'name', caption: 'Basil plant' %}
+{% assign name = '-07' %} {% include 'partials/image.html', name: 'name', caption: 'Basil plant' %}
 
 [Basil](https://en.wikipedia.org/wiki/Basil) is already a great herb to have fresh in the kitchen, and now you can consider a pest repellent too. As usual, plan on keeping your potted basil in a very sunny window as it needs a lot of light, and be diligent about watering it.
 
@@ -119,8 +113,7 @@ Otherwise, they should thrive just fine. Feel free to harvest a few leaves now a
 
 ## Rosemary - (Salvia Rosmarinus)
 
-{% assign name = '-08' %}
-{% include 'partials/image.html', name: 'name', caption: 'Rosemary plant' %}
+{% assign name = '-08' %} {% include 'partials/image.html', name: 'name', caption: 'Rosemary plant' %}
 
 Another seasoning herb that has mosquito-repelling qualities is [rosemary](https://en.wikipedia.org/wiki/Rosemary).
 

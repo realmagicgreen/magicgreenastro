@@ -1,0 +1,64 @@
+---
+//https://web.dev/patterns/layout/container-query-card/demo.html
+---
+
+<div class="contained">
+  <div class="card">
+    <div class="visual"></div>
+    <div>
+      <div class="meta">
+        <h1>Card Title Here</h1>
+        <h2 class="time">Subtitle</h2>
+      </div>
+      <p class="desc">
+        Here is some descriptive text to support the main idea of the card. It
+        will be hidden when there is less inline space.
+      </p>
+      <button>I'm a button</button>
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+  /* Set containment on parent */
+  .contained {
+    container: inline-size;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  /* Base Styles */
+  .visual {
+    aspect-ratio: 1 / 1;
+  }
+
+  .desc {
+    display: none;
+  }
+
+  .card {
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  /* Responsive styles */
+
+  /* 2-column grid layout at >=350px */
+  @container (min-width: 350px) {
+    .card {
+      display: grid;
+      grid-template-columns: 40% 1fr;
+      align-items: center;
+      gap: 1rem;
+      text-align: left;
+    }
+  }
+
+  /* Display description at >=500px */
+  @container (min-width: 500px) {
+    .desc {
+      display: block;
+    }
+  }
+</style>

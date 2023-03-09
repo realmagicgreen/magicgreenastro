@@ -21,7 +21,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: true # 'true' or empty
 home_slideshow_caption: bio cement # lowercase, max 12 digits, including spaces
-photography: # put here photographer name
+# photography:
 ---
 
 <div class="tldr">
@@ -40,15 +40,13 @@ As an architect or designer, what is your role in the building industry? Are you
 
 Bio cement, 99.4% carbon free cement, is the right choice for the health of our environment without sacrificing durability or lifespan of the material.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'carbon free biocement floor' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'carbon free biocement floor' %}
 
 Can a fairly new material be used in the same way as the conventional ones we have been building with for centuries?
 
 Would it be a viable option to replace, say, concrete, with an environmentally responsible alternative and still get the same results in terms of architectural performance?
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'environmentally responsible wall' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'environmentally responsible wall' %}
 
 And how can a structure be intrinsically linked to its locale?
 
@@ -58,8 +56,7 @@ London-based designer **Asif Khan** explored with his _Wallpaper Re-Made_ projec
 
 A leading innovator in the green building space, **bioMASON®** offers the lowest carbon footprint, greater than 99% less, cement product in the market.
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'posing procedure' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'posing procedure' %}
 
 They grow their pre-cast materials by employing microorganisms.
 
@@ -67,15 +64,13 @@ The scaled process of growing biocement materials is similar to hydroponics and 
 
 Aggregate is mixed with our microorganisms, pressed into shape and fed an aqueous solution until hardened to specification.
 
-{% assign name = '-07' %}
-{% include 'partials/image.html', name: 'name', caption: 'bacteria at work' %}
+{% assign name = '-07' %} {% include 'partials/image.html', name: 'name', caption: 'bacteria at work' %}
 
 Their process enables materials to be formed in ambient temperatures by replacing the curing process with the formation of biologically controlled structural cement.
 
 Their patented biocement® **bioLITH®** tiles are available today to architects and green building leaders across the globe.
 
-{% assign name = '-10' %}
-{% include 'partials/image.html', name: 'name', caption: 'This brick is made from biocement material.' %}
+{% assign name = '-10' %} {% include 'partials/image.html', name: 'name', caption: 'This brick is made from biocement material.' %}
 
 This North Carolina-based company, co-founded by CEO _Ginger Krieg Dosier_ and her partner _Michael Dosier_, is innovative.
 
@@ -87,8 +82,7 @@ It "grows" sustainable cement by employing microorganisms, just as coral reefs a
 
 **BioMason** was built on a single belief that there is a better way, a new way with cues from natural marine cement formation.
 
-{% assign name = '-05' %}
-{% include 'partials/image.html', name: 'name', caption: 'circular economy diagram' %}
+{% assign name = '-05' %} {% include 'partials/image.html', name: 'name', caption: 'circular economy diagram' %}
 
 Instead of burning calcium carbonate to form cement, we are growing calcium carbonate cement biologically, precise, strong, durable, and real world tested, all formed in ambient conditions.
 
@@ -104,8 +98,7 @@ Explains _Krieg Dosier_.
 
 The company is also researching marine biocement with the ability to self-repair.
 
-{% assign name = '-08' %}
-{% include 'partials/image.html', name: 'name', caption: 'close up of a biocement brick' %}
+{% assign name = '-08' %} {% include 'partials/image.html', name: 'name', caption: 'close up of a biocement brick' %}
 
 BioMason biocement for dust control offers a best in class solution, that is cost effective, and convenient in application.
 
@@ -113,8 +106,7 @@ BioMason biocement for dust control offers a best in class solution, that is cos
 
 BioMason’s **biocement®** for dust control inhibits the creation of excess soil dust, which is a pollutant that contributes to an increase in particulate matter.
 
-{% assign name = '-06' %}
-{% include 'partials/image.html', name: 'name', caption: 'biocement® floor' %}
+{% assign name = '-06' %} {% include 'partials/image.html', name: 'name', caption: 'biocement® floor' %}
 
 It's odorless, non-leaching, biodegradable, non-dissipating, non-flammable, water resistant, non-slippery & safe, results in a durable surface ecologically and environmentally safe, works on even the most difficult soil substrates.
 

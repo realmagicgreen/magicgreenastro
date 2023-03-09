@@ -23,7 +23,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 Every year, the world produces around five trillion plastic bags. That is about 700 bags per person. Utilized for just a few minutes, take centuries to decompose. These wastes pile up in our lands and easily washed up into our streams, and rivers until they reach the oceans. Polluting our waters, destroying aquatic habitats, and eventually kill marine species.

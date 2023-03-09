@@ -20,15 +20,14 @@ featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: # put here photographer name
+# photography:
 ---
 
 Bamboo, technically a grass, has been used in building for centuries due to its impressive strength. It offer twice the compressive strength of concrete and about the same strength-to-weight ratio of steel in tension. [1]
 
 Bamboo provides excellent carbon sequestration, seventeen times as much carbon as a typical tree forest. [1]
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'Bamboo Structure' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Bamboo Structure' %}
 
 Its leaves are a high-quality forage for livestock and its shoots are delicacy enjoyed by humans. Unlike trees that rarely grow back once cut, bamboo will continue to produce new shoots even after harvesting it.
 
@@ -46,8 +45,7 @@ Studies show construction is one of the world's least sustainable industries, ea
 
 > "In China, eucalyptus can grow at three to four meters a year, which is very impressive for timber. But building-quality bamboo will grow between six and 10 meters in that time,"_Terry Sunderland, scientist at the Centre for International Forestry Research in Indonesia_
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'Madrid Barajas Airport' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'Madrid Barajas Airport' %}
 
 Bamboo has its drawbacks. Without intensive treatment, it is prone to rotting and catches fire relatively easily, which is why many countries limit bamboo structures height by law.
 
@@ -59,8 +57,7 @@ Studies show remarkable differences with untreated bamboo, when harvested at spe
 
 Bamboo is harvested before sunrise, when most of the starch is still in the roots. To further reduce starch sometimes bamboo is also soaked for 90 days before further treatments.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Bamboo Forest in Japan' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Bamboo Forest in Japan' %}
 
 Only mature bamboo, between 4 and 7 years old, is harvested. Poles inside the clump are older than those growing outside. An experienced bamboo harvester will be able to tell the age of bamboo by knocking on the culm and listening the different sounds. [3]
 

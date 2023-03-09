@@ -26,7 +26,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: true # 'true' or empty
 home_slideshow_caption: raising awareness # lowercase, max 12 digits, including spaces
-photography: # put here photographer name
+# photography:
 ---
 
 <div class="tldr">
@@ -47,15 +47,13 @@ Led by famous oceanographer Dr. Sylvia Earle, Mission Blue inspires action to ex
 
 Uniting a global coalition to inspire an upwelling of public awareness, access and support for a worldwide network of marine protected areas, Hope Spots, special places that are scientifically identified as critical to the health of the ocean.
 
-{% assign name = '-10' %}
-{% include 'partials/image.html', name: 'name', caption: 'health of the ocean' %}
+{% assign name = '-10' %} {% include 'partials/image.html', name: 'name', caption: 'health of the ocean' %}
 
 > "The next five years may be the most important in the next ten thousand for our planet. There are plenty of reasons for hope, yet every day, doors of opportunity close. We know what to do. Now is the time to act." _Dr. Sylvia Earle_
 
 Under Dr. Earle’s leadership, the Mission Blue team implements communications campaigns that elevate Hope Spots to the world stage through documentaries, social media, traditional media and innovative tools like Google Earth.
 
-{% assign name = '-05' %}
-{% include 'partials/image.html', name: 'name', caption: 'Hope Spot' %}
+{% assign name = '-05' %} {% include 'partials/image.html', name: 'name', caption: 'Hope Spot' %}
 
 Our Hope Spots are championed by local conservationists whom we support with communications, expeditions and scientific advisory.
 
@@ -63,13 +61,11 @@ Our Hope Spots are championed by local conservationists whom we support with com
 
 Mission Blue also embarks on regular oceanic expeditions that shed light on these vital ecosystems and build support for their protection.
 
-{% assign name = '-08' %}
-{% include 'partials/image.html', name: 'name', caption: 'vital ecosystems' %}
+{% assign name = '-08' %} {% include 'partials/image.html', name: 'name', caption: 'vital ecosystems' %}
 
 In 2020, the Mission Blue alliance includes more than 200 respected ocean conservation groups and like-minded organizations, from large multinational companies to individual scientific teams doing important research.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'scientific research' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'scientific research' %}
 
 Mission Blue supports the work of conservation NGOs that share the mission of building public support for ocean protection.
 
@@ -81,8 +77,7 @@ While about 12 percent of the land around the world is now under some form of pr
 
 Hope Spots allow us to plan for the future and look beyond current marine protected areas (MPAs), which are like national parks on land where exploitative uses like fishing and deep sea mining are restricted.
 
-{% assign name = '-07' %}
-{% include 'partials/image.html', name: 'name', caption: 'less than six percent of the ocean is protected' %}
+{% assign name = '-07' %} {% include 'partials/image.html', name: 'name', caption: 'less than six percent of the ocean is protected' %}
 
 Hope Spots are often areas that need new protection, but they can also be existing MPAs where more action is needed.
 
@@ -102,15 +97,13 @@ The idea is that anyone can nominate a site special to him or her, a site that g
 
 Collectively all of these Hope Spots will create a global wave of community support for ocean conservation that leaders and policy makers can’t ignore.
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'create a global wave of community support' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'create a global wave of community support' %}
 
 ## HOPE SPOT EXPEDITIONS
 
 Since 2008, Mission Blue expeditions have visited Hope Spots around the world, documenting these vibrant marine environments and engaging local stakeholders to protect them.
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'engaging local stakeholders to protect the environment' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'engaging local stakeholders to protect the environment' %}
 
 Led by Dr. Sylvia Earle and Expeditions Director Kip Evans, these voyages explore our most critical ocean habitats.
 
@@ -122,37 +115,27 @@ Designed to create awareness, foster partnerships and build broad public support
 
 - [Malpelo Island Hope Spot Expedition](https://mission-blue.org/events/malpelo-island-hope-spot-expedition/). 08/08/2019.
 
-- [Micronesian Islands Hope Spot](https://mission-blue.org/events/micronesian-islands-hope-spot/).
-  11/01/2018.
+- [Micronesian Islands Hope Spot](https://mission-blue.org/events/micronesian-islands-hope-spot/). 11/01/2018.
 
-- [Spitsbergen Island Hope Spot](https://mission-blue.org/events/spitsbergen-island-hope-spot/)
-  06/23/2018.
+- [Spitsbergen Island Hope Spot](https://mission-blue.org/events/spitsbergen-island-hope-spot/) 06/23/2018.
 
-- [Balearic Islands Hope Spot](https://mission-blue.org/events/balearic-islands-hope-spot/)
-  06/28/2017.
+- [Balearic Islands Hope Spot](https://mission-blue.org/events/balearic-islands-hope-spot/) 06/28/2017.
 
-- [Cocos Island, Costa Rica](https://mission-blue.org/events/cocos-island-costa-rica-2/)
-  05/23/2017.
+- [Cocos Island, Costa Rica](https://mission-blue.org/events/cocos-island-costa-rica-2/) 05/23/2017.
 
-- [Costa Rica Thermal Dome](https://mission-blue.org/events/costa-rica-thermal-dome/)
-  04/02/2017.
+- [Costa Rica Thermal Dome](https://mission-blue.org/events/costa-rica-thermal-dome/) 04/02/2017.
 
-- [Revillagigedo Archipelago, Mexico](https://mission-blue.org/events/revillagigedo-archipelago-a-k-a-socorro/)
-  01/08/2017.
+- [Revillagigedo Archipelago, Mexico](https://mission-blue.org/events/revillagigedo-archipelago-a-k-a-socorro/) 01/08/2017.
 
-- [Gulf of California, Mexico](https://mission-blue.org/events/gulf-of-california-mexico/)
-  02/25/2016.
+- [Gulf of California, Mexico](https://mission-blue.org/events/gulf-of-california-mexico/) 02/25/2016.
 
-- [Balearic Islands, Spain](https://mission-blue.org/events/balearic-islands/)
-  11/10/2015.
+- [Balearic Islands, Spain](https://mission-blue.org/events/balearic-islands/) 11/10/2015.
 
-- [Cashes Ledge, Gulf of Maine, USA](https://mission-blue.org/events/caches-ledge-new-england/)
-  08/07/2015.
+- [Cashes Ledge, Gulf of Maine, USA](https://mission-blue.org/events/caches-ledge-new-england/) 08/07/2015.
 
 &nbsp;
 
-{% assign name = '-09' %}
-{% include 'partials/image.html', name: 'name', caption: '' %}
+{% assign name = '-09' %} {% include 'partials/image.html', name: 'name', caption: '' %}
 
 ## EXPEDITION PROGRAM GOALS
 

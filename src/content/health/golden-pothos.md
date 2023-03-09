@@ -3,7 +3,7 @@ title: Golden Pothos
 subtitle: Effective in removing formaldehyde, thrives also under fluorescent lights and it's very easy to care for.
 category: health
 description: Golden Pothos is 1 of the top 3 plants that has been labeled the most effective in removing formaldehyde, is strong and stays green even with little light. # max 160 digits
-pubDate:  2018-06-03
+pubDate: 2018-06-03
 published: true
 tags:
   - CO2
@@ -21,7 +21,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 Epipremnum aureum is an evergreen climber with a multitude of common names including **golden pothos**, hunter's robe, ivy arum, **money plant**, silver vine, Solomon Islands ivy and taro vine.

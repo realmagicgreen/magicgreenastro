@@ -1,14 +1,18 @@
 ---
-const { date } = Astro.props.frontmatter || Astro.props;
-//const { dateString } = date.toISOString();
+// const { date } = Astro.props.frontmatter || Astro.props;
+// //const { dateString } = date.toISOString();
+
+// const { dateString } = new Date().toISOString();
 ---
 
-<!-- <time datetime={dateString}>
-  {
-    date.toLocaleDateString("en-us", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    })
-  }
-</time> -->
+<span id="dateCurated"></span>
+
+<script>
+  const d = new Date();
+  let text = d.toLocaleDateString("en-us", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+  document.getElementById("dateCurated").innerHTML = text;
+</script>

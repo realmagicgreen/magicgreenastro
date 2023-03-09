@@ -20,7 +20,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 **Byebye plastic bags** is an initiative from children to force all the people to say no to plastic bags, because of the enormous environmental pollution they cause.
@@ -29,8 +29,7 @@ It was invented of two young women, Melati and Isabel Wijtsen.
 
 They have a vision of a plastic bag free world where the young generation takes care and take action. They want to ban the use, sale and production of plastic bags.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Melati and Isabel in a typical Bali small shop' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Melati and Isabel in a typical Bali small shop' %}
 
 They have some sponsors and partners, but mostly they are living from donations. You too can be part of the movement, if you join or build your own BBPB team.
 
@@ -42,8 +41,7 @@ They promised to get Bali free in 2018, what is definitely not the case. Most of
 
 Hopefully the girls find some good new solutions to get there vision come true.
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'These young people just cleaned the beach' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'These young people just cleaned the beach' %}
 
 The first important step they reckon is to educate people about the damage plastic bags brings to our environment and also how you can be part of the solution.
 
@@ -59,8 +57,7 @@ Melati and Isabel are committed to making this village plastic bag free!
 
 A collective of NGOs, shops, hotels, restaurants, orgs and individuals who are committed to reducing waste on the island and solve the plastic problem with us.
 
-We are stronger together!
-To promote plastic bag free zones, check [One Island One Voice website](https://www.oneislandonevoice.org/).
+We are stronger together! To promote plastic bag free zones, check [One Island One Voice website](https://www.oneislandonevoice.org/).
 
 ### River booms
 
@@ -80,8 +77,7 @@ For every one bag sold, one bag will be donated to a local community member.
 
 In 2014, BBPB completed version 1 of their educational booklet for primary aged students to learn about the harms of plastic.
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'The plastic problem in numbers' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'The plastic problem in numbers' %}
 
 It was distributed throughout schools in Indonesia. An updated Version 2 of the booklet is to be published and distributed in 2018. [Educational booklet - PDF](https://drive.google.com/file/d/0Bxg4eo4M4UbeYmhxREI1cXJIY3c/view)
 

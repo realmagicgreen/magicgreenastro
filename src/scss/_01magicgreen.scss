@@ -113,11 +113,11 @@ ul li {
   flex-wrap: wrap;
 }
 
-.health {
-  position: relative;
-  width: auto;
-  object-fit: contain;
-}
+// .health {
+//   position: relative;
+//   width: auto;
+//   object-fit: contain;
+// }
 
 .hide {
   display: none;
@@ -143,6 +143,7 @@ ul li {
   }
 }
 
+// TYPOGRAPHY
 blockquote p {
   font-size: initial; /* Fallback value */
   font-size: clamp(2.15rem, 2.75vw, 11vw) !important;
@@ -184,14 +185,23 @@ blockquote p {
   position: relative !important;
 }
 
-.horizontal {
+.uppercased,
+.uppercase,
+.upc {
+  text-transform: uppercase !important;
+}
+
+// ROTATIONS
+.horizontal,
+.horizo,
+.hor {
   transform: rotate(0deg);
   transform-origin: center center;
   color: red !important;
   line-height: 6;
 }
 
-//fix pico.slim
+//FIX PICO.SLIM
 article,
 main,
 footer {

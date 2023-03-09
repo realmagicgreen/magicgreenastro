@@ -3,7 +3,7 @@ title: Moringa Superfood
 subtitle: Also called drumstick tree, horseradish tree, Moringa is an excellent source of vitamins, antioxidants and minerals.
 category: health
 description: Moringa is a fast-growing, drought-resistant tree. Leaves, rich in vitamins and minerals, are used in herbal medicines. It can be used to substitute protein. # max 160 digits
-pubDate:  2018-07-14
+pubDate: 2018-07-14
 published: true
 tags:
   - CO2
@@ -20,7 +20,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 <div class="tldr">
@@ -51,8 +51,7 @@ In Western countries, the dried leaves are sold as dietary supplements, either i
 
 The diet of people in developing nations sometimes lacks vitamins, minerals and protein. In these countries, [Moringa oleifera](https://en.wikipedia.org/wiki/Moringa_oleifera) can be an important source of many essential nutrients.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Moringa is available in powder and is consumed raw added to salads and shakes' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Moringa is available in powder and is consumed raw added to salads and shakes' %}
 
 ## Moringa benefits
 

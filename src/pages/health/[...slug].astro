@@ -4,10 +4,10 @@ import Article from "@layouts/Article.astro";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const healthArticles = await getCollection("health", ({ data }) => {
+  const articles = await getCollection("health", ({ data }) => {
     return !data.draft && data.pubDate < new Date();
   });
-  return healthArticles.map((post) => ({
+  return articles.map((post) => ({
     params: { slug: post.slug },
     props: { post },
   }));

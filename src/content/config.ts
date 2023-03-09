@@ -1,4 +1,4 @@
-import { defineCollection, z } from 'astro:content';
+import { z, defineCollection } from 'astro:content';
 
 const blogCollection = defineCollection({
   // Type-check frontmatter using a schema
@@ -19,16 +19,16 @@ const blogCollection = defineCollection({
     tags: z.array(z.string()),
     coverImage: z.string().optional(),
     // coverImage: image().refine((img) => img.width >= 1080, { message: 'Cover image must be at least 1080 pixels wide!' }),
-
     description: z
       .string()
       .max(
         160,
-        "For best SEO results, please keep the description under 160 characters."
+        "BEST SEO MAX 160 CHARACTERS."
       ),
     ad: z.boolean().optional().default(false),
     featured: z.boolean().optional().default(false),
     draft: z.boolean().optional(),
+    photography: z.string().optional(),
   }),
 });
 

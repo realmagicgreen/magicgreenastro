@@ -22,7 +22,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 A clever way to limit the use of plastic bottles is serving water in up-cycled bottle and glasses.

@@ -3,7 +3,7 @@ title: Peace Lilies
 subtitle: One of the most powerful pollutant remover.
 category: health
 description: "NASA Clean Air Study found that it is one of the most powerful pollutant remover. Most people don't know what's their apartment, is full of harfull substances."
-pubDate:  2018-05-25
+pubDate: 2018-05-25
 published: true
 tags:
   - CO2
@@ -21,7 +21,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 Peace lilies go by the scientific name of Spathiphyllum.

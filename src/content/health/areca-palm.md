@@ -3,7 +3,7 @@ title: Areca Palm
 subtitle: "Removes CO2 and produces lots of oxygen. Its health benefits will boost your energy and productivity."
 description: "Areca Palm, Yellow Palm, or Butterfly Palm is a wonder plant. Besides cleaning the air by removing pollutants it's an effective humidifier." # max 160 digits
 category: health
-pubDate:  2018-06-07
+pubDate: 2018-06-07
 published: true
 tags:
   - CO2
@@ -21,7 +21,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 Dypsis lutescens, also known as golden Cane Palm, Areca Palm, Yellow Palm, or Butterfly Palm is a wonder plant.

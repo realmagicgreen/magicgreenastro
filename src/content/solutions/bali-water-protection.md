@@ -19,7 +19,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 We are pumping the ground water dry and we must act now to avoid permanent damage. Bali is on the verge of an environmental catastrophe.
@@ -40,8 +40,7 @@ The main island Bali is not only blessed with plentiful of rain but has an ideal
 
 We must act now to avoid permanent damage. [IDEP](http://idepfoundation.org/bwp) and University Politeknik Bali are prepared to solve this crisis with your help.
 
-> Increasing disruption in water circulation is being reported, in some areas allowing only 1 rice crop per year instead of 2 to 3; recently over 50% of Tabanan’s new reservoir initially built for wet rice farming, has been diverted to south Bandung for Tourism" _"Prof. Merit ITV to Prof. Strom Cole, University of the West of England, in A Political Ecology of Water
-> Equity and Tourism, A case study from Bali, 17 January 2012_.
+> Increasing disruption in water circulation is being reported, in some areas allowing only 1 rice crop per year instead of 2 to 3; recently over 50% of Tabanan’s new reservoir initially built for wet rice farming, has been diverted to south Bandung for Tourism" _"Prof. Merit ITV to Prof. Strom Cole, University of the West of England, in A Political Ecology of Water Equity and Tourism, A case study from Bali, 17 January 2012_.
 
 [IDEP](http://idepfoundation.org/bwp) prepared a [video](https://youtu.be/wK4m62BXU1Q) to present the problem and to outline the solution. they have a dedicated page to learn how you can get involved, and [make a donation today](https://fundrazr.com/campaigns/5zytb).
 

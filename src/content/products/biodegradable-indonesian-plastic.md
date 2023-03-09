@@ -22,7 +22,7 @@ flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: # put here photographer name
+# photography:
 ---
 
 <div class="tldr">
@@ -45,8 +45,7 @@ Avani makes bags from industrial grade cassava starch and other natural ingredie
 
 Every year, an estimated 1 trillion plastic bags are consumed worldwide. Avani’s cassava-based biodegradable bags are a solution to mitigate this horrible worldwide epidemic.
 
-{% assign name = '-05' %}
-{% include 'partials/image.html', name: 'name', caption: 'cassava-based eco bags Biodegradable bag' %}
+{% assign name = '-05' %} {% include 'partials/image.html', name: 'name', caption: 'cassava-based eco bags Biodegradable bag' %}
 
 Avani bags are bio-based, an ideal replacement to petroleum-based plastic bags. Compostable and biodegradable these bags can be recycled along with paper.
 
@@ -54,8 +53,7 @@ Avani bags are bio-based, an ideal replacement to petroleum-based plastic bags. 
 
 An eco-friendly alternative to the petroleum based rain poncho, Avani offer a rain poncho made of renewable resources of corn, soy and sunflower seeds.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Biodegradable poncho' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Biodegradable poncho' %}
 
 It could last up to 3 months, and then can become compost for our soil. It looks, feels and performs like plastic but is made 100% from renewables non polluting resources.
 
@@ -63,8 +61,7 @@ It could last up to 3 months, and then can become compost for our soil. It looks
 
 Avani wooden cutleries is derived from certified forests. Made from birchwood, they become the perfect substitute in replacing the normally used plastic cutlery. They are also aesthetically more natural and provide a flexible and durable feel for your consuming needs.
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'wooden cutleries' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'wooden cutleries' %}
 
 Derived from sustainable, replanted forest wood and produced in an ETO sterilization facility and have been CE, FSC and ISO 13485 certified.
 
@@ -72,8 +69,7 @@ Derived from sustainable, replanted forest wood and produced in an ETO steriliza
 
 Made from polylactic acid (PLA) or corn starch, Avani PLA products will release no toxic chemicals a big problem we have when using conventional plastic and they are compostable.
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'polylactic acid (PLA) or corn starch glass' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'polylactic acid (PLA) or corn starch glass' %}
 
 ### Established in 2014
 
@@ -85,17 +81,9 @@ Placing sustainability as its core business values, Avani is committed to exerci
 
 **_Addresses and contacts:_**
 
-AVANI Eco Hub
-Jl. Cargo Permai No. 188
-Dusun Liligundi, Ubung Kaja, Denpasar
-80116 Bali, Indonesia
-Phone: +62 361 906 5555
+AVANI Eco Hub Jl. Cargo Permai No. 188 Dusun Liligundi, Ubung Kaja, Denpasar 80116 Bali, Indonesia Phone: +62 361 906 5555
 
-AVANI Jakarta Office
-Bellezza Shopping Arcade 3rd Floor n.350
-Jl. Letnan Jend. Soepeno No. 34, Kebayoran Lama
-12210 Jakarta, Indonesia
-Phone: +62 21 3048 5599
+AVANI Jakarta Office Bellezza Shopping Arcade 3rd Floor n.350 Jl. Letnan Jend. Soepeno No. 34, Kebayoran Lama 12210 Jakarta, Indonesia Phone: +62 21 3048 5599
 
 ## Know More Links
 
