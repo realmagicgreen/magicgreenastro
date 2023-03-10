@@ -5,9 +5,9 @@ const blogCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     subtitle: z.string(),
-    category: z.enum(["health", "know", "products", "services", "solutions", "techniques", "about"]),
+    category: z.enum(["about", "health", "know", "products", "services", "solutions", "techniques"]),
     // pubDate: z.date(),
-    publishDate: z.string().optional().transform((str) => new Date(str)),
+    // publishDate: z.string().optional().transform((str) => new Date(str)),
     // Transform string to Date object
     pubDate: z
       .string()
@@ -37,11 +37,11 @@ const blogCollection = defineCollection({
 
 //    Should match your collection directory name in "src/content"
 export const collections = {
+  'about': blogCollection,
   'health': blogCollection,
   'know': blogCollection,
   'products': blogCollection,
   'services': blogCollection,
   'solutions': blogCollection,
   'techniques': blogCollection,
-  'about': blogCollection,
 };

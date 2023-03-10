@@ -11,22 +11,22 @@ specifiers:
   astro-icon: ^0.8.0
   astro-seo: ^0.6.1
   remark-toc: ^8.0.1
-  rollup: ^3.18.0
+  rollup: ^3.19.0
   sass: ^1.58.3
   sharp: ^0.31.3
 
 devDependencies:
   '@astrojs/image': 0.15.1_astro@2.1.2+sharp@0.31.3
   '@astrojs/markdown-remark': 2.1.0_astro@2.1.2
-  '@astrojs/mdx': 0.15.2_astro@2.1.2+rollup@3.18.0
+  '@astrojs/mdx': 0.15.2_astro@2.1.2+rollup@3.19.0
   '@astrojs/rss': 2.2.0
-  '@rollup/plugin-yaml': 4.0.1_rollup@3.18.0
+  '@rollup/plugin-yaml': 4.0.1_rollup@3.19.0
   '@sindresorhus/slugify': 2.2.0
   astro: 2.1.2_sass@1.58.3+sharp@0.31.3
   astro-icon: 0.8.0
   astro-seo: 0.6.1
   remark-toc: 8.0.1
-  rollup: 3.18.0
+  rollup: 3.19.0
   sass: 1.58.3
   sharp: 0.31.3
 
@@ -113,14 +113,14 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.15.2_astro@2.1.2+rollup@3.18.0:
+  /@astrojs/mdx/0.15.2_astro@2.1.2+rollup@3.19.0:
     resolution: {integrity: sha512-vrv1fw5kLZqaV0FHr6IKR46Rq5DENHhqUVZIXpAbvpRG/qXxHpg9QVN9ji+3bgLDKvG2Yz4wi8CYvSjmUtJHBQ==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.1.0_astro@2.1.2
       '@astrojs/prism': 2.1.0
       '@mdx-js/mdx': 2.3.0
-      '@mdx-js/rollup': 2.3.0_rollup@3.18.0
+      '@mdx-js/rollup': 2.3.0_rollup@3.19.0
       acorn: 8.8.2
       es-module-lexer: 0.10.5
       estree-util-visit: 1.2.1
@@ -687,14 +687,14 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/rollup/2.3.0_rollup@3.18.0:
+  /@mdx-js/rollup/2.3.0_rollup@3.19.0:
     resolution: {integrity: sha512-wLvRfJS/M4UmdqTd+WoaySEE7q4BIejYf1xAHXYvtT1du/1Tl/z2450Gg2+Hu7fh05KwRRiehiTP9Yc/Dtn0fA==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
       '@mdx-js/mdx': 2.3.0
-      '@rollup/pluginutils': 5.0.2_rollup@3.18.0
-      rollup: 3.18.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.19.0
+      rollup: 3.19.0
       source-map: 0.7.4
       vfile: 5.3.7
     transitivePeerDependencies:
@@ -734,7 +734,7 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@rollup/plugin-yaml/4.0.1_rollup@3.18.0:
+  /@rollup/plugin-yaml/4.0.1_rollup@3.19.0:
     resolution: {integrity: sha512-eyftkLWrwaGhgad+gXmisPYXeW3hP1s+lz63mgbur+F/8aKZhPG1Bf8RFNnz0Vhnf3uBimFebZBDwwz6X4KqUQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -743,13 +743,13 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.18.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.19.0
       js-yaml: 4.1.0
-      rollup: 3.18.0
+      rollup: 3.19.0
       tosource: 2.0.0-alpha.3
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@3.18.0:
+  /@rollup/pluginutils/5.0.2_rollup@3.19.0:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -761,7 +761,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.18.0
+      rollup: 3.19.0
     dev: true
 
   /@sindresorhus/slugify/2.2.0:
@@ -1080,7 +1080,7 @@ packages:
     dependencies:
       buffer: 5.7.1
       inherits: 2.0.4
-      readable-stream: 3.6.1
+      readable-stream: 3.6.2
     dev: true
 
   /bl/5.1.0:
@@ -1088,7 +1088,7 @@ packages:
     dependencies:
       buffer: 6.0.3
       inherits: 2.0.4
-      readable-stream: 3.6.1
+      readable-stream: 3.6.2
     dev: true
 
   /boolbase/1.0.0:
@@ -1122,7 +1122,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001464
-      electron-to-chromium: 1.4.325
+      electron-to-chromium: 1.4.327
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -1452,8 +1452,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium/1.4.325:
-    resolution: {integrity: sha512-K1C03NT4I7BuzsRdCU5RWkgZxtswnKDYM6/eMhkEXqKu4e5T+ck610x3FPzu1y7HVFSiQKZqP16gnJzPpji1TQ==}
+  /electron-to-chromium/1.4.327:
+    resolution: {integrity: sha512-DIk2H4g/3ZhjgiABJjVdQvUdMlSABOsjeCm6gmUzIdKxAuFrGiJ8QXMm3i09grZdDBMC/d8MELMrdwYRC0+YHg==}
     dev: true
 
   /emmet/2.3.6:
@@ -3097,8 +3097,8 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
-  /readable-stream/3.6.1:
-    resolution: {integrity: sha512-+rQmrWMYGA90yenhTYsLWAsLsqVC8osOw6PKE1HDYiO0gdPeKe/xDHNzIAIn4C91YQ6oenEhfYqqc1883qHbjQ==}
+  /readable-stream/3.6.2:
+    resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==}
     engines: {node: '>= 6'}
     dependencies:
       inherits: 2.0.4
@@ -3281,8 +3281,8 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: true
 
-  /rollup/3.18.0:
-    resolution: {integrity: sha512-J8C6VfEBjkvYPESMQYxKHxNOh4A5a3FlP+0BETGo34HEcE4eTlgCrO2+eWzlu2a/sHs2QUkZco+wscH7jhhgWg==}
+  /rollup/3.19.0:
+    resolution: {integrity: sha512-xZzJZlH9Ca6cosfdNGPwl2z7Pby8dTi9TrYLPeg6/j7aUoDOhBd706tCUFvbiBj45h/cS7z/a4gS8xd5Yg0jBw==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3600,7 +3600,7 @@ packages:
       end-of-stream: 1.4.4
       fs-constants: 1.0.0
       inherits: 2.0.4
-      readable-stream: 3.6.1
+      readable-stream: 3.6.2
     dev: true
 
   /tiny-glob/0.2.9:
@@ -3835,7 +3835,7 @@ packages:
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
-      rollup: 3.18.0
+      rollup: 3.19.0
       sass: 1.58.3
     optionalDependencies:
       fsevents: 2.3.2

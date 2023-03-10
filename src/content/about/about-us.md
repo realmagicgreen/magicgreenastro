@@ -7,11 +7,14 @@ updatedDate: 2023-03-03
 description: We are a network of communication professionals who feel the need to make something meaningful and necessary. To push the world towards the right direction.
 cover_image: /assets/p/about/about-us/about-us.jpg
 many_pictures: false # 'true' or empty
+# photography:
 tags:
   - magicgreen
 featured: false # use 'true' to have it displayed in home
 draft: false
 ad: false
+published: true
+sticky: false # 'true' or empty
 ---
 
 > "**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_

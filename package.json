@@ -13,7 +13,6 @@
   "devDependencies": {
     "@astrojs/image": "^0.15.1",
     "@astrojs/markdown-remark": "^2.1.0",
-    "remark-toc": "^8.0.1",
     "@astrojs/mdx": "^0.15.2",
     "@astrojs/rss": "^2.2.0",
     "@rollup/plugin-yaml": "^4.0.1",
@@ -21,7 +20,8 @@
     "astro": "^2.1.2",
     "astro-icon": "^0.8.0",
     "astro-seo": "^0.6.1",
-    "rollup": "^3.18.0",
+    "remark-toc": "^8.0.1",
+    "rollup": "^3.19.0",
     "sass": "^1.58.3",
     "sharp": "^0.31.3"
   }
