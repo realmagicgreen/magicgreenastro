@@ -11,7 +11,7 @@ export interface Props {
 ---
 
 <Layout title={siteData.tldr}>
-  <h2 class="uppercased">{collectionName}</h2>
+  <h2 class="uppercased">{collectionName.toUpperCase()}</h2>
   <ul>
     {
       posts.map((post) => (

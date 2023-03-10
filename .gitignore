@@ -2,13 +2,13 @@
 .env.production
 .DS_Store
 \n.astro
-# .astro
-.cache/
+# .astro cos it's useful
 .cache/**
 .cache/image/**
 
-## Upload '_astro' to speed up the Netlify builds?
+## Github Versioning '_astro' dir to speed up the Netlify builds? Its small
 #_astro
+
 dist/
 .output/
 .cache
