@@ -49,6 +49,8 @@ $enable-important: true;
 @import 'components/dropdown'; // dropdown
 
 // Utilities
+
+@import 'utilities/loading'; // aria-busy=true
 @import 'utilities/accessibility'; // -ms-touch-action, aria-*
 @import 'utilities/reduce-motion'; // prefers-reduced-motion
 

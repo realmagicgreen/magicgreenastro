@@ -112,12 +112,11 @@ ul li {
   display: flex;
   flex-wrap: wrap;
 }
-
-// .health {
-//   position: relative;
-//   width: auto;
-//   object-fit: contain;
-// }
+.centerflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .hide {
   display: none;
@@ -213,4 +212,11 @@ footer {
   margin-top: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+
+.r5deg {
+  transform: rotateZ(5deg);
+}
+.r-5deg {
+  transform: rotateZ(-5deg);
 }

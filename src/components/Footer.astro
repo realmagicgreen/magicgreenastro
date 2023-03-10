@@ -2,6 +2,8 @@
 import Logo from "@components/Logo.astro";
 import FooterMenu from "@components/FooterMenu.astro";
 import FooterCopy from "@components/FooterCopy.astro";
+import FooterQR from "@components/FooterQR.astro";
+import IamGrowing from "@components/IamGrowing.astro";
 
 export interface Props {
   cssClass: string;
@@ -12,10 +14,13 @@ const cssClass = "footer";
 
 <footer class={cssClass} role="contentinfo">
   <Logo />
+  <IamGrowing />
 
   <div class="container">
     <FooterMenu />
   </div>
+
+  <FooterQR />
 
   <FooterCopy />
 </footer>
