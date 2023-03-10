@@ -161,11 +161,24 @@ blockquote p {
   user-select: none;
 }
 
-.padding_top {
+.ptop,
+.padding_top,
+.top_padded,
+.top_pad,
+.toppad,
+.pad_top,
+.padtop {
   padding-top: var(--space);
 }
 
-.padding_bottom {
+.pbot,
+.padding_bottom,
+.bottom_padded,
+.bottom_pad,
+.botpad,
+.bottompad,
+.pad_bot,
+.padbot {
   padding-bottom: var(--space);
 }
 
@@ -219,4 +232,9 @@ footer {
 }
 .r-5deg {
   transform: rotateZ(-5deg);
+}
+
+.anim8 {
+  animation: infinite;
+  animation-name: gentleSwing;
 }

@@ -18,11 +18,32 @@ const oneBlogPost = await getEntryBySlug("about", "about-us");
 ---
 
 <Layout cssClass="abou">
-  <div class="about centered">
+  <div class="sitedata centered">
     {siteData.title} | {siteData.subtitle} | {siteData.tldr} | v{
       siteData.version
     }
-  </div>
-</Layout>
 
-<style></style>
+    <hr />
+    <div>PROJECTIMAGE: {siteData.projectimage}</div>
+    <hr />
+    <div>AUTHOR: {siteData.author.name}</div>
+    <hr />
+    <div>COMPANY NAME: {siteData.company.name}</div>
+    <hr />
+    <div>COMPANY MAIL: {siteData.company.email}</div>
+    <hr />
+    <div>COMPANY GITHUB: {siteData.company.github}</div>
+    <hr />
+    <div>COMPANY IG: {siteData.company.instagram}</div>
+    <hr />
+    <a href={siteData.license.url}>{siteData.license.name}</a>
+    <hr />
+    <a href={siteData.producer.url}>{siteData.producer.name}</a>
+    <hr />
+    <a href={siteData.url}>{siteData.url}</a>
+
+    <hr />
+  </div>
+
+  <style></style>
+</Layout>
