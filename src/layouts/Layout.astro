@@ -11,15 +11,18 @@ import { SEO } from "astro-seo";
 export interface Props {
   title: string;
   description: string;
+  bodyClass: string;
 }
 
-const { title, description } = Astro.props.frontmatter || Astro.props;
+const { title, description, bodyClass } =
+  Astro.props.frontmatter || Astro.props;
 
 //data
 import site from "@data/site.json";
 const Brand = site.title;
 const Mission = site.content_is_about;
 
+//lets build metadatas
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
 
 const makeTitle = title ? Brand + " | " + title : "J|makeTitle";
@@ -29,7 +32,7 @@ const makeTitleOG = title
   : "J|makeTitleOG!";
 
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
-const cssClass = "layout";
+const cssClass = "Layout";
 ---
 
 <!DOCTYPE html>
@@ -75,7 +78,7 @@ const cssClass = "layout";
   </head>
 
   <slot>
-    <Body cssClass={cssClass} />
+    <Body bodyClass={bodyClass} />
   </slot>
   <Styles />
 </html>

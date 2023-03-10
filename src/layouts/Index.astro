@@ -1,13 +1,11 @@
 ---
 import Layout from "@layouts/Body.astro";
 export interface Props {
-  cssClass: string;
+  bodyClass: string;
 }
-
-const cssClass = "index";
 ---
 
-<Layout cssClass={cssClass}>
+<Layout bodyClass="index">
   <div class="container index">
     <slot />
     <div class="post_page_title r5deg">

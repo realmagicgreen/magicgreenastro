@@ -17,32 +17,42 @@ const allBlogPosts = await getCollection("about");
 const oneBlogPost = await getEntryBySlug("about", "about-us");
 ---
 
-<Layout cssClass="abou">
+<Layout cssClass="about">
   <div class="sitedata centered">
-    {siteData.title} | {siteData.subtitle} | {siteData.tldr} | v{
-      siteData.version
-    }
+    {siteData.title.toUpperCase()} | {siteData.subtitle.toUpperCase()} | {
+      siteData.license.name
+    } - {siteData.author.name.toUpperCase()}
 
     <hr />
     <div>PROJECTIMAGE: {siteData.projectimage}</div>
     <hr />
-    <div>AUTHOR: {siteData.author.name}</div>
+    <div>author: {siteData.author.name.toUpperCase()}</div>
     <hr />
-    <div>COMPANY NAME: {siteData.company.name}</div>
+    <div>{siteData.company.name.toUpperCase()} {siteData.company.name}</div>
     <hr />
-    <div>COMPANY MAIL: {siteData.company.email}</div>
+    <div>
+      {siteData.company.name.toUpperCase()} MAIL: {siteData.company.email}
+    </div>
     <hr />
-    <div>COMPANY GITHUB: {siteData.company.github}</div>
+    <div>
+      {siteData.company.name.toUpperCase()} GITHUB: {siteData.company.github}
+    </div>
     <hr />
-    <div>COMPANY IG: {siteData.company.instagram}</div>
+    <div>
+      {siteData.company.name.toUpperCase()} IG: {siteData.company.instagram}
+    </div>
     <hr />
     <a href={siteData.license.url}>{siteData.license.name}</a>
     <hr />
     <a href={siteData.producer.url}>{siteData.producer.name}</a>
     <hr />
     <a href={siteData.url}>{siteData.url}</a>
-
     <hr />
+    <div>
+      {siteData.company.name.toUpperCase()} | {siteData.tldr.toUpperCase()} | v{
+        siteData.version
+      }
+    </div>
   </div>
 
   <style></style>

@@ -6,7 +6,9 @@
 .cache/
 .cache/**
 .cache/image/**
-_astro
+
+## Upload '_astro' to speed up the Netlify builds?
+#_astro
 dist/
 .output/
 .cache

@@ -1,7 +1,8 @@
 ---
-import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Body.astro";
 import PostMetas from "@components/PostMetas.astro";
+
+import { Picture } from "@astrojs/image/components";
 export interface Props {
   description: string;
   bodyClass: string;
@@ -9,13 +10,21 @@ export interface Props {
   category: string;
   coverImage: URL;
   cssClass: string;
+  pubDate;
 }
 
-const { title, subtitle, description, category, coverImage, cssClass } =
-  Astro.props.frontmatter || Astro.props;
+const {
+  title,
+  subtitle,
+  description,
+  category,
+  coverImage,
+  pubDate,
+  bodyClass,
+} = Astro.props.frontmatter || Astro.props;
 ---
 
-<Layout cssClass="article" title={title} description={description}>
+<Layout bodyClass="article" title={title} description={description}>
   <article class={category}>
     <div class="post_header container">
       <h1 class="compacted centered">{title}</h1>
@@ -62,6 +71,11 @@ const { title, subtitle, description, category, coverImage, cssClass } =
   .post_content {
     padding-right: 10vw;
     padding-left: 10vw;
+    p {
+      width: 600px !important;
+      max-width: 600px !important;
+      margin: 0 0 0 auto !important;
+    }
   }
 
   picture {

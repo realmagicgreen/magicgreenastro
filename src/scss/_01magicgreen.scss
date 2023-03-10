@@ -96,6 +96,9 @@
 body {
   margin: 0;
   content-visibility: auto;
+  > * {
+    box-shadow: none !important;
+  }
 }
 
 ul li {
@@ -245,3 +248,7 @@ footer {
   animation: infinite;
   animation-name: gentleSwing;
 }
+
+// article {
+//   box-shadow: none !important;
+// }
