@@ -234,6 +234,13 @@ footer {
   transform: rotateZ(-5deg);
 }
 
+.r1deg {
+  transform: rotateZ(1deg);
+}
+.r-1deg {
+  transform: rotateZ(-1deg);
+}
+
 .anim8 {
   animation: infinite;
   animation-name: gentleSwing;
