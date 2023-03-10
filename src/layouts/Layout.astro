@@ -11,7 +11,6 @@ import { SEO } from "astro-seo";
 export interface Props {
   title: string;
   description: string;
-  bodyClass: string;
 }
 
 const { title, description } = Astro.props.frontmatter || Astro.props;
@@ -30,6 +29,7 @@ const makeTitleOG = title
   : "J|makeTitleOG!";
 
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
+const cssClass = "layout";
 ---
 
 <!DOCTYPE html>
@@ -75,7 +75,7 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
   </head>
 
   <slot>
-    <Body cssClass="" />
+    <Body cssClass={cssClass} />
   </slot>
   <Styles />
 </html>

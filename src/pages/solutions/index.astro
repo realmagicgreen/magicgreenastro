@@ -3,9 +3,15 @@ import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
 const posts = await getCollection("solutions");
+const collectionName = "solutions";
+
+export interface Props {
+  collectionName: string;
+}
 ---
 
 <Layout title={siteData.tldr}>
+  <h2 class="uppercased">{collectionName}</h2>
   <ul>
     {
       posts.map((post) => (

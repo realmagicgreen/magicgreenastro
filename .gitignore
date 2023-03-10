@@ -2,7 +2,7 @@
 .env.production
 .DS_Store
 \n.astro
-.astro
+# .astro
 .cache/
 .cache/**
 .cache/image/**
@@ -10,6 +10,8 @@ _astro
 dist/
 .output/
 .cache
+.cache/image
+.cache/image/**
 .workinprogress
 
 # dependencies

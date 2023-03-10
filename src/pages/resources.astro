@@ -1,0 +1,62 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Index.astro";
+import siteData from "@data/site.json";
+
+const knowArticles = await getCollection("know", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
+
+const techniquesArticles = await getCollection("techniques", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
+---
+
+<Layout
+  title={siteData.tldr}
+  description={siteData.description}
+  bodyClass="resources"
+>
+  <section class="know">
+    <h4 class="">KNOW</h4>
+    <div class="ul">
+      {
+        knowArticles.map((post) => (
+          <div class="">
+            <a class="" href={`/know/${post.slug}`}>
+              {post.data.title}
+            </a>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="techniques">
+    <h4 class="">TECHNIQUES</h4>
+    <div class="ul">
+      {
+        techniquesArticles.map((post) => (
+          <div class="li">
+            <a class="" href={`/techniques/${post.slug}`}>
+              {post.data.title}
+            </a>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
+<style lang="scss">
+  .container {
+    display: flex !important;
+  }
+  // .post_page_title {
+  //   min-width: 100%;
+  // }
+
+  section {
+    padding-left: var(--space_small);
+    padding-right: var(--space_small);
+  }
+</style>

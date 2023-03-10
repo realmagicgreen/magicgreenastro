@@ -8,9 +8,10 @@ export interface Props {
   title: string;
   category: string;
   coverImage: URL;
+  cssClass: string;
 }
 
-const { title, subtitle, description, category, coverImage } =
+const { title, subtitle, description, category, coverImage, cssClass } =
   Astro.props.frontmatter || Astro.props;
 ---
 

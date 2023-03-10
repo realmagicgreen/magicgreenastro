@@ -12,7 +12,7 @@ export interface Props {
 const { cssClass } = Astro.props.frontmatter || Astro.props;
 ---
 
-<Layout>
+<Layout cssClass={cssClass}>
   <body>
     <Svgs />
 
