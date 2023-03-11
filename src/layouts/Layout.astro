@@ -79,17 +79,19 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
     />
     <meta name="keywords" content={site.keywords} />
   </head>
+  <body>
+    <Svgs />
 
-  <Svgs />
+    <Header data-type={category} />
 
-  <Header data-type={category} />
+    <Nav cssClass="nav" />
 
-  <Nav cssClass="nav" />
+    <main>
+      <slot />
+    </main>
 
-  <main>
-    <slot />
-  </main>
+    <Footer cssClass="default" />
 
-  <Footer cssClass="default" />
-  <Styles />
+    <Styles />
+  </body>
 </html>
