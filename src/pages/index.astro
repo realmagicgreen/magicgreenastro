@@ -26,23 +26,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
 <Layout
   title={siteData.tldr}
   description={siteData.description}
-  bodyClass="index"
+  bodyClass="padding_top"
 >
-  <section class="health">
-    <h2 class="">HEALTH</h2>
-    <div class="">
-      {
-        healthArticles.map((post) => (
-          <div class="">
-            <a href={`/health/${post.slug}`}>{post.data.title}</a>
-          </div>
-        ))
-      }
-    </div>
-  </section>
-
-  <section class="know">
-    <h2 class="">KNOW</h2>
+  <details class="know">
+    <summary class="h3">KNOW</summary>
     <div class="ul">
       {
         knowArticles.map((post) => (
@@ -54,10 +41,22 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
         ))
       }
     </div>
-  </section>
+  </details>
+  <details class="health" open>
+    <summary class="h3">HEALTH</summary>
+    <div class="">
+      {
+        healthArticles.map((post) => (
+          <div class="">
+            <a href={`/health/${post.slug}`}>{post.data.title}</a>
+          </div>
+        ))
+      }
+    </div>
+  </details>
 
-  <section class="products">
-    <h2 class="">PRODUCTS</h2>
+  <details class="products">
+    <summary class="h3">PRODUCTS</summary>
     <div class="">
       {
         productsArticles.map((post) => (
@@ -69,10 +68,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
         ))
       }
     </div>
-  </section>
+  </details>
 
-  <section class="services">
-    <h2 class="">SERVICES</h2>
+  <details class="services">
+    <summary class="h3">SERVICES</summary>
     <div class="">
       {
         servicesArticles.map((post) => (
@@ -84,10 +83,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
         ))
       }
     </div>
-  </section>
+  </details>
 
-  <section class="solutions">
-    <h2 class="">SOLUTIONS</h2>
+  <details class="solutions">
+    <summary class="h3">SOLUTIONS</summary>
     <div class="">
       {
         solutionsArticles.map((post) => (
@@ -99,10 +98,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
         ))
       }
     </div>
-  </section>
+  </details>
 
-  <section class="techniques">
-    <h2 class="">TECHNIQUES</h2>
+  <details class="techniques">
+    <summary class="h3">TECHNIQUES</summary>
     <div class="ul">
       {
         techniquesArticles.map((post) => (
@@ -114,10 +113,10 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
         ))
       }
     </div>
-  </section>
+  </details>
 </Layout>
 <style lang="scss">
-  section {
+  details {
     padding-left: var(--space_small);
     padding-right: var(--space_small);
   }

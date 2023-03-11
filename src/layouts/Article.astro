@@ -1,5 +1,5 @@
 ---
-import Layout from "@layouts/Body.astro";
+import Layout from "@layouts/Layout.astro";
 import PostMetas from "@components/PostMetas.astro";
 
 import { Picture } from "@astrojs/image/components";
@@ -9,26 +9,19 @@ export interface Props {
   title: string;
   category: string;
   coverImage: URL;
-  cssClass: string;
-  pubDate;
 }
 
-const {
-  title,
-  subtitle,
-  description,
-  category,
-  coverImage,
-  pubDate,
-  bodyClass,
-} = Astro.props.frontmatter || Astro.props;
+const { title, subtitle, description, category, coverImage } =
+  Astro.props.frontmatter || Astro.props;
 ---
 
-<Layout bodyClass="article" title={title} description={description}>
+<Layout title="article" title={title} description={description}>
   <article class={category}>
     <div class="post_header container">
       <h1 class="compacted centered">{title}</h1>
-      <h2 class="centered border_top border_bottom">{subtitle}</h2>
+      <h2 class="centered border_top border_bottom">
+        {subtitle} |{category.toLowerCase()}
+      </h2>
     </div>
 
     <div class="hero vegas_container">

@@ -1,11 +1,11 @@
 ---
-import Layout from "@layouts/Body.astro";
+import Layout from "@layouts/Layout.astro";
 export interface Props {
-  bodyClass: string;
+  cssClass: string;
 }
 ---
 
-<Layout bodyClass="index">
+<Layout cssClass="index">
   <div class="container index">
     <slot />
     <div class="post_page_title r5deg">
@@ -23,6 +23,10 @@ export interface Props {
     }
   }
   h1 {
-    font-size: calc(8.88vw + 8.88vh) !important;
+    font-size: calc(6vw + 6vh) !important;
+  }
+
+  .container.index {
+    padding-top: var(--space);
   }
 </style>

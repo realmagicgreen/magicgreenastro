@@ -1,8 +1,16 @@
 ---
+//data
+import site from "@data/site.json";
+const Brand = site.title;
+const Mission = site.content_is_about;
+
 //components
 import Styles from "@components/Styles.astro";
 import Junglestar from "@components/Junglestar.astro";
-import Body from "@layouts/Body.astro";
+import Svgs from "@components/Svgs.astro";
+import Nav from "@components/Nav.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
 
 //plugins
 import { SEO } from "astro-seo";
@@ -11,16 +19,12 @@ import { SEO } from "astro-seo";
 export interface Props {
   title: string;
   description: string;
-  bodyClass: string;
+  category: string;
+  cssClass: string;
 }
 
-const { title, description, bodyClass } =
+const { title, description, category, cssClass } =
   Astro.props.frontmatter || Astro.props;
-
-//data
-import site from "@data/site.json";
-const Brand = site.title;
-const Mission = site.content_is_about;
 
 //lets build metadatas
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
@@ -32,7 +36,6 @@ const makeTitleOG = title
   : "J|makeTitleOG!";
 
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
-const cssClass = "Layout";
 ---
 
 <!DOCTYPE html>
@@ -77,8 +80,16 @@ const cssClass = "Layout";
     <meta name="keywords" content={site.keywords} />
   </head>
 
-  <slot>
-    <Body bodyClass={bodyClass} />
-  </slot>
+  <Svgs />
+
+  <Header data-type={category} />
+
+  <Nav cssClass="default" />
+
+  <main>
+    <slot />
+  </main>
+
+  <Footer cssClass="default" />
   <Styles />
 </html>

@@ -1,17 +1,16 @@
 ---
 import navigation from "@data/navigation.json";
 const sections = navigation.sections;
-
 export interface Props {
-  title: string;
+  cssClass: string;
 }
 
-const title = "nav";
+const cssClass = "nav";
 
 import "@styles/pico.slim.scss";
 ---
 
-<nav class={title} role="menu">
+<nav class={cssClass} role="menu">
   {
     sections.map((section) => (
       <a
@@ -27,16 +26,24 @@ import "@styles/pico.slim.scss";
 </nav>
 <style lang="scss">
   nav {
+    min-height: 60px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     padding-left: var(--space_small);
     padding-right: var(--space_small);
     justify-content: center;
     a {
       text-transform: uppercase;
+      font-size: 110%;
+      display: block;
       min-height: 48px;
-      padding-left: var(--space_small);
-      padding-right: var(--space_small);
+      padding-left: var(--space-small);
+      padding-right: var(--space);
+      user-select: none;
+      :hover {
+        opacity: 95%;
+      }
     }
   }
 </style>

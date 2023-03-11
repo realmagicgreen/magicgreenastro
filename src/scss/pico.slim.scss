@@ -43,9 +43,9 @@ $enable-important: true;
 // Components
 @import 'components/accordion'; // details, summary
 @import 'components/card'; // article
-@import 'components/modal'; // dialog
+//@import 'components/modal'; // dialog
 @import 'components/nav'; // nav
-//@import 'components/progress'; // progress
+@import 'components/progress'; // progress
 @import 'components/dropdown'; // dropdown
 
 // Utilities

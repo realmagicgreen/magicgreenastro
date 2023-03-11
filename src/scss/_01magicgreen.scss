@@ -222,19 +222,13 @@ main,
 footer {
   width: 100vw !important;
   background-color: unset;
-  padding-top: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  margin-top: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
 }
 
 .r5deg {
-  transform: rotateZ(5deg);
+  transform: rotateZ(2deg);
 }
 .r-5deg {
-  transform: rotateZ(-5deg);
+  transform: rotateZ(-2deg);
 }
 
 .r1deg {

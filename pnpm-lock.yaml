@@ -11,23 +11,23 @@ specifiers:
   astro-icon: ^0.8.0
   astro-seo: ^0.6.1
   remark-toc: ^8.0.1
-  rollup: ^3.19.0
-  sass: ^1.58.3
+  rollup: ^3.19.1
+  sass: ^1.59.2
   sharp: ^0.31.3
 
 devDependencies:
   '@astrojs/image': 0.15.1_astro@2.1.2+sharp@0.31.3
   '@astrojs/markdown-remark': 2.1.0_astro@2.1.2
-  '@astrojs/mdx': 0.15.2_astro@2.1.2+rollup@3.19.0
+  '@astrojs/mdx': 0.15.2_astro@2.1.2+rollup@3.19.1
   '@astrojs/rss': 2.2.0
-  '@rollup/plugin-yaml': 4.0.1_rollup@3.19.0
+  '@rollup/plugin-yaml': 4.0.1_rollup@3.19.1
   '@sindresorhus/slugify': 2.2.0
-  astro: 2.1.2_sass@1.58.3+sharp@0.31.3
+  astro: 2.1.2_sass@1.59.2+sharp@0.31.3
   astro-icon: 0.8.0
   astro-seo: 0.6.1
   remark-toc: 8.0.1
-  rollup: 3.19.0
-  sass: 1.58.3
+  rollup: 3.19.1
+  sass: 1.59.2
   sharp: 0.31.3
 
 packages:
@@ -62,7 +62,7 @@ packages:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 2.1.2_sass@1.58.3+sharp@0.31.3
+      astro: 2.1.2_sass@1.59.2+sharp@0.31.3
       http-cache-semantics: 4.1.1
       image-size: 1.0.2
       kleur: 4.1.5
@@ -95,10 +95,10 @@ packages:
       astro: ^2.1.0
     dependencies:
       '@astrojs/prism': 2.1.0
-      astro: 2.1.2_sass@1.58.3+sharp@0.31.3
+      astro: 2.1.2_sass@1.59.2+sharp@0.31.3
       github-slugger: 1.5.0
       image-size: 1.0.2
-      import-meta-resolve: 2.2.1
+      import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
       rehype-stringify: 9.0.3
       remark-gfm: 3.0.1
@@ -113,14 +113,14 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.15.2_astro@2.1.2+rollup@3.19.0:
+  /@astrojs/mdx/0.15.2_astro@2.1.2+rollup@3.19.1:
     resolution: {integrity: sha512-vrv1fw5kLZqaV0FHr6IKR46Rq5DENHhqUVZIXpAbvpRG/qXxHpg9QVN9ji+3bgLDKvG2Yz4wi8CYvSjmUtJHBQ==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.1.0_astro@2.1.2
       '@astrojs/prism': 2.1.0
       '@mdx-js/mdx': 2.3.0
-      '@mdx-js/rollup': 2.3.0_rollup@3.19.0
+      '@mdx-js/rollup': 2.3.0_rollup@3.19.1
       acorn: 8.8.2
       es-module-lexer: 0.10.5
       estree-util-visit: 1.2.1
@@ -687,14 +687,14 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/rollup/2.3.0_rollup@3.19.0:
+  /@mdx-js/rollup/2.3.0_rollup@3.19.1:
     resolution: {integrity: sha512-wLvRfJS/M4UmdqTd+WoaySEE7q4BIejYf1xAHXYvtT1du/1Tl/z2450Gg2+Hu7fh05KwRRiehiTP9Yc/Dtn0fA==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
       '@mdx-js/mdx': 2.3.0
-      '@rollup/pluginutils': 5.0.2_rollup@3.19.0
-      rollup: 3.19.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.19.1
+      rollup: 3.19.1
       source-map: 0.7.4
       vfile: 5.3.7
     transitivePeerDependencies:
@@ -734,7 +734,7 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@rollup/plugin-yaml/4.0.1_rollup@3.19.0:
+  /@rollup/plugin-yaml/4.0.1_rollup@3.19.1:
     resolution: {integrity: sha512-eyftkLWrwaGhgad+gXmisPYXeW3hP1s+lz63mgbur+F/8aKZhPG1Bf8RFNnz0Vhnf3uBimFebZBDwwz6X4KqUQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -743,13 +743,13 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.19.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.19.1
       js-yaml: 4.1.0
-      rollup: 3.19.0
+      rollup: 3.19.1
       tosource: 2.0.0-alpha.3
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@3.19.0:
+  /@rollup/pluginutils/5.0.2_rollup@3.19.1:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -761,7 +761,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.19.0
+      rollup: 3.19.1
     dev: true
 
   /@sindresorhus/slugify/2.2.0:
@@ -978,7 +978,7 @@ packages:
   /astro-icon/0.8.0:
     resolution: {integrity: sha512-sCzhZcl46BIyLJVg89hq5J4uQABn2psmGvK4cUaxib+M/kBI3TrPy1w3g2O5h/WcrTHLVN9LyxjgkD4lEJJFpw==}
     dependencies:
-      node-fetch: 3.3.0
+      node-fetch: 3.3.1
       resolve-pkg: 2.0.0
       svgo: 2.8.0
     dev: true
@@ -987,7 +987,7 @@ packages:
     resolution: {integrity: sha512-eszmxiycjfLcmoRyB8x5lCrWAwcSHs1i5riR1a5JbyJI8OQAl9tn1JvWFRuZvNH483CFdfNCczirnc805t/soA==}
     dev: true
 
-  /astro/2.1.2_sass@1.58.3+sharp@0.31.3:
+  /astro/2.1.2_sass@1.59.2+sharp@0.31.3:
     resolution: {integrity: sha512-qxBIPHfFJhwNOxI2E96XrGrUM6lGkDRkDY8iqEJNFWPGP+t5yY5SWb8H+OdYUGopexy1GGjoY7SYQCzFBkt7iw==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
@@ -1048,7 +1048,7 @@ packages:
       typescript: 4.9.5
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.1.4_sass@1.58.3
+      vite: 4.1.4_sass@1.59.2
       vitefu: 0.2.4_vite@4.1.4
       yargs-parser: 21.1.1
       zod: 3.21.4
@@ -1122,7 +1122,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001464
-      electron-to-chromium: 1.4.327
+      electron-to-chromium: 1.4.328
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -1452,8 +1452,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium/1.4.327:
-    resolution: {integrity: sha512-DIk2H4g/3ZhjgiABJjVdQvUdMlSABOsjeCm6gmUzIdKxAuFrGiJ8QXMm3i09grZdDBMC/d8MELMrdwYRC0+YHg==}
+  /electron-to-chromium/1.4.328:
+    resolution: {integrity: sha512-DE9tTy2PNmy1v55AZAO542ui+MLC2cvINMK4P2LXGsJdput/ThVG9t+QGecPuAZZSgC8XoI+Jh9M1OG9IoNSCw==}
     dev: true
 
   /emmet/2.3.6:
@@ -1920,12 +1920,12 @@ packages:
       queue: 6.0.2
     dev: true
 
-  /immutable/4.2.4:
-    resolution: {integrity: sha512-WDxL3Hheb1JkRN3sQkyujNlL/xRjAo3rJtaU5xeufUauG66JdMr32bLj4gF+vWl84DIA3Zxw7tiAjneYzRRw+w==}
+  /immutable/4.3.0:
+    resolution: {integrity: sha512-0AOCmOip+xgJwEVTQj1EfiDDOkPmuyllDuTuEX+DDXUgapLAsBIfkg3sxCYyCEA8mQqZrrxPUGjcOQ2JS3WLkg==}
     dev: true
 
-  /import-meta-resolve/2.2.1:
-    resolution: {integrity: sha512-C6lLL7EJPY44kBvA80gq4uMsVFw5x3oSKfuMl1cuZ2RkI5+UJqQXgn+6hlUew0y4ig7Ypt4CObAAIzU53Nfpuw==}
+  /import-meta-resolve/2.2.2:
+    resolution: {integrity: sha512-f8KcQ1D80V7RnqVm+/lirO9zkOxjGxhaTC1IPrBGd3MEfNgmNG67tSUO9gTi2F3Blr2Az6g1vocaxzkVnWl9MA==}
     dev: true
 
   /inherits/2.0.4:
@@ -2814,8 +2814,8 @@ packages:
     engines: {node: '>=10.5.0'}
     dev: true
 
-  /node-fetch/3.3.0:
-    resolution: {integrity: sha512-BKwRP/O0UvoMKp7GNdwPlObhYGB5DQqwhEDQlNKuoqwVYSxkSZCSbHjnFFmUEtwSKRPU4kNK8PbDYYitwaE3QA==}
+  /node-fetch/3.3.1:
+    resolution: {integrity: sha512-cRVc/kyto/7E5shrWca1Wsea4y6tL9iYJE5FBCius3JQfb/4P4I295PfhgbJQBLTx6lATE4z+wK0rPM4VS2uow==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       data-uri-to-buffer: 4.0.1
@@ -3281,8 +3281,8 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: true
 
-  /rollup/3.19.0:
-    resolution: {integrity: sha512-xZzJZlH9Ca6cosfdNGPwl2z7Pby8dTi9TrYLPeg6/j7aUoDOhBd706tCUFvbiBj45h/cS7z/a4gS8xd5Yg0jBw==}
+  /rollup/3.19.1:
+    resolution: {integrity: sha512-lAbrdN7neYCg/8WaoWn/ckzCtz+jr70GFfYdlf50OF7387HTg+wiuiqJRFYawwSPpqfqDNYqK7smY/ks2iAudg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3316,13 +3316,13 @@ packages:
       suf-log: 2.5.3
     dev: true
 
-  /sass/1.58.3:
-    resolution: {integrity: sha512-Q7RaEtYf6BflYrQ+buPudKR26/lH+10EmO9bBqbmPh/KeLqv8bjpTNqxe71ocONqXq+jYiCbpPUmQMS+JJPk4A==}
+  /sass/1.59.2:
+    resolution: {integrity: sha512-jJyO6SmbzkJexF8MUorHx5tAilcgabioYxT/BHbY4+OvoqmbHxsYlrjZ8Adhqcgl6Zqwie0TgMXLCAmPFxXOuw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
-      immutable: 4.2.4
+      immutable: 4.3.0
       source-map-js: 1.0.2
     dev: true
 
@@ -3807,7 +3807,7 @@ packages:
       vfile-message: 3.1.4
     dev: true
 
-  /vite/4.1.4_sass@1.58.3:
+  /vite/4.1.4_sass@1.59.2:
     resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3835,8 +3835,8 @@ packages:
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
-      rollup: 3.19.0
-      sass: 1.58.3
+      rollup: 3.19.1
+      sass: 1.59.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -3849,7 +3849,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.1.4_sass@1.58.3
+      vite: 4.1.4_sass@1.59.2
     dev: true
 
   /vscode-css-languageservice/6.2.4:
