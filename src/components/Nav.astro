@@ -19,22 +19,23 @@ import "@styles/pico.slim.scss";
         title={section.description}
         role="menuitem"
       >
-        {section.label}
+        <button class="outline">{section.label.toLocaleUpperCase()}</button>
       </a>
     ))
   }
 </nav>
 <style lang="scss">
   nav {
+    width: 80%;
+    margin: 0 auto;
     min-height: 60px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding-left: var(--space_small);
     padding-right: var(--space_small);
-    justify-content: center;
+    justify-content: space-between;
     a {
-      text-transform: uppercase;
       font-size: 110%;
       display: block;
       min-height: 48px;
