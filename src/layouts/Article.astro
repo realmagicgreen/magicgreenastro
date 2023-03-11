@@ -1,6 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import PostMetas from "@components/PostMetas.astro";
+import FormattedDate from "@components/FormattedDate.astro";
 
 import { Picture } from "@astrojs/image/components";
 export interface Props {
@@ -8,19 +8,21 @@ export interface Props {
   bodyClass: string;
   title: string;
   category: string;
+  photography: string;
   coverImage: URL;
 }
 
-const { title, subtitle, description, category, coverImage } =
+const { title, subtitle, description, category, coverImage, photography } =
   Astro.props.frontmatter || Astro.props;
 ---
 
 <Layout title="article" title={title} description={description}>
   <article class={category}>
     <div class="post_header container">
-      <h1 class="compacted centered">{title}</h1>
+      <h1 class="compacted centered">{title.toUpperCase()}</h1>
       <h2 class="centered border_top border_bottom">
-        {subtitle} |{category.toLowerCase()}
+        {subtitle}
+        <br /><span class="cat_name">{category.toUpperCase()}</span>
       </h2>
     </div>
 
@@ -38,7 +40,77 @@ const { title, subtitle, description, category, coverImage } =
       </div>
     </div>
 
-    <PostMetas />
+    <div class="h5 post_metas">
+      <div class="post_meta_block">
+        <div class="post_meta_icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon_photographer"
+            ><path
+              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+            ></path><circle cx="12" cy="13" r="4"></circle></svg
+          >
+          <span
+            class="post_meta_text nowrap"
+            title="'photography by' + '{photography}'"
+          >
+            {photography || "UNKNOWN"}
+          </span>
+        </div>
+      </div>
+
+      <div class="post_meta_block">
+        <div class="post_meta_icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon_clock"
+            ><circle cx="12" cy="12" r="10"></circle><polyline
+              points="12 6 12 12 16 14"></polyline></svg
+          >
+          <FormattedDate />
+        </div>
+      </div>
+
+      <div class="post_meta_block">
+        <div class="post_meta_icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon_clock"
+          >
+            <path
+              d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
+            ></path>
+            <line x1="7" y1="7" x2="7.01" y2="7"></line>
+          </svg>
+
+          {category.toUpperCase() || "UNKNOWN"}
+        </div>
+      </div>
+    </div>
 
     <div class="post_content container padding_top">
       <slot />
@@ -118,5 +190,45 @@ const { title, subtitle, description, category, coverImage } =
   body.vegas_container > .vegas_slide {
     position: fixed;
     z-index: -1;
+  }
+
+  .cat_name {
+    display: block;
+    opacity: 0.25;
+    font-weight: 100;
+    user-select: none;
+    padding-top: var(--space_small);
+  }
+
+  hr {
+    width: 55%;
+    color: var(--primary) !important;
+    border: 1px solid var(--primary) !important;
+  }
+  .post_metas {
+    padding-top: var(--space_small);
+    padding-bottom: var(--space_small);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: var(--space);
+    padding-right: var(--space);
+    @media screen and (min-width: 720px) {
+      flex-direction: row;
+    }
+  }
+  .post_meta_block {
+    padding-left: var(--space);
+    padding-right: var(--space);
+  }
+  .post_meta_icon {
+    color: var(--primary) !important;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    svg {
+      stroke: var(--primary) !important;
+    }
   }
 </style>

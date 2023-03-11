@@ -1,6 +1,11 @@
 ---
 import FormattedDate from "@components/FormattedDate.astro";
 
+export interface Props {
+  category: string;
+  photography: string;
+}
+
 const { category, photography } = Astro.props.frontmatter || Astro.props;
 ---
 
@@ -9,8 +14,8 @@ const { category, photography } = Astro.props.frontmatter || Astro.props;
     <div class="post_meta_icon">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="40"
-        height="40"
+        width="48"
+        height="48"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
@@ -71,7 +76,7 @@ const { category, photography } = Astro.props.frontmatter || Astro.props;
         <line x1="7" y1="7" x2="7.01" y2="7"></line>
       </svg>
 
-      CAT
+      {category || "UNKNOWN"}
     </div>
   </div>
 </div>
