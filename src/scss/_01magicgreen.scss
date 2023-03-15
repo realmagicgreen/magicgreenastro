@@ -257,6 +257,21 @@ footer {
 
 //ARTICLE
 .post_content {
+  h2 {
+    transform: rotateZ(8deg) !important;
+  }
+  h3 {
+    transform: rotateZ(-4deg) !important;
+  }
+  h4 {
+    transform: rotateZ(3deg) !important;
+  }
+  h5 {
+    transform: rotateZ(-5deg) !important;
+  }
+  h6 {
+    transform: rotateZ(5deg) !important;
+  }
   p {
     font-size: 135%;
     max-width: 650px;
