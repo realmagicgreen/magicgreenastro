@@ -20,19 +20,18 @@ export interface Props {
   title: string;
   description: string;
   category: string;
-  cssClass: string;
+  cssBodyClass: string;
 }
 
-const { title, description, category, cssClass } =
-  Astro.props.frontmatter || Astro.props;
+const { title, description, category, cssBodyClass } = Astro.props;
 
 //lets build metadatas
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
 
-const makeTitle = title ? Brand + " | " + title : "J|makeTitle";
+const makeTitle = " 💚 " + title ? Brand + " 💚 " + title : "J|makeTitle";
 
 const makeTitleOG = title
-  ? Brand + ", " + Mission + " | " + title
+  ? Brand + ", " + Mission + " 💚 " + title
   : "J|makeTitleOG!";
 
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
@@ -79,7 +78,7 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
     />
     <meta name="keywords" content={site.keywords} />
   </head>
-  <body>
+  <body class={cssBodyClass}>
     <Svgs />
 
     <Header data-type={category} />

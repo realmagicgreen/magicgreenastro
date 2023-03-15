@@ -16,8 +16,8 @@ const { title, subtitle, description, category, coverImage, photography } =
   Astro.props.frontmatter || Astro.props;
 ---
 
-<Layout title="article" title={title} description={description}>
-  <article class={category}>
+<Layout cssBodyClass={category} title={title} description={description}>
+  <article>
     <div class="post_header container">
       <h1 class="compacted centered">{title.toUpperCase()}</h1>
       <h2 class="centered border_top border_bottom">

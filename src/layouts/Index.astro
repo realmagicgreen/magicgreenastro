@@ -1,14 +1,27 @@
 ---
 import Layout from "@layouts/Layout.astro";
+//import Category from "@pages/[category].astro";
+//import { Picture } from "@astrojs/image/components";
 export interface Props {
-  cssClass: string;
+  description?: string;
+  title: string;
+  category?: string;
+  photography: string;
+  coverImage: URL;
 }
+
+const { category, description } = Astro.props;
 ---
 
-<Layout cssClass="index">
+<Layout
+  title={category}
+  description={description}
+  category=""
+  cssBodyClass="index"
+>
   <div class="container index">
     <slot />
-    <div class="post_page_title r5deg">
+    <div class="slogan r5deg">
       <h1 class="centered compacted minimal_padding speech_bubble">
         Sustainable, environment friendly examples present future.
       </h1>
@@ -16,7 +29,7 @@ export interface Props {
   </div>
 </Layout>
 <style lang="scss">
-  .post_page_title {
+  .slogan {
     padding-top: var(--space);
     .compacted {
       user-select: none;
