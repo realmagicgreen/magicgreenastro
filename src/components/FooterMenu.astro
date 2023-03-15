@@ -1,10 +1,10 @@
 ---
 ---
 
-<div class="r5deg menu_footer centered menu_section" role="menu">
-  <div class="r5deg padding_bottom footer_icon magicgreen">
+<div class="r5deg footer_menu centered menu_section" role="menu">
+  <div class="growing r-5deg padding_bottom footer_icon magicgreen">
     <a
-      class="r5deg menu_item open_in_new_window"
+      class="r-5deg menu_item open_in_new_window"
       role="menuitem"
       href="/about"
       title="magicgreen Facebook page"
@@ -108,18 +108,13 @@
     }
   }
 
-  .menu_footer {
+  .footer_menu {
     width: 100%;
-    padding-left: 20vw;
-    max-width: 64vw;
+    max-width: 70vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    // @media (min-width: 768px) {
-    //   flex-direction: row;
-    //   max-width: 700px;
-    // }
 
     .email a span,
     .other_website a span {
@@ -143,7 +138,7 @@
     }
   }
 
-  .menu.menu_footer .menu_item {
+  .menu.footer_menu .menu_item {
     text-transform: none;
   }
 
@@ -158,6 +153,15 @@
   .growing {
     padding-top: 20vw;
     padding-bottom: 20vw;
+    white-space: wrap;
+    a {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      span {
+        display: block !important;
+      }
+    }
   }
   strong {
     font-size: 120%;
