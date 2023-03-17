@@ -26,25 +26,28 @@ import "@styles/pico.slim.scss";
 </nav>
 <style lang="scss">
   nav {
-    width: 80%;
+    width: 96%;
     margin: 0 auto;
-    min-height: 60px;
+    min-height: 48px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: var(--space_small);
-    padding-right: var(--space_small);
-    justify-content: space-between;
+    justify-content: center;
     a {
-      font-size: 110%;
+      font-size: 105%;
       display: block;
-      min-height: 48px;
-      padding-left: var(--space-small);
-      padding-right: var(--space);
+      min-height: 42px;
       user-select: none;
+      padding-left: calc(var(--space_small) / 1.5);
+      padding-right: calc(var(--space_small) / 1.5);
       :hover {
         opacity: 95%;
       }
+    }
+    button {
+      display: block;
+      padding: 0.25;
+      margin-bottom: calc(var(--space_small) / 2);
     }
   }
 </style>
