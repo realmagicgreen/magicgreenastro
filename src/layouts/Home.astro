@@ -1,8 +1,5 @@
 ---
-import Nav from "@components/Nav.astro";
 import Layout from "@layouts/Layout.astro";
-//import Category from "@pages/[category].astro";
-//import { Picture } from "@astrojs/image/components";
 export interface Props {
   description?: string;
   title: string;
@@ -11,17 +8,12 @@ export interface Props {
   coverImage: URL;
 }
 
-const { category, description } = Astro.props;
+const { category, description, title } = Astro.props;
+
+// const title = "welcome";
 ---
 
-<Layout
-  title={category}
-  description={description}
-  category=""
-  cssBodyClass="index"
->
-  <Nav cssClass="nav" />
-
+<Layout title={title} description={description} category="" cssBodyClass="home">
   <main>
     <div class="container index">
       <slot />

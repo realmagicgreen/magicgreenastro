@@ -1,14 +1,8 @@
 ---
-//data
-import site from "@data/site.json";
-const Brand = site.title;
-const Mission = site.content_is_about;
-
 //components
 import Styles from "@components/Styles.astro";
 import Junglestar from "@components/Junglestar.astro";
 import Svgs from "@components/Svgs.astro";
-import Nav from "@components/Nav.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 
@@ -25,15 +19,20 @@ export interface Props {
 
 const { title, description, category, cssBodyClass } = Astro.props;
 
+//data
+import site from "@data/site.json";
+const Brand = site.title;
+const Mission = site.content_is_about;
+
 //lets build metadatas
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
 
-const makeTitle = " 💚 " + title ? Brand + " 💚 " + title : "J|makeTitle";
-
+const makeTitle = title ? Brand + " 💚 " + title : "J|makeTitle";
+console.log(makeTitle);
 const makeTitleOG = title
   ? Brand + ", " + Mission + " 💚 " + title
   : "J|makeTitleOG!";
-
+console.log(makeTitleOG);
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
 ---
 
@@ -51,7 +50,7 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
     <link
       rel="icon"
       type="image/svg+xml"
-      href="assets/favicons/safari-pinned-tab.svg"
+      href="/assets/favicons/safari-pinned-tab.svg"
     />
 
     <SEO
@@ -83,11 +82,7 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
 
     <Header data-type={category} />
 
-    <Nav cssClass="nav" />
-
-    <main>
-      <slot />
-    </main>
+    <slot />
 
     <Footer cssClass="default" />
 

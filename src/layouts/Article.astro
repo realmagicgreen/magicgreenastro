@@ -3,10 +3,12 @@ import Layout from "@layouts/Layout.astro";
 import FormattedDate from "@components/FormattedDate.astro";
 
 import { Picture } from "@astrojs/image/components";
+import Nav from "@components/Nav.astro";
 export interface Props {
   description: string;
-  bodyClass: string;
+  cssbodyClass: string;
   title: string;
+  subtitle: string;
   category: string;
   photography: string;
   coverImage: URL;
@@ -17,108 +19,113 @@ const { title, subtitle, description, category, coverImage, photography } =
 ---
 
 <Layout cssBodyClass={category} title={title} description={description}>
-  <article>
-    <div class="post_header container">
-      <h1 class="compacted centered">{title.toUpperCase()}</h1>
-      <h2 class="centered border_top border_bottom">
-        {subtitle}
-        <br /><span class="cat_name">{category.toUpperCase()}</span>
-      </h2>
-    </div>
-
-    <div class="hero vegas_container">
-      <div class="vegas_overlay"></div>
-      <div class="vegas_slide">
-        <Picture
-          attributes={{ class: "hero_picture" }}
-          src={coverImage}
-          widths={[640, 880, 1024, 1920]}
-          aspectRatio="1:1"
-          sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
-          alt={coverImage}
-        />
+  <Nav cssClass="article" />
+  <main>
+    <article>
+      <div class="post_header container">
+        <h1 class="compacted centered">{title.toUpperCase()}</h1>
+        <h2 class="centered border_top border_bottom">
+          {subtitle}
+          <br /><span class="cat_name">{category.toUpperCase()}</span>
+        </h2>
       </div>
-    </div>
 
-    <div class="h5 post_metas">
-      <div class="post_meta_block">
-        <div class="post_meta_icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon_photographer"
-            ><path
-              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-            ></path><circle cx="12" cy="13" r="4"></circle></svg
-          >
-          <span
-            class="post_meta_text nowrap"
-            title="'photography by' + '{photography}'"
-          >
-            {photography || "UNKNOWN"}
-          </span>
+      <div class="hero vegas_container">
+        <div class="vegas_overlay"></div>
+        <div class="vegas_slide">
+          <Picture
+            attributes={{ class: "hero_picture" }}
+            src={coverImage}
+            widths={[640, 880, 1024, 1920]}
+            aspectRatio="1:1"
+            sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
+            alt={coverImage}
+          />
         </div>
       </div>
 
-      <div class="post_meta_block">
-        <div class="post_meta_icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon_clock"
-            ><circle cx="12" cy="12" r="10"></circle><polyline
-              points="12 6 12 12 16 14"></polyline></svg
-          >
-          <FormattedDate />
+      <div class="h5 post_metas">
+        <div class="post_meta_block">
+          <div class="post_meta_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon_photographer"
+              ><path
+                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+              ></path><circle cx="12" cy="13" r="4"></circle></svg
+            >
+            <span
+              class="post_meta_text nowrap"
+              title="'photography by' + '{photography}'"
+            >
+              {photography || "UNKNOWN"}
+            </span>
+          </div>
+        </div>
+
+        <div class="post_meta_block">
+          <div class="post_meta_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon_clock"
+              ><circle cx="12" cy="12" r="10"></circle><polyline
+                points="12 6 12 12 16 14"></polyline></svg
+            >
+            <FormattedDate />
+          </div>
+        </div>
+
+        <div class="post_meta_block">
+          <div class="post_meta_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon_clock"
+            >
+              <path
+                d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
+              ></path>
+              <line x1="7" y1="7" x2="7.01" y2="7"></line>
+            </svg>
+
+            {category.toUpperCase() || "UNKNOWN"}
+          </div>
         </div>
       </div>
 
-      <div class="post_meta_block">
-        <div class="post_meta_icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon_clock"
-          >
-            <path
-              d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-            ></path>
-            <line x1="7" y1="7" x2="7.01" y2="7"></line>
-          </svg>
-
-          {category.toUpperCase() || "UNKNOWN"}
-        </div>
+      <div class="post_content container padding_top">
+        <slot />
       </div>
-    </div>
-
-    <div class="post_content container padding_top">
-      <slot />
-    </div>
-  </article>
+    </article>
+  </main>
 </Layout>
 <style lang="scss">
   article {
+    margin-top: 0;
+    padding-top: 0;
     width: 100vw !important;
     display: flex;
     flex-direction: column;
