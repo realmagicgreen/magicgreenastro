@@ -11,13 +11,13 @@ export interface Props {
   coverImage: URL;
 }
 
-const { category, description } = Astro.props;
+const { category, description, title } = Astro.props;
 ---
 
 <Layout
-  title={category}
+  title={title}
   description={description}
-  category=""
+  category={category}
   cssBodyClass="index"
 >
   <Nav cssClass="nav" />

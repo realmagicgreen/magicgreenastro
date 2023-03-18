@@ -23,13 +23,19 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
 
 export interface Props {
   title: string;
+  coverImage: string;
 }
 
 import siteData from "@data/site.json";
 const title = "Curated Info Platform";
 ---
 
-<Layout title={title} description={siteData.description}>
+<Layout
+  title={title}
+  description={siteData.description}
+  photography="lah"
+  coverImage=""
+>
   <details class="know">
     <summary class="h3">KNOW</summary>
     <div class="ul">

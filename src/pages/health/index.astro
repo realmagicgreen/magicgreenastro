@@ -4,15 +4,15 @@ import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
 
 const posts = await getCollection("health");
-
-const collectionName = "health";
-
 export interface Props {
   collectionName: string;
 }
+const collectionName = "health";
+
+const title = "Curated Info Platform";
 ---
 
-<Layout title={collectionName} description={siteData.tldr}>
+<Layout title={title} description={siteData.tldr} photography="" coverImage={}>
   <h2 class="uppercased">{collectionName}</h2>
   <div class="ul health">
     {

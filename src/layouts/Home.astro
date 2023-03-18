@@ -4,11 +4,12 @@ export interface Props {
   description?: string;
   title: string;
   category?: string;
-  photography: string;
+  photography?: string;
   coverImage: URL;
+  cssBodyClass: string;
 }
 
-const { category, description, title } = Astro.props;
+const { category, description, title, coverImage } = Astro.props;
 
 // const title = "welcome";
 ---
