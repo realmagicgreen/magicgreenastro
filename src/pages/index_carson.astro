@@ -2,6 +2,10 @@
 import Layout from "@layouts/Layout.astro";
 import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
+export interface Props {
+  cssBodyClass: string;
+  pubDate: any;
+}
 
 const healthArticles = await getCollection("health", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
@@ -16,7 +20,8 @@ const techniquesArticles = await getCollection("techniques");
 <Layout
   title={siteData.tldr}
   description={siteData.description}
-  bodyClass="index"
+  category=""
+  cssBodyClass="index"
 >
   <section class="health">
     <h2 class="cinkuenta">HEALTH</h2>

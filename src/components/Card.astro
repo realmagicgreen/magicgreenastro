@@ -1,17 +1,16 @@
 ---
-const props = Astro.props;
+// const props = Astro.props;
 
 export interface Props {
   title: string;
   subtitle: string;
-  content: string;
   href: string;
 }
 
 const { href, title, subtitle } = Astro.props;
 ---
 
-<Card {...props} class="">
+<div class="">
   <li class="link-card">
     <a href={href}>
       <h2>
@@ -26,4 +25,4 @@ const { href, title, subtitle } = Astro.props;
     </a>
   </li>
   <style></style>
-</Card>
+</div>

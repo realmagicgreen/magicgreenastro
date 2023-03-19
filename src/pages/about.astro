@@ -15,10 +15,20 @@ const allBlogPosts = await getCollection("about");
 
 // Get a single entry from a collection. Requires the name of the collection and the entry's slug as arguments.
 const oneBlogPost = await getEntryBySlug("about", "about-us");
+
+export interface Props {
+  title: string;
+  description: string;
+}
 ---
 
-<Layout cssClass="about">
-  <div class="sitedata centered">
+<Layout
+  cssBodyClass="about"
+  title="About us"
+  category=""
+  description={siteData.description}
+>
+  <div class="centered">
     {siteData.title.toUpperCase()} | {siteData.subtitle.toUpperCase()} | {
       siteData.license.name
     } - {siteData.author.name.toUpperCase()}
@@ -28,18 +38,18 @@ const oneBlogPost = await getEntryBySlug("about", "about-us");
     <hr />
     <div>author: {siteData.author.name.toUpperCase()}</div>
     <hr />
-    <div>{siteData.company.name.toUpperCase()} {siteData.company.name}</div>
+    <div>{siteData.company.name.toUpperCase()}</div>
     <hr />
     <div>
-      {siteData.company.name.toUpperCase()} MAIL: {siteData.company.email}
+      MAIL: {siteData.company.email}
     </div>
     <hr />
     <div>
-      {siteData.company.name.toUpperCase()} GITHUB: {siteData.company.github}
+      GITHUB: {siteData.company.github}
     </div>
     <hr />
     <div>
-      {siteData.company.name.toUpperCase()} IG: {siteData.company.instagram}
+      IG: {siteData.company.instagram}
     </div>
     <hr />
     <a href={siteData.license.url}>{siteData.license.name}</a>

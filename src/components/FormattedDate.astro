@@ -3,7 +3,7 @@ export interface Props {
   pubDate: string;
 }
 const { pubDate } = Astro.props.frontmatter || Astro.props;
-console.log(pubDate);
+// console.log(pubDate);
 ---
 
 <span id="dateCurated"></span>
@@ -16,6 +16,7 @@ console.log(pubDate);
     day: "numeric",
   });
   document.getElementById("dateCurated").innerHTML = text;
+  console.log(text);
 </script>
 
 <style>
