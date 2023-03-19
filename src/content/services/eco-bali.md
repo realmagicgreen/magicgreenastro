@@ -19,7 +19,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or emptyy
-# photography:
+photography: "Unknown"
 ---
 
 Eco Bali invented a two bin system. One red bin for all non-organic waste like glass, metal and plastic and one green bin for paper.

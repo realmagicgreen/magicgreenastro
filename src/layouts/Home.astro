@@ -1,20 +1,24 @@
 ---
 import Layout from "@layouts/Layout.astro";
 export interface Props {
-  description?: string;
+  description: string;
   title: string;
-  category?: string;
-  photography?: string;
-  coverImage: URL;
   cssBodyClass: string;
 }
 
-const { category, description, title, coverImage } = Astro.props;
+const { description, title } = Astro.props;
+
+const cssBodyClass = "home";
 
 // const title = "welcome";
 ---
 
-<Layout title={title} description={description} category="" cssBodyClass="home">
+<Layout
+  title={title}
+  description={description}
+  category=""
+  cssBodyClass={cssBodyClass}
+>
   <main>
     <div class="container index">
       <slot />

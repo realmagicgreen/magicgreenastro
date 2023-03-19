@@ -21,7 +21,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # pinned to top 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Sure, that potted fern is pretty, but can it really spruce up the air quality in your home? Studies by scientists at NASA, Pennsylvania State University, the University of Georgia and other respected institutions suggest that it can.

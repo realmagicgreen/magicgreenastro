@@ -21,7 +21,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Epipremnum aureum is an evergreen climber with a multitude of common names including **golden pothos**, hunter's robe, ivy arum, **money plant**, silver vine, Solomon Islands ivy and taro vine.

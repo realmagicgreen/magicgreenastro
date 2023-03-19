@@ -28,11 +28,11 @@ const Mission = site.content_is_about;
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
 
 const makeTitle = title ? Brand + " 💚 " + title : "J|makeTitle";
-console.log(makeTitle);
+// console.log(makeTitle);
 const makeTitleOG = title
   ? Brand + ", " + Mission + " 💚 " + title
   : "J|makeTitleOG!";
-console.log(makeTitleOG);
+// console.log(makeTitleOG);
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
 ---
 

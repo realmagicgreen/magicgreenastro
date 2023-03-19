@@ -16,7 +16,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 The obvious solution to avoiding plastic toxicity is to avoid plastics, which, in a world awash in plastic, is pretty difficult.

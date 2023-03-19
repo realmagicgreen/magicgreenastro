@@ -23,7 +23,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Trash accumulates in 5 ocean garbage patches, the largest one being the Great Pacific Garbage Patch, located between Hawaii and California. If left to circulate, the plastic will impact our ecosystems, health and economies.

@@ -24,7 +24,7 @@ flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Yo, these guys from Surabaya, in East Java, make some really cool design lamps.

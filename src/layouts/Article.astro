@@ -6,19 +6,27 @@ import { Picture } from "@astrojs/image/components";
 import Nav from "@components/Nav.astro";
 export interface Props {
   description: string;
-  cssbodyClass: string;
+  cssBodyClass: string;
   title: string;
   subtitle: string;
   category: string;
   photography: string;
   coverImage: URL;
+  pubDate: any;
 }
 
-const { title, subtitle, description, category, coverImage, photography } =
-  Astro.props.frontmatter || Astro.props;
+const {
+  cssBodyClass,
+  title,
+  subtitle,
+  description,
+  category,
+  coverImage,
+  photography,
+} = Astro.props.frontmatter || Astro.props;
 ---
 
-<Layout cssBodyClass={category} title={title} description={description}>
+<Layout title={title} description={description} cssBodyClass={cssBodyClass}>
   <Nav cssClass="article" />
   <main>
     <article>

@@ -24,7 +24,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Biodiversity is the variety of life on Earth. These forms of life include microorganisms, fungi, plants, and animals, including the communities that they form and the habitats in which they live.

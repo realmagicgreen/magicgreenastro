@@ -26,7 +26,7 @@ flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Founded and conceived by John and Cynthia Hardy in 2006, Green School opened in 2008 with 90 students and a tailor-made campus that emerged from the jungle and rice fields. Since then it has grown to approximately 400 students.

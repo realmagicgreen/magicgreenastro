@@ -28,7 +28,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 At recent ASEAN meeting in Canada, Indonesia, represented by Dr. Gono Semiadi of the [Indonesian Institute of Sciences (LIPI)](https://en.wikipedia.org/wiki/Indonesian_Institute_of_Sciences), stressed that the key to prevent spread of alien species is a strong border control.

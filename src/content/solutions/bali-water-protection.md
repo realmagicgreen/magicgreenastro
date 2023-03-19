@@ -19,7 +19,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 We are pumping the ground water dry and we must act now to avoid permanent damage. Bali is on the verge of an environmental catastrophe.

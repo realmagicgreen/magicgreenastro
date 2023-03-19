@@ -20,7 +20,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 The Thai Government has a goal of getting 1.2 m electric vehicles on the road by 2036.

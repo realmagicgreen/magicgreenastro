@@ -18,7 +18,7 @@ flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 The new Honda EV-Cub is definitely an eyebrow raiser. Two electric motors, one in the front, the other in the back. Sure this is unique. I only know of a few electric bikes that have that configuration, which, by the way, is plenty of fun in the right conditions.

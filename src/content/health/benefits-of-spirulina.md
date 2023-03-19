@@ -19,7 +19,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 **Spirulina** is a type of bacteria called cyanobacterium, a dark blue-green algae that has been touted as one of the most potent and protective **superfood** in existence.

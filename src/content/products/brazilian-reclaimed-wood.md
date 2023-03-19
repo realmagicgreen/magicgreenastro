@@ -23,7 +23,7 @@ flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Peroba is a common tree in Brazil, local craftsmen use its wood for everything. From the strong, straight-grained stock that resembles oak, they build entire houses using it for framing, paneling, millwork, moldings, flooring, and furniture.

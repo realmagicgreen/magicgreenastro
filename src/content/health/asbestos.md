@@ -20,7 +20,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 The danger of using asbestos roofs for people is big. Exposition to asbestos dust leads to mesothelioma cancer.

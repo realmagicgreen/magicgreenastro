@@ -20,7 +20,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Chrysanthemum, known also as Pot Mum or Florist's Mum, mildly toxic and an irritant to cats and dogs is an excellent poison remover.

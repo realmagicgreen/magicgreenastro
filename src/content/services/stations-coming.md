@@ -20,7 +20,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 State electricity company PT Perusahaan Listrik Negara (PLN) in West Nusa Tenggara (NTB) is developing General Electricity Provider Stations (SPLU) in several locations in NTB, including Gili Trawangan in North Lombok and Mandalika Special Economic Zone (KEK) in Central Lombok.

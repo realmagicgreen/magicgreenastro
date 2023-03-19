@@ -21,7 +21,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Azadirachta Indica, commonly known as Neem, is part of the Mahogany family.

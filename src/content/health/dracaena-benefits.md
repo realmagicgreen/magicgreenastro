@@ -22,7 +22,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species of trees and succulent shrubs.

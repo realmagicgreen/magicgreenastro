@@ -22,7 +22,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs will be gone by 2050 and there will be more plastics than fish in the ocean!

@@ -20,7 +20,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 **Byebye plastic bags** is an initiative from children to force all the people to say no to plastic bags, because of the enormous environmental pollution they cause.

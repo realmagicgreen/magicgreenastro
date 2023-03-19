@@ -20,7 +20,7 @@ featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-# photography:
+photography: "Unknown"
 ---
 
 Bamboo, technically a grass, has been used in building for centuries due to its impressive strength. It offer twice the compressive strength of concrete and about the same strength-to-weight ratio of steel in tension. [1]

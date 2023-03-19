@@ -7,7 +7,7 @@ updatedDate: 2023-03-03
 description: We are a network of communication professionals who feel the need to make something meaningful and necessary. To push the world towards the right direction.
 cover_image: /assets/p/about/about-us/about-us.jpg
 many_pictures: false # 'true' or empty
-# photography:
+photography: "Unknown"
 tags:
   - magicgreen
 featured: false # use 'true' to have it displayed in home

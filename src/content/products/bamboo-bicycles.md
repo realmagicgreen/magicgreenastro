@@ -21,7 +21,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 pinned: # pinned to top 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 The crazy idea of making bikes out of bamboo is actually not all that crazy. It has excellent vibration dampening effects, noticeable on bumpy roads. And producing them means almost zero greenhouse gases emissions.

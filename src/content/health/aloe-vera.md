@@ -22,7 +22,7 @@ featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-# photography:
+photography: "Unknown"
 draft: false
 ---
 

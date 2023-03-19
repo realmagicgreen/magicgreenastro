@@ -17,7 +17,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 Flax seeds are nutritional powerhouses. They're absolutely packed with fiber, omega-3 fatty acids, B vitamins, antioxidants, and cancer-fighting [lignans](https://en.wikipedia.org/wiki/Lignan).

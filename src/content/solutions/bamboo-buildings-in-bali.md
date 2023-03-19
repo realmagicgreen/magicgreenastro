@@ -23,7 +23,7 @@ flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-# photography:
+photography: "Unknown"
 ---
 
 The Indonesian island of Bali is witnessing a new trend. Bamboo building, emblem of sustainable construction, are replacing concrete and steel.

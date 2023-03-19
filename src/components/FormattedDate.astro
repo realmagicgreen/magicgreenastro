@@ -3,16 +3,12 @@ export interface Props {
   pubDate: string;
 }
 const { pubDate } = Astro.props.frontmatter || Astro.props;
-// //const { dateString } = date.toISOString();
-
-// const { dateString } = new Date().toISOString();
-
-// const cssClass = "footer ";
+console.log(pubDate);
 ---
 
 <span id="dateCurated"></span>
 
-<script>
+<script is:inline>
   const d = { pubDate };
   let text = d.toLocaleDateString("en-us", {
     year: "numeric",
