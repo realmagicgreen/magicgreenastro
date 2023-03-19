@@ -2,16 +2,22 @@
 import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
-import { string } from "astro/zod";
-const posts = await getCollection("products");
+
 const collectionName = "products";
+const posts = await getCollection(collectionName);
 
 export interface Props {
   collectionName: string;
 }
 ---
 
-<Layout title={siteData.tldr}>
+<Layout
+  title={siteData.tldr}
+  description={siteData.description}
+  category={collectionName}
+  photography=""
+  coverImage={}
+>
   <h2 class="uppercased">{collectionName}</h2>
   <ul>
     {

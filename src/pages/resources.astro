@@ -10,12 +10,19 @@ const knowArticles = await getCollection("know", ({ data }) => {
 const techniquesArticles = await getCollection("techniques", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
 });
+
+export interface Props {
+  cssBodyClass: string;
+}
+const collectionName = "resources";
 ---
 
 <Layout
   title={siteData.tldr}
   description={siteData.description}
-  bodyClass="resources"
+  category={collectionName}
+  photography=""
+  coverImage={}
 >
   <section class="know">
     <h4 class="">KNOW</h4>

@@ -2,19 +2,13 @@
 import Layout from "@layouts/Layout.astro";
 import siteData from "@data/site.json";
 
-//const posts = await Astro.glob("../pages/about.md");
-//const nonDraftPosts = posts.filter((post) => !post.frontmatter.draft);
-
-// import * as about from "../pages/about-us.md";
-// /const { Content } = Astro.props.post;
-
 import { getCollection, getEntryBySlug } from "astro:content";
 
-// Get all entries from a collection. Requires the name of the collection as an argument.
-const allBlogPosts = await getCollection("about");
+// // Get all entries from a collection. Requires the name of the collection as an argument.
+// const allBlogPosts = await getCollection("about");
 
-// Get a single entry from a collection. Requires the name of the collection and the entry's slug as arguments.
-const oneBlogPost = await getEntryBySlug("about", "about-us");
+// // Get a single entry from a collection. Requires the name of the collection and the entry's slug as arguments.
+// const oneBlogPost = await getEntryBySlug("about", "about-us");
 
 export interface Props {
   title: string;
