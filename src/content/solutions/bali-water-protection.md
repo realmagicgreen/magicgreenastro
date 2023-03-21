@@ -12,7 +12,7 @@ tags:
   - initiative
   - social-responsibility
   - water
-coverImage: /assets/p/solutions/bali-water-protection/bali-water-protection.jpg
+coverImage: p/solutions/bali-water-protection/bali-water-protection.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -48,7 +48,7 @@ We must act now to avoid permanent damage. [IDEP](http://idepfoundation.org/bwp)
 
 [IDEP Bali water protection page](http://idepfoundation.org/bwp)
 
-[BWP - the study - PDF](https://docs.google.com/viewerng/viewer?url=http://www.idepfoundation.org/images/idep/how-you-can-help/support-a-project/bali-water-protection-program/bwp_agama_tirtha.pdf)
+[BWP - the study - PDF](https://docs.google.com/viewerng/viewer?url=http://www.idepfoundation.org/images/idecoverImage: p/how-you-can-helcoverImage: p/support-a-project/bali-water-protection-program/bwp_agama_tirtha.pdf)
 
 [Video - baligolive](https://youtu.be/Hx8DGqdiGec)
 

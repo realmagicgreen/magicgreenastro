@@ -1,17 +1,19 @@
 {
-  "name": "@magicgreen",
+  "name": "magic-green",
   "type": "module",
-  "version": "5.11.3",
+  "version": "5.12.0",
   "private": true,
   "scripts": {
-    "dev": "astro",
+    "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sync": "astro sync",
+    "docs": "astro docs",
+    "check": "astro check"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.15.1",
     "@astrojs/markdown-remark": "^2.1.0",
     "@astrojs/mdx": "^0.15.2",
     "@astrojs/rss": "^2.3.0",

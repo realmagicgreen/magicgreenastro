@@ -13,7 +13,7 @@ tags:
   - sustainable-construction
   - save-trees
   - wood
-coverImage: /assets/p/techniques/building-with-bamboo/building-with-bamboo.jpg
+coverImage: p/techniques/building-with-bamboo/building-with-bamboo.jpg
 description: "Bamboo has been used in building for centuries. Impressive strength, twice the compressive strength of concrete and same strength-to-weight of steel in tension." # max 160 digits cos dunno how to trim it, yet......
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home

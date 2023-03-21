@@ -14,7 +14,7 @@ tags:
   - plants
   - learning
   - wellness
-coverImage: /assets/p/health/neem-tree/neem-tree.jpg
+coverImage: p/health/neem-tree/neem-tree.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -42,6 +42,6 @@ It gives oxigen at night and is also a pollutant remover.
 
 [NASA Clean Air Study](https://en.wikipedia.org/wiki/NASA_Clean_Air_Study)
 
-[Plants to help you sleep](http://www.naturallivingideas.com/12-plants-for-your-bedroom-to-help-you-sleep/)
+[Plants to help you sleep](http://www.naturallivingideas.com/12-plants-for-your-bedroom-to-help-you-sleecoverImage: p/)
 
 [Indoor plants which clean the air](https://www.livescience.com/38445-indoor-plants-clean-air.html)

@@ -14,7 +14,7 @@ tags:
   - pollutants-remove
   - learning
   - wellness
-coverImage: /assets/p/health/bedroom-plants/bedroom-plants.jpg
+coverImage: p/health/bedroom-plants/bedroom-plants.jpg
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: helpful plants # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -134,7 +134,7 @@ Practitioners today recommend rosemary essential oil for supporting the nervous 
 
 [(Excellent guide) Air Cleaning Plants - ohsospotless](https://ohsospotless.com/air-cleaning-plants/)
 
-[Plants to help you sleep](http://www.naturallivingideas.com/12-plants-for-your-bedroom-to-help-you-sleep/)
+[Plants to help you sleep](http://www.naturallivingideas.com/12-plants-for-your-bedroom-to-help-you-sleecoverImage: p/)
 
 [Indoor plants which clean the air](https://www.livescience.com/38445-indoor-plants-clean-air.html)
 

@@ -10,10 +10,10 @@
       "@layouts/*": ["src/layouts/*"],
       "@data/*": ["src/data/*"],
       "@js/*": ["src/js/*"],
-      "@svgs/*": ["public/assets/svgs/*"],
+      "@svgs/*": ["src/assets/svgs/*"],
       "@styles/*": ["src/scss/*"],
-      "@p/*": ["public/assets/p/*"],
-      "@overlays/*": ["public/assets/overlays/*"]
+      "@p/*": ["src/assets/p/*"],
+      "@overlays/*": ["src/assets/overlays/*"]
     },
     "strictNullChecks": true,
     "allowJs": true

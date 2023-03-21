@@ -16,7 +16,7 @@ tags:
   - recycle
   - Singapore
   - sustainable-construction
-coverImage: "/assets/p/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg"
+coverImage: "/assets/coverImage: p/solutions/gardens-by-the-bay/gardens-by-the-bay.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -60,8 +60,7 @@ Underlying the concept of Gardens by the Bay are the principles of environmental
 
 Much effort was made to plan and design for sustainable cycles in energy and water throughout Bay South Garden.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
 **Energetics of the conservatories**
 
@@ -91,8 +90,7 @@ To reduce the amount of energy required in the cooling process, the air in Flowe
 
 This desiccant is recycled using the waste heat from the burning of the biomass.
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
 **4) Generating energy and harnessing waste heat**
 
@@ -148,8 +146,7 @@ In this realm of lush greenery you can learn all about the spectacular myriad of
 
 Find out how plants disperse their seeds, how mushrooms benefit rainforest communities and how plants adapt to adverse environments.
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'Garden by the bay. Photo by Rocco Marosi' %}
 
 Enjoy the sights of flowers and fruits in bloom, learn how to identify different tree species and even see some of the most primitive plants in the world! More on [World of plants](http://www.gardensbythebay.com.sg/en/attractions/world-of-plants/visitor-information.html)
 

@@ -10,7 +10,7 @@ tags:
   - eco-entrepreneurs
   - environment-friendly
   - social-responsibility
-coverImage: /assets/p/know/apparel-brands-go-green/apparel-brands-go-green.jpg
+coverImage: p/know/apparel-brands-go-green/apparel-brands-go-green.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

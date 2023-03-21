@@ -1,9 +1,17 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import FormattedDate from "@components/FormattedDate.astro";
+//import FormattedDate from "@components/FormattedDate.astro";
 
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import Nav from "@components/Nav.astro";
+
+interface ImageMetadata {
+  src: string;
+  width: number;
+  height: number;
+  format: string;
+}
+
 export interface Props {
   description: string;
   cssBodyClass: string;
@@ -11,7 +19,8 @@ export interface Props {
   subtitle: string;
   category: string;
   photography: string;
-  coverImage: URL;
+  coverImage: string;
+  pubDate: any;
 }
 
 const {
@@ -22,6 +31,7 @@ const {
   category,
   coverImage,
   photography,
+  pubDate,
 } = Astro.props.frontmatter || Astro.props;
 ---
 
@@ -45,15 +55,12 @@ const {
       <div class="hero vegas_container">
         <div class="vegas_overlay"></div>
         <div class="vegas_slide">
-          <Picture
-            attributes={{ class: "hero_picture" }}
+          <Image
             src={coverImage}
-            widths={[640, 880, 1024, 1920]}
-            aspectRatio="1:1"
-            sizes="(max-width: 1920px) 100vw, 1024px, 880px, 640px"
-            alt={coverImage}
-            loading="lazy"
-            decoding={}
+            width={1920}
+            height={1080}
+            alt={title}
+            quality="high"
           />
         </div>
       </div>
@@ -76,11 +83,8 @@ const {
                 d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
               ></path><circle cx="12" cy="13" r="4"></circle></svg
             >
-            <span
-              class="post_meta_text nowrap"
-              title="'photography by' + '{photography}'"
-            >
-              {photography || "UNKNOWN"}
+            <span class="post_meta_text nowrap">
+              {photography}
             </span>
           </div>
         </div>
@@ -101,41 +105,41 @@ const {
               ><circle cx="12" cy="12" r="10"></circle><polyline
                 points="12 6 12 12 16 14"></polyline></svg
             >
-            <FormattedDate />
+            <time datetime={pubDate.toISOString()}>
+              {pubDate.toDateString()}
+            </time>
           </div>
         </div>
+        <div class="post_meta_icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon_clock"
+          >
+            <path
+              d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
+            ></path>
+            <line x1="7" y1="7" x2="7.01" y2="7"></line>
+          </svg>
 
-        <div class="post_meta_block">
-          <div class="post_meta_icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon_clock"
-            >
-              <path
-                d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-              ></path>
-              <line x1="7" y1="7" x2="7.01" y2="7"></line>
-            </svg>
-
-            {category.toUpperCase() || "UNKNOWN"}
-          </div>
+          {category.toUpperCase() || "UNKNOWN"}
         </div>
-      </div>
-
-      <div class="post_content container padding_top">
-        <slot />
       </div>
     </article>
+
+    <div class="post_content container padding_top">
+      <slot />
+    </div>
   </main>
 </Layout>
+
 <style lang="scss">
   article {
     margin-top: 0;
@@ -194,7 +198,8 @@ const {
     border: none;
     padding: 0;
     margin: 0;
-    background: transparent url("/assets/overlays/07.png") center center repeat;
+    background: transparent url("../assets/overlays/07.png") center center
+      repeat;
   }
 
   body .vegas_container {

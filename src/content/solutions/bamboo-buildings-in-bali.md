@@ -16,7 +16,7 @@ tags:
   - learning
   - sustainable-construction
   - wood
-coverImage: /assets/p/solutions/bamboo-buildings-in-bali/bamboo-buildings-in-bali.jpg
+coverImage: p/solutions/bamboo-buildings-in-bali/bamboo-buildings-in-bali.jpg
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: bamboo buildings # lowercase, max 12 digits, including spaces
 flag: # new or other...

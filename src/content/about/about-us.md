@@ -21,7 +21,7 @@ sticky: false # 'true' or empty
 
 > "**Tidak ada yang sekuat sebuah gagasan yang waktunya telah tiba.**" _Victor Hugo_
 
-# Feeding the green baby.
+## Feeding the green baby
 
 The growing concern about the ecological impact is a fact worldwide. Scientists and upstreamists are urging us to clean up our actions and change the way we live and operate. Lots of press has appeared in recent years here and there but somehow infos are spread all over the place.
 
@@ -29,7 +29,7 @@ Ecologically sustainable business needs to communicate about their low impact pr
 
 Green and sustainable businesses practices are both necessary and a growing reality today. Conscious consumers want to know who is doing the right thing and are ready to support them. The time is perfect to fill this gap.
 
-# The Magic Green project
+## The Magic Green project
 
 We see an urgent need for a communication platform which gather infos, good examples and connect. So we started this information tool to let the world know. We want to inspire, to push the best examples and show what can be done and who is doing it.
 
@@ -39,7 +39,7 @@ We are open-source, copyright-free. We encourage you to print any article of our
 
 We aim to inspire responsible tourism and consumption. Follow us to know what's up!
 
-# Who
+## Who
 
 We are a network of communication professionals, with a solid experience producing content and communication tools, who feel the need to make something meaningful and necessary, to contribute to build a better, less harmfull, more sustainable world.
 

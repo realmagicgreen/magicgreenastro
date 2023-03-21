@@ -1,4 +1,4 @@
-import { z, defineCollection } from 'astro:content';
+import { z, defineCollection, image } from 'astro:content';
 
 const blogCollection = defineCollection({
   // Type-check frontmatter using a schema
@@ -17,9 +17,8 @@ const blogCollection = defineCollection({
       .optional()
       .transform((str) => (str ? new Date(str) : undefined)),
     tags: z.array(z.string()),
-    coverImage: z.string(),
+    coverImage: image(),
     // coverImage: z.string().optional(),
-    // coverImage: image().refine((img) => img.width >= 1080, { message: 'Cover image must be at least 1080 pixels wide!' }),
     description: z
       .string()
       .max(
@@ -29,7 +28,7 @@ const blogCollection = defineCollection({
     ad: z.boolean().optional().default(false),
     featured: z.boolean().optional().default(false),
     draft: z.boolean().optional(),
-    photography: z.string().optional(),
+    photography: z.string(),
     // Advanced: Validate that the string is also a URL
     canonicalURL: z.string().url().optional(),
   }),

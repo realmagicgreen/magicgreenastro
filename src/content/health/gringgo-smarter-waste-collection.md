@@ -3,7 +3,7 @@ title: Gringgo Smarter Waste Collection
 subtitle: B"orn in Bali this platform for recycling is tackling the trash problem head on."
 description: "In many places around the world, trash is a big problem and recycling is not easy, so people don't recycle. Gringgo make it easy. "
 category: solutions
-pubDate:  2018-06-09
+pubDate: 2018-06-09
 published: true
 tags:
   - solutions
@@ -15,7 +15,7 @@ tags:
   - social-responsibility
   - save-oceans
   - waste
-coverImage: /assets/p/solutions/gringgo-smarter-waste-collection/gringgo-smarter-waste-collection.jpg
+coverImage: p/solutions/gringgo-smarter-waste-collection/gringgo-smarter-waste-collection.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -37,8 +37,7 @@ Smarter waste collection service that is more reliable, cheaper and greener. Cre
 
 Innovate & create positive social & environmental impact. Build a waste network that helps reduce ocean plastic pollution by 25% by 2020 in South East Asia & increase recycling rates by 50% by 2022
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Gringgo Denpasar map' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Gringgo Denpasar map' %}
 
 ### Data & waste service in Denpasar
 

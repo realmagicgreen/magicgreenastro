@@ -7,6 +7,9 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
+  experimental: {
+    assets: true,
+  },
   output: "static",
   markdown: {
     drafts: true,
@@ -26,14 +29,6 @@ export default defineConfig({
       // smartypants: true,
       gfm: true,
       drafts: true,
-    }),
-    image({
-      serviceEntryPoint: "@astrojs/image/sharp",
-      // may be useful if your hosting provider allows caching between CI builds
-      cacheDir: "./.cache/image",
-      // supported levels: 'debug' | 'info' | 'warn' | 'error' | 'silent'
-      // default: 'info'
-      logLevel: "debug",
     }),
   ],
   vite: {

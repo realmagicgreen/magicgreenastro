@@ -15,7 +15,7 @@ tags:
   - pollutants-remove
   - wellness
   - superfood
-coverImage: /assets/p/health/aloe-vera/aloe-vera.jpg
+coverImage: p/health/aloe-vera/aloe-vera.jpg
 description: "Aloe Vera is known for antiviral and antibacterial properties. It can improve the effectiveness of your diet and maximise your weight-loss potential." # max 160 digits cos dunno how to trim it, yet......
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
@@ -60,4 +60,4 @@ Aloe vera contains **proteolytic enzymes** which repairs dead skin cells. It als
 
 [Proteolytic Enzymes: How They Work, Benefits and Sources - Healthline](https://www.healthline.com/nutrition/proteolytic-enzymes)
 
-[Proteolytic Enzymes - Encyclopædia Britannica](https://www.britannica.com/science/proteolytic-enzyme)
+[Proteolytic Enzymes - Encyclopedia Britannica](https://www.britannica.com/science/proteolytic-enzyme)

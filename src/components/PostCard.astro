@@ -1,6 +1,6 @@
 ---
 // library imports
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 
 // component imports
 import Link from "@components/Link.astro";
@@ -28,7 +28,6 @@ const { title, date, author, image, description, category } = data;
       format="avif"
       fit="cover"
       quality={80}
-      aspectRatio="4:1"
     />
   </a>
   <div class="content">

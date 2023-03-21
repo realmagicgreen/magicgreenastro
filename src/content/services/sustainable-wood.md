@@ -14,7 +14,7 @@ tags:
   - sustainable-construction
   - social-responsibility
   - wood
-coverImage: /assets/p/services/sustainable-wood/sustainable-wood.jpg
+coverImage: p/services/sustainable-wood/sustainable-wood.jpg
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 flag: # new or other...

@@ -17,7 +17,7 @@ tags:
   - learning
   - permaculture
   - tropical
-coverImage: /assets/p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg
+coverImage: p/know/zooming-in-on-biodiversity/zooming-in-on-biodiversity.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: BIO DIVERSITY # lowercase, max 12 digits, including spaces
 flag: # new or other...

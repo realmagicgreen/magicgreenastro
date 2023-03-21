@@ -15,7 +15,7 @@ tags:
   - Indonesia
   - sustainable-construction
   - wood
-coverImage: /assets/p/solutions/artotel-bamboo/artotel-bamboo.jpg
+coverImage: p/solutions/artotel-bamboo/artotel-bamboo.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: Bamboo masters # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -27,21 +27,17 @@ photography: Rokma # put here photographer name
 
 With a state of the art brand new bamboo construction, Artotel Beach Club in Sanur, Bali brings vibrancy and color to the island's south east.
 
-{% assign name = '-02' %}
-{% include 'partials/image.html', name: 'name', caption: 'Artotel, State of the art brand new bamboo construction' %}
+{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Artotel, State of the art brand new bamboo construction' %}
 
 They plan to satisfy the needs of travelers who are looking for a refreshingly arty Bali experience.
 
-{% assign name = '-03' %}
-{% include 'partials/image.html', name: 'name', caption: 'They plan to satisfy the needs of travelers who are looking for a refreshingly arty Bali experience.' %}
+{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'They plan to satisfy the needs of travelers who are looking for a refreshingly arty Bali experience.' %}
 
 This boutique hotel want to be a canvas showcasing thought-provoking artworks by some of the most relevant Bali-based contemporary artists of today.
 
-{% assign name = '-04' %}
-{% include 'partials/image.html', name: 'name', caption: 'This boutique hotel want to be a canvas showcasing thought-provoking artworks' %}
+{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'This boutique hotel want to be a canvas showcasing thought-provoking artworks' %}
 
-{% assign name = '-05' %}
-{% include 'partials/image.html', name: 'name', caption: 'Artotel Beach Club in Sanur, Bali' %}
+{% assign name = '-05' %} {% include 'partials/image.html', name: 'name', caption: 'Artotel Beach Club in Sanur, Bali' %}
 
 ## Know More Links
 

@@ -14,7 +14,7 @@ tags:
   - learning
   - superfood
   - wellness
-coverImage: /assets/p/health/ginger-is-good/ginger-is-good.jpg
+coverImage: p/health/ginger-is-good/ginger-is-good.jpg
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

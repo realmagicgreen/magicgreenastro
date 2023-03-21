@@ -14,7 +14,7 @@ tags:
   - responsible-sources
   - sustainable-construction
   - wood
-coverImage: /assets/p/products/balsa-wood-surfboards/balsa-wood-surfboards.jpg
+coverImage: p/products/balsa-wood-surfboards/balsa-wood-surfboards.jpg
 description: "Surfing equipment is not eco-friendly, lots of plastic, foam and resin. Vince Tierny is changing that, manufactoring greener wooden Surfboards." # max 160 digits cos dunno how to trim it, yet......
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
@@ -48,7 +48,7 @@ They had a [showroom in Berawa, Canggu](https://goo.gl/maps/6kgsznMZLdK2) where 
 
 The prices for a signature board starts at 315 USD up to 2200 USD, but for the customized boards the price always depends on the size and which kind of features you like to have.
 
-Un fortunately Vince business is now permanently closed, here is [Vince Tierny Fb page](https://www.facebook.com/pg/vincetierny/shop/) in case you want to still get in contact with him.
+Un fortunately Vince business is now permanently closed, here is [Vince Tierny Fb page](https://www.facebook.com/pg/vincetierny/shocoverImage: p/) in case you want to still get in contact with him.
 
 You can get a Balsa Surfboard form one of the links below, or even build one yourself, following [this video tutorial](https://youtu.be/00HYKyeiDe0) or [this other one](https://youtu.be/Df96N1WCBe8) or even make yourself a [5'10" bamboo shortboard](https://youtu.be/xhBOHScs2Ec).
 

@@ -15,7 +15,8 @@ tags:
   - pollutants-remove
   - learning
   - wellness
-coverImage: /assets/p/health/dracena-benefits/dracena-benefits.jpg
+coverImage: "p/health/dracena-benefits/dracena-benefits.jpg"
+image02: "p/health/dracena-benefits/dracena-benefits-02.jpg"
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: air cleaning plants # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -29,7 +30,7 @@ People use Dracaena for the health benefits they offer. Dracaena, which name com
 
 Caring for it is quite easy. It can withstand a certain amount of neglect. A brightly lit spot without direct sunshine is suggested. A small amount of morning or evening sun is not a problem. Avoid having a plant sitting near cold drafts. A fast draining potting soil mix is best to use. Over-watering can kill it.
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Dracena Arborea' %}
+<!-- <Image src={image02} alt="Dracena Arborea" /> -->
 
 NASA has spent a lot of time researching air quality in sealed environments. **Dracaena marginata** is among the top 10 plants for removing indoor pollutants, according to the agency.
 
