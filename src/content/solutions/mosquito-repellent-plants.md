@@ -10,7 +10,7 @@ tags:
   - eco-friendly
   - plants
   - mosquitoes
-coverImage: p/solutions/mosquito-repellent-plants/mosquito-repellent-plants.jpg
+coverImage: "p/solutions/mosquito-repellent-plants/mosquito-repellent-plants.jpg"
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty

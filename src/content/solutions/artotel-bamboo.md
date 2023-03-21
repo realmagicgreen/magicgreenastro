@@ -15,7 +15,7 @@ tags:
   - Indonesia
   - sustainable-construction
   - wood
-coverImage: p/solutions/artotel-bamboo/artotel-bamboo.jpg
+coverImage: "p/solutions/artotel-bamboo/artotel-bamboo.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: Bamboo masters # lowercase, max 12 digits, including spaces
 flag: # new or other...

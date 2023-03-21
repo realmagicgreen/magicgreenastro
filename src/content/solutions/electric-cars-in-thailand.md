@@ -1,7 +1,7 @@
 ---
 title: Electric Cars in Thailand
 subtitle: "The Thai Government has a goal of getting 1.2M electric vehicles on the road by 2036."
-description: "The rising number of relectric vehicles could have a major role in our society said Amonrat Kaewpradap of the Electric Vehicle Association of Thailand."
+description: "The rising number of electric vehicles could have a major role in our society said Amonrat Kaewpradap of the Electric Vehicle Association of Thailand."
 category: solutions
 pubDate: 2018-09-05
 published: true
@@ -13,13 +13,11 @@ tags:
   - social-responsibility
   - sustainable-development
   - Thailand
-coverImage: p/solutions/electric-cars-in-thailand/electric-cars-in-thailand.jpg
+coverImage: "p/solutions/electric-cars-in-thailand/electric-cars-in-thailand.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
-sticky: # 'true' or empty
 photography: "Unknown"
 ---
 
@@ -35,7 +33,7 @@ In 2016, there were 80,194 registrations but the number surged to 102,700 in 201
 
 > “More stations will boost the confidence for consumers in using EVs. So far, there are 500 charging stations in the country" _Amonrat Kaewpradap, a committee member of the Electric Vehicle Association of Thailand (EVAT)_
 
-The current business environment in Thailand is not favorable for the production and sale of electric vehicles (EVs), due to their higher prices compared to conventional cars and insufficient EV related infrastructure.
+The current business environment in Thailand is not favourable for the production and sale of electric vehicles (EVs), due to their higher prices compared to conventional cars and insufficient EV related infrastructure.
 
 {% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'The current business environment in Thailand is not favorable for the production and sale of electric vehicles (EVs), due to their higher prices compared to conventional cars and insufficient EV related infrastructure' %}
 

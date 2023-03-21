@@ -14,7 +14,7 @@ tags:
   - renewable-energy
   - social-responsibility
   - sustainable-development
-coverImage: p/solutions/bali-solar-energy/bali-solar-energy.jpg
+coverImage: "p/solutions/bali-solar-energy/bali-solar-energy.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

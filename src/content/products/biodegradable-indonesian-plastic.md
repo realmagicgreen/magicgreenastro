@@ -15,7 +15,7 @@ tags:
   - plastic
   - plastic-alternatives
   - social-responsibility
-coverImage: p/products/biodegradable-indonesian-plastic/biodegradable-indonesian-plastic.jpg
+coverImage: "p/products/biodegradable-indonesian-plastic/biodegradable-indonesian-plastic.jpg"
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: bio plastic # lowercase, max 12 digits, including spaces
 flag: # new or other...

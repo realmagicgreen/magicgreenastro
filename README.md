@@ -2,7 +2,7 @@
 
 # MAGIC GREEN
 
-[![magic green](/public/assets/p/og_large_image.jpg)](https://m.junglestar.org)
+[![magic green](./src/assets/p/og_large_image.jpg)](https://m.junglestar.org)
 
 > "**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
 

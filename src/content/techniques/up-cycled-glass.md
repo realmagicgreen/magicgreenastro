@@ -15,7 +15,7 @@ tags:
   - plastic-alternatives
   - social-responsibility
   - up-cycle
-coverImage: p/techniques/up-cycled-glass/up-cycled-glass.jpg
+coverImage: "p/techniques/up-cycled-glass/up-cycled-glass.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

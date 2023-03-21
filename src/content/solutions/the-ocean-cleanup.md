@@ -16,7 +16,7 @@ tags:
   - sustainable-development
   - waste
   - water
-coverImage: p/solutions/the-ocean-cleanup/the-ocean-cleanup.jpg
+coverImage: "p/solutions/the-ocean-cleanup/the-ocean-cleanup.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
