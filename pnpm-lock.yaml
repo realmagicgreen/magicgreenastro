@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/image': ^0.15.1
   '@astrojs/markdown-remark': ^2.1.0
   '@astrojs/mdx': ^0.15.2
   '@astrojs/rss': ^2.3.0
@@ -16,7 +15,6 @@ specifiers:
   sharp: ^0.31.3
 
 devDependencies:
-  '@astrojs/image': 0.15.1_astro@2.1.3+sharp@0.31.3
   '@astrojs/markdown-remark': 2.1.0_astro@2.1.3
   '@astrojs/mdx': 0.15.2_astro@2.1.3+rollup@3.19.1
   '@astrojs/rss': 2.3.0
@@ -32,10 +30,6 @@ devDependencies:
 
 packages:
 
-  /@altano/tiny-async-pool/1.0.2:
-    resolution: {integrity: sha512-qQzaI0TBUPdpjZ3qo5b2ziQY9MSNpbziH2ZrE5lvtUZL+kn9GwVuVJwoOubaoNkeDB+rqEefnpu1k+oMpOCYiw==}
-    dev: true
-
   /@ampproject/remapping/2.2.0:
     resolution: {integrity: sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w==}
     engines: {node: '>=6.0.0'}
@@ -50,25 +44,6 @@ packages:
 
   /@astrojs/compiler/1.2.1:
     resolution: {integrity: sha512-HmHgN/h/CapbMIJnnaB6WQ6Kg85byCEz+GuKl87mNEwxa6anfMJKC9TC/D1bVNwDwTCEOsDG7WJVMDIJbE4hkw==}
-    dev: true
-
-  /@astrojs/image/0.15.1_astro@2.1.3+sharp@0.31.3:
-    resolution: {integrity: sha512-5+ZBHEfwcx8BbJbAatnW1fyFLWQW4n6jUkDRB5eLbo+yKZv8gwlpPBPpo7cqiY6kUtEisZHVsVYdCTe22KDZgQ==}
-    peerDependencies:
-      astro: ^2.0.15
-      sharp: '>=0.31.0'
-    peerDependenciesMeta:
-      sharp:
-        optional: true
-    dependencies:
-      '@altano/tiny-async-pool': 1.0.2
-      astro: 2.1.3_sass@1.59.3+sharp@0.31.3
-      http-cache-semantics: 4.1.1
-      image-size: 1.0.2
-      kleur: 4.1.5
-      magic-string: 0.27.0
-      mime: 3.0.0
-      sharp: 0.31.3
     dev: true
 
   /@astrojs/language-server/0.28.3:
@@ -1897,10 +1872,6 @@ packages:
 
   /html-void-elements/2.0.1:
     resolution: {integrity: sha512-0quDb7s97CfemeJAnW9wC0hw78MtW7NU3hqtCD75g2vFlDLt36llsYD7uB7SUzojLMP24N5IatXf7ylGXiGG9A==}
-    dev: true
-
-  /http-cache-semantics/4.1.1:
-    resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
     dev: true
 
   /human-signals/3.0.1:
