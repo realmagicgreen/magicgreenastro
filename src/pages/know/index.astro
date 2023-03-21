@@ -4,19 +4,18 @@ import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
 
 const collectionName = "know";
+const title = collectionName.toLocaleUpperCase();
 const posts = await getCollection(collectionName);
-
 export interface Props {
   collectionName: string;
-  coverImage: URL;
 }
 ---
 
 <Layout
-  title={siteData.tldr}
-  description={siteData.description}
-  category={collectionName}
+  title={title}
+  description={siteData.tldr}
   photography=""
+  category={collectionName}
   coverImage={}
 >
   <h2 class="uppercased">{collectionName}</h2>

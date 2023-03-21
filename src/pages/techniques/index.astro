@@ -2,16 +2,18 @@
 import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
+
 const collectionName = "techniques";
 const posts = await getCollection(collectionName);
 
 export interface Props {
   collectionName: string;
 }
+const title = collectionName.toLocaleUpperCase();
 ---
 
 <Layout
-  title={siteData.tldr}
+  title={title}
   description={siteData.description}
   category={collectionName}
   photography=""

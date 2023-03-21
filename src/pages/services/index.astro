@@ -13,16 +13,14 @@ export interface Props {
   photography: string;
 }
 
-const description = siteData.description;
-const category = "health";
-const photography = "";
+const title = collectionName.toLocaleUpperCase();
 ---
 
 <Layout
-  title={siteData.tldr}
-  description={description}
-  category={category}
-  photography={photography}
+  title={title}
+  description={siteData.tldr}
+  photography=""
+  category={collectionName}
   coverImage={}
 >
   <h2 class="uppercased">{collectionName}</h2>

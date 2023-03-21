@@ -13,12 +13,14 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
 
 export interface Props {
   cssBodyClass: string;
+  title: string;
 }
 const collectionName = "resources";
+const title = collectionName.toLocaleUpperCase();
 ---
 
 <Layout
-  title={siteData.tldr}
+  title={title}
   description={siteData.description}
   category={collectionName}
   photography=""

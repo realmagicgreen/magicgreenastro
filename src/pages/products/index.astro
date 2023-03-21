@@ -9,13 +9,15 @@ const posts = await getCollection(collectionName);
 export interface Props {
   collectionName: string;
 }
+
+const title = collectionName.toLocaleUpperCase();
 ---
 
 <Layout
-  title={siteData.tldr}
-  description={siteData.description}
-  category={collectionName}
+  title={title}
+  description={siteData.tldr}
   photography=""
+  category={collectionName}
   coverImage={}
 >
   <h2 class="uppercased">{collectionName}</h2>
