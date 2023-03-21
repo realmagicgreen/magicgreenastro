@@ -3,7 +3,6 @@ import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import remarkToc from "remark-toc";
 import mdx from "@astrojs/mdx";
 import yaml from "@rollup/plugin-yaml"; //maybe needed, currently using .json
-import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
