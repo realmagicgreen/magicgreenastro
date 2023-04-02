@@ -1,12 +1,12 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "5.13.0",
+  "version": "5.13.1",
   "private": true,
   "scripts": {
     "dev": "astro check --watch & astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && tsc --noEmit && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "sync": "astro sync",

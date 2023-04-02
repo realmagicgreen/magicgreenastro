@@ -2,7 +2,7 @@
 title: Ferns Eliminate Air Pollutants
 subtitle: "This ancient plant offers a superior pollutants removal efficiency. A must have for an healthy home."
 category: health
-description: A"ir-purification capacities of indoor plants have found that plants can absorb many pollutants, including a long list of volatile organic compounds (VOCs)." # max 160 digits
+description: "Air-purification capacities of indoor plants have found that plants can absorb many pollutants, including a long list of volatile organic compounds (VOCs)." # max 160 digits
 pubDate: 2018-06-14
 published: true
 tags:

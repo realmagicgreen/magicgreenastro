@@ -6,9 +6,6 @@ const blogCollection = defineCollection({
     title: z.string(),
     subtitle: z.string(),
     category: z.enum(["about", "health", "know", "products", "services", "solutions", "techniques"]),
-    // pubDate: z.date(),
-    // publishDate: z.string().optional().transform((str) => new Date(str)),
-    // Transform string to Date object
     pubDate: z
       .date()
       .or(z.string()),
@@ -18,7 +15,9 @@ const blogCollection = defineCollection({
       .transform((str) => (str ? new Date(str) : undefined)),
     tags: z.array(z.string()),
     coverImage: image(),
-    // coverImage: z.string().optional(),
+    // coverImage: image().refine((img) => img.width >= 1920, {
+    //   message: "Cover image must be at least 1920 pixels wide!",
+    // }),
     description: z
       .string()
       .max(
