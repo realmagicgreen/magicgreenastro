@@ -15,7 +15,7 @@ tags:
   - pollutants-remove
   - learning
   - wellness
-coverImage: "p/health/dracena-benefits/dracena-benefits.jpg"
+coverImage: "../../assets/p/health/dracena-benefits/dracena-benefits.jpg"
 image02: "p/health/dracena-benefits/dracena-benefits-02.jpg"
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: air cleaning plants # lowercase, max 12 digits, including spaces

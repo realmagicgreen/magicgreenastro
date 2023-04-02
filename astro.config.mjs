@@ -7,7 +7,7 @@ import yaml from "@rollup/plugin-yaml"; //maybe needed, currently using .json
 // https://astro.build/config
 export default defineConfig({
   experimental: {
-    assets: true,
+    assets: true
   },
   output: "static",
   markdown: {

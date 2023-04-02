@@ -14,7 +14,7 @@ tags:
   - pollutants-remove
   - superfood
   - eco-entrepreneur
-coverImage: "p/health/immune-boost-drinks/immune-boost-drinks.jpg"
+coverImage: "../../assets/p/health/immune-boost-drinks/immune-boost-drinks.jpg"
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty

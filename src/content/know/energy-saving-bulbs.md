@@ -10,7 +10,7 @@ tags:
   - energy-efficiency
   - electric
   - learning
-coverImage: "p/know/energy-saving-bulbs/energy-saving-bulbs.jpg"
+coverImage: "../../assets/p/know/energy-saving-bulbs/energy-saving-bulbs.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

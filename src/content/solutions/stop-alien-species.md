@@ -21,7 +21,7 @@ tags:
   - social-responsibility
   - sustainable-development
   - tropical
-coverImage: "p/solutions/stop-alien-species/stop-alien-species.jpg"
+coverImage: "../../assets/p/solutions/stop-alien-species/stop-alien-species.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

@@ -15,7 +15,7 @@ tags:
   - Maluku
   - save-oceans
   - tropical
-coverImage: "p/solutions/sos-from-the-deep/sos-from-the-deep.jpg"
+coverImage: "../../assets/p/solutions/sos-from-the-deep/sos-from-the-deep.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

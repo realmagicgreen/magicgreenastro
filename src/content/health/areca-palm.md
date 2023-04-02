@@ -14,7 +14,7 @@ tags:
   - plants
   - learning
   - wellness
-coverImage: "p/health/areca-palm/areca-palm.jpg"
+coverImage: "../../assets/p/health/areca-palm/areca-palm.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

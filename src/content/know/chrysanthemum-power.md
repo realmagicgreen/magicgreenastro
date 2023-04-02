@@ -13,7 +13,7 @@ tags:
   - plants
   - learning
   - wellness
-coverImage: "p/health/chrysanthemum-power/chrysanthemum-power.jpg"
+coverImage: "../../assets/p/health/chrysanthemum-power/chrysanthemum-power.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
