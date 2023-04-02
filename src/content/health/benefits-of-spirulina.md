@@ -22,11 +22,13 @@ sticky: # 'true' or empty
 photography: "Unknown"
 ---
 
-**Spirulina** is a type of bacteria called cyanobacterium, a dark blue-green algae that has been touted as one of the most potent and protective **superfood** in existence.
+**Spirulina** is a type of bacteria called Cyanobacterium, a dark blue-green algae that has been touted as one of the most potent and protective **superfood** in existence.
 
 Spirulina was consumed by the Aztecs back in the day, but became popular again when NASA proposed that it could be grown in space and [used by astronauts](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19890016190.pdf).
 
-{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Spirulina grows in both fresh and salt water. Just like plants, cyanobacteria can produce energy out of sunlight, via the process called photosynthesis' %}
+
+![Spirulina grows in both fresh and salt water. Just like plants, cyanobacteria can produce energy out of sunlight, via the process called photosynthesis](../../assets/p/health/benefits-of-spirulina/benefits-of-spirulina-03.jpg)
+
 
 Often used as a supplement to the diets due to the well-researched and diverse health benefits, Spirulina is a fantastic source of antioxidants, which can protect against oxidative damage.
 
@@ -42,7 +44,7 @@ One study shows that it may be effective against anemia in the elderly. It can e
 
 Spirulina may also have other beneficial effects, such as helping to "detoxify" the heavy metal arsenic from the body.
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'It is actually quite amazing how nutritious Spirulina is.' %}
+![It is actually quite amazing how nutritious Spirulina is.](../../assets/p/health/benefits-of-spirulina/benefits-of-spirulina-02.jpg)
 
 A single tablespoon (7 grams) of dried Spirulina powder contains (2):
 
@@ -67,11 +69,11 @@ Like other water-grown nutritional products, spirulina easily absorbs heavy meta
 
 Although a 1986 study revealed alarmingly high concentrations of lead and mercury in several brands of spirulina supplements, a 1989 study found the concentrations to be much lower, concluding that one would have to take in more than 77 grams of the most heavily contaminated spirulina daily to suffer from toxicity.
 
-Spirulina contains microcystins, groups of amino acids that can be toxic to your liver if you take in too much of them, according to Purdue University. Because scientists have not yet determined a specific intake amount that is toxic, many nutritional product manufacturers do not regulate them at all.
+Spirulina contains Microcystins, groups of amino acids that can be toxic to your liver if you take in too much of them, according to Purdue University. Because scientists have not yet determined a specific intake amount that is toxic, many nutritional product manufacturers do not regulate them at all.
 
 Many consumers have reported experiencing adverse health effects after using spirulina, a group of German researchers conducted a study, published in "Toxicology and Applied Pharmacology" in 2011, reviewing its safety.
 
-They analyzed 13 commercially distributed products and found cytotoxins, substances that are harmful to cells, in each of them. The researchers concluded that such nutritional products are highly questionable.
+They analysed 13 commercially distributed products and found Cytotoxins, substances that are harmful to cells, in each of them. The researchers concluded that such nutritional products are highly questionable.
 
 Spirulina contains an abundance of nucleic acids, according to the Beth Israel Deaconess Medical Center. These substances, which are related to DNA, produce uric acid when they are metabolized. If too much uric acid accumulates in your body, gout or kidney stones can develop.
 

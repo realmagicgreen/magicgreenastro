@@ -272,12 +272,16 @@ footer {
   h6 {
     transform: rotateZ(5deg) !important;
   }
-  p {
+  p,
+  ul {
     font-size: 135%;
     max-width: 650px;
     margin: 0 0 0 auto;
     padding-bottom: var(--space_small);
     font-weight: 200;
+  }
+  ul li {
+    list-style-type: initial !important;
   }
 }
 

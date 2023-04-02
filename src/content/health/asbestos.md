@@ -29,15 +29,17 @@ Made illegal in western countries more than 30 years ago, asbestos is still used
 
 There are many resources online to know about it and understand its health hazards.
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Asbestos is still used everywhere in Indonesia' %}
+![Asbestos is still used everywhere in Indonesia.](../../assets/p/health/asbestos/asbestos-02.jpg)
+
 
 [This video](https://www.youtube.com/watch?v=C4LczoPA1bs) explains how asbestos fiber dust affects human health and how to deal with it... hopefully useful!
 
-{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'Please spread the word about asbestos dangers' %}
+
+![Please spread the word about asbestos dangers, we can only improve together!](../../assets/p/health/asbestos/asbestos-04.jpg)
 
 Bahaya penggunaan atap asbes bagi masyarakat apabila terpapar debu asbes terus menerus, sebagai salah satu penyebab penyakit kangker mesothelioma.
 
-{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Asbestos fiber dust is very dangerous' %}
+![Asbestos fiber dust is very dangerous.](../../assets/p/health/asbestos/asbestos-03.jpg)
 
 Dalam [video ini](https://www.youtube.com/watch?v=C4LczoPA1bs) menjelaskan bagaimana debu serat asbes mempengaruhi kesehatan manusia dan bagaimana cara penanggulangannya... semoga bermanfaat!
 
