@@ -22,7 +22,7 @@ const { post } = Astro.props;
 const { Content } = await post.render();
 ---
 
-<Article {...post.data} cssBodyClass="health">
+<Article {...post.data} cssBodyClass={collectionName}>
   <Content />
 </Article>
 

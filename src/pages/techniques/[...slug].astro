@@ -21,6 +21,15 @@ const { post } = Astro.props;
 const { Content } = await post.render();
 ---
 
-<Article cssBodyClass="techniques" {...post.data}>
+<Article
+  {...post.data}
+  cssBodyClass="techniques"
+  description={post.data.description}
+  title={post.data.title}
+  subtitle={post.data.subtitle}
+  category="techniques"
+  photography={post.data.photography}
+  coverImage={post.data.coverImage}
+>
   <Content />
 </Article>

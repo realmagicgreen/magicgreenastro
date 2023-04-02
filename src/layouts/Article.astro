@@ -3,7 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import Nav from "@components/Nav.astro";
 import { Image } from "astro:assets";
 
-interface Image {
+interface coverImage {
   src: string;
   width: number;
   height: number;
@@ -17,7 +17,7 @@ export interface Props {
   subtitle: string;
   category: string;
   photography: string;
-  coverImage: string;
+  coverImage: {};
   pubDate: any;
 }
 
