@@ -1,31 +1,48 @@
 ---
-import Layout from "@layouts/Layout.astro";
+import Layout from "@layouts/Home.astro";
 import siteData from "@data/site.json";
 
-import { getCollection, getEntryBySlug } from "astro:content";
+import { Image } from "astro:assets";
+
+//import { getCollection, getEntryBySlug } from "astro:content";
+
+import { getEntryBySlug } from "astro:content";
 
 // // Get all entries from a collection. Requires the name of the collection as an argument.
 // const allBlogPosts = await getCollection("about");
 
 // // Get a single entry from a collection. Requires the name of the collection and the entry's slug as arguments.
-// const oneBlogPost = await getEntryBySlug("about", "about-us");
+const oneBlogPost = await getEntryBySlug("about", "about-us");
+
+// import * as oneBlogPost from "../pages/about-us.md";
+import { Content as AboutContent } from "../pages/about-us.md";
 
 export interface Props {
-  title: string;
   description: string;
+  cssBodyClass: string;
+  title: string;
+  subtitle: string;
+  category: string;
+  photography: string;
+  coverImage: {};
+  pubDate: any;
 }
+
+// const { title, coverImage } = Astro.props.data || Astro.props;
 ---
 
 <Layout
   cssBodyClass="about"
   title="About us"
-  category=""
   description={siteData.description}
 >
   <div class="centered">
-    {siteData.title.toUpperCase()} | {siteData.subtitle.toUpperCase()} | {
-      siteData.license.name
-    } - {siteData.author.name.toUpperCase()}
+    <span class="break_on_phones"><span>|</span></span>
+    {siteData.subtitle.toUpperCase()}
+    <span class="break_on_phones"><span>|</span></span>
+    LICENSE: {siteData.license.name}
+    <span class="break_on_phones"><span>|</span></span>
+    AUTHOR: {siteData.author.name.toUpperCase()}
 
     <hr />
     <div>PROJECTIMAGE: {siteData.projectimage}</div>
@@ -46,18 +63,42 @@ export interface Props {
       IG: {siteData.company.instagram}
     </div>
     <hr />
-    <a href={siteData.license.url}>{siteData.license.name}</a>
+    <a title="licence" href={siteData.license.url}>{siteData.license.name}</a>
     <hr />
-    <a href={siteData.producer.url}>{siteData.producer.name}</a>
+    <a title="produced by" href={siteData.producer.url}
+      >{siteData.producer.name}</a
+    >
     <hr />
-    <a href={siteData.url}>{siteData.url}</a>
+    <a title="site url" href={siteData.url}>{siteData.url}</a>
     <hr />
     <div>
-      {siteData.company.name.toUpperCase()} | {siteData.tldr.toUpperCase()} | v{
-        siteData.version
-      }
+      {siteData.company.name.toUpperCase()}
+      <span class="break_on_phones"><span>|</span></span>
+      {siteData.tldr.toUpperCase()}
+      <span class="break_on_phones"><span>|</span></span>
+      v{siteData.version}
+    </div>
+    <div>
+      <hr />
+      {oneBlogPost.data.title}<br />
+      {oneBlogPost.data.subtitle}<br />
+      {oneBlogPost.data.description}<br />
+      <hr />
+      <Image
+        src={oneBlogPost.data.coverImage}
+        width={1920}
+        height={1080}
+        alt={oneBlogPost.data.title}
+        quality="high"
+        format="avif"
+        class="my-class"
+      />
+      <AboutContent />
     </div>
   </div>
-
-  <style></style>
+  <style>
+    hr {
+      opacity: 0.25;
+    }
+  </style>
 </Layout>

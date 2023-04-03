@@ -11,7 +11,8 @@
       "@svgs/*": ["src/assets/svgs/*"],
       "@styles/*": ["src/scss/*"],
       "@p/*": ["src/assets/p/*"],
-      "@overlays/*": ["src/assets/overlays/*"]
+      "@overlays/*": ["src/assets/overlays/*"],
+      "@content/*": ["src/content/*"]
     },
     "strictNullChecks": true,
     "allowJs": true

@@ -2,7 +2,7 @@
 
 ## WIP:
 
-- astro image
+- move img to post folder (finally!)
 - page.name instead of filename in footer list
 
 ## 2DOs:
@@ -35,3 +35,5 @@
 - add posts
 - add pages
 - top nav
+- astro image
+- esperimental assets

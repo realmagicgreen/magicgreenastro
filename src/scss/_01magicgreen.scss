@@ -152,6 +152,17 @@ ul li {
   }
 }
 
+.break_on_phones {
+  @media (max-width: 576px) {
+    display: block !important;
+  }
+  span {
+    @media (max-width: 576px) {
+      display: none !important;
+    }
+  }
+}
+
 // TYPOGRAPHY
 blockquote p {
   font-size: initial; /* Fallback value */
