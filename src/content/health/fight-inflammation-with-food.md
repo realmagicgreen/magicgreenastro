@@ -30,7 +30,7 @@ Anti-inflammatory foods, exercise, good sleep and stress management can help.
 
 ### Turmeric and Curcumin
 
-{% assign name = '' %} {% include 'partials/image.html', name: 'name', caption: 'Curcumin or Turmeric provides several impressive health benefits.' %}
+![Curcumin or Turmeric provides several impressive health benefits.](../../assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg)
 
 [Curcumin](https://en.wikipedia.org/wiki/Curcumin) is a component of the spice Turmeric. It provides several impressive health benefits.
 
@@ -58,7 +58,7 @@ DHA, in particular, has been shown to have anti-inflammatory effects that reduce
 
 ### Ginger
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Ginger root has been shown to reduce inflammation.' %}
+![Ginger root has been shown to reduce inflammation.](../../assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food-02.jpg)
 
 [Ginger](https://en.wikipedia.org/wiki/Ginger) has been shown to reduce inflammation, as well as muscle pain and soreness after exercise.
 

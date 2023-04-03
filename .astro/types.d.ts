@@ -182,13 +182,6 @@ declare module 'astro:content' {
   collection: "health",
   data: InferEntrySchema<"health">
 } & { render(): Render[".md"] },
-"gringgo-smarter-waste-collection.md": {
-  id: "gringgo-smarter-waste-collection.md",
-  slug: "gringgo-smarter-waste-collection",
-  body: string,
-  collection: "health",
-  data: InferEntrySchema<"health">
-} & { render(): Render[".md"] },
 "immune-boost-drinks.md": {
   id: "immune-boost-drinks.md",
   slug: "immune-boost-drinks",
@@ -529,6 +522,13 @@ declare module 'astro:content' {
 "green-walls.md": {
   id: "green-walls.md",
   slug: "green-walls",
+  body: string,
+  collection: "solutions",
+  data: InferEntrySchema<"solutions">
+} & { render(): Render[".md"] },
+"gringgo-smarter-waste-collection.md": {
+  id: "gringgo-smarter-waste-collection.md",
+  slug: "gringgo-smarter-waste-collection",
   body: string,
   collection: "solutions",
   data: InferEntrySchema<"solutions">

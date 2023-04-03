@@ -28,7 +28,7 @@ We only need a few teaspoons of seeds a day to benefit from their healthfulness.
 
 You can eat them raw, grind them and adding them to salads, soups or to your baking mix.
 
-{% assign name = '' %} {% include 'partials/image.html', name: 'name', caption: 'Flax seeds' %}
+![Flax seeds.](../../assets/p/health/flax-is-a-superfood/flax-is-a-superfood-02.jpg)
 
 A 2013 study published in “Hypertension” concluded that flaxseed lowers blood pressure in hypertensive patients.
 

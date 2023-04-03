@@ -51,7 +51,7 @@ In Western countries, the dried leaves are sold as dietary supplements, either i
 
 The diet of people in developing nations sometimes lacks vitamins, minerals and protein. In these countries, [Moringa oleifera](https://en.wikipedia.org/wiki/Moringa_oleifera) can be an important source of many essential nutrients.
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Moringa is available in powder and is consumed raw added to salads and shakes' %}
+![Moringa is available in powder and is consumed raw added to salads and shakes.](../../assets/p/health/moringa-superfood/moringa-superfood-02.jpg)
 
 ## Moringa benefits
 

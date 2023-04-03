@@ -28,7 +28,7 @@ Epipremnum aureum is an evergreen climber with a multitude of common names inclu
 
 It is also called **devil's vine** or devil's ivy because it is almost impossible to kill and it stays green even when kept in the dark.
 
-Golden Pothos is one of the top three plants besides Philodendron and Spider plant that has been labeled the most effective in removing formaldehyde.
+Golden Pothos is one of the top three plants besides Philodendron and Spider plant that has been considered the most effective in removing formaldehyde.
 
 Pothos, very easy to care for, can grow up to 10 feet tall, and in their natural habitat. It will not flower, but will clean the air. It is known to thrive under fluorescent lights too.
 
