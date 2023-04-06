@@ -49,8 +49,6 @@ Iris is Greek-German. She works with high-quality, invigorating ingredients to d
 
 Her goal is to keep products, brand and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Live Essences complete offer of wellness shot drinks' %}
-
 ![Live Essences complete offer of wellness shot drinks.](../../assets/p/health/immune-boost-drinks/immune-boost-drinks-02.jpg)
 
 ## Wellness shots
