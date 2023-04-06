@@ -1,28 +1,86 @@
 ---
-// const props = Astro.props;
+//import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 
 export interface Props {
+  description: string;
   title: string;
   subtitle: string;
-  href: string;
+  photography: string;
+  coverImage: {};
+  pubDate: any;
 }
 
-const { href, title, subtitle } = Astro.props;
+const { title, subtitle, coverImage, photography, pubDate } =
+  Astro.props.frontmatter || Astro.props;
 ---
 
-<div class="">
-  <li class="link-card">
-    <a href={href}>
-      <h2>
-        {title}
-      </h2>
-      <h3>
-        {subtitle}
-      </h3>
-      <p>
-        <slot />
-      </p>
-    </a>
-  </li>
-  <style></style>
+<div class="block_flex">
+  <Image
+    height={233}
+    src={coverImage}
+    alt={title}
+    format="avif"
+    quality="low"
+  />
+
+  <h2 class="title">{title}</h2>
+
+  <div class="metas">
+    <span>{subtitle}</span> |
+    <span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon_clock"
+        ><circle cx="12" cy="12" r="10"></circle><polyline
+          points="12 6 12 12 16 14"></polyline></svg
+      >
+      <time datetime={pubDate.toISOString()}>
+        {pubDate.toDateString()}
+      </time></span
+    >
+
+    <span class="unknown">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon_photographer"
+        ><path
+          d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+        ></path><circle cx="12" cy="13" r="4"></circle></svg
+      >{photography}</span
+    >
+  </div>
 </div>
+
+<style>
+  img {
+    width: 100%;
+  }
+  .title {
+    padding: 0;
+    margin: 0;
+  }
+  .block_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
+    padding-bottom: 1rem;
+  }
+</style>

@@ -25,6 +25,7 @@ const cssBodyClass = "index";
   <main>
     <div class="container index">
       <slot />
+
       <div class="slogan r5deg">
         <h1 class="centered compacted minimal_padding speech_bubble">
           Sustainable, environment friendly examples present future.
@@ -33,6 +34,7 @@ const cssBodyClass = "index";
     </div>
   </main>
 </Layout>
+
 <style lang="scss">
   .slogan {
     padding-top: var(--space);
@@ -40,7 +42,8 @@ const cssBodyClass = "index";
       user-select: none;
     }
   }
-  h1 {
+  h1,
+  .h1 {
     font-size: calc(6vw + 6vh) !important;
   }
   .container.index {
