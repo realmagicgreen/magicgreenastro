@@ -19,6 +19,12 @@ interface Props {
 // 2. When it's time to render, you can get the entry directly from the prop
 const { post } = Astro.props;
 const { Content } = await post.render();
+
+//add bottom listing of THIS category
+
+const articles = await getCollection("techniques", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
 ---
 
 <Article
@@ -32,4 +38,26 @@ const { Content } = await post.render();
   coverImage={post.data.coverImage}
 >
   <Content />
+  <details class="techniques" open>
+    <summary class="h3">HEALTH POSTS</summary>
+    <div class="">
+      {
+        articles.map((post) => (
+          <div class="uppercase">
+            <a href={`/techniques/${post.slug}`}>{post.data.title}</a>
+          </div>
+        ))
+      }
+    </div>
+  </details>
 </Article>
+
+<style lang="scss">
+  details {
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 3vw;
+    border: 10px solid hsla(0, 0%, 100%, 0.033);
+    background-color: hsla(0, 0%, 100%, 0.025);
+  }
+</style>

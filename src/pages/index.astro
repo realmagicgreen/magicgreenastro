@@ -1,6 +1,6 @@
 ---
-import { getCollection } from "astro:content";
 import Layout from "@layouts/Home.astro";
+import { getCollection } from "astro:content";
 
 const healthArticles = await getCollection("health", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
@@ -25,6 +25,7 @@ export interface Props {
   title: string;
   cssBodyClass: string;
   pubDate: any;
+  collectionName: string;
 }
 
 import siteData from "@data/site.json";

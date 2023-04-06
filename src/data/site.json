@@ -1,5 +1,5 @@
 {
-  "version": "5.14.6",
+  "version": "5.14.7",
   "version_name": "GROWING, experimental assets yeah... 💚 MAGIC GREEN",
   "title": "Magic Green",
   "tldr": "Environment Friendly Examples",
@@ -12,6 +12,7 @@
     "name": "CC BY",
     "url": "https://creativecommons.org/licenses/by/4.0/"
   },
+  "github": "https://github.com/realmagicgreen/magicgreenastro",
   "qr": "yes",
   "projectimage": "assets/p/og.jpg",
   "url": "https://m.junglestar.org",

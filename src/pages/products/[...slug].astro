@@ -4,10 +4,10 @@ import Article from "@layouts/Article.astro";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const knowArticles = await getCollection("products", ({ data }) => {
+  const articles = await getCollection("products", ({ data }) => {
     return !data.draft && data.pubDate < new Date();
   });
-  return knowArticles.map((post) => ({
+  return articles.map((post) => ({
     params: { slug: post.slug },
     props: { post },
   }));
@@ -19,8 +19,36 @@ interface Props {
 // 2. When it's time to render, you can get the entry directly from the prop
 const { post } = Astro.props;
 const { Content } = await post.render();
+
+//add bottom listing of THIS category
+
+const articles = await getCollection("products", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
 ---
 
 <Article {...post.data} cssBodyClass="products">
   <Content />
+  <details class="products" open>
+    <summary class="h3 uppercase">+ products</summary>
+    <div class="">
+      {
+        articles.map((post) => (
+          <div class="uppercase">
+            <a href={`/products/${post.slug}`}>{post.data.title}</a>
+          </div>
+        ))
+      }
+    </div>
+  </details>
 </Article>
+
+<style lang="scss">
+  details {
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 3vw;
+    border: 10px solid hsla(0, 0%, 100%, 0.033);
+    background-color: hsla(0, 0%, 100%, 0.025);
+  }
+</style>
