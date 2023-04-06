@@ -3,8 +3,8 @@ import { z, defineCollection } from 'astro:content';
 const blogCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
-      coverImage: image().refine((img) => img.width >= 200, {
-        message: 'image too small',
+      coverImage: image().refine((img) => img.width >= 1920, {
+        message: 'image too small, min width 1920px',
       }),
       title: z.string(),
       subtitle: z.string(),

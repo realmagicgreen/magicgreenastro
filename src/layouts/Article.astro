@@ -46,22 +46,19 @@ const {
         <h1 class="compacted centered">{title.toUpperCase()}</h1>
         <h2 class="centered border_top border_bottom">
           {subtitle}
-          <br /><span class="cat_name">{category.toUpperCase()}</span>
         </h2>
       </div>
 
-      <div class="hero vegas_container">
+      <div class="hero">
         <div class="vegas_overlay"></div>
-        <div class="vegas_slide">
-          <Image
-            src={coverImage}
-            width={1920}
-            height={1080}
-            alt={title}
-            quality="high"
-            format="avif"
-          />
-        </div>
+        <Image
+          src={coverImage}
+          width={1920}
+          height={1080}
+          alt={title}
+          quality="high"
+          format="avif"
+        />
       </div>
 
       <div class="h5 post_metas">
@@ -128,11 +125,11 @@ const {
           {category.toUpperCase() || "UNKNOWN"}
         </div>
       </div>
-    </article>
 
-    <div class="post_content container padding_top">
-      <slot />
-    </div>
+      <div class="post_content container padding_top">
+        <slot />
+      </div>
+    </article>
   </main>
 </Layout>
 
@@ -158,26 +155,33 @@ const {
     padding-right: 10vw;
     padding-left: 10vw;
   }
-
-  picture {
-    object-fit: none;
-
-    img.hero {
-      display: block !important;
-      position: relative !important;
-
-      height: 700px !important;
-    }
-  }
-
-  //rok recent
-
   .post_header {
     padding-top: var(--space);
   }
   .hero {
     position: relative;
+    overflow: hidden !important;
+    position: relative;
+    body.services & {
+      border-bottom: 5px solid var(--color_services) !important;
+    }
+    body.health & {
+      border-bottom: 5px solid var(--color_health) !important;
+    }
+    body.products & {
+      border-bottom: 5px solid var(--color_products) !important;
+    }
+    body.know & {
+      border-bottom: 5px solid var(--color_know) !important;
+    }
+    body.solutions & {
+      border-bottom: 5px solid var(--color_solutions) !important;
+    }
+    body.techniques & {
+      border-bottom: 5px solid var(--color_techniques) !important;
+    }
   }
+
   .vegas_overlay {
     opacity: 0.5;
     position: absolute;
@@ -191,11 +195,6 @@ const {
     margin: 0;
     background: transparent url("../assets/overlays/07.png") center center
       repeat;
-  }
-
-  body .vegas_container {
-    overflow: hidden !important;
-    position: relative;
   }
 
   .cat_name {
