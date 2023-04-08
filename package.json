@@ -19,12 +19,12 @@
     "@astrojs/rss": "^2.3.2",
     "@rollup/plugin-yaml": "^4.0.1",
     "@sindresorhus/slugify": "^2.2.0",
-    "astro": "^2.2.0",
+    "astro": "^2.2.1",
     "astro-icon": "^0.8.0",
     "astro-seo": "^0.6.1",
     "remark-toc": "^8.0.1",
     "rollup": "^3.20.2",
-    "sass": "^1.60.0",
+    "sass": "^1.61.0",
     "sharp": "^0.31.3"
   }
 }
