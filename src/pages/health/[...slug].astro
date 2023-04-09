@@ -32,7 +32,7 @@ const articles = await getCollection("health", ({ data }) => {
   <Content />
 
   <details class="health" open>
-    <summary class="h3 uppercase">+ health</summary>
+    <summary class="h3 uppercase noselect">+ health</summary>
     <div class="">
       {
         articles.map((post) => (

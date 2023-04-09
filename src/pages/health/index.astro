@@ -1,11 +1,11 @@
 ---
-const collectionName = "health";
 import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
 
 import { getCollection } from "astro:content";
 import Card from "@components/Card.astro";
 
+const collectionName = "health";
 const coltitle = collectionName.toLocaleUpperCase();
 const posts = await getCollection(collectionName);
 
@@ -21,35 +21,29 @@ export interface Props {
   category={collectionName}
 >
   <h2 class="uppercased">{collectionName}</h2>
-  <div class="ul">
+  <div class="grida">
     {
       posts.map((post) => (
-        <div class=" li">
-          <a href={`/${collectionName}/${post.slug}`}>
-            <Card
-              description=""
-              pubDate={post.data.pubDate}
-              subtitle={post.data.subtitle}
-              photography={post.data.photography}
-              title={post.data.title}
-              coverImage={post.data.coverImage}
-            />
-          </a>
-        </div>
+        <a class="CQcard_link" href={`/${collectionName}/${post.slug}`}>
+          <Card
+            cssClass="CQcard"
+            description=""
+            pubDate={post.data.pubDate}
+            subtitle={post.data.subtitle}
+            description={post.data.description}
+            photography={post.data.photography}
+            title={post.data.title}
+            coverImage={post.data.coverImage}
+          />
+        </a>
       ))
     }
   </div>
 </Layout>
-
 <style lang="scss">
-  a {
-    padding-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-    justify-items: center;
-  }
-  h2 {
-    font-size: calc(7vw + 7vh) !important;
+  .grida {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 </style>

@@ -1,5 +1,4 @@
 ---
-//import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 
 export interface Props {
@@ -9,78 +8,88 @@ export interface Props {
   photography: string;
   coverImage: {};
   pubDate: any;
+  cssClass: string;
 }
 
-const { title, subtitle, coverImage, photography, pubDate } =
-  Astro.props.frontmatter || Astro.props;
+const {
+  title,
+  subtitle,
+  description,
+  coverImage,
+  photography,
+  pubDate,
+  cssClass,
+} = Astro.props.frontmatter || Astro.props;
 ---
 
-<div class="block_flex">
-  <Image
-    height={233}
-    src={coverImage}
-    alt={title}
-    format="avif"
-    quality="low"
-  />
+<div class="Rok_Card">
+  <div class={cssClass}>
+    <Image
+      height={550}
+      src={coverImage}
+      alt={title}
+      format="avif"
+      quality="low"
+    />
 
-  <h2 class="title">{title}</h2>
+    <div class="text">
+      <h2 class="title">{title}</h2>
+      <div>{subtitle}</div>
+      <div class="metas">
+        <span class="time">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon_clock"
+            ><circle cx="12" cy="12" r="10"></circle><polyline
+              points="12 6 12 12 16 14"></polyline></svg
+          >
+          <time datetime={pubDate.toISOString()}>
+            {pubDate.toDateString()}
+          </time></span
+        >
 
-  <div class="metas">
-    <span>{subtitle}</span> |
-    <span>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="icon_clock"
-        ><circle cx="12" cy="12" r="10"></circle><polyline
-          points="12 6 12 12 16 14"></polyline></svg
-      >
-      <time datetime={pubDate.toISOString()}>
-        {pubDate.toDateString()}
-      </time></span
-    >
-
-    <span class="unknown">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="icon_photographer"
-        ><path
-          d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-        ></path><circle cx="12" cy="13" r="4"></circle></svg
-      >{photography}</span
-    >
+        <span class="photog">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon_photographer"
+          >
+            <path
+              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+            ></path><circle cx="12" cy="13" r="4"></circle>
+          </svg>
+          {photography}
+        </span>
+      </div>
+      <div class="desc">
+        DESC|
+        {description}
+      </div>
+    </div>
   </div>
 </div>
 
-<style>
-  img {
-    width: 100%;
+<style lang="scss">
+  .desc {
+    display: none;
   }
+
   .title {
-    padding: 0;
-    margin: 0;
-  }
-  .block_flex {
-    display: flex;
-    flex-direction: column;
-    align-items: top;
-    justify-content: top;
-    padding-bottom: 1rem;
+    font-size: calc(3vw + 3vh) !important;
   }
 </style>

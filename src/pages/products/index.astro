@@ -5,6 +5,7 @@ import siteData from "@data/site.json";
 
 import { getCollection } from "astro:content";
 import Card from "@components/Card.astro";
+import StyleCardContainerQuery from "@components/StyleCardContainerQuery.astro";
 
 const coltitle = collectionName.toLocaleUpperCase();
 const posts = await getCollection(collectionName);
@@ -41,15 +42,4 @@ export interface Props {
   </div>
 </Layout>
 
-<style lang="scss">
-  a {
-    padding-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-    justify-items: center;
-  }
-  h2 {
-    font-size: calc(7vw + 7vh) !important;
-  }
-</style>
+<StyleCardContainerQuery />

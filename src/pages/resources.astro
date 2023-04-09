@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
+import StyleCardContainerQuery from "@components/StyleCardContainerQuery.astro";
 
 const knowArticles = await getCollection("know", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
@@ -68,3 +69,5 @@ const title = collectionName.toLocaleUpperCase();
     padding-right: var(--space_small);
   }
 </style>
+
+<StyleCardContainerQuery />
