@@ -6,28 +6,28 @@ specifiers:
   '@astrojs/rss': ^2.3.2
   '@rollup/plugin-yaml': ^4.0.1
   '@sindresorhus/slugify': ^2.2.0
-  astro: ^2.2.1
+  astro: ^2.2.3
   astro-icon: ^0.8.0
   astro-og-canvas: ^0.1.7
   astro-seo: ^0.6.1
   remark-toc: ^8.0.1
   rollup: ^3.20.2
-  sass: ^1.61.0
+  sass: ^1.62.0
   sharp: ^0.31.3
 
 devDependencies:
-  '@astrojs/markdown-remark': 2.1.3_astro@2.2.1
-  '@astrojs/mdx': 0.15.2_astro@2.2.1+rollup@3.20.2
+  '@astrojs/markdown-remark': 2.1.3_astro@2.2.3
+  '@astrojs/mdx': 0.15.2_astro@2.2.3+rollup@3.20.2
   '@astrojs/rss': 2.3.2
   '@rollup/plugin-yaml': 4.0.1_rollup@3.20.2
   '@sindresorhus/slugify': 2.2.0
-  astro: 2.2.1_sass@1.61.0+sharp@0.31.3
+  astro: 2.2.3_sass@1.62.0+sharp@0.31.3
   astro-icon: 0.8.0
-  astro-og-canvas: 0.1.7_astro@2.2.1
+  astro-og-canvas: 0.1.7_astro@2.2.3
   astro-seo: 0.6.1
   remark-toc: 8.0.1
   rollup: 3.20.2
-  sass: 1.61.0
+  sass: 1.62.0
   sharp: 0.31.3
 
 packages:
@@ -66,13 +66,13 @@ packages:
       vscode-uri: 3.0.7
     dev: true
 
-  /@astrojs/markdown-remark/2.1.3_astro@2.2.1:
+  /@astrojs/markdown-remark/2.1.3_astro@2.2.3:
     resolution: {integrity: sha512-Di8Qbit9p7L7eqKklAJmiW9nVD+XMsNHpaNzCLduWjOonDu9fVgEzdjeDrTVCDtgrvkfhpAekuNXrp5+w4F91g==}
     peerDependencies:
       astro: ^2.2.0
     dependencies:
       '@astrojs/prism': 2.1.1
-      astro: 2.2.1_sass@1.61.0+sharp@0.31.3
+      astro: 2.2.3_sass@1.62.0+sharp@0.31.3
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -89,11 +89,11 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.15.2_astro@2.2.1+rollup@3.20.2:
+  /@astrojs/mdx/0.15.2_astro@2.2.3+rollup@3.20.2:
     resolution: {integrity: sha512-vrv1fw5kLZqaV0FHr6IKR46Rq5DENHhqUVZIXpAbvpRG/qXxHpg9QVN9ji+3bgLDKvG2Yz4wi8CYvSjmUtJHBQ==}
     engines: {node: '>=16.12.0'}
     dependencies:
-      '@astrojs/markdown-remark': 2.1.3_astro@2.2.1
+      '@astrojs/markdown-remark': 2.1.3_astro@2.2.3
       '@astrojs/prism': 2.1.1
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/rollup': 2.3.0_rollup@3.20.2
@@ -955,13 +955,13 @@ packages:
       svgo: 2.8.0
     dev: true
 
-  /astro-og-canvas/0.1.7_astro@2.2.1:
+  /astro-og-canvas/0.1.7_astro@2.2.3:
     resolution: {integrity: sha512-agUArDfxLPnoz+3fqQaKy8NkDGK3JpNdES0Z82OLyOnRTppv2E6pNR+sR9lpiX4RH+3jMpmuD6b/i4dR6MMcMg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       astro: ^1.0.0 || ^2.0.0-beta
     dependencies:
-      astro: 2.2.1_sass@1.61.0+sharp@0.31.3
+      astro: 2.2.3_sass@1.62.0+sharp@0.31.3
       canvaskit-wasm: 0.37.2
       entities: 4.4.0
     dev: true
@@ -970,8 +970,8 @@ packages:
     resolution: {integrity: sha512-eszmxiycjfLcmoRyB8x5lCrWAwcSHs1i5riR1a5JbyJI8OQAl9tn1JvWFRuZvNH483CFdfNCczirnc805t/soA==}
     dev: true
 
-  /astro/2.2.1_sass@1.61.0+sharp@0.31.3:
-    resolution: {integrity: sha512-yYPRzh3su38bi3VBCKmYAUBkQSaFQMKFsu8JAVDzFRoGLbskJ/6JkDX2abSB9/iRug8GAKaH/FWxXOTzIsSQ7Q==}
+  /astro/2.2.3_sass@1.62.0+sharp@0.31.3:
+    resolution: {integrity: sha512-Pd67ZBoYxqeyHCZ0UpdmDZYNgcs7JTwc0NMzUScrH4y2hjSY4S8iwmNUtd9pf65gkxMpEbqfvQj06kLzgi4HZg==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     peerDependencies:
@@ -982,7 +982,7 @@ packages:
     dependencies:
       '@astrojs/compiler': 1.3.1
       '@astrojs/language-server': 0.28.3
-      '@astrojs/markdown-remark': 2.1.3_astro@2.2.1
+      '@astrojs/markdown-remark': 2.1.3_astro@2.2.3
       '@astrojs/telemetry': 2.1.0
       '@astrojs/webapi': 2.1.0
       '@babel/core': 7.21.4
@@ -1018,7 +1018,7 @@ packages:
       preferred-pm: 3.0.3
       prompts: 2.4.2
       rehype: 12.0.1
-      semver: 7.3.8
+      semver: 7.4.0
       server-destroy: 1.0.1
       sharp: 0.31.3
       shiki: 0.11.1
@@ -1030,7 +1030,7 @@ packages:
       typescript: 5.0.4
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.2.1_sass@1.61.0
+      vite: 4.2.1_sass@1.62.0
       vitefu: 0.2.4_vite@4.2.1
       yargs-parser: 21.1.1
       zod: 3.21.4
@@ -1103,8 +1103,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001477
-      electron-to-chromium: 1.4.356
+      caniuse-lite: 1.0.30001478
+      electron-to-chromium: 1.4.359
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -1135,8 +1135,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001477:
-    resolution: {integrity: sha512-lZim4iUHhGcy5p+Ri/G7m84hJwncj+Kz7S5aD4hoQfslKZJgt0tHc/hafVbqHC5bbhHb+mrW2JOUHkI5KH7toQ==}
+  /caniuse-lite/1.0.30001478:
+    resolution: {integrity: sha512-gMhDyXGItTHipJj2ApIvR+iVB5hd0KP3svMWWXDvZOmjzJJassGLMfxRkQCSYgGd2gtdL/ReeiyvMSFD1Ss6Mw==}
     dev: true
 
   /canvaskit-wasm/0.37.2:
@@ -1438,8 +1438,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium/1.4.356:
-    resolution: {integrity: sha512-nEftV1dRX3omlxAj42FwqRZT0i4xd2dIg39sog/CnCJeCcL1TRd2Uh0i9Oebgv8Ou0vzTPw++xc+Z20jzS2B6A==}
+  /electron-to-chromium/1.4.359:
+    resolution: {integrity: sha512-OoVcngKCIuNXtZnsYoqlCvr0Cf3NIPzDIgwUfI9bdTFjXCrr79lI0kwQstLPZ7WhCezLlGksZk/BFAzoXC7GDw==}
     dev: true
 
   /emmet/2.4.2:
@@ -1946,8 +1946,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /is-core-module/2.11.0:
-    resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==}
+  /is-core-module/2.12.0:
+    resolution: {integrity: sha512-RECHCBCd/viahWmwj6enj19sKbHfJrddi/6cBDsNTKbNq0f7VeaUkBo60BqzvPqo/W54ChS62Z5qyun7cfOMqQ==}
     dependencies:
       has: 1.0.3
     dev: true
@@ -2781,7 +2781,7 @@ packages:
     resolution: {integrity: sha512-jAlSOFR1Bls963NmFwxeQkNTzqjUF0NThm8Le7eRIRGzFUVJuMOFZDLv5Y30W/Oaw+KEebEJLAigwO9gQHoEmw==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.3.8
+      semver: 7.4.0
     dev: true
 
   /node-addon-api/5.1.0:
@@ -3201,7 +3201,7 @@ packages:
     resolution: {integrity: sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==}
     hasBin: true
     dependencies:
-      is-core-module: 2.11.0
+      is-core-module: 2.12.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
@@ -3289,8 +3289,8 @@ packages:
       suf-log: 2.5.3
     dev: true
 
-  /sass/1.61.0:
-    resolution: {integrity: sha512-PDsN7BrVkNZK2+dj/dpKQAWZavbAQ87IXqVvw2+oEYI+GwlTWkvbQtL7F2cCNbMqJEYKPh1EcjSxsnqIb/kyaQ==}
+  /sass/1.62.0:
+    resolution: {integrity: sha512-Q4USplo4pLYgCi+XlipZCWUQz5pkg/ruSSgJ0WRDSb/+3z9tXUOkQ7QPYn4XrhZKYAK4HlpaQecRwKLJX6+DBg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3312,8 +3312,8 @@ packages:
     hasBin: true
     dev: true
 
-  /semver/7.3.8:
-    resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+  /semver/7.4.0:
+    resolution: {integrity: sha512-RgOxM8Mw+7Zus0+zcLEUn8+JfoLpj/huFTItQy2hsM4khuC1HYRDp0cU482Ewn/Fcy6bCjufD8vAj7voC66KQw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -3333,7 +3333,7 @@ packages:
       detect-libc: 2.0.1
       node-addon-api: 5.1.0
       prebuild-install: 7.1.1
-      semver: 7.3.8
+      semver: 7.4.0
       simple-get: 4.0.1
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
@@ -3794,7 +3794,7 @@ packages:
       vfile-message: 3.1.4
     dev: true
 
-  /vite/4.2.1_sass@1.61.0:
+  /vite/4.2.1_sass@1.62.0:
     resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3823,7 +3823,7 @@ packages:
       postcss: 8.4.21
       resolve: 1.22.2
       rollup: 3.20.2
-      sass: 1.61.0
+      sass: 1.62.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -3836,7 +3836,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.2.1_sass@1.61.0
+      vite: 4.2.1_sass@1.62.0
     dev: true
 
   /vscode-css-languageservice/6.2.4:
