@@ -1,0 +1,43 @@
+---
+// SCREAMING NOTES:
+// FEED THIS BABBY WITH imgW, imgH PARAMETERS WHEN CALLING IT
+// SCREAMING EXAMPLE:
+// <IMA imgW="1920" imgH="1"
+
+
+import { Image } from "astro:assets";
+
+export interface Props {
+  title: string;
+  photography: string;
+  coverImage: {};
+  cssClass: string;
+  imgW: string;
+  imgH: string;
+}
+
+const {
+  title,
+  coverImage,
+  photography,
+  imgW,
+  imgH,
+} = Astro.props.frontmatter || Astro.props;
+
+---
+
+
+<div class={photography}>
+  <div class="vegas_overlay"></div>
+  <div class="vegas_overlay2"></div>
+  <Image
+    src={coverImage}
+    width={imgW}
+    height={imgH}
+    alt={title}
+    quality="high"
+    format="avif"
+  />
+</div>
+
+

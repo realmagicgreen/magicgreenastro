@@ -51,6 +51,7 @@ const {
 
       <div class="hero">
         <div class="vegas_overlay"></div>
+        <div class="vegas_overlay2"></div>
         <Image
           src={coverImage}
           width={1920}
@@ -145,11 +146,12 @@ const {
     padding-left: var(--space_horizontal);
     box-shadow: none;
     .know-more-links {
-      border-bottom: 4px solid var(--primary) !important;
-      border-radius: 5px;
+      border-bottom: var(--top_band) solid var(--primary) !important;
+      border-radius: var(--radius);
       color: red !important;
     }
   }
+
 
   .post_content {
     padding-right: 10vw;
@@ -158,44 +160,7 @@ const {
   .post_header {
     padding-top: var(--space);
   }
-  .hero {
-    position: relative;
-    overflow: hidden !important;
-    position: relative;
-    body.services & {
-      border-bottom: 5px solid var(--color_services) !important;
-    }
-    body.health & {
-      border-bottom: 5px solid var(--color_health) !important;
-    }
-    body.products & {
-      border-bottom: 5px solid var(--color_products) !important;
-    }
-    body.know & {
-      border-bottom: 5px solid var(--color_know) !important;
-    }
-    body.solutions & {
-      border-bottom: 5px solid var(--color_solutions) !important;
-    }
-    body.techniques & {
-      border-bottom: 5px solid var(--color_techniques) !important;
-    }
-  }
 
-  .vegas_overlay {
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-    border: none;
-    padding: 0;
-    margin: 0;
-    background: transparent url("../assets/overlays/07.png") center center
-      repeat;
-  }
 
   .cat_name {
     display: block;
