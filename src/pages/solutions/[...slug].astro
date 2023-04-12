@@ -27,7 +27,9 @@ const articles = await getCollection("solutions", ({ data }) => {
 });
 ---
 
-<Article cssBodyClass="solutions" {...post.data}>
+
+  <Article {...post.data} cssBodyClass="solutions">
+    <Content />
   <Content />
   <details class="solutions" open>
     <summary class="h3 uppercase">+ solutions</summary>
@@ -50,7 +52,5 @@ const articles = await getCollection("solutions", ({ data }) => {
     border-radius: 3vw;
     border: 10px solid hsla(0, 0%, 100%, 0.033);
     border-top: 0 none;
-    border-bottom: 0 none;
-    //background-color: hsla(0, 0%, 100%, 0.025);
-  }
+    border-bottom: 0 none; }
 </style>

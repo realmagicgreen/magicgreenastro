@@ -5,7 +5,6 @@ import siteData from "@data/site.json";
 
 import { getCollection } from "astro:content";
 import Card from "@components/Card.astro";
-// import StyleCardContainerQuery from "@components/StyleCardContainerQuery.astro";
 
 const coltitle = collectionName.toLocaleUpperCase();
 const posts = await getCollection(collectionName);
@@ -22,25 +21,29 @@ export interface Props {
   category={collectionName}
 >
   <h2 class="uppercased">{collectionName}</h2>
-  <div class="ul">
+  <div class="grida">
     {
       posts.map((post) => (
-        <div class=" li">
-          <a href={`/${collectionName}/${post.slug}`}>
-            <Card
-              cssClass="CONTAINER_QUERY_CARD"
-              description=""
-              pubDate={post.data.pubDate}
-              subtitle={post.data.subtitle}
-              photography={post.data.photography}
-              title={post.data.title}
-              coverImage={post.data.coverImage}
-            />
-          </a>
-        </div>
+        <a class="CQcard_link" href={`/${collectionName}/${post.slug}`}>
+          <Card
+            cssClass="CONTAINER_QUERY_CARD"
+            description=""
+            pubDate={post.data.pubDate}
+            subtitle={post.data.subtitle}
+            description={post.data.description}
+            photography={post.data.photography}
+            title={post.data.title}
+            coverImage={post.data.coverImage}
+          />
+        </a>
       ))
     }
   </div>
 </Layout>
-
-// <StyleCardContainerQuery />
+<style lang="scss">
+  .grida {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+</style>

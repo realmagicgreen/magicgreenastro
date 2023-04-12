@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
-// import StyleCardContainerQuery from "@components/StyleCardContainerQuery.astro";
 
 const knowArticles = await getCollection("know", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
@@ -12,12 +11,22 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
 });
 
+
+const solutionsArticles = await getCollection("solutions", ({ data }) => {
+  return !data.draft && data.pubDate < new Date();
+});
+
 export interface Props {
   cssBodyClass: string;
   title: string;
 }
 const collectionName = "resources";
 const title = collectionName.toLocaleUpperCase();
+
+
+import Card from "@components/Card.astro";
+
+
 ---
 
 <Layout
@@ -41,6 +50,44 @@ const title = collectionName.toLocaleUpperCase();
     </div>
   </section>
 
+  <section class="solutions">
+    <h4 class="">SOLUTIONS</h4>
+    <div class="ul">
+      <!-- {
+        solutionsArticles.map((post) => (
+          <div class="">
+            <a class="" href={`/solutions/${post.slug}`}>
+              {post.data.title}
+            </a>
+          </div>
+        ))
+      } -->
+
+
+<h2 class="uppercased">solutions</h2>
+  <div class="grida">
+    {
+      solutionsArticles.map((post) => (
+        <a class="CQcard_link" href={`/solutions/${post.slug}`}>
+          <Card
+            cssClass="CONTAINER_QUERY_CARD"
+            description=""
+            pubDate={post.data.pubDate}
+            subtitle={post.data.subtitle}
+            description={post.data.description}
+            photography={post.data.photography}
+            title={post.data.title}
+            coverImage={post.data.coverImage}
+          />
+        </a>
+      ))
+    }
+  </div>
+
+    </div>
+  </section>
+
+
   <section class="techniques">
     <h4 class="">TECHNIQUES</h4>
     <div class="ul">
@@ -60,14 +107,17 @@ const title = collectionName.toLocaleUpperCase();
   .container {
     display: flex !important;
   }
-  // .post_page_title {
-  //   min-width: 100%;
-  // }
-
   section {
     padding-left: var(--space_small);
     padding-right: var(--space_small);
   }
+
+  .grida {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
 </style>
 
-// <StyleCardContainerQuery />
+
