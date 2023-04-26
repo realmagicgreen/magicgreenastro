@@ -1,8 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/de436131-f602-4445-ac13-c558ae7d3f6a/deploy-status)](https://app.netlify.com/sites/magicgreen5/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/91072c23-42b0-45bf-ab7a-e7749162b0f5/deploy-status)](https://app.netlify.com/sites/magicgreenastro/deploys)
 
-# MAGIC GREEN
+# MAGIC GREEN (Astro)
 
-[![magic green](./src/assets/p/og_large_image.jpg)](https://m.junglestar.org)
+[![magic green](./src/assets/p/og_large_image.jpg)](https://m.junglo.dev)
 
 > "**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
 
