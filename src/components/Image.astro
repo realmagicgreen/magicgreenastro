@@ -4,7 +4,6 @@
 // SCREAMING EXAMPLE:
 // <IMA imgW="1920" imgH="1"
 
-
 import { Image } from "astro:assets";
 
 export interface Props {
@@ -16,16 +15,9 @@ export interface Props {
   imgH: string;
 }
 
-const {
-  title,
-  coverImage,
-  photography,
-  imgW,
-  imgH,
-} = Astro.props.frontmatter || Astro.props;
-
+const { title, coverImage, photography, imgW, imgH } =
+  Astro.props.frontmatter || Astro.props;
 ---
-
 
 <div class={photography}>
   <div class="vegas_overlay"></div>
@@ -35,9 +27,7 @@ const {
     width={imgW}
     height={imgH}
     alt={title}
-    quality="high"
+    quality="mid"
     format="avif"
   />
 </div>
-
-
