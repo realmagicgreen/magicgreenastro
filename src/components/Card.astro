@@ -33,7 +33,7 @@ const {
     />
 
     <div class="text">
-      <h2 class="title">{title}</h2>
+      <h2 class="title">{title.toLocaleUpperCase()}</h2>
       <div class="metas">
         <span class="time">
           <svg
@@ -76,11 +76,9 @@ const {
         </span>
       </div>
 
-      <div class="subtitle">SUBTITLE: {subtitle}</div>
+      <div class="subtitle">{subtitle.toLocaleUpperCase()}</div>
 
-      <div class="desc">
-        DESCRIPTION: {description}
-      </div>
+      <div class="desc">{description}</div>
     </div>
   </div>
 </div>

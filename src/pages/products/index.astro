@@ -26,8 +26,7 @@ export interface Props {
       posts.map((post) => (
         <a class="card_link" href={`/${collectionName}/${post.slug}`}>
           <Card
-            cssClass="card_class"
-            description=""
+            cssClass="card"
             pubDate={post.data.pubDate}
             subtitle={post.data.subtitle}
             description={post.data.description}
@@ -46,5 +45,7 @@ export interface Props {
     grid-gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  .card_link {
+    text-decoration: none;
+  }
 </style>
-

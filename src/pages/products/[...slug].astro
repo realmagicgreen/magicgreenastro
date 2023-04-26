@@ -12,8 +12,11 @@ export async function getStaticPaths() {
     props: { post },
   }));
 }
+
+const category = "products";
+
 interface Props {
-  post: CollectionEntry<"products">;
+  post: CollectionEntry<typeof category>;
 }
 
 // 2. When it's time to render, you can get the entry directly from the prop
@@ -21,35 +24,37 @@ const { post } = Astro.props;
 const { Content } = await post.render();
 
 //add bottom listing of THIS category
-
-const articles = await getCollection("products", ({ data }) => {
+const articles = await getCollection(category, ({ data }) => {
   return !data.draft && data.pubDate < new Date();
 });
 ---
 
-<Article {...post.data} cssBodyClass="products">
+<Article {...post.data} cssBodyClass={category}>
   <Content />
-  <details class="products" open>
-    <summary class="h3 uppercase">+ products</summary>
-    <div class="">
+
+  <div class="nav">
+    <div class="h4 uppercase nav_title">other {category} articles</div>
+    <div class="nav_items">
       {
         articles.map((post) => (
           <div class="uppercase">
-            <a href={`/products/${post.slug}`}>{post.data.title}</a>
+            <a href={`/${category}/${post.slug}`}>{post.data.title}</a>
           </div>
         ))
       }
     </div>
-  </details>
+  </div>
 </Article>
 
 <style lang="scss">
-  details {
-    margin: 3rem;
-    padding: 3rem;
-    border-radius: 3vw;
-    border: 10px solid hsla(0, 0%, 100%, 0.033);
-    border-top: 0 none;
-    border-bottom: 0 none;
+  .nav {
+    padding: 5rem 1rem 1rem 1rem !important;
+    padding-top: 5rem;
+  }
+  .nav_items a {
+    height: 42px;
+  }
+  .nav_title {
+    padding-bottom: 0.5rem;
   }
 </style>

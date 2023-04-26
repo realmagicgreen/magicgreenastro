@@ -5,9 +5,9 @@ import siteData from "@data/site.json";
 import { getCollection } from "astro:content";
 import Card from "@components/Card.astro";
 
-const collectionName = "health";
-const coltitle = collectionName.toLocaleUpperCase();
-const posts = await getCollection(collectionName);
+const category = "health";
+const coltitle = category.toLocaleUpperCase();
+const posts = await getCollection(category);
 
 export interface Props {
   collectionName: string;
@@ -18,16 +18,15 @@ export interface Props {
   title={coltitle}
   description={siteData.tldr}
   photography=""
-  category={collectionName}
+  category={category}
 >
-  <h2 class="uppercased">{collectionName}</h2>
+  <h2 class="uppercased">{category}</h2>
   <div class="grida">
     {
       posts.map((post) => (
-        <a class="CQcard_link" href={`/${collectionName}/${post.slug}`}>
+        <a class="card_link" href={`/${category}/${post.slug}`}>
           <Card
-            cssClass="CONTAINER_QUERY_CARD"
-            description=""
+            cssClass="card"
             pubDate={post.data.pubDate}
             subtitle={post.data.subtitle}
             description={post.data.description}
@@ -45,5 +44,8 @@ export interface Props {
     display: grid;
     grid-gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .card_link {
+    text-decoration: none;
   }
 </style>

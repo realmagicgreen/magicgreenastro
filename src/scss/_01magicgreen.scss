@@ -109,7 +109,8 @@ body {
   content-visibility: auto;
   font-weight: var(--bodyfontweight);
 
-  > * {
+  > *,
+  article {
     box-shadow: none !important;
   }
 
@@ -381,4 +382,3 @@ main .index a {
   display: block;
   min-height: 48px;
 }
-

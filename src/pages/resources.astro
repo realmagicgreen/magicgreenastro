@@ -11,7 +11,6 @@ const techniquesArticles = await getCollection("techniques", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
 });
 
-
 const solutionsArticles = await getCollection("solutions", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
 });
@@ -23,10 +22,7 @@ export interface Props {
 const collectionName = "resources";
 const title = collectionName.toLocaleUpperCase();
 
-
 import Card from "@components/Card.astro";
-
-
 ---
 
 <Layout
@@ -63,30 +59,27 @@ import Card from "@components/Card.astro";
         ))
       } -->
 
-
-<h2 class="uppercased">solutions</h2>
-  <div class="grida">
-    {
-      solutionsArticles.map((post) => (
-        <a class="CQcard_link" href={`/solutions/${post.slug}`}>
-          <Card
-            cssClass="CONTAINER_QUERY_CARD"
-            description=""
-            pubDate={post.data.pubDate}
-            subtitle={post.data.subtitle}
-            description={post.data.description}
-            photography={post.data.photography}
-            title={post.data.title}
-            coverImage={post.data.coverImage}
-          />
-        </a>
-      ))
-    }
-  </div>
-
+      <h2 class="uppercased">solutions</h2>
+      <div class="grida">
+        {
+          solutionsArticles.map((post) => (
+            <a class="CQcard_link" href={`/solutions/${post.slug}`}>
+              <Card
+                cssClass="card"
+                description=""
+                pubDate={post.data.pubDate}
+                subtitle={post.data.subtitle}
+                description={post.data.description}
+                photography={post.data.photography}
+                title={post.data.title}
+                coverImage={post.data.coverImage}
+              />
+            </a>
+          ))
+        }
+      </div>
     </div>
   </section>
-
 
   <section class="techniques">
     <h4 class="">TECHNIQUES</h4>
@@ -117,7 +110,4 @@ import Card from "@components/Card.astro";
     grid-gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-
 </style>
-
-
