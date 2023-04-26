@@ -1,3 +1,6 @@
-"files.associations": {
-    "*.mdx": "markdown"
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

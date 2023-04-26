@@ -24,9 +24,9 @@ export interface Props {
   <div class="grida">
     {
       posts.map((post) => (
-        <a class="CQcard_link" href={`/${collectionName}/${post.slug}`}>
+        <a class="card_link" href={`/${collectionName}/${post.slug}`}>
           <Card
-            cssClass="CONTAINER_QUERY_CARD"
+            cssClass="card_class"
             description=""
             pubDate={post.data.pubDate}
             subtitle={post.data.subtitle}

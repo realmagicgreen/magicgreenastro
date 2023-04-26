@@ -22,7 +22,7 @@ const {
 } = Astro.props.frontmatter || Astro.props;
 ---
 
-<div class="Rok_Card1">
+<div class="card_astro">
   <div class={cssClass}>
     <Image
       height={550}
@@ -34,7 +34,6 @@ const {
 
     <div class="text">
       <h2 class="title">{title}</h2>
-      <div>{subtitle}</div>
       <div class="metas">
         <span class="time">
           <svg
@@ -76,9 +75,11 @@ const {
           {photography}
         </span>
       </div>
+
+      <div class="subtitle">SUBTITLE: {subtitle}</div>
+
       <div class="desc">
-        DESC|
-        {description}
+        DESCRIPTION: {description}
       </div>
     </div>
   </div>
@@ -86,10 +87,17 @@ const {
 
 <style lang="scss">
   .desc {
-    display: none;
+    // display: none;
+    padding-top: 0.5rem;
+  }
+  .subtitle {
+    padding-top: 0.5rem;
   }
 
   .title {
     font-size: calc(3vw + 3vh) !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
   }
 </style>
