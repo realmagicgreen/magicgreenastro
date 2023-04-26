@@ -1,7 +1,7 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "5.5.18",
+  "version": "5.5.19",
   "private": true,
   "scripts": {
     "dev": "astro check --watch & astro dev",
@@ -29,5 +29,8 @@
     "rollup": "^3.21.0",
     "sass": "^1.62.1",
     "sharp": "^0.31.3"
+  },
+  "dependencies": {
+    "@astrojs/partytown": "^1.2.0"
   }
 }

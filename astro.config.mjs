@@ -4,6 +4,8 @@ import remarkToc from "remark-toc";
 import mdx from "@astrojs/mdx";
 import yaml from "@rollup/plugin-yaml"; //maybe needed, currently using .json
 
+import partytown from "@astrojs/partytown";
+
 // https://astro.build/config
 export default defineConfig({
   experimental: {
@@ -13,29 +15,22 @@ export default defineConfig({
   markdown: {
     drafts: true,
     rehypePlugins: [rehypeHeadingIds],
-    remarkPlugins: [
-      [
-        remarkToc,
-        {
-          heading: "contents",
-        },
-      ],
-    ],
+    remarkPlugins: [[remarkToc, {
+      heading: "contents"
+    }]]
   },
-  integrations: [
-    mdx({
-      extendMarkdownConfig: false,
-      // smartypants: true,
-      gfm: true,
-      drafts: true,
-    }),
-  ],
+  integrations: [mdx({
+    extendMarkdownConfig: false,
+    // smartypants: true,
+    gfm: true,
+    drafts: true
+  }), partytown()],
   vite: {
     //maybe needed, not yet used!
-    plugins: [yaml()],
+    plugins: [yaml()]
   },
   outDir: "./dist",
   site: "https://m.junglo.dev/",
-  base: "/",
+  base: "/"
   //trailingSlash: 'always'
 });

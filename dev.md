@@ -2,11 +2,12 @@
 
 ## WIP:
 
-- move img to post folder (finally!)
-- page.name instead of filename in footer list
+- partytown
 
 ## 2DOs:
 
+- move img to post folder (finally can, but need testing!)
+- tags see Astro Paper
 - make head menu responsive
 - standalone web-app
 - search
