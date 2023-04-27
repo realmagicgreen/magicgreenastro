@@ -39,7 +39,7 @@ When you become certified, your product can carry an [FSC label](https://ic.fsc.
 We are not the only forest management system, but our certification is credible, which, in turn, helps protect your brand and reputation. More and more organizations and governments specify FSC-certified materials must be used in procurement processes.
 
 Meanwhile, WWF even recommends FSC certification to consumers, forest managers, and businesses. Why? Because FSC is trusted not just by NGOs. FSC certification is the most widely adopted framework among Fortune 500 companies.
-![Types of certification](../../assets/p/services/sustainable-wood/sustainable-wood-023.jpg)
+![Types of certification](../../assets/p/services/sustainable-wood/sustainable-wood-03.jpg)
 
 Aside from showing the world your commitment to responsible forestry, FSC certification has other [business benefits](https://ic.fsc.org/en/benefits-for-business): it’s been proven that many businesses can receive financial benefits from being FSC certified (according to this [WWF cost-benefit report](http://wwf.panda.org/wwf_news/?250330)).
 
