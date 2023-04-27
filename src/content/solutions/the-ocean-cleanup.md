@@ -50,7 +50,7 @@ The Ocean Cleanup develops advanced [technologies](https://www.theoceancleanup.c
 
 The Ocean Cleanup floating systems are designed to capture plastics ranging from small pieces just millimeters in size, up to large debris, including massive discarded fishing nets (ghost nets), which can can be tens of meters wide.
 
-![The Ocean Cleanup floating systems are designed to capture plastics](../../assets/p/solutions/the-ocean-cleanup/the-ocean-cleanup-053.jpg)
+![The Ocean Cleanup floating systems are designed to capture plastics](../../assets/p/solutions/the-ocean-cleanup/the-ocean-cleanup-03.jpg)
 
 Models show that a full-scale cleanup system roll-out (a fleet of approximately 60 systems) could clean 50% of the Great Pacific Garbage Patch in just five years.
 
