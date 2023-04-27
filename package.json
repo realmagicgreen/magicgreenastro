@@ -1,7 +1,7 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "5.5.23",
+  "version": "5.6.0",
   "private": true,
   "scripts": {
     "dev": "astro check --watch & astro dev",

@@ -148,8 +148,8 @@ const {
 
 <style lang="scss">
   article {
-    margin-top: 0;
-    padding-top: 0;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
     width: 100vw !important;
     display: flex;
     flex-direction: column;
@@ -176,7 +176,9 @@ const {
 
   hr {
     width: 55%;
+    color: var(--primary_fallback) !important;
     color: var(--primary) !important;
+    border: 1px solid var(--primary_fallback) !important;
     border: 1px solid var(--primary) !important;
   }
   .post_metas {
@@ -197,12 +199,14 @@ const {
     padding-right: var(--space);
   }
   .post_meta_icon {
-    color: var(--primary) !important;
+    color: var(--primary_fallback);
+    color: var(--primary); //🥸 NOT YET SUPPORTED
     display: flex;
     align-items: center;
     gap: 0.5rem;
     svg {
-      stroke: var(--primary) !important;
+      stroke: var(--primary_fallback);
+      stroke: var(--primary); //🥸 NOT YET SUPPORTED
     }
   }
 </style>
