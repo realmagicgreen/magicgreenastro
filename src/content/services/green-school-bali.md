@@ -35,13 +35,13 @@ It uses some renewable energy sources, including micro-hydro power from a "hydro
 
 The campus is designed around the principles of an organic permaculture system, and the students cultivate an organic garden as part of their learning activities.
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Green School opened in 2008' %}
+![Green School opened in 2008](../../assets/p/services/green-school-bali/green-school-bali-02.jpg)
 
 Buildings are constructed primarily from renewable resources including bamboo, local grass and traditional mud walls. The campus is an example of the large-scale building potential of bamboo architecture.
 
 It offer a Bio Bus service, three 18-seater buses that run purely on biodiesel made from used cooking oil.
 
-{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Green School opened in 2008' %}
+![Green School: building potential of bamboo architecture](../../assets/p/services/green-school-bali/green-school-bali-03.jpg)
 
 Green School was awarded the 2012 "Greenest School on Earth" award by the Center for Green Schools at the [U.S. Green Building Council](https://en.wikipedia.org/wiki/U.S._Green_Building_Council)
 

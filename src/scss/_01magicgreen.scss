@@ -247,7 +247,7 @@ blockquote p {
   font-size: clamp(2.15rem, 2.75vw, 11vw) !important;
   font-weight: 200;
   line-height: 0.9 !important;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .centered {
@@ -381,4 +381,11 @@ footer {
 main .index a {
   display: block;
   min-height: 48px;
+}
+.caption {
+  text-transform: uppercase;
+  font-size: 70% !important;
+}
+.hero .caption {
+  display: none;
 }

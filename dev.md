@@ -2,7 +2,7 @@
 
 ## WIP:
 
-- partytown
+- fix broken post imgs
 
 ## 2DOs:
 
@@ -38,3 +38,6 @@
 - top nav
 - astro image
 - esperimental assets
+- add img caption from alt via JS
+- GA4
+- partytown

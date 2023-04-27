@@ -12,7 +12,8 @@
       "@styles/*": ["src/scss/*"],
       "@p/*": ["src/assets/p/*"],
       "@overlays/*": ["src/assets/overlays/*"],
-      "@content/*": ["src/content/*"]
+      "@content/*": ["src/content/*"],
+      "@scripts/*": ["src/scripts/*"]
     },
     "strictNullChecks": true,
     "allowJs": true

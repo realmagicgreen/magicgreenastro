@@ -33,7 +33,7 @@ Green walls are found most often in urban environments where the plants reduce o
 
 > "The primary cause of heat build-up in cities is insulation, the absorption of solar radiation by roads and buildings in the city and the storage of this heat in the building material and its subsequent re-radiation. Plant surfaces however, as a result of transpiration, do not rise more than 4–5 °C above the ambient and are sometimes cooler."" _Ong, Boon Lay - "Green plot ratio: an ecological measure for architecture and urban planning". Landscape and Urban Planning"_
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Singapore Raffles Hospital' %}
+![Singapore Raffles Hospital](../../assets/p/solutions/green-walls/green-walls-02.jpg)
 
 The popularising of green walls is often credited to Patrick Blanc, a French botanist specialised in tropical forest undergrowth.
 
@@ -43,13 +43,13 @@ He has since been involved with the design and implementation of a number of not
 
 Let's not forget that trees, and green in general, created the oxygen in our atmosphere.
 
-{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Singapore Orchard Mall rooftop' %}
+![Singapore Orchard Mall rooftop](../../assets/p/solutions/green-walls/green-walls-03.jpg)
 
 Green facades typically support climbing plants that climb up the vertical face of the host wall, while green walls can accommodate a variety of plant species.
 
 While this solution is picking up quickly in many metropolitan areas for the specific work they do for us, in Bali too we have some, like this one in Sanur.
 
-{% assign name = '' %} {% include 'partials/image.html', name: 'name', caption: 'Bali, Sanur' %}
+![Bali, Sanur](../../assets/p/solutions/green-walls/green-walls.jpg)
 
 ## Know More Links
 

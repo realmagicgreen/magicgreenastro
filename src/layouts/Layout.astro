@@ -5,7 +5,10 @@ import Junglestar from "@components/Junglestar.astro";
 import Svgs from "@components/Svgs.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import GoogleAnalytics from "@components/GoogleAnalytics.astro";
+import GoogleAnalytics from "@scripts/GoogleAnalytics.astro";
+import ExternalLinks from "@scripts/ExternalLinks.astro";
+
+import AppendToCopyAction from "@scripts/AppendToCopyAction.astro";
 
 //plugins
 import { SEO } from "astro-seo";
@@ -78,7 +81,10 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
       }}
     />
     <meta name="keywords" content={site.keywords} />
+
     <GoogleAnalytics />
+
+    <ExternalLinks />
   </head>
   <body class={cssBodyClass}>
     <Svgs />
@@ -90,6 +96,8 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
     <slot />
 
     <Footer cssClass="default" />
+
+    <AppendToCopyAction />
 
     <Styles />
   </body>

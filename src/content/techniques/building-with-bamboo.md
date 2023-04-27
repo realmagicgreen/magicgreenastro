@@ -27,7 +27,7 @@ Bamboo, technically a grass, has been used in building for centuries due to its 
 
 Bamboo provides excellent carbon sequestration, seventeen times as much carbon as a typical tree forest. [1]
 
-{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'Bamboo Structure' %}
+![Bamboo Structure](../../assets/p/techniques/building-with-bamboo/building-with-bamboo-03.jpg)
 
 Its leaves are a high-quality forage for livestock and its shoots are delicacy enjoyed by humans. Unlike trees that rarely grow back once cut, bamboo will continue to produce new shoots even after harvesting it.
 
@@ -45,7 +45,7 @@ Studies show construction is one of the world's least sustainable industries, ea
 
 > "In China, eucalyptus can grow at three to four meters a year, which is very impressive for timber. But building-quality bamboo will grow between six and 10 meters in that time,"_Terry Sunderland, scientist at the Centre for International Forestry Research in Indonesia_
 
-{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'Madrid Barajas Airport' %}
+![Madrid Barajas Airport](../../assets/p/techniques/building-with-bamboo/building-with-bamboo-04.jpg)
 
 Bamboo has its drawbacks. Without intensive treatment, it is prone to rotting and catches fire relatively easily, which is why many countries limit bamboo structures height by law.
 
@@ -57,7 +57,7 @@ Studies show remarkable differences with untreated bamboo, when harvested at spe
 
 Bamboo is harvested before sunrise, when most of the starch is still in the roots. To further reduce starch sometimes bamboo is also soaked for 90 days before further treatments.
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'Bamboo Forest in Japan' %}
+![Bamboo Forest in Japan](../../assets/p/techniques/building-with-bamboo/building-with-bamboo-02.jpg)
 
 Only mature bamboo, between 4 and 7 years old, is harvested. Poles inside the clump are older than those growing outside. An experienced bamboo harvester will be able to tell the age of bamboo by knocking on the culm and listening the different sounds. [3]
 

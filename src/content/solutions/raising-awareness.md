@@ -47,13 +47,13 @@ Led by famous oceanographer Dr. Sylvia Earle, Mission Blue inspires action to ex
 
 Uniting a global coalition to inspire an upwelling of public awareness, access and support for a worldwide network of marine protected areas, Hope Spots, special places that are scientifically identified as critical to the health of the ocean.
 
-{% assign name = '-10' %} {% include 'partials/image.html', name: 'name', caption: 'health of the ocean' %}
+![health of the ocean](../../assets/p/solutions/raising-awareness/raising-awareness-10.jpg)
 
 > "The next five years may be the most important in the next ten thousand for our planet. There are plenty of reasons for hope, yet every day, doors of opportunity close. We know what to do. Now is the time to act." _Dr. Sylvia Earle_
 
 Under Dr. Earle’s leadership, the Mission Blue team implements communications campaigns that elevate Hope Spots to the world stage through documentaries, social media, traditional media and innovative tools like Google Earth.
 
-{% assign name = '-05' %} {% include 'partials/image.html', name: 'name', caption: 'Hope Spot' %}
+![Hope Spot](../../assets/p/solutions/raising-awareness/raising-awareness-05.jpg)
 
 Our Hope Spots are championed by local conservationists whom we support with communications, expeditions and scientific advisory.
 
@@ -61,11 +61,11 @@ Our Hope Spots are championed by local conservationists whom we support with com
 
 Mission Blue also embarks on regular oceanic expeditions that shed light on these vital ecosystems and build support for their protection.
 
-{% assign name = '-08' %} {% include 'partials/image.html', name: 'name', caption: 'vital ecosystems' %}
+![vital ecosystems](../../assets/p/solutions/raising-awareness/raising-awareness-08.jpg)
 
 In 2020, the Mission Blue alliance includes more than 200 respected ocean conservation groups and like-minded organizations, from large multinational companies to individual scientific teams doing important research.
 
-{% assign name = '-02' %} {% include 'partials/image.html', name: 'name', caption: 'scientific research' %}
+![scientific research](../../assets/p/solutions/raising-awareness/raising-awareness-02.jpg)
 
 Mission Blue supports the work of conservation NGOs that share the mission of building public support for ocean protection.
 
@@ -77,7 +77,7 @@ While about 12 percent of the land around the world is now under some form of pr
 
 Hope Spots allow us to plan for the future and look beyond current marine protected areas (MPAs), which are like national parks on land where exploitative uses like fishing and deep sea mining are restricted.
 
-{% assign name = '-07' %} {% include 'partials/image.html', name: 'name', caption: 'less than six percent of the ocean is protected' %}
+![less than six percent of the ocean is protected](../../assets/p/solutions/raising-awareness/raising-awareness-07.jpg)
 
 Hope Spots are often areas that need new protection, but they can also be existing MPAs where more action is needed.
 
@@ -97,13 +97,13 @@ The idea is that anyone can nominate a site special to him or her, a site that g
 
 Collectively all of these Hope Spots will create a global wave of community support for ocean conservation that leaders and policy makers can’t ignore.
 
-{% assign name = '-03' %} {% include 'partials/image.html', name: 'name', caption: 'create a global wave of community support' %}
+![create a global wave of community support](../../assets/p/solutions/raising-awareness/raising-awareness-03.jpg)
 
 ## HOPE SPOT EXPEDITIONS
 
 Since 2008, Mission Blue expeditions have visited Hope Spots around the world, documenting these vibrant marine environments and engaging local stakeholders to protect them.
 
-{% assign name = '-04' %} {% include 'partials/image.html', name: 'name', caption: 'engaging local stakeholders to protect the environment' %}
+![engaging local stakeholders to protect the environment](../../assets/p/solutions/raising-awareness/raising-awareness-04.jpg)
 
 Led by Dr. Sylvia Earle and Expeditions Director Kip Evans, these voyages explore our most critical ocean habitats.
 
@@ -135,7 +135,7 @@ Designed to create awareness, foster partnerships and build broad public support
 
 &nbsp;
 
-{% assign name = '-09' %} {% include 'partials/image.html', name: 'name', caption: '' %}
+![raising awareness](../../assets/p/solutions/raising-awareness/raising-awareness-09.jpg)
 
 ## EXPEDITION PROGRAM GOALS
 
