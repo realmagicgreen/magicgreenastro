@@ -8,6 +8,7 @@
 [data-theme='light'],
 :root:not([data-theme='dark']) {
   --primary: hsla(92, 100%, 15%, var(--hsl_opacity_key));
+  --blockquote-border-color: hsla(92, 100%, 15%, var(--hsl_opacity_key));
   --primary-hover: hsla(92, 100%, 25%, var(--hsl_opacity_key)); // #388e3c;
   --primary-focus: rgba(67, 160, 71, 0.125);
   --primary-inverse: #fff;
@@ -20,6 +21,7 @@
 @media only screen and (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
     --primary: hsla(92, 100%, 50%, var(--hsl_opacity_key));
+    --blockquote-border-color: hsla(92, 100%, 50%, var(--hsl_opacity_key));
     --primary-hover: hsla(92, 100%, 40%, var(--hsl_opacity_key)); // #4caf50;
     --primary-focus: rgba(67, 160, 71, 0.25);
     --primary-inverse: #fff;
@@ -32,6 +34,7 @@
 /* Enabled if forced with data-theme="dark" */
 [data-theme='dark'] {
   --primary: hsla(92, 100%, 50%, var(--hsl_opacity_key));
+  --blockquote-border-color: hsla(92, 100%, 50%, var(--hsl_opacity_key));
   --primary-hover: hsla(92, 100%, 40%, var(--hsl_opacity_key)); // #4caf50;
   --primary-focus: rgba(67, 160, 71, 0.25);
   --primary-inverse: #fff;
@@ -379,6 +382,10 @@ footer {
   }
 }
 
+blockquote p {
+  max-width: none !important;
+}
+
 main .index a {
   display: block;
   min-height: 48px;
@@ -390,3 +397,11 @@ main .index a {
 .hero .caption {
   display: none;
 }
+
+.open_in_new_window {
+  text-transform: capitalize !important;
+}
+// .know-more-links {
+//   border-bottom: var(--top_band) solid var(--primary) !important;
+//   border-radius: var(--radius);
+// }

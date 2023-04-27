@@ -84,13 +84,13 @@ You can [Help Create A Wave of Change by donating](https://plasticoceans.org/don
 
 [The Ocean Cleanup - wikipedia ](https://en.wikipedia.org/wiki/The_Ocean_Cleanup)
 
-[the ocean cleanup](http://www.theoceancleanup.com/)
+[The ocean cleanup](http://www.theoceancleanup.com/)
 
 [5 gyres](https://www.5gyres.org/)
 
-[save our shores](https://saveourshores.org/)
+[Save our shores](https://saveourshores.org/)
 
-[clean oceans international](https://cleanoceansinternational.org/)
+[Clean oceans international](https://cleanoceansinternational.org/)
 
 **_Biodegradables:_**
 

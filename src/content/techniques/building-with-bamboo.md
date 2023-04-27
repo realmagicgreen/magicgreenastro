@@ -91,16 +91,16 @@ To remove bamboo mold, lemon oil or a solution of vinegar and water can be used.
 
 ## Know More Links
 
-[Building with bamboo - the basics](https://www.buildingtrustinternational.org/BTIBambooToolkit.pdf)"
+[Building with bamboo - the basics](https://www.buildingtrustinternational.org/BTIBambooToolkit.pdf)
 
 [Bamboo](https://en.wikipedia.org/wiki/Bamboo)
 
-[bamboo facts, by Ibuku](http://ibuku.com/resources/bamboo-facts/)
+[Bamboo facts, by Ibuku](http://ibuku.com/resources/bamboo-facts/)
 
-[cultur of permaculture](http://www.cultureofpermaculture.org)
+[Cultur of permaculture](http://www.cultureofpermaculture.org)
 
-[asia green buildings](http://www.asiagreenbuildings.com)
+[Asia green buildings](http://www.asiagreenbuildings.com)
 
-[gua dua bamboo](https://www.guaduabamboo.com)
+[Gua dua bamboo](https://www.guaduabamboo.com)
 
 [Cure bamboo](https://www.wikihow.com/Cure-Bamboo)
