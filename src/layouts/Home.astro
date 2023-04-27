@@ -3,6 +3,8 @@ import Layout from "@layouts/Layout.astro";
 
 import { Image } from "astro:assets";
 
+import coverImage from "../assets/about-us.jpg";
+
 export interface Props {
   description: string;
   title: string;
@@ -12,8 +14,6 @@ export interface Props {
 const { description, title } = Astro.props;
 
 const cssBodyClass = "home";
-
-import coverImage from "../assets/about-us.jpg";
 ---
 
 <Layout
