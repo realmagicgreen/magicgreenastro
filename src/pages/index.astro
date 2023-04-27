@@ -39,8 +39,8 @@ const cssBodyClass = "index";
   cssBodyClass={cssBodyClass}
 >
   <details class="know">
-    <summary class="h3">KNOW</summary>
-    <div class="ul">
+    <summary class="h3"><a href="/know/">KNOW</a></summary>
+    <div class="">
       {
         knowArticles.map((post) => (
           <div class="">
@@ -52,8 +52,9 @@ const cssBodyClass = "index";
       }
     </div>
   </details>
-  <details class="health" open>
-    <summary class="h3">HEALTH</summary>
+
+  <details class="health">
+    <summary class="h3"><a href="/health/">HEALTH</a></summary>
     <div class="">
       {
         healthArticles.map((post) => (
@@ -65,23 +66,8 @@ const cssBodyClass = "index";
     </div>
   </details>
 
-  <details class="products">
-    <summary class="h3">PRODUCTS</summary>
-    <div class="">
-      {
-        productsArticles.map((post) => (
-          <div class="">
-            <a class="" href={`/products/${post.slug}`}>
-              {post.data.title}
-            </a>
-          </div>
-        ))
-      }
-    </div>
-  </details>
-
   <details class="services">
-    <summary class="h3">SERVICES</summary>
+    <summary class="h3 uppercase"><a href="/services/">services</a></summary>
     <div class="">
       {
         servicesArticles.map((post) => (
@@ -96,7 +82,7 @@ const cssBodyClass = "index";
   </details>
 
   <details class="solutions">
-    <summary class="h3">SOLUTIONS</summary>
+    <summary class="h3 uppercase"><a href="/solutions/">solutions</a></summary>
     <div class="">
       {
         solutionsArticles.map((post) => (
@@ -111,12 +97,28 @@ const cssBodyClass = "index";
   </details>
 
   <details class="techniques">
-    <summary class="h3">TECHNIQUES</summary>
-    <div class="ul">
+    <summary class="h3 uppercase"><a href="/techniques/">techniques</a></summary
+    >
+    <div class="">
       {
         techniquesArticles.map((post) => (
-          <div class="li">
+          <div class="">
             <a class="" href={`/techniques/${post.slug}`}>
+              {post.data.title}
+            </a>
+          </div>
+        ))
+      }
+    </div>
+  </details>
+
+  <details class="products">
+    <summary class="h3 uppercase"><a href="/products/">products</a></summary>
+    <div class="">
+      {
+        productsArticles.map((post) => (
+          <div class="">
+            <a class="" href={`/products/${post.slug}`}>
               {post.data.title}
             </a>
           </div>
@@ -129,5 +131,14 @@ const cssBodyClass = "index";
   details {
     padding-left: var(--space_small);
     padding-right: var(--space_small);
+    summary::after {
+      content: "V" !important;
+      font-size: 20px;
+      position: relative;
+      top: -2.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      background-image: none !important;
+    }
   }
 </style>

@@ -1,5 +1,8 @@
 ---
 import Layout from "@layouts/Layout.astro";
+
+import { Image } from "astro:assets";
+
 export interface Props {
   description: string;
   title: string;
@@ -9,6 +12,8 @@ export interface Props {
 const { description, title } = Astro.props;
 
 const cssBodyClass = "home";
+
+const coverImage = "../src/assets/p/about/about-us/about-us.jpg";
 ---
 
 <Layout
@@ -18,6 +23,19 @@ const cssBodyClass = "home";
   cssBodyClass={cssBodyClass}
 >
   <main>
+    <div class="hero r-5deg">
+      <div class="vegas_overlay"></div>
+      <div class="vegas_overlay2"></div>
+      <Image
+        class="coverimage"
+        src={coverImage}
+        width={1920}
+        height={1080}
+        alt={title}
+        quality="mid"
+        format="avif"
+      />
+    </div>
     <div class="container index">
       <slot />
 

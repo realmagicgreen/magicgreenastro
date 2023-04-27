@@ -130,67 +130,66 @@ body {
     padding-top: var(--top_band);
   }
 
-  .services::before,
-  .services .hero::before {
-    content: '';
-    width: 100%;
-    height: var(--top_band);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: $top_band_opacity;
-    background-color: var(--color_services);
-  }
-  .know::before {
-    content: '';
-    width: 100%;
-    height: var(--top_band);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: $top_band_opacity;
-    background-color: var(--color_know);
-  }
-  .health::before {
-    content: '';
-    width: 100%;
-    height: var(--top_band);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: $top_band_opacity;
-    background-color: var(--color_health);
-  }
-  .products::before {
-    content: '';
-    width: 100%;
-    height: var(--top_band);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: $top_band_opacity;
-    background-color: var(--color_products);
-  }
-  .solutions::before {
-    content: '';
-    width: 100%;
-    height: var(--top_band);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: $top_band_opacity;
-    background-color: var(--color_solutions);
-  }
-  .techniques::before {
-    content: '';
-    width: 100%;
-    height: var(--top_band);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: $top_band_opacity;
-    background-color: var(--color_techniques);
-  }
+  // .services::before {
+  //   content: '';
+  //   width: 100%;
+  //   height: var(--top_band);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: $top_band_opacity;
+  //   background-color: var(--color_services);
+  // }
+  // .know::before {
+  //   content: '';
+  //   width: 100%;
+  //   height: var(--top_band);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: $top_band_opacity;
+  //   background-color: var(--color_know);
+  // }
+  // .health::before {
+  //   content: '';
+  //   width: 100%;
+  //   height: var(--top_band);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: $top_band_opacity;
+  //   background-color: var(--color_health);
+  // }
+  // .products::before {
+  //   content: '';
+  //   width: 100%;
+  //   height: var(--top_band);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: $top_band_opacity;
+  //   background-color: var(--color_products);
+  // }
+  // .solutions::before {
+  //   content: '';
+  //   width: 100%;
+  //   height: var(--top_band);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: $top_band_opacity;
+  //   background-color: var(--color_solutions);
+  // }
+  // .techniques::before {
+  //   content: '';
+  //   width: 100%;
+  //   height: var(--top_band);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: $top_band_opacity;
+  //   background-color: var(--color_techniques);
+  // }
 }
 
 ul li {
