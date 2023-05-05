@@ -2,8 +2,6 @@
 import Layout from "@layouts/Home.astro";
 import siteData from "@data/site.json";
 
-import { Image } from "astro:assets";
-
 //import { getCollection, getEntryBySlug } from "astro:content";
 
 import { getEntryBySlug } from "astro:content";
@@ -36,24 +34,17 @@ export interface Props {
   title="About us"
   description={siteData.description}
 >
-  <Image
-    src={oneBlogPost.data.coverImage}
-    width={1920}
-    height={1080}
-    alt={oneBlogPost.data.title}
-    quality="mid"
-    format="avif"
-    class="my-class"
-  />
+
   <AboutContent />
+
   <br />
-  <br />
-  <br />
-  <br />
+
   <hr />
+  <hr />
+  <hr />
+
   <br />
-  <br />
-  <br />
+
   <br />
   <div class="centered">
     <span class="break_on_phones"><span>|</span></span>
