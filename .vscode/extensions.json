@@ -1,7 +1,8 @@
 {
   "recommendations": [
     "astro-build.astro-vscode",
-    "yutengjing.vscode-colorize-plus"
+    "yutengjing.vscode-colorize-plus",
+    "esbenp.prettier-vscode"
   ],
   "unwantedRecommendations": []
 }
