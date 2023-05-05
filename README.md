@@ -4,6 +4,12 @@
 
 [![magic green](./src/assets/p/og_large_image.jpg)](https://m.junglo.dev)
 
+## DEV
+
+**Notably**: Using Partytown, Picoscss, Experimental assets, new built-in <Image /> component, Avif images, plain Astro, no frameworks
+
+**Lighthouse score**: 100, 100, 100, 100.
+
 > "**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
 
 ## Feeding the green baby.

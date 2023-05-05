@@ -14,8 +14,6 @@
       "@overlays/*": ["src/assets/overlays/*"],
       "@content/*": ["src/content/*"],
       "@scripts/*": ["src/scripts/*"]
-    },
-    "strictNullChecks": true,
-    "allowJs": true
+    }
   }
 }

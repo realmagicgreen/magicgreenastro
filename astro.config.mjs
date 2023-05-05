@@ -10,6 +10,7 @@ import partytown from "@astrojs/partytown";
 export default defineConfig({
   experimental: {
     assets: true,
+    inlineStylesheets: `always`,
   },
   output: "static",
   markdown: {

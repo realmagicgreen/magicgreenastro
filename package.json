@@ -1,17 +1,16 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "6.0.1",
+  "version": "6.0.2",
   "private": true,
   "scripts": {
-    "dev": "astro check --watch & astro dev",
-    "start": "astro dev",
+    "dev": "astro dev",
     "build": "astro check && tsc --noEmit && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "sync": "astro sync",
     "docs": "astro docs",
-    "check": "astro check"
+    "check": "astro check --watch & astro dev"
   },
   "devDependencies": {
     "@astrojs/markdown-remark": "^2.2.0",
