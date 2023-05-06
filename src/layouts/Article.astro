@@ -17,7 +17,7 @@ export interface Props {
   subtitle: string;
   category: string;
   photography: string;
-  coverImage: {};
+  coverImage: any;
   pubDate: any;
 }
 
@@ -30,7 +30,7 @@ const {
   coverImage,
   photography,
   pubDate,
-} = Astro.props.frontmatter || Astro.props;
+} = Astro.props;
 ---
 
 <Layout

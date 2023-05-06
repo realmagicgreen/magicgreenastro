@@ -39,6 +39,7 @@ const makeTitleOG = title
   : "J|makeTitleOG!";
 // console.log(makeTitleOG);
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
+const favicon = "../assets/favicons/safari-pinned-tab.svg"
 ---
 
 <!DOCTYPE html>
@@ -55,7 +56,7 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
     <link
       rel="icon"
       type="image/svg+xml"
-      href="src/assets/favicons/safari-pinned-tab.svg"
+      href={favicon}
     />
 
     <SEO

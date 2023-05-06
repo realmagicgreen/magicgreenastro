@@ -6,7 +6,7 @@ export interface Props {
   title: string;
   subtitle: string;
   photography?: string;
-  coverImage: {};
+  coverImage: any;
   pubDate: any;
   cssClass: string;
 }
@@ -19,7 +19,7 @@ const {
   photography,
   pubDate,
   cssClass,
-} = Astro.props.frontmatter || Astro.props;
+} = Astro.props;
 ---
 
 <div class="card_astro">
