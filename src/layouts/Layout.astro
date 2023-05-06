@@ -17,7 +17,7 @@ import { SEO } from "astro-seo";
 export interface Props {
   title: string;
   description: string;
-  category: string;
+  category?: string | undefined;
   cssBodyClass: string;
 }
 
@@ -55,7 +55,7 @@ const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
     <link
       rel="icon"
       type="image/svg+xml"
-      href="/assets/favicons/safari-pinned-tab.svg"
+      href="src/assets/favicons/safari-pinned-tab.svg"
     />
 
     <SEO

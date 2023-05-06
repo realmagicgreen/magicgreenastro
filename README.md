@@ -6,9 +6,19 @@
 
 ## DEV
 
-**Notably**: Using Partytown, Picoscss, Experimental assets, new built-in <Image /> component, Avif images, plain Astro, no frameworks
+TECH STACK:
+
+- plain [Astro](https://docs.astro.build/en/getting-started/) | [Astro repo](https://github.com/withastro/astro)
+- [Partytown](https://docs.astro.build/en/guides/integrations-guide/partytown/) | [Partytown repo](https://github.com/withastro/astro/tree/main/packages/integrations/partytown)
+- [Picoscss](https://picocss.com/)
+- [Experimental assets](https://docs.astro.build/en/guides/assets/)
+- new built-in [Image component](https://docs.astro.build/en/guides/assets/#convert-from-astrojsimage)
+- [Avif images](https://docs.astro.build/en/guides/assets/#properties)
+- no frameworks...
 
 **Lighthouse score**: 100, 100, 100, 100.
+
+---
 
 > "**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_
 

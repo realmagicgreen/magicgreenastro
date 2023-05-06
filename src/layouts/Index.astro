@@ -5,7 +5,7 @@ export interface Props {
   description: string;
   title: string;
   category: string;
-  pubDate?: any;
+  pubDate?: any | undefined;
 }
 
 const { category, description, title } = Astro.props;
