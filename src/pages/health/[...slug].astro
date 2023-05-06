@@ -30,6 +30,20 @@ const articles = await getCollection(category, ({ data }) => {
 ---
 
 <Article {...post.data} cssBodyClass={category}>
+  <ul class="tags">
+    {
+      post.data.tags.map((tag) => {
+        return (
+          <li>
+            <a class="sanchez" href={`/${category}/${tag.toLowerCase()}/`}>
+              {tag}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+
   <Content />
 
   <div class="nav">
@@ -57,5 +71,16 @@ const articles = await getCollection(category, ({ data }) => {
   }
   .nav_title {
     padding-bottom: 0.5rem;
+  }
+  .tags {
+    max-width: none !important;
+    li {
+      display: inline-block;
+      padding-right: 1rem;
+    }
+  }
+
+  .post_content ul li {
+    list-style-type: none !important;
   }
 </style>

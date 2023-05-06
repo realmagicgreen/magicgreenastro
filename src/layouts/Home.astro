@@ -16,11 +16,7 @@ const { description, title } = Astro.props;
 const cssBodyClass = "home";
 ---
 
-<Layout
-  title={title}
-  description={description}
-  cssBodyClass={cssBodyClass}
->
+<Layout title={title} description={description} cssBodyClass={cssBodyClass}>
   <main>
     <div class="hero r-5deg">
       <div class="vegas_overlay"></div>
@@ -33,6 +29,7 @@ const cssBodyClass = "home";
         alt={title}
         quality="mid"
         format="avif"
+        loading="eager"
       />
     </div>
     <div class="container index">
@@ -60,5 +57,10 @@ const cssBodyClass = "home";
 
   .container.index {
     padding-top: var(--space);
+  }
+  .coverimage {
+    width: 105vw;
+    max-width: initial;
+    margin-left: -20px
   }
 </style>

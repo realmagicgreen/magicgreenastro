@@ -4,16 +4,16 @@
 
 [![magic green](./src/assets/p/og_large_image.jpg)](https://m.junglo.dev)
 
-## DEV
+## DEV TECH STACK:
 
-TECH STACK:
-
-- plain [Astro](https://docs.astro.build/en/getting-started/) | [Astro repo](https://github.com/withastro/astro)
+- plain [Astro SSG](https://docs.astro.build/en/getting-started/) | [Astro repo](https://github.com/withastro/astro)
+- [Astro Experimental assets](https://docs.astro.build/en/guides/assets/)
+- new built-in [Astro Image component](https://docs.astro.build/en/guides/assets/#convert-from-astrojsimage)
+- [Astro Avif images](https://docs.astro.build/en/guides/assets/#properties)
+- [Typescript](https://docs.astro.build/en/guides/typescript/)
+- [Prettier](https://docs.astro.build/en/editor-setup/#prettier) | [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)
 - [Partytown](https://docs.astro.build/en/guides/integrations-guide/partytown/) | [Partytown repo](https://github.com/withastro/astro/tree/main/packages/integrations/partytown)
 - [Picoscss](https://picocss.com/)
-- [Experimental assets](https://docs.astro.build/en/guides/assets/)
-- new built-in [Image component](https://docs.astro.build/en/guides/assets/#convert-from-astrojsimage)
-- [Avif images](https://docs.astro.build/en/guides/assets/#properties)
 - no frameworks...
 
 **Lighthouse score**: 100, 100, 100, 100.

@@ -19,6 +19,7 @@ export interface Props {
   photography: string;
   coverImage: any;
   pubDate: any;
+  tags: any;
 }
 
 const {
@@ -30,6 +31,7 @@ const {
   coverImage,
   photography,
   pubDate,
+  tags
 } = Astro.props;
 ---
 
@@ -126,6 +128,8 @@ const {
 
           {category.toUpperCase() || "UNKNOWN"}
         </div>
+
+
       </div>
 
       <div class="post_content container padding_top">
