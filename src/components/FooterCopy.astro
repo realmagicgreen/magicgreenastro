@@ -5,7 +5,9 @@ const today = new Date();
 
 <div class="copyright r-1deg">
   <span>Copyright © 2018-{today.getFullYear()}</span>
-  <span class="uppercase">{siteData.title}.</span> Released under
+  <span class="uppercase">{siteData.title}.</span>
+  <br class="show_on_phones" />
+  Released under
 
   <a
     id="magicgreen-to-creativecommons"
@@ -16,13 +18,14 @@ const today = new Date();
     rel="noopener"
     >{siteData.license.name}.
   </a>
+  <br class="show_on_phones" />
 
   <a href={siteData.github}
     >Open Source v{siteData.version} | {siteData.version_name}.</a
   >
 
   <div class="">
-    <br class="show_on_phones" /> Powered by <a
+    Powered by <a
       id="magicgreen-to-junglestar"
       href={siteData.producer.url}
       target="_blank"

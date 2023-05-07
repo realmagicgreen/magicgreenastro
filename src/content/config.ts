@@ -27,7 +27,7 @@ const allArticles = defineCollection({
       ad: z.boolean().optional().default(false),
       featured: z.boolean().optional().default(false),
       draft: z.boolean().optional(),
-      photography: z.string().optional(),
+      photography: z.string().optional().default('unknown'),
       // Advanced: Validate that the string is also a URL
       canonicalURL: z.string().url().optional(),
     }),
