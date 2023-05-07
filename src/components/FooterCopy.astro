@@ -5,14 +5,7 @@ const today = new Date();
 
 <div class="copyright r-1deg">
   <span>Copyright © 2018-{today.getFullYear()}</span>
-  <span class="uppercase">{siteData.title}.</span>
-
-  <span class="break_on_phones"></span>
-
-  <span class="">
-    <a href={siteData.github}>Open Source v{siteData.version}</a>
-  </span>
-  <br class="show_on_phones" />Released under
+  <span class="uppercase">{siteData.title}.</span> Released under
 
   <a
     id="magicgreen-to-creativecommons"
@@ -24,7 +17,11 @@ const today = new Date();
     >{siteData.license.name}.
   </a>
 
-  <span class="rotate_t">
+  <a href={siteData.github}
+    >Open Source v{siteData.version} | {siteData.version_name}.</a
+  >
+
+  <div class="">
     <br class="show_on_phones" /> Powered by <a
       id="magicgreen-to-junglestar"
       href={siteData.producer.url}
@@ -32,7 +29,7 @@ const today = new Date();
       class="open_in_new_window"
       rel="noopener">{siteData.producer.name}</a
     >
-  </span>
+  </div>
 </div>
 
 <style lang="scss">

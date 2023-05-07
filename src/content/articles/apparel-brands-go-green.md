@@ -20,7 +20,7 @@ sticky: # 'true' or empty
 photography: Stella McCartney # put here photographer name
 ---
 
-## Buy from a brand whose social and environmental practices is trustable.
+## Buy from a brand whose social and environmental practices are trustable.
 
 New data has found that [Americans don’t want to get caught buying from a company exploiting the planet](https://www.fastcompany.com/40510036/americans-dont-want-get-caught-buying-from-a-company-exploiting-the-planet).
 

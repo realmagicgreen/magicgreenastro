@@ -1,23 +1,9 @@
 ---
 import Layout from "@layouts/Home.astro";
 import { getCollection } from "astro:content";
+import Card from "@components/Card.astro";
 
-const healthArticles = await getCollection("health", ({ data }) => {
-  return !data.draft && data.pubDate < new Date();
-});
-const knowArticles = await getCollection("know", ({ data }) => {
-  return !data.draft && data.pubDate < new Date();
-});
-const productsArticles = await getCollection("products", ({ data }) => {
-  return !data.draft && data.pubDate < new Date();
-});
-const servicesArticles = await getCollection("services", ({ data }) => {
-  return !data.draft && data.pubDate < new Date();
-});
-const solutionsArticles = await getCollection("solutions", ({ data }) => {
-  return !data.draft && data.pubDate < new Date();
-});
-const techniquesArticles = await getCollection("techniques", ({ data }) => {
+const posts = await getCollection("articles", ({ data }) => {
   return !data.draft && data.pubDate < new Date();
 });
 
@@ -25,120 +11,63 @@ export interface Props {
   title: string;
   cssBodyClass: string;
   pubDate: any;
-  collectionName: string;
+  category: string;
 }
 
 import siteData from "@data/site.json";
 const title = "Curated Info Platform";
 const cssBodyClass = "index";
+const category = "articles";
 ---
+
 
 <Layout
   title={title}
   description={siteData.description}
   cssBodyClass={cssBodyClass}
 >
-  <details class="know">
-    <summary class="h3"><a href="/know/">KNOW</a></summary>
-    <div class="">
-      {
-        knowArticles.map((post) => (
-          <div class="">
-            <a class="" href={`/know/${post.slug}`}>
-              {post.data.title}
-            </a>
-          </div>
-        ))
-      }
-    </div>
-  </details>
+<h2 class="uppercased">Recent Articles</h2>
+<div class="grida">
+    {
+      posts.map((post) => (
+        <a class="card_link" href={`/${category}/${post.slug}`}>
+          <Card
+            cssClass="card"
+            pubDate={post.data.pubDate}
+            subtitle={post.data.subtitle}
+            description={post.data.description}
+            photography={post.data.photography}
+            title={post.data.title}
+            coverImage={post.data.coverImage}
+          />
+        </a>
+      ))
+    }
+  </div>
 
-  <details class="health">
-    <summary class="h3"><a href="/health/">HEALTH</a></summary>
-    <div class="">
-      {
-        healthArticles.map((post) => (
-          <div class="">
-            <a href={`/health/${post.slug}`}>{post.data.title}</a>
-          </div>
-        ))
-      }
-    </div>
-  </details>
 
-  <details class="services">
-    <summary class="h3 uppercase"><a href="/services/">services</a></summary>
-    <div class="">
-      {
-        servicesArticles.map((post) => (
-          <div class="">
-            <a class="" href={`/services/${post.slug}`}>
-              {post.data.title}
-            </a>
-          </div>
-        ))
-      }
-    </div>
-  </details>
 
-  <details class="solutions">
-    <summary class="h3 uppercase"><a href="/solutions/">solutions</a></summary>
-    <div class="">
-      {
-        solutionsArticles.map((post) => (
-          <div class="">
-            <a class="" href={`/solutions/${post.slug}`}>
-              {post.data.title}
-            </a>
-          </div>
-        ))
-      }
-    </div>
-  </details>
-
-  <details class="techniques">
-    <summary class="h3 uppercase"><a href="/techniques/">techniques</a></summary
-    >
-    <div class="">
-      {
-        techniquesArticles.map((post) => (
-          <div class="">
-            <a class="" href={`/techniques/${post.slug}`}>
-              {post.data.title}
-            </a>
-          </div>
-        ))
-      }
-    </div>
-  </details>
-
-  <details class="products">
-    <summary class="h3 uppercase"><a href="/products/">products</a></summary>
-    <div class="">
-      {
-        productsArticles.map((post) => (
-          <div class="">
-            <a class="" href={`/products/${post.slug}`}>
-              {post.data.title}
-            </a>
-          </div>
-        ))
-      }
-    </div>
-  </details>
 </Layout>
 <style lang="scss">
-  details {
-    padding-left: var(--space_small);
-    padding-right: var(--space_small);
-    summary::after {
-      content: "V" !important;
-      font-size: 20px;
-      position: relative;
-      top: -2.5rem;
-      width: 2.5rem;
-      height: 2.5rem;
-      background-image: none !important;
-    }
+  // details {
+  //   padding-left: var(--space_small);
+  //   padding-right: var(--space_small);
+  //   summary::after {
+  //     content: "V" !important;
+  //     font-size: 20px;
+  //     position: relative;
+  //     top: -2.5rem;
+  //     width: 2.5rem;
+  //     height: 2.5rem;
+  //     background-image: none !important;
+  //   }
+  // }
+    .grida {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .card_link {
+    text-decoration: none;
   }
 </style>
