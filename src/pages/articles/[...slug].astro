@@ -21,11 +21,11 @@ interface Props {
 const { post } = Astro.props;
 const { Content } = await post.render();
 const cssBodyClass = ""
-
+const cssClass = ""
 
 ---
 
-<Article {...post.data} cssBodyClass={cssBodyClass}>
+<Article {...post.data} cssBodyClass={cssBodyClass} cssClass={cssClass}>
   <ul class="tags">
     {
       post.data.tags.map((tag) => {

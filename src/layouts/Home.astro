@@ -1,8 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro";
-
+import Slogan from "@components/Slogan.astro";
 import { Image } from "astro:assets";
-
 import coverImage from "../assets/about-us.jpg";
 
 export interface Props {
@@ -35,22 +34,12 @@ const cssBodyClass = "home";
     <div class="container index">
       <slot />
 
-      <div class="slogan r5deg">
-        <h1 class="centered compacted minimal_padding speech_bubble">
-          Sustainable, environment friendly examples present future.
-        </h1>
-      </div>
+      <Slogan />
     </div>
   </main>
 </Layout>
 
 <style lang="scss">
-  .slogan {
-    padding-top: var(--space);
-    .compacted {
-      user-select: none;
-    }
-  }
   h1 {
     font-size: calc(6vw + 6vh) !important;
   }
@@ -61,6 +50,6 @@ const cssBodyClass = "home";
   .coverimage {
     width: 105vw;
     max-width: initial;
-    margin-left: -20px
+    margin-left: -20px;
   }
 </style>

@@ -1,10 +1,12 @@
 ---
-import Nav from "@components/Nav.astro";
 import Layout from "@layouts/Layout.astro";
+import Nav from "@components/Nav.astro";
+import Slogan from "@components/Slogan.astro";
+
 export interface Props {
   description: string;
   title: string;
-  category: string;
+  category?: string | undefined;
   pubDate?: any | undefined;
 }
 
@@ -24,23 +26,12 @@ const cssBodyClass = "index";
   <main>
     <div class="container index">
       <slot />
-
-      <div class="slogan r5deg">
-        <h1 class="centered compacted minimal_padding speech_bubble">
-          Sustainable, environment friendly examples present future.
-        </h1>
-      </div>
+      <Slogan />
     </div>
   </main>
 </Layout>
 
 <style lang="scss">
-  .slogan {
-    padding-top: var(--space);
-    .compacted {
-      user-select: none;
-    }
-  }
   h1,
   .h1 {
     font-size: calc(6vw + 6vh) !important;

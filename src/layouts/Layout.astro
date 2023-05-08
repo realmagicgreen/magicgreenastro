@@ -21,7 +21,7 @@ export interface Props {
   cssBodyClass: string;
 }
 
-const { title, description, category, cssBodyClass } = Astro.props;
+const { title, description, cssBodyClass } = Astro.props;
 
 //data
 import site from "@data/site.json";
@@ -92,7 +92,7 @@ const favicon = "../assets/favicons/safari-pinned-tab.svg"
 
     <div id="top"></div>
 
-    <Header data-type={category} />
+    <Header />
 
     <slot />
 
