@@ -8,7 +8,7 @@ published: true
 tags:
   - electric
   - environment-friendly
-  - co-friendly
+  - eco-friendly
   - initiative
   - social-responsibility
   - sustainable-development

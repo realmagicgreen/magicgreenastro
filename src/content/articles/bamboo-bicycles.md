@@ -7,7 +7,8 @@ pubDate: 2018-06-11
 published: true
 tags:
   - bamboo
-  - Bali, design
+  - Bali
+  - design
   - eco-friendly
   - environment-friendly
   - Indonesia

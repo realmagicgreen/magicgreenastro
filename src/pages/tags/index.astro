@@ -1,0 +1,23 @@
+---
+import { getCollection, getEntryBySlug } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+const allPosts = await getCollection("articles");
+const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+---
+
+<Layout cssBodyClass="" description="" title="" category="">
+  <div class="container">
+    {
+      tags.map((tag) => (
+        <a class="taglink" href={`/${tag.toLowerCase()}`}>
+          {tag}
+        </a>
+      ))
+    }
+  </div>
+</Layout>
+<style>
+  .taglink {
+    padding-right: 1rem;
+  }
+</style>

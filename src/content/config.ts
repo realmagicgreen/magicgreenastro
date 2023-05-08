@@ -9,7 +9,8 @@ const allArticles = defineCollection({
       }),
       title: z.string(),
       subtitle: z.string(),
-      category: z.enum(["about", "health", "know", "products", "services", "solutions", "techniques"]),
+      //category: z.enum(["about", "health", "know", "products", "services", "solutions", "techniques"]),
+      category: z.string(),
       pubDate: z
         .date()
         .or(z.string()),
@@ -35,5 +36,6 @@ const allArticles = defineCollection({
 
 //    Should match your collection directory name in "src/content"
 export const collections = {
+  'health': allArticles,
   'articles': allArticles,
 };
