@@ -116,7 +116,7 @@ declare module 'astro:content' {
   slug: "about-us",
   body: string,
   collection: "about",
-  data: any
+  data: InferEntrySchema<"about">
 } & { render(): Render[".md"] },
 },
 "articles": {

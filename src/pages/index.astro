@@ -3,9 +3,11 @@ import Layout from "@layouts/Home.astro";
 import { getCollection } from "astro:content";
 import Card from "@components/Card.astro";
 
-const posts = await getCollection("articles", ({ data }) => {
-  return !data.draft && data.pubDate < new Date();
-});
+// const posts = await getCollection("articles", ({ data }) => {
+//   return !data.draft && data.pubDate < new Date();
+// });
+
+const posts = await getCollection('articles');
 
 export interface Props {
   title: string;

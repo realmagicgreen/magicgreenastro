@@ -36,6 +36,6 @@ const allArticles = defineCollection({
 
 //    Should match your collection directory name in "src/content"
 export const collections = {
-  'health': allArticles,
+  'about': allArticles,
   'articles': allArticles,
 };

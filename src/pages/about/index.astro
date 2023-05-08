@@ -10,10 +10,10 @@ import { getEntryBySlug } from "astro:content";
 // const allBlogPosts = await getCollection("about");
 
 // // Get a single entry from a collection. Requires the name of the collection and the entry's slug as arguments.
-const oneBlogPost = await getEntryBySlug("about", "about-us");
+const about = await getEntryBySlug("about", "about-us");
 
 // import * as oneBlogPost from "../pages/about-us.md";
-import { Content as AboutContent } from "../pages/about-us.md";
+// import { Content as AboutContent } from "../pages/about-us.md";
 
 export interface Props {
   description: string;
@@ -26,6 +26,7 @@ export interface Props {
   pubDate: any;
 }
 
+const { Content, headings } = await about.render();
 // const { title, coverImage } = Astro.props.data || Astro.props;
 ---
 
@@ -35,7 +36,7 @@ export interface Props {
   description={siteData.description}
 >
 
-  <AboutContent />
+  <Content />
 
   <br />
 
@@ -47,7 +48,6 @@ export interface Props {
 
   <br />
   <div class="centered">
-    <span class="break_on_phones"><span>|</span></span>
     {siteData.subtitle.toUpperCase()}
     <span class="break_on_phones"><span>|</span></span>
     LICENSE: {siteData.license.name}
@@ -79,7 +79,7 @@ export interface Props {
       >{siteData.producer.name}</a
     >
     <hr />
-    <a title="site url" href={siteData.url}>{siteData.url}</a>
+    <a class="lowercase" title="site url" href={siteData.url}>{siteData.url}</a>
     <hr />
     <div>
       {siteData.company.name.toUpperCase()}
@@ -90,9 +90,9 @@ export interface Props {
     </div>
     <div>
       <hr />
-      {oneBlogPost.data.title}<br />
-      {oneBlogPost.data.subtitle}<br />
-      {oneBlogPost.data.description}<br />
+      {about.data.title}<br />
+      {about.data.subtitle}<br />
+      {about.data.description}<br />
       <hr />
     </div>
   </div>
@@ -100,5 +100,8 @@ export interface Props {
 <style>
   hr {
     opacity: 0.25;
+  }
+  .lowercase {
+    text-transform: lowercase;
   }
 </style>
