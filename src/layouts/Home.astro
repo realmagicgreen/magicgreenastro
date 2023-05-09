@@ -1,5 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
+import Nav from "@components/Nav.astro";
 import Slogan from "@components/Slogan.astro";
 import { Image } from "astro:assets";
 import coverImage from "../assets/about-us.jpg";
@@ -11,14 +12,15 @@ export interface Props {
 }
 
 const { description, title, cssBodyClass } = Astro.props;
-
 ---
 
 <Layout title={title} description={description} cssBodyClass={cssBodyClass}>
+  <Nav cssClass="" />
+
   <main>
     <div class="hero r-5deg">
-      <div class="vegas_overlay"></div>
-      <div class="vegas_overlay2"></div>
+      <div class="vegas vegas_overlay7"></div>
+      <div class="vegas vegas_overlay2"></div>
       <Image
         class="coverimage"
         src={coverImage}
@@ -42,7 +44,6 @@ const { description, title, cssBodyClass } = Astro.props;
   h1 {
     font-size: calc(6vw + 6vh) !important;
   }
-
   .container.index {
     padding-top: var(--space);
   }
@@ -50,5 +51,35 @@ const { description, title, cssBodyClass } = Astro.props;
     width: 105vw;
     max-width: initial;
     margin-left: -20px;
+  }
+  .hero {
+    margin-top: 1rem;
+  }
+
+  .vegas {
+    width: 105vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-left: -20px;
+    opacity: 0.5;
+  }
+
+  .vegas_overlay2 {
+    background: transparent
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADAQMAAABs5if8AAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAAAxJREFUCNdjaGAAAgAChgCB/5LsuQAAAABJRU5ErkJggg==)
+      center center repeat;
+  }
+
+  .vegas_overlay7 {
+    background: transparent
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAABBJREFUCNdjUGAIYGhgCAAABEgBQXXpfAgAAAAASUVORK5CYII=)
+      center center repeat;
   }
 </style>
