@@ -3,15 +3,19 @@ import Layout from "@layouts/Home.astro";
 import { getCollection } from "astro:content";
 import Card from "@components/Card.astro";
 
-// const posts = await getCollection("articles", ({ data }) => {
-//   return !data.draft && data.pubDate < new Date();
-// });
-
-// const posts = await getCollection("articles");
-
-const posts = await getCollection("articles", ({ data }) => {
-  return data.category == 'know';
+const featuredPosts = await getCollection("posts", ({ data }) => {
+  return data.publish && data.featured && data.pubDate < new Date();
 });
+
+const posts = await getCollection("posts", ({ data }) => {
+  return data.publish && data.pubDate < new Date();
+});
+
+// const posts = await getCollection("posts");
+
+// const posts = await getCollection("posts", ({ data }) => {
+//   return data.category == 'know';
+// });
 
 export interface Props {
   title: string;
@@ -30,11 +34,11 @@ const cssBodyClass = "index";
   description={siteData.description}
   cssBodyClass={cssBodyClass}
 >
-  <h2 class="uppercased">Recent Articles</h2>
+  <h2 class="uppercased">Featured Articles</h2>
   <div class="grida">
     {
-      posts.map((post) => (
-        <a class="card_link" href={`/articles/${post.slug}`}>
+      featuredPosts.map((post) => (
+        <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
           <Card
             cssClass="card"
             pubDate={post.data.pubDate}
@@ -45,6 +49,21 @@ const cssBodyClass = "index";
             title={post.data.title}
             coverImage={post.data.coverImage}
           />
+        </a>
+      ))
+    }
+  </div>
+
+  <br />
+  <hr />
+  <br />
+
+  <h2 class="uppercased">All Articles</h2>
+  <div class="grida">
+    {
+      posts.map((post) => (
+        <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
+          {post.data.title}
         </a>
       ))
     }

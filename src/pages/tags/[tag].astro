@@ -1,49 +1,25 @@
 ---
-import Layout from "@layouts/Layout.astro"
 import { getCollection } from "astro:content";
-import Card from "@components/Card.astro";
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection("articles");
-  const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+  const allPosts = await getCollection("posts");
 
-  return uniqueTags.map((tag) => {
-    const filteredPosts = allPosts.filter((post) =>
-      post.data.tags.includes(tag)
-    );
-    return {
-      params: { tag },
-      props: { posts: filteredPosts },
-    };
-  });
+  return [
+    {params: {tag: "astro"}, props: {posts: allPosts}},
+    {params: {tag: "successes"}, props: {posts: allPosts}},
+    {params: {tag: "community"}, props: {posts: allPosts}}
+  ]
 }
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
+const filteredPosts = posts.filter((post: any) => post.frontmatter.tags.includes(tag));
+
 ---
-
-<Layout title="" description="" cssBodyClass="">
-    <p>Posts tagged with {tag}</p>
-
-    <div class="grida">
-    {
-      posts.map((post: any) => (
-        <a class="card_link" href={`/${tag}/${post.slug}`}>
-          <Card
-            cssClass="card"
-            pubDate={post.data.pubDate}
-            subtitle={post.data.subtitle}
-            description={post.data.description}
-            photography={post.data.photography}
-            title={post.data.title}
-            coverImage={post.data.coverImage}
-          />
-        </a>
-      ))
-    }
-  </div>
-<!--
-    <ul>
-        { posts.map((post) => <Card url={'/posts/' + post.slug} title={post.data.title} />) }
-    </ul> -->
-</Layout>
+<BaseLayout pageTitle={tag}>
+  <p>Posts tagged with {tag}</p>
+  <ul>
+    {filteredPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+  </ul>
+</BaseLayout>

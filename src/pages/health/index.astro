@@ -1,12 +1,12 @@
 ---
-import Layout from "@layouts/Home.astro";
+import Layout from "@layouts/Index.astro";
 import { getCollection } from "astro:content";
 import Card from "@components/Card.astro";
 
-const currentCategory = 'health';
+const category = 'health';
 
-const posts = await getCollection("articles", ({ data }) => {
-  return data.category == currentCategory ;
+const posts = await getCollection("posts", ({ data }) => {
+  return data.publish && data.category == category;
 });
 
 export interface Props {
@@ -17,17 +17,15 @@ export interface Props {
 }
 
 import siteData from "@data/site.json";
-const title = "Curated Info Platform";
-const cssBodyClass = "index";
-const category = "articles";
+const cssBodyClass = category;
 ---
 
 <Layout
-  title={title}
+  title={category.toUpperCase()}
   description={siteData.description}
   cssBodyClass={cssBodyClass}
 >
-  <h2 class="uppercased">{currentCategory}</h2>
+  <h2 class="uppercased">{category}</h2>
   <div class="grida">
     {
       posts.map((post) => (
@@ -38,6 +36,7 @@ const category = "articles";
             subtitle={post.data.subtitle}
             description={post.data.description}
             photography={post.data.photography}
+            category={post.data.category}
             title={post.data.title}
             coverImage={post.data.coverImage}
           />

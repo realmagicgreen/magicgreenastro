@@ -5,9 +5,9 @@ import Junglestar from "@components/Junglestar.astro";
 import Svgs from "@components/Svgs.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
+
 import GoogleAnalytics from "@scripts/GoogleAnalytics.astro";
 import ExternalLinks from "@scripts/ExternalLinks.astro";
-
 import AppendToCopyAction from "@scripts/AppendToCopyAction.astro";
 
 //plugins
@@ -19,6 +19,7 @@ export interface Props {
   description: string;
   category?: string | undefined;
   cssBodyClass: string;
+
 }
 
 const { title, description, cssBodyClass } = Astro.props;
@@ -33,11 +34,11 @@ const Mission = site.content_is_about;
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
 
 const makeTitle = title ? Brand + " 💚 " + title : "J|makeTitle";
-// console.log(makeTitle);
+
 const makeTitleOG = title
   ? Brand + ", " + Mission + " 💚 " + title
   : "J|makeTitleOG!";
-// console.log(makeTitleOG);
+
 const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
 const favicon = "../assets/favicons/safari-pinned-tab.svg"
 ---

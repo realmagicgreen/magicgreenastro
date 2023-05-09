@@ -8,11 +8,11 @@ export interface Props {
   title: string;
   category?: string | undefined;
   pubDate?: any | undefined;
+  cssBodyClass: string;
 }
 
-const { category, description, title } = Astro.props;
+const { category, description, title, cssBodyClass } = Astro.props;
 
-const cssBodyClass = "index";
 ---
 
 <Layout

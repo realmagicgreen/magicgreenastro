@@ -1,0 +1,57 @@
+---
+import Layout from "@layouts/Index.astro";
+import { getCollection } from "astro:content";
+import Card from "@components/Card.astro";
+
+const category = 'know';
+
+const posts = await getCollection("posts", ({ data }) => {
+  return data.publish && data.category == category;
+});
+
+export interface Props {
+  title: string;
+  cssBodyClass: string;
+  pubDate: any;
+  category: string;
+}
+
+import siteData from "@data/site.json";
+const cssBodyClass = "index";
+---
+
+<Layout
+  title={category.toUpperCase()}
+  description={siteData.description}
+  cssBodyClass={cssBodyClass}
+>
+  <h2 class="uppercased">{category}</h2>
+  <div class="grida">
+    {
+      posts.map((post) => (
+        <a class="card_link" href={`/${category}/${post.slug}`}>
+          <Card
+            cssClass="card"
+            pubDate={post.data.pubDate}
+            subtitle={post.data.subtitle}
+            description={post.data.description}
+            photography={post.data.photography}
+            category={post.data.category}
+            title={post.data.title}
+            coverImage={post.data.coverImage}
+          />
+        </a>
+      ))
+    }
+  </div>
+</Layout>
+<style lang="scss">
+  .grida {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .card_link {
+    text-decoration: none;
+  }
+</style>

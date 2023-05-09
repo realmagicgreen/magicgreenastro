@@ -1,0 +1,56 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import Article from "@layouts/Article.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts", ({ data }) => {
+    return data.publish && data.category == "services";
+  });
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+interface Props {
+  post: CollectionEntry<"posts">;
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const cssBodyClass = "services";
+const cssClass = "";
+---
+
+<Article {...post.data} cssBodyClass={cssBodyClass} cssClass={cssClass}>
+  <ul class="tags">
+    {
+      post.data.tags.map((tag) => {
+        return (
+          <li>
+            <a class="" href={`/${tag.toLowerCase()}/`}>
+              {tag}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+
+  <Content />
+</Article>
+
+<style lang="scss">
+  .tags {
+    max-width: none !important;
+    li {
+      display: inline-block;
+      padding-right: 1rem;
+    }
+  }
+
+  .post_content ul li {
+    list-style-type: none !important;
+  }
+</style>

@@ -1,19 +1,9 @@
 ---
 import Layout from "@layouts/Home.astro";
 import siteData from "@data/site.json";
-
-//import { getCollection, getEntryBySlug } from "astro:content";
-
 import { getEntryBySlug } from "astro:content";
 
-// // Get all entries from a collection. Requires the name of the collection as an argument.
-// const allBlogPosts = await getCollection("about");
-
-// // Get a single entry from a collection. Requires the name of the collection and the entry's slug as arguments.
 const about = await getEntryBySlug("about", "about-us");
-
-// import * as oneBlogPost from "../pages/about-us.md";
-// import { Content as AboutContent } from "../pages/about-us.md";
 
 export interface Props {
   description: string;
@@ -27,12 +17,11 @@ export interface Props {
 }
 
 const { Content } = await about.render();
-// const { title, coverImage } = Astro.props.data || Astro.props;
 ---
 
 <Layout
   cssBodyClass="about"
-  title="About us"
+  title="ABOUT US"
   description={siteData.description}
 >
 

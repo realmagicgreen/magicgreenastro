@@ -5,19 +5,18 @@ export interface Props {
   cssClass: string;
 }
 
-const cssClass = "nav";
+const cssClass = "nav_category_top";
 
 import "@styles/pico.slim.scss";
 ---
 
-<nav class={cssClass} role="menu">
+<nav class={cssClass}>
   {
     sections.map((section) => (
       <a
         class={section.color_name}
         href={section.url}
         title={section.description}
-        role="menuitem"
       >
         <button class="outline">{section.label.toUpperCase()}</button>
       </a>

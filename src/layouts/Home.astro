@@ -10,9 +10,8 @@ export interface Props {
   cssBodyClass: string;
 }
 
-const { description, title } = Astro.props;
+const { description, title, cssBodyClass } = Astro.props;
 
-const cssBodyClass = "home";
 ---
 
 <Layout title={title} description={description} cssBodyClass={cssBodyClass}>

@@ -1,7 +1,7 @@
 import { z, defineCollection } from 'astro:content';
 //import { blogSchema } from "./_schemas";
 
-const allArticles = defineCollection({
+const postsCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
       coverImage: image().refine((img) => img.width >= 1920, {
@@ -27,7 +27,7 @@ const allArticles = defineCollection({
         ),
       ad: z.boolean().optional().default(false),
       featured: z.boolean().optional().default(false),
-      draft: z.boolean().optional(),
+      publish: z.boolean().optional().default(false),
       photography: z.string().optional().default('unknown'),
       // Advanced: Validate that the string is also a URL
       canonicalURL: z.string().url().optional(),
@@ -36,6 +36,6 @@ const allArticles = defineCollection({
 
 //    Should match your collection directory name in "src/content"
 export const collections = {
-  'about': allArticles,
-  'articles': allArticles,
+  'about': postsCollection,
+  'posts': postsCollection,
 };

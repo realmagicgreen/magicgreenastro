@@ -13,7 +13,7 @@ tags:
 featured: false # use 'true' to have it displayed in home
 draft: false
 ad: false
-published: true
+publish: true
 sticky: false # 'true' or empty
 ---
 
