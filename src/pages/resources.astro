@@ -1,0 +1,28 @@
+---
+import Layout from "@layouts/Index.astro";
+
+export interface Props {
+  title: string;
+  cssBodyClass: string;
+  pubDate: any;
+  category: string;
+}
+
+import siteData from "@data/site.json";
+import resources from "@data/resources.json";
+
+const title = "RESOURCES";
+const cssBodyClass = "resources";
+---
+
+<Layout
+  title={title}
+  description={siteData.description}
+  cssBodyClass={cssBodyClass}
+>
+  <h2 class="h5 uppercased centered">Resources</h2>
+
+</Layout>
+<style lang="scss">
+
+</style>

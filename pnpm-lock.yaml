@@ -8,28 +8,28 @@ dependencies:
 devDependencies:
   '@astrojs/markdown-remark':
     specifier: ^2.2.0
-    version: 2.2.0(astro@2.4.3)
+    version: 2.2.0(astro@2.4.4)
   '@astrojs/mdx':
     specifier: ^0.15.2
-    version: 0.15.2(astro@2.4.3)(rollup@3.21.5)
+    version: 0.15.2(astro@2.4.4)(rollup@3.21.6)
   '@astrojs/rss':
     specifier: ^2.4.1
     version: 2.4.1
   '@rollup/plugin-yaml':
     specifier: ^4.0.1
-    version: 4.0.1(rollup@3.21.5)
+    version: 4.0.1(rollup@3.21.6)
   '@sindresorhus/slugify':
     specifier: ^2.2.0
     version: 2.2.0
   astro:
-    specifier: ^2.4.3
-    version: 2.4.3(sass@1.62.1)(sharp@0.31.3)
+    specifier: ^2.4.4
+    version: 2.4.4(sass@1.62.1)(sharp@0.31.3)
   astro-icon:
     specifier: ^0.8.0
     version: 0.8.0
   astro-og-canvas:
     specifier: ^0.1.8
-    version: 0.1.8(astro@2.4.3)
+    version: 0.1.8(astro@2.4.4)
   astro-seo:
     specifier: ^0.6.1
     version: 0.6.1
@@ -43,8 +43,8 @@ devDependencies:
     specifier: ^8.0.1
     version: 8.0.1
   rollup:
-    specifier: ^3.21.5
-    version: 3.21.5
+    specifier: ^3.21.6
+    version: 3.21.6
   sass:
     specifier: ^1.62.1
     version: 1.62.1
@@ -85,13 +85,13 @@ packages:
       vscode-uri: 3.0.7
     dev: true
 
-  /@astrojs/markdown-remark@2.2.0(astro@2.4.3):
+  /@astrojs/markdown-remark@2.2.0(astro@2.4.4):
     resolution: {integrity: sha512-4M1+GzQwDqF0KfX9Ahug43b0avorcK+iTapEaVuNnaCUVS6sZKRkztT3g6hmXiFmGHSL8qYaS9IVEmKtP6hYmw==}
     peerDependencies:
       astro: ^2.4.0
     dependencies:
       '@astrojs/prism': 2.1.1
-      astro: 2.4.3(sass@1.62.1)(sharp@0.31.3)
+      astro: 2.4.4(sass@1.62.1)(sharp@0.31.3)
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -108,14 +108,14 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx@0.15.2(astro@2.4.3)(rollup@3.21.5):
+  /@astrojs/mdx@0.15.2(astro@2.4.4)(rollup@3.21.6):
     resolution: {integrity: sha512-vrv1fw5kLZqaV0FHr6IKR46Rq5DENHhqUVZIXpAbvpRG/qXxHpg9QVN9ji+3bgLDKvG2Yz4wi8CYvSjmUtJHBQ==}
     engines: {node: '>=16.12.0'}
     dependencies:
-      '@astrojs/markdown-remark': 2.2.0(astro@2.4.3)
+      '@astrojs/markdown-remark': 2.2.0(astro@2.4.4)
       '@astrojs/prism': 2.1.1
       '@mdx-js/mdx': 2.3.0
-      '@mdx-js/rollup': 2.3.0(rollup@3.21.5)
+      '@mdx-js/rollup': 2.3.0(rollup@3.21.6)
       acorn: 8.8.2
       es-module-lexer: 0.10.5
       estree-util-visit: 1.2.1
@@ -414,20 +414,20 @@ packages:
     hasBin: true
     dev: false
 
-  /@emmetio/abbreviation@2.3.2:
-    resolution: {integrity: sha512-8vqkn4rtjm5Zv34RPgsq3/ij88ri+IcfC2MxPELytrQvfpaLyppscE0YSwDVuIUR6KL5GCBUfr5Mo7SHSbswpA==}
+  /@emmetio/abbreviation@2.3.3:
+    resolution: {integrity: sha512-mgv58UrU3rh4YgbE/TzgLQwJ3pFsHHhCLqY20aJq+9comytTXUDNGG/SMtSeMJdkpxgXSXunBGLD8Boka3JyVA==}
     dependencies:
-      '@emmetio/scanner': 1.0.3
+      '@emmetio/scanner': 1.0.4
     dev: true
 
-  /@emmetio/css-abbreviation@2.1.7:
-    resolution: {integrity: sha512-nrOt3/QROjYYK1cMjoO5fCfHIf0hFpcZeQQt7Ew6ixZ0ElEEs77ijnY57HC6ti91W/mn+c1T7ET8sClBMRHHBg==}
+  /@emmetio/css-abbreviation@2.1.8:
+    resolution: {integrity: sha512-s9yjhJ6saOO/uk1V74eifykk2CBYi01STTK3WlXWGOepyKa23ymJ053+DNQjpFcy1ingpaO7AxCcwLvHFY9tuw==}
     dependencies:
-      '@emmetio/scanner': 1.0.3
+      '@emmetio/scanner': 1.0.4
     dev: true
 
-  /@emmetio/scanner@1.0.3:
-    resolution: {integrity: sha512-/EFyTijquAwKMGSBd50RnjxsfDXmZAFp71PGu7sM6LEnEJXMV+FKL7Rvr6YLu4czQmPVRsfyhcbQz+WZnM4AZw==}
+  /@emmetio/scanner@1.0.4:
+    resolution: {integrity: sha512-IqRuJtQff7YHHBk4G8YZ45uB9BaAGcwQeVzgj/zj8/UdOhtQpEIupUhSk8dys6spFIWVZVeK20CzGEnqR5SbqA==}
     dev: true
 
   /@esbuild/android-arm64@0.17.18:
@@ -690,14 +690,14 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/rollup@2.3.0(rollup@3.21.5):
+  /@mdx-js/rollup@2.3.0(rollup@3.21.6):
     resolution: {integrity: sha512-wLvRfJS/M4UmdqTd+WoaySEE7q4BIejYf1xAHXYvtT1du/1Tl/z2450Gg2+Hu7fh05KwRRiehiTP9Yc/Dtn0fA==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
       '@mdx-js/mdx': 2.3.0
-      '@rollup/pluginutils': 5.0.2(rollup@3.21.5)
-      rollup: 3.21.5
+      '@rollup/pluginutils': 5.0.2(rollup@3.21.6)
+      rollup: 3.21.6
       source-map: 0.7.4
       vfile: 5.3.7
     transitivePeerDependencies:
@@ -737,7 +737,7 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@rollup/plugin-yaml@4.0.1(rollup@3.21.5):
+  /@rollup/plugin-yaml@4.0.1(rollup@3.21.6):
     resolution: {integrity: sha512-eyftkLWrwaGhgad+gXmisPYXeW3hP1s+lz63mgbur+F/8aKZhPG1Bf8RFNnz0Vhnf3uBimFebZBDwwz6X4KqUQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -746,13 +746,13 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.21.5)
+      '@rollup/pluginutils': 5.0.2(rollup@3.21.6)
       js-yaml: 4.1.0
-      rollup: 3.21.5
+      rollup: 3.21.6
       tosource: 2.0.0-alpha.3
     dev: true
 
-  /@rollup/pluginutils@5.0.2(rollup@3.21.5):
+  /@rollup/pluginutils@5.0.2(rollup@3.21.6):
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -764,7 +764,7 @@ packages:
       '@types/estree': 1.0.1
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.21.5
+      rollup: 3.21.6
     dev: true
 
   /@sindresorhus/slugify@2.2.0:
@@ -891,7 +891,7 @@ packages:
   /@vscode/emmet-helper@2.8.8:
     resolution: {integrity: sha512-QuD4CmNeXSFxuP8VZwI6qL+8vmmd7JcSdwsEIdsrzb4YumWs/+4rXRX9MM+NsFfUO69g6ezngCD7XRd6jY9TQw==}
     dependencies:
-      emmet: 2.4.3
+      emmet: 2.4.4
       jsonc-parser: 2.3.1
       vscode-languageserver-textdocument: 1.0.8
       vscode-languageserver-types: 3.17.3
@@ -990,13 +990,13 @@ packages:
       svgo: 2.8.0
     dev: true
 
-  /astro-og-canvas@0.1.8(astro@2.4.3):
+  /astro-og-canvas@0.1.8(astro@2.4.4):
     resolution: {integrity: sha512-cvsvBAw2+9AaBM5oE+k5bQFIV1iYcxA7d6545nki58zVIi/Z5lJkrNxMHZsQy0j3T/cq+H2xmk2jXN7mHTVJMg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       astro: ^1.0.0 || ^2.0.0-beta
     dependencies:
-      astro: 2.4.3(sass@1.62.1)(sharp@0.31.3)
+      astro: 2.4.4(sass@1.62.1)(sharp@0.31.3)
       canvaskit-wasm: 0.37.2
       entities: 4.5.0
     dev: true
@@ -1005,8 +1005,8 @@ packages:
     resolution: {integrity: sha512-eszmxiycjfLcmoRyB8x5lCrWAwcSHs1i5riR1a5JbyJI8OQAl9tn1JvWFRuZvNH483CFdfNCczirnc805t/soA==}
     dev: true
 
-  /astro@2.4.3(sass@1.62.1)(sharp@0.31.3):
-    resolution: {integrity: sha512-WU7sMkgFNQs4WZzEmpjOYZthcT8+LSmwIR0GvWzVYlb+dIMfFCQyg99LNHdhg/XZKi08ztaHmRf4ZBjJvZHsgA==}
+  /astro@2.4.4(sass@1.62.1)(sharp@0.31.3):
+    resolution: {integrity: sha512-2DFxcnZySS/OzBbiuWpoVGJBikcHfbwO5xmk5ohItswoMs+PfZ5P/B6mXplTjaosjm3M43c0OIsd8Mq6UksQZQ==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     peerDependencies:
@@ -1017,7 +1017,7 @@ packages:
     dependencies:
       '@astrojs/compiler': 1.4.1
       '@astrojs/language-server': 1.0.4
-      '@astrojs/markdown-remark': 2.2.0(astro@2.4.3)
+      '@astrojs/markdown-remark': 2.2.0(astro@2.4.4)
       '@astrojs/telemetry': 2.1.1
       '@astrojs/webapi': 2.1.1
       '@babel/core': 7.21.8
@@ -1151,7 +1151,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001486
-      electron-to-chromium: 1.4.387
+      electron-to-chromium: 1.4.389
       node-releases: 2.0.10
       update-browserslist-db: 1.0.11(browserslist@4.21.5)
     dev: true
@@ -1510,15 +1510,15 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.387:
-    resolution: {integrity: sha512-tutLf+alr1/0YqJwKPdstVvDLmxmLb5xNyDLNS0RZmenHcEYk9qKfpKDCVZEKJ00JVbnayJm1MZAbYhYDFpcOw==}
+  /electron-to-chromium@1.4.389:
+    resolution: {integrity: sha512-WDgWUOK8ROR7sDFyYmxCUOoDc50lPgYAHAHwnnD1iN3SKO/mpqftb9iIPiEkMKmqYdkrR0j3N/O+YB/U7lSxwg==}
     dev: true
 
-  /emmet@2.4.3:
-    resolution: {integrity: sha512-Bq6zozVDVrLbBmKdosI9Q2DvrFh/ehwnNjgDRsvGVjPOEAhMKie9HwQnPuUi3NOZ2itVGyRwsLAdufnG9DVFwg==}
+  /emmet@2.4.4:
+    resolution: {integrity: sha512-v8Mwpjym55CS3EjJgiCLWUB3J2HSR93jhzXW325720u8KvYxdI2voYLstW3pHBxFz54H6jFjayR9G4LfTG0q+g==}
     dependencies:
-      '@emmetio/abbreviation': 2.3.2
-      '@emmetio/css-abbreviation': 2.1.7
+      '@emmetio/abbreviation': 2.3.3
+      '@emmetio/css-abbreviation': 2.1.8
     dev: true
 
   /emoji-regex@8.0.0:
@@ -2558,8 +2558,8 @@ packages:
       uvu: 0.5.6
     dev: true
 
-  /micromark-extension-gfm-table@1.0.5:
-    resolution: {integrity: sha512-xAZ8J1X9W9K3JTJTUL7G6wSKhp2ZYHrFk5qJgY/4B33scJzE2kpfRL6oiw/veJTbt7jiM/1rngLlOKPWr1G+vg==}
+  /micromark-extension-gfm-table@1.0.6:
+    resolution: {integrity: sha512-92pq7Q+T+4kXH4M6kL+pc8WU23Z9iuhcqmtYFWdFWjm73ZscFpH2xE28+XFpGWlvgq3LUwcN0XC0PGCicYFpgA==}
     dependencies:
       micromark-factory-space: 1.0.0
       micromark-util-character: 1.1.0
@@ -2590,7 +2590,7 @@ packages:
       micromark-extension-gfm-autolink-literal: 1.0.4
       micromark-extension-gfm-footnote: 1.1.0
       micromark-extension-gfm-strikethrough: 1.0.5
-      micromark-extension-gfm-table: 1.0.5
+      micromark-extension-gfm-table: 1.0.6
       micromark-extension-gfm-tagfilter: 1.0.2
       micromark-extension-gfm-task-list-item: 1.0.4
       micromark-util-combine-extensions: 1.0.0
@@ -3387,8 +3387,8 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: true
 
-  /rollup@3.21.5:
-    resolution: {integrity: sha512-a4NTKS4u9PusbUJcfF4IMxuqjFzjm6ifj76P54a7cKnvVzJaG12BLVR+hgU2YDGHzyMMQNxLAZWuALsn8q2oQg==}
+  /rollup@3.21.6:
+    resolution: {integrity: sha512-SXIICxvxQxR3D4dp/3LDHZIJPC8a4anKMHd4E3Jiz2/JnY+2bEjqrOokAauc5ShGVNFHlEFjBXAXlaxkJqIqSg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3971,7 +3971,7 @@ packages:
     dependencies:
       esbuild: 0.17.18
       postcss: 8.4.23
-      rollup: 3.21.5
+      rollup: 3.21.6
       sass: 1.62.1
     optionalDependencies:
       fsevents: 2.3.2

@@ -44,7 +44,7 @@
     },
     {
       "label": "resources",
-      "url": "/",
+      "url": "/resources/",
       "description": "To solve big problems we need resources. These organisations are doing the right thing and can help. Make a wise choice and support them.",
       "color_name": "color_resources",
       "color": "var(--color_resources)"
