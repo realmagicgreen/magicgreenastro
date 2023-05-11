@@ -1,15 +1,15 @@
 ---
 import Layout from "@layouts/Index.astro";
+import siteData from "@data/site.json";
+import resources from "@data/resources.json";
+//console.log(resources.companies[0].brand);
+
+import ScriptList from "@scripts/ScriptList.astro";
 
 export interface Props {
   title: string;
   cssBodyClass: string;
-  pubDate: any;
-  category: string;
 }
-
-import siteData from "@data/site.json";
-import resources from "@data/resources.json";
 
 const title = "RESOURCES";
 const cssBodyClass = "resources";
@@ -20,9 +20,414 @@ const cssBodyClass = "resources";
   description={siteData.description}
   cssBodyClass={cssBodyClass}
 >
-  <h2 class="h5 uppercased centered">Resources</h2>
+  <h2 class="h3 uppercased centered">Resources</h2>
 
+  <div id="brands" class="responsive_table_block">
+    <div class="functionalities_block">
+      <!-- <label for="search" class="centered h5">Search:</label> -->
+
+      <input
+        id="search"
+        class="search input center"
+        placeholder=" SEARCH (ex:bamboo) "
+      />
+
+      <button class="sort button" data-sort="products">
+        Sort by Products
+      </button>
+
+      <button class="sort button" data-sort="brand"> Sort by Brand</button>
+    </div>
+
+    <table class="green_pages_table responsive_table">
+      <tbody class="list">
+        {
+          resources.companies.map((c) => (
+            <tr
+              class="green_pages_table_row"
+              itemscope
+              itemtype="http://schema.org/Organization"
+            >
+              <td class="brand" data-th="Brand" itemprop="brand">
+                {c.brand.toUpperCase()}
+              </td>
+              <td
+                class="products"
+                data-th="Products"
+                itemscope
+                itemtype="http://schema.org/Product"
+              >
+                {c.products}
+              </td>
+              <td
+                class="show_on_phones address"
+                data-th="Address"
+                itemscope
+                itemtype="http://schema.org/PostalAddress"
+              >
+                {c.address}
+              </td>
+              <td
+                class="show_on_phones country"
+                data-th="Country"
+                itemprop="addressLocality"
+              >
+                {c.country}
+              </td>
+
+              <td class="ico email" itemprop="email">
+                <a class="sober_link " title="email" href={"mailto:" + c.email}>
+                  <svg class="email">
+                    <use xlink:href="#icn--email" />
+                  </svg>
+                </a>
+              </td>
+
+              <td class="ico telephone" itemprop="telephone">
+                <a
+                  class="sober_link"
+                  title={"tel:" + c.telephone}
+                  href={"tel:" + c.telephone}
+                >
+                  <svg class="localphone">
+                    <use xlink:href="#icn--localphone" />
+                  </svg>
+                </a>
+              </td>
+
+              <td class="ico whatsapp" itemprop="whatsapp">
+                <a class="sober_link " title="whatsapp" href={c.whatsapp}>
+                  <svg class="whatsapp">
+                    <use xlink:href="#icn--whatsapp" />
+                  </svg>
+                </a>
+              </td>
+
+              <td class="ico location" itemprop="location">
+                <a class="sober_link " title="location" href={c.location}>
+                  <svg class="location">
+                    <use xlink:href="#icn--location" />
+                  </svg>
+                </a>
+              </td>
+
+              <td class="ico twitter" itemprop="twitter">
+                <a
+                  class="sober_link "
+                  title="twitter"
+                  href="{{ company.twitter }}"
+                >
+                  <svg class="twitter">
+                    <use xlink:href="#icn--twitter" />
+                  </svg>
+                </a>
+              </td>
+
+              <td class="ico youtube" itemprop="youtube">
+                <a
+                  class="sober_link "
+                  title="youtube"
+                  href="{{ company.youtube }}"
+                >
+                  <svg class="youtube">
+                    <use xlink:href="#icn--youtube" />
+                  </svg>
+                </a>
+              </td>
+
+              <td class="ico instagram" itemprop="instagram">
+                <a class="sober_link " title="instagram" href={c.instagram}>
+                  <svg class="instagram">
+                    <use xlink:href="#icn--instagram" />
+                  </svg>
+                </a>
+              </td>
+
+              <td class="ico website">
+                <a title="website" class="sober_link " href={c.website}>
+                  <svg class="link">
+                    <use xlink:href="#icn--link" />
+                  </svg>
+                </a>
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <ScriptList />
+
+  <script is:inline>
+    var options = {
+      valueNames: ["brand", "products", "country", "address"],
+    };
+
+    var userList = new List("brands", options);
+  </script>
 </Layout>
-<style lang="scss">
 
+<style lang="scss">
+  input {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: .5rem;
+    line-height: 48px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 22px;
+    color: var(--primary);
+    background-color: transparent;
+    outline-color: white;
+    outline-width: 1px;
+    border: 1px solid var(--primary);
+    &:focus-visible {
+      outline-color: red !important;
+    }
+  }
+  label {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  button.sort.button {
+    margin-right: 1rem;
+    color: var(--color-inverse);
+  }
+
+  .green_pages_table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-spacing: 0;
+    min-width: 100%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    color: var(--primary-inverse);
+    //background-color: var(--color);
+    border-radius: 5px;
+
+    tbody td,
+    thead td {
+      font-size: clamp(4.53125vw, 14px, 24px);
+      vertical-align: middle;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      padding-left: 10px;
+      @media (min-width: 576px) {
+        font-size: clamp(2vw, 13px, 24px);
+      }
+
+      &.address {
+        font-size: clamp(2vw, 13px, 24px);
+
+        &:before {
+          font-size: clamp(2vw, 13px, 24px);
+        }
+      }
+
+      &.ico {
+        display: inline-block;
+        padding-left: 0;
+        padding-right: 2px;
+
+        &:before {
+          display: none;
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+        @media (min-width: 576px) {
+          display: table-cell;
+        }
+      }
+
+      &.email {
+        padding-left: 4px;
+      }
+
+      &:empty {
+        display: none;
+        @media (min-width: 576px) {
+          display: table-cell;
+        }
+      }
+    }
+
+    td:last-child {
+      text-align: right;
+      padding-right: 10px;
+
+      a:after {
+        display: none;
+      }
+
+      a:hover:after {
+        display: none;
+      }
+    }
+
+    .brand {
+      font-weight: 500;
+    }
+
+    a[target="_blank"]:after {
+      display: none;
+
+      &:focus,
+      &:hover {
+        display: none;
+      }
+    }
+
+    svg {
+      margin-top: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .green_pages_table_header_row,
+  .green_pages_table_row {
+    width: 100%;
+
+    span {
+      text-align: left;
+    }
+  }
+
+  .green_pages_table_header_row {
+    font-weight: 500;
+    line-height: 3;
+
+    td {
+      text-transform: uppercase;
+    }
+  }
+
+  .green_pages_table_row {
+    //tr
+  }
+
+  .green_pages_table_row:nth-child(odd) {
+    //tr
+    background-color: var(--primary-focus);
+  }
+
+  .functionalities_block {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 576px) {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+  .sort:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content: "";
+    position: relative;
+    top: -10px;
+    right: -3px;
+  }
+
+  .sort.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    content: "";
+    position: relative;
+    top: 4px;
+    right: -3px;
+  }
+
+  .sort.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    content: "";
+    position: relative;
+    top: -4px;
+    right: -3px;
+  }
+
+  .hide_on_phones {
+    display: none !important;
+    @media (min-width: 576px) {
+      display: table-cell;
+    }
+  }
+
+  .responsive_table_block {
+    tbody {
+      margin-top: var(--space-small);
+      @media (min-width: 576px) {
+        margin-top: 0;
+      }
+    }
+
+    thead td {
+      display: none;
+      margin-top: var(--space-small);
+      @media (min-width: 576px) {
+        display: table-cell;
+      }
+    }
+
+    td {
+      display: block;
+      @media (min-width: 576px) {
+        display: table-cell;
+      }
+
+      &:before {
+        content: attr(data-th) "";
+        display: inline-block;
+        font-weight: 300;
+        font-size: 65%; // this refers to the already responsive size of parent!
+        padding-top: calc(var(--space-small) / 2);
+        width: 18%;
+        @media (min-width: 576px) {
+          display: none;
+        }
+      }
+
+      &:first-child {
+        margin-top: 5px;
+        padding-top: 10px;
+        @media (min-width: 576px) {
+          margin-top: 0;
+          padding-top: 0;
+        }
+      }
+
+      &.website_link {
+        padding-bottom: 10px;
+        text-align: left;
+        @media (min-width: 576px) {
+          padding-right: 0;
+          padding-bottom: 0;
+          text-align: right;
+        }
+      }
+    }
+  }
 </style>
