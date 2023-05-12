@@ -2,17 +2,35 @@
 import Layout from "@layouts/Index.astro";
 import siteData from "@data/site.json";
 import resources from "@data/resources.json";
-//console.log(resources.companies[0].brand);
-
 import ScriptList from "@scripts/ScriptList.astro";
 
 export interface Props {
   title: string;
   cssBodyClass: string;
+  email: string;
+  hasEmail: boolean;
 }
 
 const title = "RESOURCES";
 const cssBodyClass = "resources";
+
+// const {
+//   email,
+// } = Astro.props;
+
+// const hasEmail = email != null;
+// console.log(resources.companies[0].brand);
+// console.log(hasEmail);
+
+// DB Fields:
+// brand
+// website
+// products
+// email
+// telephone
+// address
+// location
+// country
 ---
 
 <Layout
@@ -76,7 +94,11 @@ const cssBodyClass = "resources";
               </td>
 
               <td class="ico email" itemprop="email">
-                <a class="sober_link " title="email" href={"mailto:" + c.email}>
+                <a
+                  class="sober_link "
+                  title={c.email}
+                  href={"mailto:" + c.email}
+                >
                   <svg class="email">
                     <use xlink:href="#icn--email" />
                   </svg>
@@ -96,7 +118,7 @@ const cssBodyClass = "resources";
               </td>
 
               <td class="ico whatsapp" itemprop="whatsapp">
-                <a class="sober_link " title="whatsapp" href={c.whatsapp}>
+                <a class="sober_link " title="whatsapp" href={"https://wa.me/" + c.whatsapp}>
                   <svg class="whatsapp">
                     <use xlink:href="#icn--whatsapp" />
                   </svg>
@@ -112,11 +134,7 @@ const cssBodyClass = "resources";
               </td>
 
               <td class="ico twitter" itemprop="twitter">
-                <a
-                  class="sober_link "
-                  title="twitter"
-                  href="{{ company.twitter }}"
-                >
+                <a class="sober_link " title="twitter" href={"https://twitter.com/" + c.twitter}>
                   <svg class="twitter">
                     <use xlink:href="#icn--twitter" />
                   </svg>
@@ -126,8 +144,8 @@ const cssBodyClass = "resources";
               <td class="ico youtube" itemprop="youtube">
                 <a
                   class="sober_link "
-                  title="youtube"
-                  href="{{ company.youtube }}"
+                  title={c.youtube}
+                  href={"https://www.youtube.com/" + c.youtube}
                 >
                   <svg class="youtube">
                     <use xlink:href="#icn--youtube" />
@@ -136,7 +154,11 @@ const cssBodyClass = "resources";
               </td>
 
               <td class="ico instagram" itemprop="instagram">
-                <a class="sober_link " title="instagram" href={c.instagram}>
+                <a
+                  class="sober_link "
+                  title={c.instagram}
+                  href={"https://instagram.com/" + c.instagram}
+                >
                   <svg class="instagram">
                     <use xlink:href="#icn--instagram" />
                   </svg>
@@ -172,7 +194,7 @@ const cssBodyClass = "resources";
   input {
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     line-height: 48px;
     margin-bottom: 1rem;
     text-align: center;

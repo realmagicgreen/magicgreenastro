@@ -421,3 +421,10 @@ main .index a {
 //   border-bottom: var(--top_band) solid var(--primary) !important;
 //   border-radius: var(--radius);
 // }
+
+// LOGIC FOR HIDING NULL FIELDS IN RESOURCE PAGE
+// somehow if i put htis in the resources.astro it DOES NOT work!
+[href*='null'],
+a:not([href]) {
+  display: none !important;
+}

@@ -6,7 +6,7 @@
 			"website": "https://aseanbiodiversity.org",
 			"instagram": null,
 			"twitter": null,
-			"youtube": "user/TheASEANbiodiversity",
+			"youtube": "@TheASEANbiodiversity",
 			"email": "contact.us@aseanbiodiversity.org",
 			"telephone": "63 495362865",
 			"whatsapp": null,
@@ -35,26 +35,9 @@
 			"country": "Indonesia"
 		},
 		{
-			"brand": "Awani",
-			"products": "Fruit-Jam Conserves",
-			"website": "https://awani.com",
-			"instagram": null,
-			"twitter": null,
-			"youtube": "channel/UC6VjqwSdoF4sE7vF-f6IYYg",
-			"email": "enquiries.uk@awani.com",
-			"telephone": "44 746 265 8077",
-			"whatsapp": null,
-			"address": "Unit 23 - 222 Kensal Road - London W10 5BN",
-			"company": " ",
-			"person": null,
-			"personrole": null,
-			"location": null,
-			"country": "United Kingdom"
-		},
-		{
 			"brand": "Bali Buda",
 			"products": "Organic Products",
-			"website": "http://www.balibuda.com",
+			"website": "https://www.balibuda.com",
 			"instagram": "balibuda",
 			"twitter": null,
 			"youtube": null,
@@ -71,7 +54,7 @@
 		{
 			"brand": "Bali ebikes",
 			"products": "Electric Bicycle Tours",
-			"website": "http://www.bali-ebikes.com",
+			"website": "https://www.bali-ebikes.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -130,24 +113,7 @@
 			"telephone": "62 878 60131485",
 			"whatsapp": null,
 			"address": "Jl Cargo Sari II no 6 - Br Uma Sari - Ubung Kaja",
-			"company": "Denpasar - Bali\"",
-			"person": " ",
-			"personrole": null,
-			"location": null,
-			"country": null
-		},
-		{
-			"brand": "Bamboo straws",
-			"products": "Bamboo Straws",
-			"website": "https://bamboo-straws.com",
-			"instagram": null,
-			"twitter": null,
-			"youtube": null,
-			"email": "strawsbamboo@gmail.com",
-			"telephone": null,
-			"whatsapp": null,
-			"address": null,
-			"company": null,
+			"company": "Denpasar - Bali",
 			"person": null,
 			"personrole": null,
 			"location": null,
@@ -173,7 +139,7 @@
 		{
 			"brand": "Bambu Indah",
 			"products": "Bamboo Hospitality",
-			"website": "http://bambuindah.com",
+			"website": "https://bambuindah.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -207,7 +173,7 @@
 		{
 			"brand": "Big Tree Farms",
 			"products": "Organic Products",
-			"website": "http://www.bigtreefarms.com/",
+			"website": "https://www.bigtreefarms.com/",
 			"instagram": "bigtreefarmsbali",
 			"twitter": null,
 			"youtube": null,
@@ -241,7 +207,7 @@
 		{
 			"brand": "Byebye Plastic Bags",
 			"products": "Conservation Education Events",
-			"website": "http://www.byebyeplasticbags.org",
+			"website": "https://www.byebyeplasticbags.org",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -309,7 +275,7 @@
 		{
 			"brand": "Coral Triangle Center",
 			"products": "Conservation",
-			"website": "http://www.coraltrianglecenter.org",
+			"website": "https://www.coraltrianglecenter.org",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -321,23 +287,6 @@
 			"person": null,
 			"personrole": null,
 			"location": "https://goo.gl/maps/nMcGx43yAvQ2",
-			"country": "Indonesia"
-		},
-		{
-			"brand": "Divine Earth Bali",
-			"products": "Vegan-Food Cinema",
-			"website": "http://www.divineearthbali.com",
-			"instagram": null,
-			"twitter": null,
-			"youtube": null,
-			"email": "info@divineearthbali.com",
-			"telephone": "62 361 731964",
-			"whatsapp": null,
-			"address": "Jl  Raya Basangkasa - 1200A - Seminyak - Bali",
-			"company": " ",
-			"person": null,
-			"personrole": null,
-			"location": "https://goo.gl/maps/tsrd3dmjdD72",
 			"country": "Indonesia"
 		},
 		{
@@ -360,7 +309,7 @@
 		{
 			"brand": "Earth Cafe & Market",
 			"products": "Organic Products",
-			"website": "http://www.earthcafebali.com",
+			"website": "https://www.earthcafebali.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -390,23 +339,6 @@
 			"personrole": null,
 			"location": null,
 			"country": "WorldWide"
-		},
-		{
-			"brand": "EarthXpress",
-			"products": "Organic Vegan-Products ",
-			"website": "http://earthx.press",
-			"instagram": null,
-			"twitter": null,
-			"youtube": null,
-			"email": null,
-			"telephone": "62 812 4696 7117",
-			"whatsapp": "6281246967117",
-			"address": "Jl  Batu Bolong 37a - Canggu - Bali",
-			"company": " ",
-			"person": null,
-			"personrole": null,
-			"location": "https://goo.gl/maps/FKdKEzymHFR2",
-			"country": "Indonesia"
 		},
 		{
 			"brand": "East Bali Bamboo Bikes",
@@ -462,7 +394,7 @@
 		{
 			"brand": "Eco Bali Recycling",
 			"products": "Trash-Collection Recycling",
-			"website": "http://eco-bali.com",
+			"website": "https://eco-bali.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -479,7 +411,7 @@
 		{
 			"brand": "Eco Regions Indonesia",
 			"products": "Developmen Conservation",
-			"website": "http://ecoregions.co.id",
+			"website": "https://ecoregions.co.id",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -513,7 +445,7 @@
 		{
 			"brand": "Ecovia Intelligence",
 			"products": "Research Consulting Training",
-			"website": "http://www.ecoviaint.com",
+			"website": "https://www.ecoviaint.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -545,26 +477,9 @@
 			"country": "Indonesia"
 		},
 		{
-			"brand": "ET scooter",
-			"products": "Electric Scooters",
-			"website": "http://etscooter.com",
-			"instagram": null,
-			"twitter": null,
-			"youtube": null,
-			"email": "info@etscooter.com",
-			"telephone": null,
-			"whatsapp": null,
-			"address": "6/F Building no 4 - Jinhuafa Industry Zero - Qingquan Rd  - Longhua - Shenzhen",
-			"company": " ",
-			"person": null,
-			"personrole": null,
-			"location": null,
-			"country": "China"
-		},
-		{
 			"brand": "Evoware",
 			"products": "Seaweed Based Biodegradable Plastic",
-			"website": "http://www.evoware.id",
+			"website": "https://www.evoware.id",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -581,7 +496,7 @@
 		{
 			"brand": "Ewabi Electric Bamboo Bikes",
 			"products": "Electric Bamboo-Bicycles",
-			"website": "http://ewabi.co/",
+			"website": "https://ewabi.co/",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -632,7 +547,7 @@
 		{
 			"brand": "Gesits",
 			"products": "Electric Scooters",
-			"website": "http://gesits.co.id",
+			"website": "https://gesits.co.id",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -649,7 +564,7 @@
 		{
 			"brand": "Gili Asahan Eco Lodge",
 			"products": "Hospitality",
-			"website": "http://giliasahan.com/",
+			"website": "https://giliasahan.com/",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -751,7 +666,7 @@
 		{
 			"brand": "Ibuku",
 			"products": "Bamboo",
-			"website": "http://ibuku.com",
+			"website": "https://ibuku.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -768,16 +683,16 @@
 		{
 			"brand": "Indonesian Waste Platform",
 			"products": "Waste Management",
-			"website": "http://www.indonesianwaste.org",
+			"website": "https://internationalwasteplatform.org/indonesian-wast-platform/",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
-			"email": "nina@indonesianwaste.org",
+			"email": "icamarta.007@gmail.com",
 			"telephone": null,
 			"whatsapp": null,
 			"address": null,
 			"company": " ",
-			"person": "Nina van Toulon",
+			"person": "Marta (Ica) Muslin",
 			"personrole": null,
 			"location": null,
 			"country": "Indonesia"
@@ -815,23 +730,6 @@
 			"personrole": null,
 			"location": "https://goo.gl/maps/5Dmc4zsWiJ52",
 			"country": "Germany"
-		},
-		{
-			"brand": "Live Essences",
-			"products": "Organic Botanical Health Drinks",
-			"website": "https://www.live-essences.com",
-			"instagram": "liveessences",
-			"twitter": null,
-			"youtube": null,
-			"email": "liveessences@gmail.com",
-			"telephone": "62 8123858928",
-			"whatsapp": "628123858928",
-			"address": null,
-			"company": "Pt. Rumah Seni Kuno",
-			"person": "Iris Patrizia Giannoulake",
-			"personrole": "founder",
-			"location": null,
-			"country": "Indonesia"
 		},
 		{
 			"brand": "Lonely Whale",
@@ -887,7 +785,7 @@
 		{
 			"brand": "Mongabay",
 			"products": "Conservation Information News",
-			"website": "http://www.mongabay.co.id",
+			"website": "https://www.mongabay.co.id",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -904,7 +802,7 @@
 		{
 			"brand": "Mute Garage Bali",
 			"products": "Electric Scooters Rent",
-			"website": "http://www.e-mute.com",
+			"website": "https://www.e-mute.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -972,7 +870,7 @@
 		{
 			"brand": "Oceanic Preservation Society",
 			"products": "Ocean-Protection Information",
-			"website": "http://www.opsociety.org",
+			"website": "https://www.opsociety.org",
 			"instagram": "oceanicpreservationsociety",
 			"twitter": "OP_Society",
 			"youtube": null,
@@ -1023,7 +921,7 @@
 		{
 			"brand": "Paradiso Ubud",
 			"products": "Organic Vegan Theatre",
-			"website": "http://www.paradisoubud.com",
+			"website": "https://www.paradisoubud.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1057,7 +955,7 @@
 		{
 			"brand": "Plastik detox",
 			"products": "Reduce Plastic Information",
-			"website": "http://plastikdetox.com",
+			"website": "https://plastikdetox.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1074,7 +972,7 @@
 		{
 			"brand": "Pulau Plastic",
 			"products": "Plastic Edutainment Conservation",
-			"website": "http://www.pulauplastik.org",
+			"website": "https://www.pulauplastik.org",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1091,7 +989,7 @@
 		{
 			"brand": "Sage Publications",
 			"products": "Research-Journals Information",
-			"website": "http://journals.sagepub.com",
+			"website": "https://journals.sagepub.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1159,7 +1057,7 @@
 		{
 			"brand": "SEE",
 			"products": "Environmental Justice",
-			"website": "http://saveourplanet.org",
+			"website": "https://saveourplanet.org",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1176,7 +1074,7 @@
 		{
 			"brand": "Selis Bali",
 			"products": "Electric Scooters",
-			"website": "http://www.tokoselis.com",
+			"website": "https://www.tokoselis.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1193,7 +1091,7 @@
 		{
 			"brand": "Singapore Botanic Gardens",
 			"products": "Conservation Education",
-			"website": "https://www.sbg.org.sg",
+			"website": "https://www.nparks.gov.sg/sbg",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1227,7 +1125,7 @@
 		{
 			"brand": "Sos From The Deep",
 			"products": "Conservation Information",
-			"website": "http://sosfromthedeep.com",
+			"website": "https://sosfromthedeep.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1244,7 +1142,7 @@
 		{
 			"brand": "Sustainable Brands ",
 			"products": "Sustainable Information",
-			"website": "http://www.sustainablebrands.com",
+			"website": "https://www.sustainablebrands.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1261,7 +1159,7 @@
 		{
 			"brand": "Sustainable Foods Summit",
 			"products": "Conferences Information",
-			"website": "http://sustainablefoodssummit.com/asia",
+			"website": "https://sustainablefoodssummit.com/asia",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1295,7 +1193,7 @@
 		{
 			"brand": "The Organic Farm Bali",
 			"products": "Organic Products",
-			"website": "http://www.theorganicfarmbali.com",
+			"website": "https://www.theorganicfarmbali.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1312,7 +1210,7 @@
 		{
 			"brand": "The Plant List",
 			"products": "Plants Database Information",
-			"website": "http://www.theplantlist.org",
+			"website": "https://www.theplantlist.org",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1346,7 +1244,7 @@
 		{
 			"brand": "Ubud Organic Market",
 			"products": "Organic Products",
-			"website": "http://www.ubudorganicmarket.com",
+			"website": "https://www.ubudorganicmarket.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1363,7 +1261,7 @@
 		{
 			"brand": "Verdure Bali",
 			"products": "Healthy Products",
-			"website": "http://www.verdurebali.com",
+			"website": "https://www.verdurebali.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
@@ -1499,7 +1397,7 @@
 		{
 			"brand": "Zula Bali",
 			"products": "Organic Vegetarian Food",
-			"website": "http://www.zulabali.com",
+			"website": "https://www.zulabali.com",
 			"instagram": null,
 			"twitter": null,
 			"youtube": null,
