@@ -26,7 +26,7 @@ const title = "Hastagah!"
 ---
 
 <Layout title={title} description="" cssBodyClass="">
-  <h2 class="h5 uppercased centered">{tag}</h2>
+  <h2 class="h3 uppercased centered green">{tag}</h2>
   <div class="grida">
     {
       posts.map((post: any) => (
@@ -40,6 +40,7 @@ const title = "Hastagah!"
             category={post.data.category}
             title={post.data.title}
             coverImage={post.data.coverImage}
+            ad={post.data.ad}
           />
         </a>
       ))

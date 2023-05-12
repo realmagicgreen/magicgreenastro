@@ -25,7 +25,7 @@ const cssBodyClass = "index";
   description={siteData.description}
   cssBodyClass={cssBodyClass}
 >
-  <h2 class="h5 uppercased centered">{category}</h2>
+  <h2 class="h3 uppercased centered green">{category}</h2>
   <div class="grida">
     {
       posts.map((post) => (
@@ -39,6 +39,7 @@ const cssBodyClass = "index";
             category={post.data.category}
             title={post.data.title}
             coverImage={post.data.coverImage}
+            ad={post.data.ad}
           />
         </a>
       ))

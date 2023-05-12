@@ -2,7 +2,7 @@
 ---
 
 <div class="logo_block">
-  <a href="#top" title="Magic Green Logo | T-shirts are available, sustain us!">
+  <a class="top" href="#top" title="Magic Green Logo | T-shirts are available, sustain us!">
     <svg class="logo r5deg anim8" xmlns="http://www.w3.org/2000/svg">
       <path
         class="fill_color"
@@ -20,11 +20,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
   }
 
   a {
     display: block;
     object-fit: contain !important;
+    &:focus{
+      --background-color: none;
+    }
   }
 
   svg.logo {

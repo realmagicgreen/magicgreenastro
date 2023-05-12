@@ -21,7 +21,7 @@ coverImage: "../../assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wo
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
-ad: true # use 'true' to have post displaying AD
+ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: "Unknown"

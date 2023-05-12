@@ -16,7 +16,7 @@ tags:
   - social-responsibility
   - sustainable-development
 coverImage: "../../assets/p/solutions/bio-cement/bio-cement.jpg"
-ad: false # use 'true' to have post displaying AD
+ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: true # 'true' or empty
