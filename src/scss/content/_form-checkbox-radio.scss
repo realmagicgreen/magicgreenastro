@@ -3,8 +3,8 @@
  * Checkboxes & Radios
  */
 
-[type='checkbox'],
-[type='radio'] {
+[type="checkbox"],
+[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -27,8 +27,8 @@
   &:checked,
   &:checked:active,
   &:checked:focus {
-    --background-color: var(--primary-fallback);
-    --border-color: var(--primary-fallback);
+    --background-color: var(--primary);
+    --border-color: var(--primary);
     background-image: var(--icon-checkbox);
     background-position: center;
     background-size: 0.75em auto;
@@ -44,10 +44,10 @@
 }
 
 // Checkboxes
-[type='checkbox'] {
+[type="checkbox"] {
   &:indeterminate {
-    --background-color: var(--primary-fallback);
-    --border-color: var(--primary-fallback);
+    --background-color: var(--primary);
+    --border-color: var(--primary);
     background-image: var(--icon-minus);
     background-position: center;
     background-size: 0.75em auto;
@@ -56,7 +56,7 @@
 }
 
 // Radios
-[type='radio'] {
+[type="radio"] {
   border-radius: 50%;
 
   &:checked,
@@ -69,7 +69,7 @@
 }
 
 // Switchs
-[type='checkbox'][role='switch'] {
+[type="checkbox"][role="switch"] {
   --background-color: var(--switch-background-color);
   --border-color: var(--switch-background-color);
   --color: var(--switch-color);
@@ -103,7 +103,7 @@
     height: 100%;
     border-radius: 50%;
     background-color: var(--color);
-    content: '';
+    content: "";
 
     @if $enable-transitions {
       transition: margin $switch-transition;
@@ -121,17 +121,18 @@
 }
 
 // Aria-invalid
-[type='checkbox'],
-[type='checkbox']:checked,
-[type='radio'],
-[type='radio']:checked,
-[type='checkbox'][role='switch'],
-[type='checkbox'][role='switch']:checked {
-  &[aria-invalid='false'] {
+[type="checkbox"],
+[type="checkbox"]:checked,
+[type="radio"],
+[type="radio"]:checked,
+[type="checkbox"][role="switch"],
+[type="checkbox"][role="switch"]:checked {
+  
+  &[aria-invalid="false"] {
     --border-color: var(--form-element-valid-border-color);
   }
 
-  &[aria-invalid='true'] {
+  &[aria-invalid="true"] {
     --border-color: var(--form-element-invalid-border-color);
   }
 }

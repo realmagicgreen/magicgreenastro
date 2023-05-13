@@ -19,9 +19,9 @@ button {
 
 // Correct the inability to style buttons in iOS and Safari
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -34,21 +34,22 @@ button {
   margin-bottom: var(--spacing);
 }
 
-[role='button'] {
+[role="button"] {
   display: inline-block;
   text-decoration: none;
 }
 
 button,
-input[type='submit'],
-input[type='button'],
-input[type='reset'],
-[role='button'] {
-  --background-color: var(--primary-fallback);
-  --border-color: var(--primary-fallback);
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+[role="button"] {
+  --background-color: var(--primary);
+  --border-color: var(--primary);
   --color: var(--primary-inverse);
   --box-shadow: var(--button-box-shadow, 0 0 0 rgba(0, 0, 0, 0));
-  padding: var(--form-element-spacing-vertical) var(--form-element-spacing-horizontal);
+  padding: var(--form-element-spacing-vertical)
+    var(--form-element-spacing-horizontal);
   border: var(--border-width) solid var(--border-color);
   border-radius: var(--border-radius);
   outline: none;
@@ -62,7 +63,8 @@ input[type='reset'],
   cursor: pointer;
 
   @if $enable-transitions {
-    transition: background-color var(--transition), border-color var(--transition), color var(--transition),
+    transition: background-color var(--transition),
+      border-color var(--transition), color var(--transition),
       box-shadow var(--transition);
   }
 
@@ -81,9 +83,10 @@ input[type='reset'],
 
 // .secondary, .contrast & .outline
 @if $enable-classes {
+
   // Secondary
-  :is(button, input[type='submit'], input[type='button'], [role='button']).secondary,
-  input[type='reset'] {
+  :is(button, input[type="submit"], input[type="button"], [role="button"]).secondary,
+  input[type="reset"] {
     --background-color: var(--secondary);
     --border-color: var(--secondary);
     --color: var(--secondary-inverse);
@@ -102,7 +105,7 @@ input[type='reset'],
   }
 
   // Contrast
-  :is(button, input[type='submit'], input[type='button'], [role='button']).contrast {
+  :is(button, input[type="submit"], input[type="button"], [role="button"]).contrast {
     --background-color: var(--contrast);
     --border-color: var(--contrast);
     --color: var(--contrast-inverse);
@@ -120,10 +123,10 @@ input[type='reset'],
   }
 
   // Outline (primary)
-  :is(button, input[type='submit'], input[type='button'], [role='button']).outline,
-  input[type='reset'].outline {
+  :is(button, input[type="submit"], input[type="button"], [role="button"]).outline,
+  input[type="reset"].outline {
     --background-color: transparent;
-    --color: var(--primary-fallback);
+    --color: var(--primary);
 
     &:is([aria-current], :hover, :active, :focus) {
       --background-color: transparent;
@@ -132,8 +135,8 @@ input[type='reset'],
   }
 
   // Outline (secondary)
-  :is(button, input[type='submit'], input[type='button'], [role='button']).outline.secondary,
-  input[type='reset'].outline {
+  :is(button, input[type="submit"], input[type="button"], [role="button"]).outline.secondary,
+  input[type="reset"].outline {
     --color: var(--secondary);
 
     &:is([aria-current], :hover, :active, :focus) {
@@ -142,16 +145,17 @@ input[type='reset'],
   }
 
   // Outline (contrast)
-  :is(button, input[type='submit'], input[type='button'], [role='button']).outline.contrast {
+  :is(button, input[type="submit"], input[type="button"], [role="button"]).outline.contrast {
     --color: var(--contrast);
 
     &:is([aria-current], :hover, :active, :focus) {
       --color: var(--contrast-hover);
     }
   }
-} @else {
+} 
+@else {
   // Secondary button without .class
-  input[type='reset'] {
+  input[type="reset"] {
     --background-color: var(--secondary);
     --border-color: var(--secondary);
     --color: var(--secondary-inverse);
@@ -171,9 +175,9 @@ input[type='reset'],
 
 // Button [disabled]
 // Links without href are disabled by default
-:where(button, [type='submit'], [type='button'], [type='reset'], [role='button'])[disabled],
-:where(fieldset[disabled]) :is(button, [type='submit'], [type='button'], [type='reset'], [role='button']),
-a[role='button']:not([href]) {
+:where(button, [type="submit"], [type="button"], [type="reset"], [role="button"])[disabled],
+:where(fieldset[disabled]) :is(button, [type="submit"], [type="button"], [type="reset"], [role="button"]),
+a[role="button"]:not([href]) {
   opacity: 0.5;
   pointer-events: none;
 }

@@ -59,7 +59,7 @@
   --form-element-color: var(--color);
   --form-element-placeholder-color: var(--muted-color);
   --form-element-active-background-color: var(--form-element-background-color);
-  --form-element-active-border-color: var(--primary-fallback);
+  --form-element-active-border-color: var(--primary);
   --form-element-focus-color: var(--primary-focus);
   --form-element-disabled-background-color: #{$grey-800};
   --form-element-disabled-border-color: #{$grey-700};
@@ -74,7 +74,7 @@
   // Switch (input[type="checkbox"][role="switch"])
   --switch-background-color: #{mix($grey-800, $grey-700)};
   --switch-color: var(--primary-inverse);
-  --switch-checked-background-color: var(--primary-fallback);
+  --switch-checked-background-color: var(--primary);
 
   // Range (input[type="range"])
   --range-border-color: #{mix($grey-900, $grey-800)};
@@ -82,7 +82,7 @@
   --range-thumb-border-color: var(--background-color);
   --range-thumb-color: var(--secondary);
   --range-thumb-hover-color: var(--secondary-hover);
-  --range-thumb-active-color: var(--primary-fallback);
+  --range-thumb-active-color: var(--primary);
 
   // Table
   --table-border-color: var(--muted-border-color);
@@ -100,7 +100,7 @@
 
   // Accordion (<details>)
   --accordion-border-color: var(--muted-border-color);
-  --accordion-active-summary-color: var(--primary-fallback);
+  --accordion-active-summary-color: var(--primary);
   --accordion-close-summary-color: var(--color);
   --accordion-open-summary-color: var(--muted-color);
 
@@ -148,7 +148,7 @@
 
   // Progress
   --progress-background-color: #{mix($grey-900, $grey-800)};
-  --progress-color: var(--primary-fallback);
+  --progress-color: var(--primary);
 
   // Loading ([aria-busy=true])
   --loading-spinner-opacity: 0.5;
