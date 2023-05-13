@@ -39,7 +39,7 @@ export default defineConfig({
     plugins: [yaml()],
   },
   outDir: "./dist",
-  site: "https://m.junglo.dev/",
+  site: "https://magicgreen.junglestar.org/",
   base: "/",
   //trailingSlash: 'always'
 });
