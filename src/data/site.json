@@ -1,5 +1,5 @@
 {
-  "version": "6.5.2",
+  "version": "6.5.3",
   "version_name": "FLOWERING",
   "title": "Magic Green",
   "tldr": "ENVIRONMENT IS YOU. HERE ARE THE FRIENDLY EXAMPLES",
@@ -14,7 +14,7 @@
   },
   "github": "https://github.com/realmagicgreen/magicgreenastro",
   "qr": "yes",
-  "projectimage": "assets/p/og.jpg",
+  "projectimage": "assets/p/og_large_image.jpg",
   "url": "https://magicgreen.junglestar.org/",
   "author": {
     "name": "Rokma",

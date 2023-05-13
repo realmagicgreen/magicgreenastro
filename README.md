@@ -2,7 +2,7 @@
 
 # MAGIC GREEN (Astro)
 
-[![magic green](./src/assets/p/og_large_image.jpg)](https://m.junglo.dev)
+[![magic green](./src/assets/p/og_large_image.jpg)](https://magicgreen.junglestar.org)
 
 ## DEV TECH STACK:
 

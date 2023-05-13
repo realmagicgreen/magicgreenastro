@@ -49,10 +49,10 @@
 :root {
   --blockquote-border-color: var(--primary_fallback) !important;
   --bodyfontweight: 300;
-  --form-element-active-border-color: var(--primary-fallback);
+  --form-element-active-border-color: var(--primary_fallback);
   --form-element-focus-color: var(--primary-focus);
   --switch-color: var(--primary-inverse);
-  --switch-checked-background-color: var(--primary-fallback);
+  --switch-checked-background-color: var(--primary_fallback);
 
   --hearth_color: hsla(36, 88%, 12%, 1);
 
@@ -144,7 +144,7 @@ body {
 
   .green {
     color: var(--primary_fallback);
-    color: var(--primary-fallback) !important;
+    color: var(--primary_fallback) !important;
   }
 
   // .services::before {
@@ -242,7 +242,7 @@ ul li {
 
 .fill_color {
   fill: var(--primary_fallback);
-  fill: var(--primary-fallback);
+  fill: var(--primary_fallback);
   &:hover {
     fill: var(--primary-hover_fallback);
     fill: var(--primary-hover);
@@ -459,6 +459,6 @@ a:not([href]) {
 }
 
 // .know-more-links {
-//   border-bottom: var(--top_band) solid var(--primary-fallback) !important;
+//   border-bottom: var(--top_band) solid var(--primary_fallback) !important;
 //   border-radius: var(--radius);
 // }
