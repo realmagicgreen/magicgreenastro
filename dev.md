@@ -3,7 +3,6 @@
 ## WIP:
 
 - tag icon before tags in posts
-- wider images in posts
 - new posts
 
 ## 2DOs:

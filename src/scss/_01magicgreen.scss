@@ -410,6 +410,10 @@ footer {
     padding-bottom: var(--space_small);
     font-weight: 200;
   }
+  p:has(img) {
+    max-width: none !important;
+    margin: 0 !important;
+  }
   ul li {
     list-style-type: initial !important;
   }
