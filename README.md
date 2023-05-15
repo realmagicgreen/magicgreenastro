@@ -11,7 +11,7 @@
 - new built-in [Astro Image component](https://docs.astro.build/en/guides/assets/#convert-from-astrojsimage)
 - [Astro Avif images](https://docs.astro.build/en/guides/assets/#properties)
 - [Typescript](https://docs.astro.build/en/guides/typescript/)
-- [Prettier](https://docs.astro.build/en/editor-setup/#prettier) | [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)
+- [Get VSCode, eslint & prettier working with Astro](https://patheticgeek.dev/blog/astro-prettier-eslint-vscode) | [Prettier](https://docs.astro.build/en/editor-setup/#prettier) | [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)
 - [Partytown](https://docs.astro.build/en/guides/integrations-guide/partytown/) | [Partytown repo](https://github.com/withastro/astro/tree/main/packages/integrations/partytown)
 - [Picoscss](https://picocss.com/)
 - no frameworks...

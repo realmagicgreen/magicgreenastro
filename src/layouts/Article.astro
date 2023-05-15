@@ -1,26 +1,26 @@
 ---
-import Layout from "@layouts/Layout.astro";
-import Nav from "@components/Nav.astro";
-import { Image } from "astro:assets";
+import Layout from '@layouts/Layout.astro'
+import Nav from '@components/Nav.astro'
+import { Image } from 'astro:assets'
 
 interface coverImage {
-  src: string;
-  width: number;
-  height: number;
-  format: string;
+  src: string
+  width: number
+  height: number
+  format: string
 }
 
 export interface Props {
-  description: string;
-  cssBodyClass: string;
-  title: string;
-  subtitle: string;
-  category: string;
-  photography: string;
-  coverImage: any;
-  pubDate: any;
-  tags: any;
-  cssClass: string;
+  description: string
+  cssBodyClass: string
+  title: string
+  subtitle: string
+  category: string
+  photography: string
+  coverImage: any
+  pubDate: any
+  tags: any
+  cssClass: string
 }
 
 const {
@@ -32,16 +32,15 @@ const {
   photography,
   pubDate,
   cssClass,
-  cssBodyClass,
-} = Astro.props;
+  cssBodyClass
+} = Astro.props
 ---
 
 <Layout
   title={title}
   description={description}
   cssBodyClass={cssBodyClass}
-  category={category}
->
+  category={category}>
   <Nav cssClass={cssClass} />
   <main>
     <article>
@@ -119,14 +118,13 @@ const {
             stroke-width="1"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="icon_tag"
-            >
+            class="icon_tag">
             <circle cx="12" cy="12" r="10"></circle><circle
               cx="12"
               cy="12"
               r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg
           >
-          {category.toUpperCase() || "UNKNOWN"}
+          {category.toUpperCase() || 'UNKNOWN'}
         </div>
       </div>
 
@@ -137,15 +135,15 @@ const {
   </main>
 
   <script is:inline>
-    const images = Array.from(document.querySelectorAll("img"));
+    const images = Array.from(document.querySelectorAll('img'))
 
     images.forEach((image) => {
-      let alt = image.getAttribute("alt");
+      let alt = image.getAttribute('alt')
 
       if (alt) {
-        image.insertAdjacentHTML("afterEnd", `<p class="caption">${alt}</p>`);
+        image.insertAdjacentHTML('afterEnd', `<p class="caption">${alt}</p>`)
       }
-    });
+    })
   </script>
 </Layout>
 
