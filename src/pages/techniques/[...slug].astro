@@ -1,26 +1,26 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
-import Article from "@layouts/Article.astro";
+import { CollectionEntry, getCollection } from 'astro:content'
+import Article from '@layouts/Article.astro'
 
 export async function getStaticPaths() {
-  const posts = await getCollection("posts", ({ data }) => {
-    return data.publish && data.category == "techniques";
-  });
+  const posts = await getCollection('posts', ({ data }) => {
+    return data.publish && data.category == 'techniques'
+  })
 
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { post },
-  }));
+    props: { post }
+  }))
 }
 
 interface Props {
-  post: CollectionEntry<"posts">;
+  post: CollectionEntry<'posts'>
 }
 
-const { post } = Astro.props;
-const { Content } = await post.render();
-const cssBodyClass = "techniques";
-const cssClass = "";
+const { post } = Astro.props
+const { Content } = await post.render()
+const cssBodyClass = 'techniques'
+const cssClass = ''
 ---
 
 <Article {...post.data} cssBodyClass={cssBodyClass} cssClass={cssClass}>
@@ -33,7 +33,7 @@ const cssClass = "";
               {tag}
             </a>
           </li>
-        );
+        )
       })
     }
   </ul>

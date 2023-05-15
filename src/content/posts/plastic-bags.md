@@ -1,6 +1,6 @@
 ---
 title: Plastic Bags
-subtitle: "Less than 1 percent of plastic bags goes into a recycle bin."
+subtitle: 'Less than 1 percent of plastic bags goes into a recycle bin.'
 category: know
 pubDate: 2018-05-01
 publish: true
@@ -11,14 +11,14 @@ tags:
   - save-oceans
   - social-responsibility
   - recycle
-coverImage: "../../assets/p/know/plastic-bags/plastic-bags.jpg"
-description: "Billions of plastic bags are made each year. One hundred billion are thrown away according to  Worldwatch Institute, with less than 1% being recycled." # max 160 digits cos dunno how to trim it, yet......
+coverImage: '../../assets/p/know/plastic-bags/plastic-bags.jpg'
+description: 'Billions of plastic bags are made each year. One hundred billion are thrown away according to  Worldwatch Institute, with less than 1% being recycled.' # max 160 digits cos dunno how to trim it, yet......
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Billions of plastic bags are made each year. Of these bags, one hundred billion are thrown away according to [Worldwatch Institute](http://www.worldwatch.org/), with less than 1 percent finding their way into a recycle bin.

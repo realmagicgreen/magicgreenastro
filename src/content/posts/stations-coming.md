@@ -13,14 +13,14 @@ tags:
   - Indonesia
   - Lombok
   - Sumbawa
-coverImage: "../../assets/p/services/charging-stations-coming/charging-stations-coming.jpg"
+coverImage: '../../assets/p/services/charging-stations-coming/charging-stations-coming.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 State electricity company PT Perusahaan Listrik Negara (PLN) in West Nusa Tenggara (NTB) is developing General Electricity Provider Stations (SPLU) in several locations in NTB, including Gili Trawangan in North Lombok and Mandalika Special Economic Zone (KEK) in Central Lombok.

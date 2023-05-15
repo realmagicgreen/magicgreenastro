@@ -1,7 +1,7 @@
 ---
 title: Raising Awareness
-subtitle: "Mission Blue inspires action to explore and protect the ocean for a global network of marine protected areas."
-description: "Mission Blue inspires action to explore and protect the ocean, ignite public support for a global network of marine protected areas." # max 160 digits
+subtitle: 'Mission Blue inspires action to explore and protect the ocean for a global network of marine protected areas.'
+description: 'Mission Blue inspires action to explore and protect the ocean, ignite public support for a global network of marine protected areas.' # max 160 digits
 category: solutions
 pubDate: 2020-07-14
 publish: true
@@ -20,13 +20,13 @@ tags:
   - sustainable-development
   - save-oceans
   - water
-coverImage: "../../assets/p/solutions/raising-awareness/raising-awareness.jpg"
+coverImage: '../../assets/p/solutions/raising-awareness/raising-awareness.jpg'
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: true # 'true' or empty
 home_slideshow_caption: raising awareness # lowercase, max 12 digits, including spaces
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 <div class="tldr">

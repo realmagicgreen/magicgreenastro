@@ -1,17 +1,17 @@
 ---
-import Layout from "@layouts/Layout.astro";
-import Nav from "@components/Nav.astro";
-import Slogan from "@components/Slogan.astro";
-import { Image } from "astro:assets";
-import coverImage from "../assets/about-us.jpg";
+import Layout from '@layouts/Layout.astro'
+import Nav from '@components/Nav.astro'
+import Slogan from '@components/Slogan.astro'
+import { Image } from 'astro:assets'
+import coverImage from '../assets/about-us.jpg'
 
 export interface Props {
-  description: string;
-  title: string;
-  cssBodyClass: string;
+  description: string
+  title: string
+  cssBodyClass: string
 }
 
-const { description, title, cssBodyClass } = Astro.props;
+const { description, title, cssBodyClass } = Astro.props
 ---
 
 <Layout title={title} description={description} cssBodyClass={cssBodyClass}>
@@ -33,11 +33,9 @@ const { description, title, cssBodyClass } = Astro.props;
       />
     </div>
 
-
-      <Slogan />
+    <Slogan />
     <div class="container index">
       <slot />
-
     </div>
   </main>
 </Layout>

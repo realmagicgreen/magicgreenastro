@@ -1,8 +1,8 @@
 ---
 title: Recycling Aluminum
-subtitle: "Aluminum can can be recycled an unlimited number of times."
+subtitle: 'Aluminum can can be recycled an unlimited number of times.'
 category: know
-description: "Recycling one aluminum can saves enough electricity to power a TV for three hours. Aluminum can can be recycled an unlimited number of times..."
+description: 'Recycling one aluminum can saves enough electricity to power a TV for three hours. Aluminum can can be recycled an unlimited number of times...'
 pubDate: 2018-05-05
 publish: true
 tags:
@@ -11,7 +11,7 @@ tags:
   - social-responsibility
   - recycle
   - up-cycle
-coverImage: "../../assets/p/know/recycling-aluminum/recycling-aluminum.jpg"
+coverImage: '../../assets/p/know/recycling-aluminum/recycling-aluminum.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

@@ -4,19 +4,19 @@
 // SCREAMING EXAMPLE:
 // <IMA imgW="1920" imgH="1"
 
-import { Image } from "astro:assets";
+import { Image } from 'astro:assets'
 
 export interface Props {
-  title: string;
-  photography: string;
-  coverImage: {};
-  cssClass: string;
-  imgW: string;
-  imgH: string;
+  title: string
+  photography: string
+  coverImage: {}
+  cssClass: string
+  imgW: string
+  imgH: string
 }
 
 const { title, coverImage, photography, imgW, imgH } =
-  Astro.props.frontmatter || Astro.props;
+  Astro.props.frontmatter || Astro.props
 ---
 
 <div class={photography}>

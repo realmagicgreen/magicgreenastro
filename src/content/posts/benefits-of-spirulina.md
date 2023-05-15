@@ -1,7 +1,7 @@
 ---
 title: Benefits of Spirulina
-subtitle: "Spirulina may literally be the single most nutritious food on the planet for how beneficial it is."
-description: "Spirulina is a type of bacteria called cyanobacterium, a blue-green algae that has been touted as one of the most potent, protective superfood in existence." # max 160 digits
+subtitle: 'Spirulina may literally be the single most nutritious food on the planet for how beneficial it is.'
+description: 'Spirulina is a type of bacteria called cyanobacterium, a blue-green algae that has been touted as one of the most potent, protective superfood in existence.' # max 160 digits
 category: health
 pubDate: 2018-07-01
 publish: true
@@ -12,14 +12,14 @@ tags:
   - learning
   - superfood
   - wellness
-coverImage: "../../assets/p/health/benefits-of-spirulina/benefits-of-spirulina.jpg"
+coverImage: '../../assets/p/health/benefits-of-spirulina/benefits-of-spirulina.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 **Spirulina** is a type of bacteria called Cyanobacterium, a dark blue-green algae that has been touted as one of the most potent and protective **superfood** in existence.

@@ -1,6 +1,6 @@
 ---
 title: Indonesian Waste Platform
-subtitle: "Hub promoting and facilitating cross-sector collaborations for solutions on the waste problems in Indonesia."
+subtitle: 'Hub promoting and facilitating cross-sector collaborations for solutions on the waste problems in Indonesia.'
 category: solutions
 pubDate: 2018-05-03
 publish: true
@@ -11,14 +11,14 @@ tags:
   - pollutants-remove
   - social-responsibility
   - waste
-coverImage: "../../assets/p/solutions/indonesian-waste-platform/indonesian-waste-platform.jpg"
-description: "Indonesian Waste Platform, a hub to promote and facilitate, connects stakeholders, shares news and contributes to capacity building cross-sector collaborations." # max 160 digits cos dunno how to trim it, yet......
+coverImage: '../../assets/p/solutions/indonesian-waste-platform/indonesian-waste-platform.jpg'
+description: 'Indonesian Waste Platform, a hub to promote and facilitate, connects stakeholders, shares news and contributes to capacity building cross-sector collaborations.' # max 160 digits cos dunno how to trim it, yet......
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Indonesian Waste Platform is a hub – promoting and facilitating cross-sector collaborations for solutions on the waste problems in Indonesia.

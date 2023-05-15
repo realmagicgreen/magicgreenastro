@@ -15,39 +15,39 @@
 <script type="text/partytown">
   //https://robwise.github.io/blog/javascript-external-links-open-new-window
   function ready(fn) {
-    if (document.readyState != "loading") {
-      fn();
+    if (document.readyState != 'loading') {
+      fn()
     } else if (document.addEventListener) {
-      document.addEventListener("DOMContentLoaded", fn);
+      document.addEventListener('DOMContentLoaded', fn)
     } else {
-      document.attachEvent("onreadystatechange", function () {
-        if (document.readyState != "loading") fn();
-      });
+      document.attachEvent('onreadystatechange', function () {
+        if (document.readyState != 'loading') fn()
+      })
     }
   }
 
   ready(function () {
-    var website = window.location.hostname;
+    var website = window.location.hostname
 
     var internalLinkRegex = new RegExp(
-      "^((((http:\\/\\/|https:\\/\\/)(www\\.)?)?" +
+      '^((((http:\\/\\/|https:\\/\\/)(www\\.)?)?' +
         website +
-        ")|(localhost:\\d{4})|(\\/.*))(\\/.*)?$",
-      ""
-    );
+        ')|(localhost:\\d{4})|(\\/.*))(\\/.*)?$',
+      ''
+    )
 
-    var anchorEls = document.querySelectorAll("a:not(.top");
-    var anchorElsLength = anchorEls.length;
+    var anchorEls = document.querySelectorAll('a:not(.top')
+    var anchorElsLength = anchorEls.length
 
     for (var i = 0; i < anchorElsLength; i++) {
-      var anchorEl = anchorEls[i];
-      var href = anchorEl.getAttribute("href");
+      var anchorEl = anchorEls[i]
+      var href = anchorEl.getAttribute('href')
 
       if (!internalLinkRegex.test(href)) {
-        anchorEl.setAttribute("target", "_blank");
-        anchorEl.setAttribute("rel", "noreferrer noopener");
-        anchorEl.setAttribute("class", "open_in_new_window");
+        anchorEl.setAttribute('target', '_blank')
+        anchorEl.setAttribute('rel', 'noreferrer noopener')
+        anchorEl.setAttribute('class', 'open_in_new_window')
       }
     }
-  });
+  })
 </script>

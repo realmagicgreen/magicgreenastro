@@ -1,18 +1,18 @@
 ---
-import Layout from "@layouts/Index.astro";
-import siteData from "@data/site.json";
-import resources from "@data/resources.json";
-import ScriptList from "@scripts/ScriptList.astro";
+import Layout from '@layouts/Index.astro'
+import siteData from '@data/site.json'
+import resources from '@data/resources.json'
+import ScriptList from '@scripts/ScriptList.astro'
 
 export interface Props {
-  title: string;
-  cssBodyClass: string;
-  email: string;
-  hasEmail: boolean;
+  title: string
+  cssBodyClass: string
+  email: string
+  hasEmail: boolean
 }
 
-const title = "RESOURCES";
-const cssBodyClass = "resources";
+const title = 'RESOURCES'
+const cssBodyClass = 'resources'
 
 // const {
 //   email,
@@ -36,8 +36,7 @@ const cssBodyClass = "resources";
 <Layout
   title={title}
   description={siteData.description}
-  cssBodyClass={cssBodyClass}
->
+  cssBodyClass={cssBodyClass}>
   <h2 class="h3 uppercased centered">Resources</h2>
 
   <div id="brands" class="responsive_table_block">
@@ -64,8 +63,7 @@ const cssBodyClass = "resources";
             <tr
               class="green_pages_table_row"
               itemscope
-              itemtype="http://schema.org/Organization"
-            >
+              itemtype="http://schema.org/Organization">
               <td class="brand" data-th="Brand" itemprop="brand">
                 {c.brand.toUpperCase()}
               </td>
@@ -73,23 +71,20 @@ const cssBodyClass = "resources";
                 class="products"
                 data-th="Products"
                 itemscope
-                itemtype="http://schema.org/Product"
-              >
+                itemtype="http://schema.org/Product">
                 {c.products}
               </td>
               <td
                 class="show_on_phones address"
                 data-th="Address"
                 itemscope
-                itemtype="http://schema.org/PostalAddress"
-              >
+                itemtype="http://schema.org/PostalAddress">
                 {c.address}
               </td>
               <td
                 class="show_on_phones country"
                 data-th="Country"
-                itemprop="addressLocality"
-              >
+                itemprop="addressLocality">
                 {c.country}
               </td>
 
@@ -97,8 +92,7 @@ const cssBodyClass = "resources";
                 <a
                   class="sober_link "
                   title={c.email}
-                  href={"mailto:" + c.email}
-                >
+                  href={'mailto:' + c.email}>
                   <svg class="email">
                     <use xlink:href="#icn--email" />
                   </svg>
@@ -108,9 +102,8 @@ const cssBodyClass = "resources";
               <td class="ico telephone" itemprop="telephone">
                 <a
                   class="sober_link"
-                  title={"tel:" + c.telephone}
-                  href={"tel:" + c.telephone}
-                >
+                  title={'tel:' + c.telephone}
+                  href={'tel:' + c.telephone}>
                   <svg class="localphone">
                     <use xlink:href="#icn--localphone" />
                   </svg>
@@ -118,7 +111,10 @@ const cssBodyClass = "resources";
               </td>
 
               <td class="ico whatsapp" itemprop="whatsapp">
-                <a class="sober_link " title="whatsapp" href={"https://wa.me/" + c.whatsapp}>
+                <a
+                  class="sober_link "
+                  title="whatsapp"
+                  href={'https://wa.me/' + c.whatsapp}>
                   <svg class="whatsapp">
                     <use xlink:href="#icn--whatsapp" />
                   </svg>
@@ -134,7 +130,10 @@ const cssBodyClass = "resources";
               </td>
 
               <td class="ico twitter" itemprop="twitter">
-                <a class="sober_link " title="twitter" href={"https://twitter.com/" + c.twitter}>
+                <a
+                  class="sober_link "
+                  title="twitter"
+                  href={'https://twitter.com/' + c.twitter}>
                   <svg class="twitter">
                     <use xlink:href="#icn--twitter" />
                   </svg>
@@ -145,8 +144,7 @@ const cssBodyClass = "resources";
                 <a
                   class="sober_link "
                   title={c.youtube}
-                  href={"https://www.youtube.com/" + c.youtube}
-                >
+                  href={'https://www.youtube.com/' + c.youtube}>
                   <svg class="youtube">
                     <use xlink:href="#icn--youtube" />
                   </svg>
@@ -157,8 +155,7 @@ const cssBodyClass = "resources";
                 <a
                   class="sober_link "
                   title={c.instagram}
-                  href={"https://instagram.com/" + c.instagram}
-                >
+                  href={'https://instagram.com/' + c.instagram}>
                   <svg class="instagram">
                     <use xlink:href="#icn--instagram" />
                   </svg>
@@ -183,10 +180,10 @@ const cssBodyClass = "resources";
 
   <script is:inline>
     var options = {
-      valueNames: ["brand", "products", "country", "address"],
-    };
+      valueNames: ['brand', 'products', 'country', 'address']
+    }
 
-    var userList = new List("brands", options);
+    var userList = new List('brands', options)
   </script>
 </Layout>
 
@@ -300,7 +297,7 @@ const cssBodyClass = "resources";
       font-weight: 500;
     }
 
-    a[target="_blank"]:after {
+    a[target='_blank']:after {
       display: none;
 
       &:focus,
@@ -361,7 +358,7 @@ const cssBodyClass = "resources";
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    content: "";
+    content: '';
     position: relative;
     top: -10px;
     right: -3px;
@@ -373,7 +370,7 @@ const cssBodyClass = "resources";
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 5px solid black;
-    content: "";
+    content: '';
     position: relative;
     top: 4px;
     right: -3px;
@@ -385,7 +382,7 @@ const cssBodyClass = "resources";
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 5px solid black;
-    content: "";
+    content: '';
     position: relative;
     top: -4px;
     right: -3px;
@@ -421,7 +418,7 @@ const cssBodyClass = "resources";
       }
 
       &:before {
-        content: attr(data-th) "";
+        content: attr(data-th) '';
         display: inline-block;
         font-weight: 300;
         font-size: 65%; // this refers to the already responsive size of parent!

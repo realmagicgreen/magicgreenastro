@@ -1,8 +1,8 @@
 ---
 title: Bambu Indah
-subtitle: "A radically distinctive boutique hotel in Ubud, unique luxury experience in a lush natural environment. Dense tropical jungle and river pools."
+subtitle: 'A radically distinctive boutique hotel in Ubud, unique luxury experience in a lush natural environment. Dense tropical jungle and river pools.'
 category: services
-description: "In Bali Ubud is internationally acknowledged for its visual arts, performances and crafts, making it an attractive cultural and artistic centres in Indonesia." # max 160 digits
+description: 'In Bali Ubud is internationally acknowledged for its visual arts, performances and crafts, making it an attractive cultural and artistic centres in Indonesia.' # max 160 digits
 pubDate: 2018-11-25
 publish: true
 tags:
@@ -20,7 +20,7 @@ tags:
   - sustainable-construction
   - tropical
   - wellness
-coverImage: "../../assets/p/services/bambu-indah/bambu-indah.jpg"
+coverImage: '../../assets/p/services/bambu-indah/bambu-indah.jpg'
 ad: true # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty

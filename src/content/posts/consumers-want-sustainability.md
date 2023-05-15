@@ -2,7 +2,7 @@
 title: Consumers Want Sustainability
 subtitle: Sustainable Mainstream. Eco-friendly is definitely in.
 category: know
-description: "Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is..."
+description: 'Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is...'
 pubDate: 2018-05-24
 publish: true
 tags:
@@ -11,14 +11,14 @@ tags:
   - eco-packaging
   - learning
   - social-responsibility
-coverImage: "../../assets/p/know/consumers-want-sustainability/consumers-want-sustainability.jpg"
+coverImage: '../../assets/p/know/consumers-want-sustainability/consumers-want-sustainability.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Environmental consciousness, social responsibility, and sustainability are all hot button topics in consumer retail today. The real question is: do these topics really matter to consumers?

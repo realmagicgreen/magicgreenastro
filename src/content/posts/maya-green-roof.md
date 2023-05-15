@@ -1,6 +1,6 @@
 ---
 title: Maya Green Roof
-subtitle: "Luxury meets efficiency. Cutting energy bill and looking good in Sanur, Bali."
+subtitle: 'Luxury meets efficiency. Cutting energy bill and looking good in Sanur, Bali.'
 category: solutions
 pubDate: 2018-05-01
 publish: true
@@ -13,8 +13,8 @@ tags:
   - eco-friendly
   - energy-efficiency
   - Indonesia
-coverImage: "../../assets/p/solutions/maya-green-roof/maya-green-roof.jpg"
-description: "Designed by Budiman Hendropurnomo, Maya new Sanur Resort in Bali features an innovative design with a stunning rooftop garden, intimate spaces and pond views." # max 160 digits cos dunno how to trim it, yet...
+coverImage: '../../assets/p/solutions/maya-green-roof/maya-green-roof.jpg'
+description: 'Designed by Budiman Hendropurnomo, Maya new Sanur Resort in Bali features an innovative design with a stunning rooftop garden, intimate spaces and pond views.' # max 160 digits cos dunno how to trim it, yet...
 ad: true # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty

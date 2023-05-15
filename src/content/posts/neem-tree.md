@@ -2,7 +2,7 @@
 title: Neem Tree
 subtitle: Improves indoor air quality absorbing CO2 at night. Perfect for your bedroom.
 category: health
-description: "Azadirachta Indica, is part of the Mahogany family. External medicinal uses of Neem is for the treatment of dermatological disorders like psoriasis..."
+description: 'Azadirachta Indica, is part of the Mahogany family. External medicinal uses of Neem is for the treatment of dermatological disorders like psoriasis...'
 pubDate: 2018-05-19
 publish: true
 tags:
@@ -14,14 +14,14 @@ tags:
   - plants
   - learning
   - wellness
-coverImage: "../../assets/p/health/neem-tree/neem-tree.jpg"
+coverImage: '../../assets/p/health/neem-tree/neem-tree.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Azadirachta Indica, commonly known as Neem, is part of the Mahogany family.

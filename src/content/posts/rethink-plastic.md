@@ -1,7 +1,7 @@
 ---
 title: Rethink Plastic
-subtitle: "A movement to raise awareness of plastic pollution and the existing solutions. Movies, education, and government pressure."
-description: "A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. It is creating policy and social change around the world."
+subtitle: 'A movement to raise awareness of plastic pollution and the existing solutions. Movies, education, and government pressure.'
+description: 'A Plastic Ocean’s message raises the awareness of plastic pollution and the existing solutions. It is creating policy and social change around the world.'
 category: techniques
 pubDate: 2018-07-19
 publish: true
@@ -16,14 +16,14 @@ tags:
   - sustainable-development
   - waste
   - water
-coverImage: "../../assets/p/techniques/rethink-plastic/rethink-plastic.jpg"
+coverImage: '../../assets/p/techniques/rethink-plastic/rethink-plastic.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Some wise people are creating a global movement that encourages all to #RethinkPlastic.

@@ -1,7 +1,7 @@
 ---
 title: Fight Inflammation With Food
-subtitle: "Inflammation is caused by unhealthy foods and lifestyle habits. You can treat it yourself with foods, exercise, good sleep and stress management."
-description: "Inflammation can occur in response to trauma, illness, stress, or unhealthy foods. Anti-inflammatory foods, exercise, good sleep and stress management can help."
+subtitle: 'Inflammation is caused by unhealthy foods and lifestyle habits. You can treat it yourself with foods, exercise, good sleep and stress management.'
+description: 'Inflammation can occur in response to trauma, illness, stress, or unhealthy foods. Anti-inflammatory foods, exercise, good sleep and stress management can help.'
 category: health
 pubDate: 2018-06-20
 publish: true
@@ -12,14 +12,14 @@ tags:
   - learning
   - superfood
   - wellness
-coverImage: "../../assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg"
+coverImage: '../../assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg'
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: food that cures # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Inflammation can occur in response to trauma, illness and stress.

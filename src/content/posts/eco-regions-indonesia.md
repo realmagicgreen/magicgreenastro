@@ -16,14 +16,14 @@ tags:
   - social-responsibility
   - Sumbawa
   - sustainable-development
-coverImage: "../../assets/p/solutions/eco-regions-indonesia/eco-regions-indonesia.jpg"
+coverImage: '../../assets/p/solutions/eco-regions-indonesia/eco-regions-indonesia.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: false # new or not...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: false # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 The plan is to create Southeast Asia’s no. 1 green destination and attract the world's most engaged green partners and most passionate eco-tourists.

@@ -12,14 +12,14 @@ tags:
   - social-responsibility
   - recycle
   - waste
-coverImage: "../../assets/p/solutions/plastic-roads/plastic-roads.jpg"
+coverImage: '../../assets/p/solutions/plastic-roads/plastic-roads.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Indonesia began to use plastic and rubber tires waste or a mixture of both for the asphalt material of the highway. The Research and Development Agency at the Ministry of Public Works and People's Housing of Indonesia uses plastic waste as a road asphalt material.

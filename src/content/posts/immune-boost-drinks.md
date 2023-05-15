@@ -1,7 +1,7 @@
 ---
 title: Immune Boost Drinks
-subtitle: "An interview with healthy drink producer Iris from Live Essences."
-description: "We met with Iris, an expert in the field, who shared some knowledge and shed some light about how to live healthier by listening to your guts." # max 160 digits
+subtitle: 'An interview with healthy drink producer Iris from Live Essences.'
+description: 'We met with Iris, an expert in the field, who shared some knowledge and shed some light about how to live healthier by listening to your guts.' # max 160 digits
 category: health
 pubDate: 2020-05-01
 publish: true
@@ -14,13 +14,13 @@ tags:
   - pollutants-remove
   - superfood
   - eco-entrepreneur
-coverImage: "../../assets/p/health/immune-boost-drinks/immune-boost-drinks.jpg"
+coverImage: '../../assets/p/health/immune-boost-drinks/immune-boost-drinks.jpg'
 ad: true # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: health boosters # lowercase, max 12 digits, including spaces
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 <div class="tldr">

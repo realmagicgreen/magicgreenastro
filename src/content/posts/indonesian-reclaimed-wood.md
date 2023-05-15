@@ -1,7 +1,7 @@
 ---
 title: Indonesian Reclaimed Wood
-subtitle: "Reclaimed timber is trendy now! Check out this smart way to up-cycle old wood turning it into furniture."
-description: "Rest easy, feel good, you are sitting on a reclaimed timber chair! Recently Indonesia and specially in Bali, have seen a boom in reclaimed wood furniture."
+subtitle: 'Reclaimed timber is trendy now! Check out this smart way to up-cycle old wood turning it into furniture.'
+description: 'Rest easy, feel good, you are sitting on a reclaimed timber chair! Recently Indonesia and specially in Bali, have seen a boom in reclaimed wood furniture.'
 category: products
 pubDate: 2018-06-26
 publish: true
@@ -16,14 +16,14 @@ tags:
   - sustainable-construction
   - up-cycle
   - wood
-coverImage: "../../assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood.jpg"
+coverImage: '../../assets/p/products/indonesian-reclaimed-wood/indonesian-reclaimed-wood.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Rest easy, feel good, you are sitting on a reclaimed timber chair!

@@ -2,7 +2,9 @@
 
 ## WIP:
 
-- fix broken post imgs
+- tag icon before tags in posts
+- wider images in posts
+- new posts
 
 ## 2DOs:
 
@@ -65,18 +67,18 @@ pnpm i -D eslint eslint-plugin-astro eslint-plugin-jsx-a11y @typescript-eslint/p
 /** @type {import("prettier").Config} */
 module.exports = {
   // i am just using the standard config, change if you need something else
-  ...require("prettier-config-standard"),
+  ...require('prettier-config-standard'),
   pluginSearchDirs: [__dirname],
-  plugins: [require.resolve("prettier-plugin-astro")],
+  plugins: [require.resolve('prettier-plugin-astro')],
   overrides: [
     {
-      files: "*.astro",
+      files: '*.astro',
       options: {
-        parser: "astro",
-      },
-    },
-  ],
-};
+        parser: 'astro'
+      }
+    }
+  ]
+}
 ```
 
 ### 2. Set up eslint
@@ -89,28 +91,28 @@ module.exports = {
 ```cjs
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: ["plugin:astro/recommended"],
-  parser: "@typescript-eslint/parser",
+  extends: ['plugin:astro/recommended'],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     tsconfigRootDir: __dirname,
-    sourceType: "module",
-    ecmaVersion: "latest",
+    sourceType: 'module',
+    ecmaVersion: 'latest'
   },
   overrides: [
     {
-      files: ["*.astro"],
-      parser: "astro-eslint-parser",
+      files: ['*.astro'],
+      parser: 'astro-eslint-parser',
       parserOptions: {
-        parser: "@typescript-eslint/parser",
-        extraFileExtensions: [".astro"],
+        parser: '@typescript-eslint/parser',
+        extraFileExtensions: ['.astro']
       },
       rules: {
         // override/add rules settings here, such as:
         // "astro/no-set-html-directive": "error"
-      },
-    },
-  ],
-};
+      }
+    }
+  ]
+}
 ```
 
 ### 3. Set up Prettier ESLint extension

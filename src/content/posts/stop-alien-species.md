@@ -1,7 +1,7 @@
 ---
 title: Stop Alien Species
-subtitle: "At recent ASEAN meeting Indonesia pushed the need to combat invasive alien species."
-description: "Invasive Alien Species are threats to the balance of natural ecosystems. Their presence poses risk as unwanted predators of endemic species."
+subtitle: 'At recent ASEAN meeting Indonesia pushed the need to combat invasive alien species.'
+description: 'Invasive Alien Species are threats to the balance of natural ecosystems. Their presence poses risk as unwanted predators of endemic species.'
 category: solutions
 pubDate: 2018-07-09
 publish: true
@@ -21,14 +21,14 @@ tags:
   - social-responsibility
   - sustainable-development
   - tropical
-coverImage: "../../assets/p/solutions/stop-alien-species/stop-alien-species.jpg"
+coverImage: '../../assets/p/solutions/stop-alien-species/stop-alien-species.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 At recent ASEAN meeting in Canada, Indonesia, represented by Dr. Gono Semiadi of the [Indonesian Institute of Sciences (LIPI)](https://en.wikipedia.org/wiki/Indonesian_Institute_of_Sciences), stressed that the key to prevent spread of alien species is a strong border control.

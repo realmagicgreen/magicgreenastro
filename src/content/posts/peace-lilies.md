@@ -14,14 +14,14 @@ tags:
   - plants
   - learning
   - wellness
-coverImage: "../../assets/p/health/peace-lilies/peace-lilies.jpg"
+coverImage: '../../assets/p/health/peace-lilies/peace-lilies.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Peace lilies go by the scientific name of Spathiphyllum.

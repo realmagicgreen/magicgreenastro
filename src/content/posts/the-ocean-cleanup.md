@@ -1,7 +1,7 @@
 ---
 title: The Ocean Cleanup
-subtitle: "Trash accumulates in 5 ocean garbage patches, the largest one being the Great Pacific Garbage Patch. If left to circulate, the plastic will impact our ecosystems, health and economies."
-description: "Trash accumulates in 5 ocean patches, the largest one being the Great Pacific Garbage Patch. It is impacting our health, ecosystems and economies."
+subtitle: 'Trash accumulates in 5 ocean garbage patches, the largest one being the Great Pacific Garbage Patch. If left to circulate, the plastic will impact our ecosystems, health and economies.'
+description: 'Trash accumulates in 5 ocean patches, the largest one being the Great Pacific Garbage Patch. It is impacting our health, ecosystems and economies.'
 category: solutions
 pubDate: 2018-08-01
 publish: true
@@ -16,14 +16,14 @@ tags:
   - sustainable-development
   - waste
   - water
-coverImage: "../../assets/p/solutions/the-ocean-cleanup/the-ocean-cleanup.jpg"
+coverImage: '../../assets/p/solutions/the-ocean-cleanup/the-ocean-cleanup.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Trash accumulates in 5 ocean garbage patches, the largest one being the Great Pacific Garbage Patch, located between Hawaii and California. If left to circulate, the plastic will impact our ecosystems, health and economies.

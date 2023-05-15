@@ -1,30 +1,29 @@
 ---
-import Layout from "@layouts/Index.astro";
-import { getCollection } from "astro:content";
-import Card from "@components/Card.astro";
+import Layout from '@layouts/Index.astro'
+import { getCollection } from 'astro:content'
+import Card from '@components/Card.astro'
 
-const category = 'products';
+const category = 'products'
 
-const posts = await getCollection("posts", ({ data }) => {
-  return data.publish && data.category == category;
-});
+const posts = await getCollection('posts', ({ data }) => {
+  return data.publish && data.category == category
+})
 
 export interface Props {
-  title: string;
-  cssBodyClass: string;
-  pubDate: any;
-  category: string;
+  title: string
+  cssBodyClass: string
+  pubDate: any
+  category: string
 }
 
-import siteData from "@data/site.json";
-const cssBodyClass = category;
+import siteData from '@data/site.json'
+const cssBodyClass = category
 ---
 
 <Layout
   title={category.toUpperCase()}
   description={siteData.description}
-  cssBodyClass={cssBodyClass}
->
+  cssBodyClass={cssBodyClass}>
   <h2 class="h3 uppercased centered green">{category}</h2>
   <div class="grida">
     {

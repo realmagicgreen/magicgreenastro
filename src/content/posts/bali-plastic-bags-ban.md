@@ -1,7 +1,7 @@
 ---
 title: Bali Plastic Bags Ban
-subtitle: "Denpasar just introduced a new prohibition of plastic bags, Styrofoam and plastic straws in supermarkets, convenience stores and shopping centres."
-description: "Starting 2019, Bali Denpasar area has banned the plastic bags. The ban is expected to cover the whole island coming into effect in June 2019." # max 160 digits
+subtitle: 'Denpasar just introduced a new prohibition of plastic bags, Styrofoam and plastic straws in supermarkets, convenience stores and shopping centres.'
+description: 'Starting 2019, Bali Denpasar area has banned the plastic bags. The ban is expected to cover the whole island coming into effect in June 2019.' # max 160 digits
 category: solutions
 pubDate: 2019-02-01
 publish: true
@@ -13,13 +13,13 @@ tags:
   - plastic
   - recycle
   - sustainable-development
-coverImage: "../../assets/p/solutions/bali-plastic-bags-ban/bali-plastic-bags-ban.jpg"
+coverImage: '../../assets/p/solutions/bali-plastic-bags-ban/bali-plastic-bags-ban.jpg'
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 <div class="tldr">

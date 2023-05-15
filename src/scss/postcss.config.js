@@ -1,9 +1,9 @@
 module.exports = {
-  syntax: "postcss-scss",
+  syntax: 'postcss-scss',
   map: true,
   plugins: {
-    "css-declaration-sorter": {
-      order: "smacss",
-    },
-  },
-};
+    'css-declaration-sorter': {
+      order: 'smacss'
+    }
+  }
+}

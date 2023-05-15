@@ -1,46 +1,45 @@
 ---
 //components
-import Styles from "@components/Styles.astro";
-import Junglestar from "@components/Junglestar.astro";
-import Svgs from "@components/Svgs.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
+import Styles from '@components/Styles.astro'
+import Junglestar from '@components/Junglestar.astro'
+import Svgs from '@components/Svgs.astro'
+import Header from '@components/Header.astro'
+import Footer from '@components/Footer.astro'
 
-import GoogleAnalytics from "@scripts/GoogleAnalytics.astro";
-import ExternalLinks from "@scripts/ExternalLinks.astro";
-import AppendToCopyAction from "@scripts/AppendToCopyAction.astro";
+import GoogleAnalytics from '@scripts/GoogleAnalytics.astro'
+import ExternalLinks from '@scripts/ExternalLinks.astro'
+import AppendToCopyAction from '@scripts/AppendToCopyAction.astro'
 
 //plugins
-import { SEO } from "astro-seo";
+import { SEO } from 'astro-seo'
 
 //js
 export interface Props {
-  title: string;
-  description: string;
-  category?: string | undefined;
-  cssBodyClass: string;
-
+  title: string
+  description: string
+  category?: string | undefined
+  cssBodyClass: string
 }
 
-const { title, description, cssBodyClass } = Astro.props;
+const { title, description, cssBodyClass } = Astro.props
 
 //data
-import site from "@data/site.json";
+import site from '@data/site.json'
 
-const Brand = site.title;
-const Mission = site.content_is_about;
+const Brand = site.title
+const Mission = site.content_is_about
 
 //lets build metadatas
-const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
+const canonicalURL = new URL(Astro.url.pathname, site.url).toString()
 
-const makeTitle = title ? Brand + " 💚 " + title : "J|makeTitle";
+const makeTitle = title ? Brand + ' 💚 ' + title : 'J|makeTitle'
 
 const makeTitleOG = title
-  ? Brand + ", " + Mission + " 💚 " + title
-  : "J|makeTitleOG!";
+  ? Brand + ', ' + Mission + ' 💚 ' + title
+  : 'J|makeTitleOG!'
 
-const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString();
-const favicon = "../assets/favicons/safari-pinned-tab.svg"
+const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString()
+const favicon = '../assets/favicons/safari-pinned-tab.svg'
 ---
 
 <!DOCTYPE html>
@@ -54,11 +53,7 @@ const favicon = "../assets/favicons/safari-pinned-tab.svg"
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="format-detection" content="telephone=no" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href={favicon}
-    />
+    <link rel="icon" type="image/svg+xml" href={favicon} />
 
     <SEO
       title={makeTitle}
@@ -67,19 +62,19 @@ const favicon = "../assets/favicons/safari-pinned-tab.svg"
       twitter={{
         creator: site.author.twitter,
         site: site.url,
-        card: "summary_large_image",
+        card: 'summary_large_image'
       }}
       openGraph={{
         basic: {
           url: canonicalURL,
-          type: "website",
+          type: 'website',
           title: makeTitleOG,
-          image: resolvedImageWithDomain,
+          image: resolvedImageWithDomain
         },
         image: {
           secureUrl: resolvedImageWithDomain,
-          alt: Mission,
-        },
+          alt: Mission
+        }
       }}
     />
     <meta name="keywords" content={site.keywords} />

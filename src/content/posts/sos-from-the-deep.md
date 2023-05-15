@@ -1,8 +1,8 @@
 ---
 title: SOS From The Deep
-subtitle: "CTC provides education and training to make sure that marine protected areas!"
+subtitle: 'CTC provides education and training to make sure that marine protected areas!'
 category: solutions
-description: "Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs..."
+description: 'Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs...'
 pubDate: 2018-05-10
 publish: true
 tags:
@@ -15,14 +15,14 @@ tags:
   - Maluku
   - save-oceans
   - tropical
-coverImage: "../../assets/p/solutions/sos-from-the-deep/sos-from-the-deep.jpg"
+coverImage: '../../assets/p/solutions/sos-from-the-deep/sos-from-the-deep.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Coral Reefs need our help now! More than 27% of the world’s coral reefs are already lost. If we don’t do anything about it, almost all of our coral reefs will be gone by 2050 and there will be more plastics than fish in the ocean!

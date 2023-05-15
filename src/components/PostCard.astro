@@ -1,18 +1,18 @@
 ---
 // library imports
-import { Image } from "astro:assets";
+import { Image } from 'astro:assets'
 
 // component imports
-import Link from "@components/Link.astro";
+import Link from '@components/Link.astro'
 
 // utils imports
-import { slugify, formatDate } from "@js/utils";
+import { slugify, formatDate } from '@js/utils'
 
-const { data, url, tagType } = Astro.props;
+const { data, url, tagType } = Astro.props
 
-const Tag = tagType;
+const Tag = tagType
 
-const { title, date, author, image, description, category } = data;
+const { title, date, author, image, description, category } = data
 ---
 
 <article class="card">

@@ -1,7 +1,7 @@
 ---
 title: Bali Solar Energy
-subtitle: "PLN, Indonesia electricity company, plans to generate 50 MW of renewable electricity in 2021 from two solar powered plants in Bali."
-description: "Two privately built solar power plants in Bali are expected to beginning working in 2021. The plain is to reach 100 megawatts in 2023."
+subtitle: 'PLN, Indonesia electricity company, plans to generate 50 MW of renewable electricity in 2021 from two solar powered plants in Bali.'
+description: 'Two privately built solar power plants in Bali are expected to beginning working in 2021. The plain is to reach 100 megawatts in 2023.'
 category: solutions
 pubDate: 2018-09-15
 publish: true
@@ -14,14 +14,14 @@ tags:
   - renewable-energy
   - social-responsibility
   - sustainable-development
-coverImage: "../../assets/p/solutions/bali-solar-energy/bali-solar-energy.jpg"
+coverImage: '../../assets/p/solutions/bali-solar-energy/bali-solar-energy.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 The Government's has promised alignment to the Paris Agreement and plans to reach a target of 25% renewable energy within 2025.

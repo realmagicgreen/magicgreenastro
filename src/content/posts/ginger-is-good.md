@@ -2,7 +2,7 @@
 title: Ginger Is Good
 subtitle: This root provides us with a wealth of anti-inflammatory anti-bacterial and analgesic effects.
 category: health
-description: "Ginger, is a root with anti-inflammatory and analgesic properties. Great for treating chronic joint problems, aches and pains. An easy food to consume." # max 160 digits
+description: 'Ginger, is a root with anti-inflammatory and analgesic properties. Great for treating chronic joint problems, aches and pains. An easy food to consume.' # max 160 digits
 pubDate: 2018-06-02
 publish: true
 tags:
@@ -14,14 +14,14 @@ tags:
   - learning
   - superfood
   - wellness
-coverImage: "../../assets/p/health/ginger-is-good/ginger-is-good.jpg"
+coverImage: '../../assets/p/health/ginger-is-good/ginger-is-good.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Ginger, is a root which provides us with a wealth of anti-inflammatory and analgesic effects. It's great for treating chronic joint problems, aches and pains.

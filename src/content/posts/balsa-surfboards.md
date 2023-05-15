@@ -1,6 +1,6 @@
 ---
 title: Balsa Surfboards
-subtitle: "Vince Tierny surfboards are produced with 100% balsa wood sourced from small scale plantations in East Java."
+subtitle: 'Vince Tierny surfboards are produced with 100% balsa wood sourced from small scale plantations in East Java.'
 category: products
 pubDate: 2018-06-04
 updated: 2020-10-10
@@ -14,14 +14,14 @@ tags:
   - responsible-sources
   - sustainable-construction
   - wood
-coverImage: "../../assets/p/products/balsa-wood-surfboards/balsa-wood-surfboards.jpg"
-description: "Surfing equipment is not eco-friendly, lots of plastic, foam and resin. Vince Tierny is changing that, manufactoring greener wooden Surfboards." # max 160 digits cos dunno how to trim it, yet......
+coverImage: '../../assets/p/products/balsa-wood-surfboards/balsa-wood-surfboards.jpg'
+description: 'Surfing equipment is not eco-friendly, lots of plastic, foam and resin. Vince Tierny is changing that, manufactoring greener wooden Surfboards.' # max 160 digits cos dunno how to trim it, yet......
 ad: true # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: true # 'true' or empty
 home_slideshow_caption: balsa boards # lowercase, max 12 digits, including spaces
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Surfing is one of the most environment-friendly sports , because of the love to the ocean every surfer keeps. But there is also a side of it thats not eco-friendly at all: the equipment. Everything is made out of plastic and the boards are mostly out of foam with epoxy, what is not very green.

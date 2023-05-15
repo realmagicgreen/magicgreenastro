@@ -1,7 +1,7 @@
 ---
 title: Dracaena Benefits
 subtitle: "This plant removes many pollutants. It's perfect for an healthy home."
-description: "People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species." # max 160 digits
+description: 'People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species.' # max 160 digits
 category: health
 pubDate: 2018-06-10
 publish: true
@@ -15,15 +15,15 @@ tags:
   - pollutants-remove
   - learning
   - wellness
-coverImage: "../../assets/p/health/dracena-benefits/dracena-benefits.jpg"
-image02: "p/health/dracena-benefits/dracena-benefits-02.jpg"
+coverImage: '../../assets/p/health/dracena-benefits/dracena-benefits.jpg'
+image02: 'p/health/dracena-benefits/dracena-benefits-02.jpg'
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: air cleaning plants # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 People use Dracaena for the health benefits they offer. Dracaena, which name comes from ancient greek, meaning female dragon, is a genus of about 120 species of trees and succulent shrubs.

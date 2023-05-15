@@ -1,7 +1,7 @@
 ---
 title: Bali Wave Energy Park
-subtitle: "Wello will build a 10 MegaWatts Wave Energy Park in Nusa Penida an island close to Bali."
-description: "Over 60% of the worlds electricity comes from fossil fuels. Wello Penguin floats on water capturing ocean kinetic energy. Electricity without emissions."
+subtitle: 'Wello will build a 10 MegaWatts Wave Energy Park in Nusa Penida an island close to Bali.'
+description: 'Over 60% of the worlds electricity comes from fossil fuels. Wello Penguin floats on water capturing ocean kinetic energy. Electricity without emissions.'
 category: solutions
 pubDate: 2018-07-10
 publish: true
@@ -16,14 +16,14 @@ tags:
   - social-responsibility
   - sustainable-development
   - water
-coverImage: "../../assets/p/solutions/bali-wave-energy-park/bali-wave-energy-park.jpg"
+coverImage: '../../assets/p/solutions/bali-wave-energy-park/bali-wave-energy-park.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Currently more than 60% of the worlds electricity is produced with fossil fuels. With 75% of the earth’s surface being covered by water, the huge clean, continues energy production potential of wave energy is rapidly increasing in interest.

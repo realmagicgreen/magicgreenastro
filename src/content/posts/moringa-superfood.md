@@ -13,14 +13,14 @@ tags:
   - learning
   - superfood
   - wellness
-coverImage: "../../assets/p/health/moringa-superfood/moringa-superfood.jpg"
+coverImage: '../../assets/p/health/moringa-superfood/moringa-superfood.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 <div class="tldr">

@@ -1,7 +1,7 @@
 ---
 title: Microplastic In Your Salt
-subtitle: "Planet or plastic? Salt produced in Indonesia, using the ancient technique of evaporating seawater contains lots of microplastics."
-description: "Microplastics were found in sea salt several years ago. Now, new research shows microplastics in 90% of the table salt brands sampled worldwide."
+subtitle: 'Planet or plastic? Salt produced in Indonesia, using the ancient technique of evaporating seawater contains lots of microplastics.'
+description: 'Microplastics were found in sea salt several years ago. Now, new research shows microplastics in 90% of the table salt brands sampled worldwide.'
 category: know
 pubDate: 2018-10-01
 publish: true
@@ -12,14 +12,14 @@ tags:
   - plastic
   - save-oceans
   - waste
-coverImage: "../../assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt.jpg"
+coverImage: '../../assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 <div class="tldr">

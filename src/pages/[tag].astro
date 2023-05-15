@@ -1,28 +1,26 @@
 ---
-import Layout from "@layouts/Index.astro";
-import { getCollection } from "astro:content";
-import Card from "@components/Card.astro";
+import Layout from '@layouts/Index.astro'
+import { getCollection } from 'astro:content'
+import Card from '@components/Card.astro'
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection("posts");
-  const uniqueTags = [
-    ...new Set(allPosts.map((post) => post.data.tags).flat()),
-  ];
+  const allPosts = await getCollection('posts')
+  const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())]
 
   return uniqueTags.map((tag) => {
     const filteredPosts = allPosts.filter((post) =>
       post.data.tags.includes(tag)
-    );
+    )
     return {
       params: { tag },
-      props: { posts: filteredPosts },
-    };
-  });
+      props: { posts: filteredPosts }
+    }
+  })
 }
 
-const { tag } = Astro.params;
-const { posts  } = Astro.props;
-const title = "Hastagah!"
+const { tag } = Astro.params
+const { posts } = Astro.props
+const title = 'Hastagah!'
 ---
 
 <Layout title={title} description="" cssBodyClass="">
@@ -30,7 +28,7 @@ const title = "Hastagah!"
   <div class="grida">
     {
       posts.map((post: any) => (
-        <a class="card_link"  href={`/${post.data.category}/${post.slug}`}>
+        <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
           <Card
             cssClass="card"
             pubDate={post.data.pubDate}

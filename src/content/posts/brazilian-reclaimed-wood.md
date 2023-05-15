@@ -1,8 +1,8 @@
 ---
 title: Brazilian Reclaimed Wood
-subtitle: "Recycling wood is clever! From Indo to Brazil many up-cycle old timber turning it into furniture."
+subtitle: 'Recycling wood is clever! From Indo to Brazil many up-cycle old timber turning it into furniture.'
 category: products
-description: "Rest easy, feel good, you are sitting on a reclaimed wood chair! Recently in Brazil we have seen a big boom in furniture made from reclaimed wood."
+description: 'Rest easy, feel good, you are sitting on a reclaimed wood chair! Recently in Brazil we have seen a big boom in furniture made from reclaimed wood.'
 pubDate: 2018-08-08
 publish: true
 tags:
@@ -16,14 +16,14 @@ tags:
   - sustainable-construction
   - up-cycle
   - wood
-coverImage: "../../assets/p/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood.jpg"
+coverImage: '../../assets/p/products/brazilian-reclaimed-wood/brazilian-reclaimed-wood.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Peroba is a common tree in Brazil, local craftsmen use its wood for everything. From the strong, straight-grained stock that resembles oak, they build entire houses using it for framing, paneling, millwork, moldings, flooring, and furniture.

@@ -1,7 +1,7 @@
 ---
 title: Bali Water Protection
-subtitle: "This project calls on Bali’s leadership and responsibility to address the island’s diminishing water table and rapidly dropping levels of freshwater availability."
-description: "Bali is on the verge of an environmental catastrophe. Groundwater reserves are at 20% according to Politeknik Negeri Bali in a report published by Republika."
+subtitle: 'This project calls on Bali’s leadership and responsibility to address the island’s diminishing water table and rapidly dropping levels of freshwater availability.'
+description: 'Bali is on the verge of an environmental catastrophe. Groundwater reserves are at 20% according to Politeknik Negeri Bali in a report published by Republika.'
 category: solutions
 pubDate: 2018-06-17
 publish: true
@@ -12,14 +12,14 @@ tags:
   - initiative
   - social-responsibility
   - water
-coverImage: "../../assets/p/solutions/bali-water-protection/bali-water-protection.jpg"
+coverImage: '../../assets/p/solutions/bali-water-protection/bali-water-protection.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 We are pumping the ground water dry and we must act now to avoid permanent damage. Bali is on the verge of an environmental catastrophe.

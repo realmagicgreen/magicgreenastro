@@ -1,7 +1,7 @@
 ---
 title: Cool Reclaimed Wood Lamps
-subtitle: "Get some cool design lamps. They claim these lamps are made of up-cycled wood. Old timber turned into great furniture pieces. Really?!"
-description: "Rest easy, feel good, turn on your reclaimed wood lamp! Adjust it into a new position reflecting how you feel at the moment."
+subtitle: 'Get some cool design lamps. They claim these lamps are made of up-cycled wood. Old timber turned into great furniture pieces. Really?!'
+description: 'Rest easy, feel good, turn on your reclaimed wood lamp! Adjust it into a new position reflecting how you feel at the moment.'
 category: products
 pubDate: 2018-08-26
 publish: true
@@ -17,14 +17,14 @@ tags:
   - sustainable-construction
   - up-cycle
   - wood
-coverImage: "../../assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg"
+coverImage: '../../assets/p/products/cool-reclaimed-wood-lamps/cool-reclaimed-wood-lamps.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: "Unknown"
+photography: 'Unknown'
 ---
 
 Yo, these guys from Surabaya, in East Java, make some really cool design lamps.
