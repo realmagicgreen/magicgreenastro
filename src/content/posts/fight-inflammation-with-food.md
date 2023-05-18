@@ -12,7 +12,7 @@ tags:
   - learning
   - superfood
   - wellness
-coverImage: '../../assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg'
+coverImage: '../../assets/p/fight-inflammation-with-food/fight-inflammation-with-food.jpg'
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: food that cures # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -30,7 +30,7 @@ Anti-inflammatory foods, exercise, good sleep and stress management can help.
 
 ### Turmeric and Curcumin
 
-![Curcumin or Turmeric provides several impressive health benefits.](../../assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food.jpg)
+![Curcumin or Turmeric provides several impressive health benefits.](../../assets/p/fight-inflammation-with-food/fight-inflammation-with-food.jpg)
 
 [Curcumin](https://en.wikipedia.org/wiki/Curcumin) is a component of the spice Turmeric. It provides several impressive health benefits.
 
@@ -58,7 +58,7 @@ DHA, in particular, has been shown to have anti-inflammatory effects that reduce
 
 ### Ginger
 
-![Ginger root has been shown to reduce inflammation.](../../assets/p/health/fight-inflammation-with-food/fight-inflammation-with-food-02.jpg)
+![Ginger root has been shown to reduce inflammation.](../../assets/p/fight-inflammation-with-food/fight-inflammation-with-food-02.jpg)
 
 [Ginger](https://en.wikipedia.org/wiki/Ginger) has been shown to reduce inflammation, as well as muscle pain and soreness after exercise.
 

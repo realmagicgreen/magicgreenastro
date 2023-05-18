@@ -14,7 +14,7 @@ tags:
   - pollutants-remove
   - superfood
   - eco-entrepreneur
-coverImage: '../../assets/p/health/immune-boost-drinks/immune-boost-drinks.jpg'
+coverImage: '../../assets/p/immune-boost-drinks/immune-boost-drinks.jpg'
 ad: true # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
@@ -49,7 +49,7 @@ Iris is Greek-German. She works with high-quality, invigorating ingredients to d
 
 Her goal is to keep products, brand and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
-![Live Essences complete offer of wellness shot drinks.](../../assets/p/health/immune-boost-drinks/immune-boost-drinks-02.jpg)
+![Live Essences complete offer of wellness shot drinks.](../../assets/p/immune-boost-drinks/immune-boost-drinks-02.jpg)
 
 ## Wellness shots
 
@@ -57,7 +57,7 @@ Live Essences Wellness shots are processed with care with essential probiotics a
 
 Live Essences Wellness shots are carefully prepared, never overheated and minimally processed, to preserve their abundant nutrients, vitamins and their pure, unadulterated life force energy.
 
-![Live Essences lab in Bali.](../../assets/p/health/immune-boost-drinks/immune-boost-drinks-03.jpg)
+![Live Essences lab in Bali.](../../assets/p/immune-boost-drinks/immune-boost-drinks-03.jpg)
 
 Crafted from nature’s most powerful plants, LE drinks are currently produced using organic, fair-trade premium ingredients, devoid of any pesticides or harmful chemicals, sourced from the foothills of Mount Batur in Bali, Indonesia.
 
@@ -73,7 +73,7 @@ Live Essences is inspired by the purity and power of the natural world, unlockin
 
 > Bali took me back to the warmth, simplicity, energising and nature-honouring lifestyle of Greece. I realised that by reconnecting with the essence of my childhood, I was creating a new sense for my life, and looking towards an exciting future. Today, I have put all these feelings into 5 Essences, crafted with ancient wisdom and modern techniques. _Iris from Live Essences_
 
-![Live Essences healthy stomach drink.](../../assets/p/health/immune-boost-drinks/immune-boost-drinks-04.jpg)
+![Live Essences healthy stomach drink.](../../assets/p/immune-boost-drinks/immune-boost-drinks-04.jpg)
 
 Magicgreen asked Iris to share her story:
 
@@ -87,7 +87,7 @@ Supplying the restaurant of my friends surf resort here in Canggu.
 
 My main motivation is to bring ancient knowledge back paying attention to recent/modern research and applying techniques in the way we process the plants into the products, engineering unadulterated natural products.
 
-![Live Essences processes  plants into drinks.](../../assets/p/health/immune-boost-drinks/immune-boost-drinks-07.jpg)
+![Live Essences processes  plants into drinks.](../../assets/p/immune-boost-drinks/immune-boost-drinks-07.jpg)
 
 Finding natural ways to preserve them. Creating foods that love you back.
 
@@ -95,7 +95,7 @@ Live Essences as a company to expand and add on numerous new products. Expanding
 
 We are also working on a new idea to modularise the company and streamline it for a future franchising development.
 
-![Live Essences and some of the ingredients used.](../../assets/p/health/immune-boost-drinks/immune-boost-drinks-05.jpg)
+![Live Essences and some of the ingredients used.](../../assets/p/immune-boost-drinks/immune-boost-drinks-05.jpg)
 
 ## What is the message that your brand is pushing?
 
@@ -115,7 +115,7 @@ Bali is one of the Mecca's of health and self development! We are supported by a
 
 This helps very much with developing innovative products.
 
-![Live Essences source locally from organic faming facilities.](../../assets/p/health/immune-boost-drinks/immune-boost-drinks-06.jpg)
+![Live Essences source locally from organic faming facilities.](../../assets/p/immune-boost-drinks/immune-boost-drinks-06.jpg)
 
 ## What we need to know about your products?
 
@@ -127,7 +127,7 @@ We found a natural way to preserve it and, in its essence form, it has no expiry
 
 The focus is to nourish and replenish both the stomach and gut flora. Drinks the body will appreciate to the fullest. Food that loves you back.
 
-![Live Essences skin oils.](../../assets/p/health/immune-boost-drinks/immune-boost-drinks-08.jpg)
+![Live Essences skin oils.](../../assets/p/immune-boost-drinks/immune-boost-drinks-08.jpg)
 
 ## Message or things you want to say to the world...
 

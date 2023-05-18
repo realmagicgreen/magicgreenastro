@@ -10,7 +10,7 @@ tags:
   - design
   - learning
   - sustainable-development
-coverImage: '../../assets/p/know/bandwidth-and-economic-wealth/bandwidth-and-economic-wealth.jpg'
+coverImage: '../../assets/p/bandwidth-and-economic-wealth/bandwidth-and-economic-wealth.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...

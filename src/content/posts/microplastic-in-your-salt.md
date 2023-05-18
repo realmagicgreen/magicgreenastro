@@ -12,7 +12,7 @@ tags:
   - plastic
   - save-oceans
   - waste
-coverImage: '../../assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt.jpg'
+coverImage: '../../assets/p/microplastic-in-your-salt/microplastic-in-your-salt.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -48,7 +48,7 @@ Of 39 salt brands tested, 36 had microplastics in them, according to a new analy
 
 Using prior salt studies, this new effort is the first of its scale to look at the geographical spread of microplastics in table salt and their correlation to where plastic pollution is found in the environment.
 
-![Salt brands tested](../../assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt-02.jpg)
+![Salt brands tested](../../assets/p/microplastic-in-your-salt/microplastic-in-your-salt-02.jpg)
 
 > “The findings suggest that human ingestion of microplastics via marine products is strongly related to emissions in a given region,”_Seung-Kyu Kim, marine science professor at Incheon National University in South Korea._
 
@@ -60,7 +60,7 @@ Using prior salt studies, this new effort is the first of its scale to look at t
 
 > “The earlier studies found traces of microplastics in salt products sold in those countries, but we haven’t known how much.”_Sherri Mason_
 
-![Assessing the impact of microplastics](../../assets/p/know/microplastic-in-your-salt/microplastic-in-your-salt-03.jpg)
+![Assessing the impact of microplastics](../../assets/p/microplastic-in-your-salt/microplastic-in-your-salt-03.jpg)
 
 ## We know the solutions.
 

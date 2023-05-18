@@ -16,7 +16,7 @@ tags:
   - learning
   - sustainable-construction
   - wood
-coverImage: '../../assets/p/solutions/bamboo-buildings-in-bali/bamboo-buildings-in-bali.jpg'
+coverImage: '../../assets/p/bamboo-buildings-in-bali/bamboo-buildings-in-bali.jpg'
 show_in_home_slideshow: true # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: bamboo buildings # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -32,17 +32,17 @@ Buildings had use bamboo for centuries. It has an impressive strength-to-weight 
 
 Bamboo is not seen as the poor man's timber anymore. Not far from smoggy Denpasar new ambitious bamboo projects are growing. These buildings are the brainchild of eco-conscious foreigners.
 
-![The entrance bridge at Green Village, Bali](../../assets/p/solutions/bamboo-buildings-in-bali/bamboo-buildings-in-bali-05.jpg)
+![The entrance bridge at Green Village, Bali](../../assets/p/bamboo-buildings-in-bali/bamboo-buildings-in-bali-05.jpg)
 
 > "Bamboo is unmatched as a sustainable building material. What it can do is remarkable. It grows far quicker than timber and doesn't destroy the land it's grown on." _Ben Ripple, Big Tree Farms Bali co-founder_
 
 Resorts, schools, villas and even a chocolate factory in the Indonesian island are putting bamboo to work. These structures show excellent examples of a sustainable way to build.
 
-![Sharma Springs at Ibuku, Bali](../../assets/p/solutions/bamboo-buildings-in-bali/bamboo-buildings-in-bali-03.jpg)
+![Sharma Springs at Ibuku, Bali](../../assets/p/bamboo-buildings-in-bali/bamboo-buildings-in-bali-03.jpg)
 
 Studies show construction is one of the world's least sustainable industries. It's eating up around half of the globe's non-renewable resources. Sustainable construction though is slowly taking root all over the world.
 
-![Green School Bali](../../assets/p/solutions/bamboo-buildings-in-bali/bamboo-buildings-in-bali-04.jpg)
+![Green School Bali](../../assets/p/bamboo-buildings-in-bali/bamboo-buildings-in-bali-04.jpg)
 
 > "What makes bamboo environmentally-friendly is the speed at which it grows. Building-quality bamboo will grow between six and 10 meters in that time." _Terry Sunderland, scientist at the Centre for International Forestry Research in Indonesia_
 
@@ -50,7 +50,7 @@ Around 200 farmers across the island are paid to grow bamboo on areas of their l
 
 > "Many people still think bamboo is cheap and only for small buildings, but we're showing it can be used to make high houses and really redefine how the material is used."_Terry Sunderland_
 
-![Bamboo interiors and floors at John Hardy Jewelry Showroom, Bali](../../assets/p/solutions/bamboo-buildings-in-bali/bamboo-buildings-in-bali-02.jpg)
+![Bamboo interiors and floors at John Hardy Jewelry Showroom, Bali](../../assets/p/bamboo-buildings-in-bali/bamboo-buildings-in-bali-02.jpg)
 
 Bamboo has its drawbacks. Without intensive treatment, it's prone to rotting. It also catches fire relatively easily. For these reasons many countries limit bamboo structures height.
 

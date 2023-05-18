@@ -14,7 +14,7 @@ tags:
   - plastic-alternatives
   - social-responsibility
   - sustainable-construction
-coverImage: '../../assets/p/products/evoware-not-plastic/evoware-not-plastic.jpg'
+coverImage: '../../assets/p/evoware-not-plastic/evoware-not-plastic.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -26,7 +26,7 @@ photography: 'Unknown'
 
 Plastic pollution is a global problem in our modern society, a worldwide threat to the environment, flora and fauna. A major part of that pollution comes from our habits, and take-away food along the food-grade plastic containers, wrappings, and single-use glasses for example, that are used to consume the food on the go.
 
-![Evoware use seaweed](../../assets/p/products/evoware-not-plastic/evoware-not-plastic-02.jpg)
+![Evoware use seaweed](../../assets/p/evoware-not-plastic/evoware-not-plastic-02.jpg)
 
 That's where Evoware comes in the equation, with the brilliant idea of using natural materials, namely seaweed, that are biodegradable as well as edible.
 
@@ -46,17 +46,17 @@ Evoware products are edible food wraps, water-resistant soap wraps, edible sache
 
 - Printable and heat sealable.
 
-![Evoware turn seaweed into different kinds of packaging](../../assets/p/products/evoware-not-plastic/evoware-not-plastic-03.jpg)
+![Evoware turn seaweed into different kinds of packaging](../../assets/p/evoware-not-plastic/evoware-not-plastic-03.jpg)
 
 By using seaweed, Evoware is also greatly helping thousands of farmers living a better life by working closely with seaweed farming communities throughout Indonesia.
 
 ### Seaweed-Based Packaging
 
-![seaweed farming is spread all over Indonesia, a country of more than 18.000 islands](../../assets/p/products/evoware-not-plastic/evoware-not-plastic-04.jpg)
+![seaweed farming is spread all over Indonesia, a country of more than 18.000 islands](../../assets/p/evoware-not-plastic/evoware-not-plastic-04.jpg)
 
 Evo-ware collaborate with local seaweed farmers to provide best quality seaweed to bring you many benefits. Our seaweed-based packaging's patent has been granted, and we have received halal and safety guarantee certificate.
 
-![Seaweed farming is the practice of cultivating and harvesting seaweed](../../assets/p/products/evoware-not-plastic/evoware-not-plastic-05.jpg)
+![Seaweed farming is the practice of cultivating and harvesting seaweed](../../assets/p/evoware-not-plastic/evoware-not-plastic-05.jpg)
 
 You can buy it through: Whatsapp: +628118692424 and email: [info@evoware.id](info@evoware.id)
 

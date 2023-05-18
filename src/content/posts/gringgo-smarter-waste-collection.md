@@ -15,7 +15,7 @@ tags:
   - social-responsibility
   - save-oceans
   - waste
-coverImage: '../../assets/p/solutions/gringgo-smarter-waste-collection/gringgo-smarter-waste-collection.jpg'
+coverImage: '../../assets/p/gringgo-smarter-waste-collection/gringgo-smarter-waste-collection.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -37,7 +37,7 @@ Smarter waste collection service that is more reliable, cheaper and greener. Cre
 
 Innovate & create positive social & environmental impact. Build a waste network that helps reduce ocean plastic pollution by 25% by 2020 in South East Asia & increase recycling rates by 50% by 2022
 
-![Gringgo Denpasar map.](../../assets/p/solutions/gringgo-smarter-waste-collection/gringgo-smarter-waste-collection-02.jpg)
+![Gringgo Denpasar map.](../../assets/p/gringgo-smarter-waste-collection/gringgo-smarter-waste-collection-02.jpg)
 
 ### Data & waste service in Denpasar
 

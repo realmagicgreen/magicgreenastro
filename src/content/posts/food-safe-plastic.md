@@ -9,7 +9,7 @@ tags:
   - plastic
   - learning
   - wellness
-coverImage: '../../assets/p/know/food-safe-plastic/food-safe-plastic.jpg'
+coverImage: '../../assets/p/food-safe-plastic/food-safe-plastic.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -45,7 +45,7 @@ Look for the symbol. It indicated what type of plastic it is. Avoid buying the h
 
 ## The plastic types
 
-![Look for BPA-free on the label of products](../../assets/p/know/food-safe-plastic/food-safe-plastic-02.jpg)
+![Look for BPA-free on the label of products](../../assets/p/food-safe-plastic/food-safe-plastic-02.jpg)
 
 ## **1. PET: Poly Ethylene Terephthalate.**
 

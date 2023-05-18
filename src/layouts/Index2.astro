@@ -1,0 +1,47 @@
+---
+import Layout from '@layouts/Layout.astro'
+import Nav from '@components/Nav.astro'
+import Slogan from '@components/Slogan.astro'
+
+export interface Props {
+  description: string
+  title: string
+  category?: string | undefined
+  pubDate?: any | undefined
+  cssBodyClass: string
+  coverImage: string
+}
+
+const { category, description, title, cssBodyClass } = Astro.props
+
+//data
+import site from '@data/site.json'
+
+const coverImage = {site.projectimage}
+---
+
+<Layout
+  title={title}
+  description={description}
+  category={category}
+  cssBodyClass={cssBodyClass}
+  coverImage={coverImage}>
+  <Nav cssClass="nav" />
+
+  <main>
+    <div class="container index">
+      <slot />
+      <Slogan />
+    </div>
+  </main>
+</Layout>
+
+<style lang="scss">
+  h1,
+  .h1 {
+    font-size: calc(6vw + 6vh) !important;
+  }
+  .container.index {
+    padding-top: var(--space);
+  }
+</style>

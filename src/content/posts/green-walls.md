@@ -13,7 +13,7 @@ tags:
   - pollutants-remove
   - Indonesia
 canonical_url: false
-coverImage: '../../assets/p/solutions/green-walls/green-walls.jpg'
+coverImage: '../../assets/p/green-walls/green-walls.jpg'
 description: 'Green walls are not only visually pleasant, but naturally absorb CO2 and other pollutants thus cleaning the air.' # max 160 digits cos dunno how to trim it, yet......
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
@@ -33,7 +33,7 @@ Green walls are found most often in urban environments where the plants reduce o
 
 > "The primary cause of heat build-up in cities is insulation, the absorption of solar radiation by roads and buildings in the city and the storage of this heat in the building material and its subsequent re-radiation. Plant surfaces however, as a result of transpiration, do not rise more than 4–5 °C above the ambient and are sometimes cooler."" _Ong, Boon Lay - "Green plot ratio: an ecological measure for architecture and urban planning". Landscape and Urban Planning"_
 
-![Singapore Raffles Hospital](../../assets/p/solutions/green-walls/green-walls-02.jpg)
+![Singapore Raffles Hospital](../../assets/p/green-walls/green-walls-02.jpg)
 
 The popularising of green walls is often credited to Patrick Blanc, a French botanist specialised in tropical forest undergrowth.
 
@@ -43,13 +43,13 @@ He has since been involved with the design and implementation of a number of not
 
 Let's not forget that trees, and green in general, created the oxygen in our atmosphere.
 
-![Singapore Orchard Mall rooftop](../../assets/p/solutions/green-walls/green-walls-03.jpg)
+![Singapore Orchard Mall rooftop](../../assets/p/green-walls/green-walls-03.jpg)
 
 Green facades typically support climbing plants that climb up the vertical face of the host wall, while green walls can accommodate a variety of plant species.
 
 While this solution is picking up quickly in many metropolitan areas for the specific work they do for us, in Bali too we have some, like this one in Sanur.
 
-![Bali, Sanur](../../assets/p/solutions/green-walls/green-walls.jpg)
+![Bali, Sanur](../../assets/p/green-walls/green-walls.jpg)
 
 ## Know More Links
 

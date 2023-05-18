@@ -15,7 +15,7 @@ tags:
   - learning
   - permaculture
   - wellness
-coverImage: '../../assets/p/services/bali-agri-tradeshow/bali-agri-tradeshow.jpg'
+coverImage: '../../assets/p/bali-agri-tradeshow/bali-agri-tradeshow.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -29,21 +29,21 @@ From 26 July to 29, 2018 at [Taman Bajra Sandhi Monument](https://goo.gl/maps/Am
 
 Among beautiful green booths there are many useful infos and products to discover, like a coconut climber tool called **Ponkod**, "Alat bantui panjat kelapa" that has been reviewed on [Bisnis website](http://entrepreneur.bisnis.com/read/20180204/263/734055/peluang-usaha-berkat-inovasi-produk-ini-panjat-kelapa-selihai-tupai-), [check out this videos](https://youtu.be/K-RCTw9p6DU) or [this one](https://youtu.be/dcWB8dHKIak).
 
-![Bali agribusiness trade show](../../assets/p/services/bali-agri-tradeshow/bali-agri-tradeshow-05.jpg)
+![Bali agribusiness trade show](../../assets/p/bali-agri-tradeshow/bali-agri-tradeshow-05.jpg)
 
 With free entrance, you will be able to see, meet and buy plants, trees and organic products.
 
-![Bali agribusiness trade show](../../assets/p/services/bali-agri-tradeshow/bali-agri-tradeshow-02.jpg)
+![Bali agribusiness trade show](../../assets/p/bali-agri-tradeshow/bali-agri-tradeshow-02.jpg)
 
 You can buy coffee trees, salak trees, or [hydroponic systems](http://hidroponikbali.com).
 
-![Bali agribusiness trade show](../../assets/p/services/bali-agri-tradeshow/bali-agri-tradeshow-03.jpg)
+![Bali agribusiness trade show](../../assets/p/bali-agri-tradeshow/bali-agri-tradeshow-03.jpg)
 
 > "By regular climbing, a day can climb 20-25 coconuts but with Ponkod can go up to 45 trees," say Gede Juliana Eka Putra, Ponkod Founder.
 
 You can find beautiful orchids and organic food producers like **Dewata Organik** from [Bangli](https://goo.gl/maps/9sxcDHEaALw). His booth sells "Bibit Buah Unggul" - Superior Fruit Seeds, organic fertilizer and locally made honey.
 
-![Bali agribusiness trade show](../../assets/p/services/bali-agri-tradeshow/bali-agri-tradeshow-04.jpg)
+![Bali agribusiness trade show](../../assets/p/bali-agri-tradeshow/bali-agri-tradeshow-04.jpg)
 
 ## Know More Links
 

@@ -10,7 +10,7 @@ tags:
   - learning
   - plants
   - wellness
-coverImage: '../../assets/p/health/flax-is-a-superfood/flax-is-a-superfood.jpg'
+coverImage: '../../assets/p/flax-is-a-superfood/flax-is-a-superfood.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -28,7 +28,7 @@ We only need a few teaspoons of seeds a day to benefit from their healthfulness.
 
 You can eat them raw, grind them and adding them to salads, soups or to your baking mix.
 
-![Flax seeds.](../../assets/p/health/flax-is-a-superfood/flax-is-a-superfood-02.jpg)
+![Flax seeds.](../../assets/p/flax-is-a-superfood/flax-is-a-superfood-02.jpg)
 
 A 2013 study published in “Hypertension” concluded that flaxseed lowers blood pressure in hypertensive patients.
 

@@ -12,7 +12,7 @@ tags:
   - social-responsibility
   - recycle
   - waste
-coverImage: '../../assets/p/solutions/plastic-roads/plastic-roads.jpg'
+coverImage: '../../assets/p/plastic-roads/plastic-roads.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
@@ -36,7 +36,7 @@ India has built a road along more than 25 thousand kilometers of asphalt made fr
 
 To this day people often bury or burn plastic and rubber waste causing soil and air pollution. Wastes buried in the ground will eventually carry water and enter the river and then carried into the sea in the form of micro plastic.
 
-![We are standardizing this technology for implementation in Indonesia](../../assets/p/solutions/plastic-roads/plastic-roads-03.jpg)
+![We are standardizing this technology for implementation in Indonesia](../../assets/p/plastic-roads/plastic-roads-03.jpg)
 
 President Joko Widodo at the G-20 meeting in 2017 has expressed Indonesia's commitment to reduce marine plastic waste by 70 percent by 2025.
 
@@ -50,7 +50,7 @@ The amount of plastic waste in Indonesia in 2019 is estimated at 9.52 million to
 
 Asphalt produced by plastic and rubber waste material is more sticky when compared with conventional asphalt. The level of stability and resilience of the mixture increased 40 percent. The government has coordinated with the Indonesian Plastic Recycling Association in 16 major cities that will collect and sort waste.
 
-![Asphalt produced by plastic and rubber waste material is more sticky when compared with conventional asphalt.](../../assets/p/solutions/plastic-roads/plastic-roads-04.jpg)
+![Asphalt produced by plastic and rubber waste material is more sticky when compared with conventional asphalt.](../../assets/p/plastic-roads/plastic-roads-04.jpg)
 
 Indonesia, with a population of 257.6 million, is the world's second-biggest source of marine plastic waste.
 
