@@ -1,7 +1,7 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "6.5.7",
+  "version": "6.5.8",
   "private": true,
   "scripts": {
     "dev": "astro dev",
