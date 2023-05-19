@@ -3,28 +3,28 @@ import siteData from '@data/site.json'
 const today = new Date()
 ---
 
-<div class="copyright r-1deg">
+<div class="copyright">
   <span>Copyright © 2018-{today.getFullYear()}</span>
   <span class="uppercase">{siteData.title}.</span>
   <br class="show_on_phones" />
   Released under
 
   <a
+    class="open_in_new_window r-2deg"
     id="magicgreen-to-creativecommons"
     title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials."
     href={siteData.license.url}
     target="_blank"
-    class="open_in_new_window"
     rel="noopener"
     >{siteData.license.name}.
   </a>
   <br class="show_on_phones" />
 
-  <a href={siteData.github}
+  <a class="r-2deg" href={siteData.github}
     >Open Source v{siteData.version} | {siteData.version_name}.</a
   >
 
-  <div class="">
+  <div class="r-2deg">
     Powered by <a
       id="magicgreen-to-junglestar"
       href={siteData.producer.url}
@@ -46,14 +46,7 @@ const today = new Date()
     padding-bottom: calc(var(--space) * 3);
     padding-left: calc(var(--space) * 3);
     padding-right: calc(var(--space) * 3);
-    margin-bottom: -3rem;
     font-size: 90%;
   }
-  .rotate_t {
-    --tw-scale-x: 1.05;
-    --tw-scale-y: 1.05;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-      rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
+
 </style>

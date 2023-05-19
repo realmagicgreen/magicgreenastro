@@ -10,8 +10,7 @@
 /* Can be forced with data-theme="light" */
 [data-theme='light'],
 :root:not([data-theme='dark']) {
-  --primary: oklch(37.4% 0.1095 135); // hsla(92, 100%, 15%,1)
-  --primary_fallback: hsla(92, 100%, 15%, 1); // hsl(92, 100%, 15%)
+  --primary: hsla(92, 100%, 15%, 1); // NOT YET OK: oklch(37.4% 0.1095 135);
   --primary-hover: hsla(92, 100%, 25%, 1); // hsl(92, 100%, 25%)  #388e3c;
   --primary-focus: rgba(67, 160, 71, 0.125);
   --primary-inverse: black;
@@ -23,8 +22,7 @@
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --primary: oklch(88% 0.268 137); // hsla(92, 100%, 50%,1)
-    --primary_fallback: hsla(92, 100%, 50%, 1); // hsla(92, 100%, 50%,1)
+    --primary: hsla(92, 100%, 50%, 1); // oklch(88% 0.268 137); NOT YET OK!
     --primary-hover: hsla(92, 100%, 40%, 1); // hsla(92, 100%, 40%, 1)  #4caf50;
     --primary-focus: rgba(67, 160, 71, 0.25);
     --primary-inverse: #fff;
@@ -36,8 +34,7 @@
 /* DARK (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme='dark'] {
-  --primary: oklch(88% 0.268 137); // hsla(92, 100%, 50%,1)
-  --primary_fallback: hsla(92, 100%, 50%, 1); // hsla(92, 100%, 50%,1)
+  --primary: hsla(92, 100%, 50%, 1); //oklch(88% 0.268 137);
   --primary-hover: hsla(92, 100%, 40%, 1); // hsla(92, 100%, 40%,1)  #4caf50;
   --primary-focus: rgba(67, 160, 71, 0.25);
   --primary-inverse: #fff;
@@ -47,12 +44,12 @@
 
 /* (COMMON STYLES) REFERENCED */
 :root {
-  --blockquote-border-color: var(--primary_fallback) !important;
+  --blockquote-border-color: var(--primary) !important;
   --bodyfontweight: 300;
-  --form-element-active-border-color: var(--primary_fallback);
+  --form-element-active-border-color: var(--primary);
   --form-element-focus-color: var(--primary-focus);
   --switch-color: var(--primary-inverse);
-  --switch-checked-background-color: var(--primary_fallback);
+  --switch-checked-background-color: var(--primary);
 
   --hearth_color: hsla(36, 88%, 12%, 1);
 
@@ -110,6 +107,7 @@
 // MAGICGREEN OVERRIDES
 
 body {
+  overflow-x: hidden;
   padding-top: var(--top_band);
   margin: 0;
   content-visibility: auto;
@@ -143,8 +141,7 @@ body {
   }
 
   .green {
-    color: var(--primary_fallback);
-    color: var(--primary_fallback) !important;
+    color: var(--primary) !important;
   }
 
   // .services::before {
@@ -241,10 +238,8 @@ ul li {
 }
 
 .fill_color {
-  fill: var(--primary_fallback);
-  fill: var(--primary_fallback);
+  fill: var(--primary);
   &:hover {
-    fill: var(--primary-hover_fallback);
     fill: var(--primary-hover);
   }
 }
@@ -374,15 +369,22 @@ footer {
   transform: rotateZ(-1deg);
 }
 
+.r2deg {
+  transform: rotateZ(2deg);
+}
+.r-2deg {
+  transform: rotateZ(-2deg);
+}
+
 .anim8 {
   animation: infinite;
   animation-name: gentleSwing;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x))
-    skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
+// .transform {
+//   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x))
+//     skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+// }
 
 //ARTICLE
 .post_content {
@@ -463,6 +465,6 @@ a:not([href]) {
 }
 
 // .know-more-links {
-//   border-bottom: var(--top_band) solid var(--primary_fallback) !important;
+//   border-bottom: var(--top_band) solid var(--primary) !important;
 //   border-radius: var(--radius);
 // }
