@@ -19,8 +19,7 @@ declare module 'astro:content' {
 
 declare module 'astro:content' {
 	export { z } from 'astro/zod';
-	export type CollectionEntry<C extends keyof typeof entryMap> =
-		(typeof entryMap)[C][keyof (typeof entryMap)[C]];
+	export type CollectionEntry<C extends keyof AnyEntryMap> = AnyEntryMap[C][keyof AnyEntryMap[C]];
 
 	// TODO: Remove this when having this fallback is no longer relevant. 2.3? 3.0? - erika, 2023-04-04
 	/**
@@ -74,580 +73,674 @@ declare module 'astro:content' {
 
 	export type SchemaContext = { image: ImageFunction };
 
-	type BaseCollectionConfig<S extends BaseSchema> = {
+	type DataCollectionConfig<S extends BaseSchema> = {
+		type: 'data';
 		schema?: S | ((context: SchemaContext) => S);
 	};
-	export function defineCollection<S extends BaseSchema>(
-		input: BaseCollectionConfig<S>
-	): BaseCollectionConfig<S>;
 
-	type EntryMapKeys = keyof typeof entryMap;
+	type ContentCollectionConfig<S extends BaseSchema> = {
+		type?: 'content';
+		schema?: S | ((context: SchemaContext) => S);
+	};
+
+	type CollectionConfig<S> = ContentCollectionConfig<S> | DataCollectionConfig<S>;
+
+	export function defineCollection<S extends BaseSchema>(
+		input: CollectionConfig<S>
+	): CollectionConfig<S>;
+
 	type AllValuesOf<T> = T extends any ? T[keyof T] : never;
-	type ValidEntrySlug<C extends EntryMapKeys> = AllValuesOf<(typeof entryMap)[C]>['slug'];
+	type ValidContentEntrySlug<C extends keyof ContentEntryMap> = AllValuesOf<
+		ContentEntryMap[C]
+	>['slug'];
 
 	export function getEntryBySlug<
-		C extends keyof typeof entryMap,
-		E extends ValidEntrySlug<C> | (string & {})
+		C extends keyof ContentEntryMap,
+		E extends ValidContentEntrySlug<C> | (string & {})
 	>(
 		collection: C,
 		// Note that this has to accept a regular string too, for SSR
 		entrySlug: E
-	): E extends ValidEntrySlug<C>
+	): E extends ValidContentEntrySlug<C>
 		? Promise<CollectionEntry<C>>
 		: Promise<CollectionEntry<C> | undefined>;
-	export function getCollection<C extends keyof typeof entryMap, E extends CollectionEntry<C>>(
+
+	export function getDataEntryById<C extends keyof DataEntryMap, E extends keyof DataEntryMap[C]>(
+		collection: C,
+		entryId: E
+	): Promise<CollectionEntry<C>>;
+
+	export function getCollection<C extends keyof AnyEntryMap, E extends CollectionEntry<C>>(
 		collection: C,
 		filter?: (entry: CollectionEntry<C>) => entry is E
 	): Promise<E[]>;
-	export function getCollection<C extends keyof typeof entryMap>(
+	export function getCollection<C extends keyof AnyEntryMap>(
 		collection: C,
 		filter?: (entry: CollectionEntry<C>) => unknown
 	): Promise<CollectionEntry<C>[]>;
 
+	export function getEntry<
+		C extends keyof ContentEntryMap,
+		E extends ValidContentEntrySlug<C> | (string & {})
+	>(entry: {
+		collection: C;
+		slug: E;
+	}): E extends ValidContentEntrySlug<C>
+		? Promise<CollectionEntry<C>>
+		: Promise<CollectionEntry<C> | undefined>;
+	export function getEntry<
+		C extends keyof DataEntryMap,
+		E extends keyof DataEntryMap[C] | (string & {})
+	>(entry: {
+		collection: C;
+		id: E;
+	}): E extends keyof DataEntryMap[C]
+		? Promise<DataEntryMap[C][E]>
+		: Promise<CollectionEntry<C> | undefined>;
+	export function getEntry<
+		C extends keyof ContentEntryMap,
+		E extends ValidContentEntrySlug<C> | (string & {})
+	>(
+		collection: C,
+		slug: E
+	): E extends ValidContentEntrySlug<C>
+		? Promise<CollectionEntry<C>>
+		: Promise<CollectionEntry<C> | undefined>;
+	export function getEntry<
+		C extends keyof DataEntryMap,
+		E extends keyof DataEntryMap[C] | (string & {})
+	>(
+		collection: C,
+		id: E
+	): E extends keyof DataEntryMap[C]
+		? Promise<DataEntryMap[C][E]>
+		: Promise<CollectionEntry<C> | undefined>;
+
+	/** Resolve an array of entry references from the same collection */
+	export function getEntries<C extends keyof ContentEntryMap>(
+		entries: {
+			collection: C;
+			slug: ValidContentEntrySlug<C>;
+		}[]
+	): Promise<CollectionEntry<C>[]>;
+	export function getEntries<C extends keyof DataEntryMap>(
+		entries: {
+			collection: C;
+			id: keyof DataEntryMap[C];
+		}[]
+	): Promise<CollectionEntry<C>[]>;
+
+	export function reference<C extends keyof AnyEntryMap>(
+		collection: C
+	): import('astro/zod').ZodEffects<
+		import('astro/zod').ZodString,
+		C extends keyof ContentEntryMap
+			? {
+					collection: C;
+					slug: ValidContentEntrySlug<C>;
+			  }
+			: {
+					collection: C;
+					id: keyof DataEntryMap[C];
+			  }
+	>;
+	// Allow generic `string` to avoid excessive type errors in the config
+	// if `dev` is not running to update as you edit.
+	// Invalid collection names will be caught at build time.
+	export function reference<C extends string>(
+		collection: C
+	): import('astro/zod').ZodEffects<import('astro/zod').ZodString, never>;
+
 	type ReturnTypeOrOriginal<T> = T extends (...args: any[]) => infer R ? R : T;
-	type InferEntrySchema<C extends keyof typeof entryMap> = import('astro/zod').infer<
+	type InferEntrySchema<C extends keyof AnyEntryMap> = import('astro/zod').infer<
 		ReturnTypeOrOriginal<Required<ContentConfig['collections'][C]>['schema']>
 	>;
 
-	const entryMap: {
+	type ContentEntryMap = {
 		"about": {
 "about-us.md": {
-  id: "about-us.md",
-  slug: "about-us",
-  body: string,
-  collection: "about",
+	id: "about-us.md";
+  slug: "about-us";
+  body: string;
+  collection: "about";
   data: InferEntrySchema<"about">
-} & { render(): Render[".md"] },
-},
+} & { render(): Render[".md"] };
+};
 "posts": {
 "aloe-vera.md": {
-  id: "aloe-vera.md",
-  slug: "aloe-vera",
-  body: string,
-  collection: "posts",
+	id: "aloe-vera.md";
+  slug: "aloe-vera";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "apparel-brands-go-green.md": {
-  id: "apparel-brands-go-green.md",
-  slug: "apparel-brands-go-green",
-  body: string,
-  collection: "posts",
+	id: "apparel-brands-go-green.md";
+  slug: "apparel-brands-go-green";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "areca-palm.md": {
-  id: "areca-palm.md",
-  slug: "areca-palm",
-  body: string,
-  collection: "posts",
+	id: "areca-palm.md";
+  slug: "areca-palm";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "artotel-bamboo.md": {
-  id: "artotel-bamboo.md",
-  slug: "artotel-bamboo",
-  body: string,
-  collection: "posts",
+	id: "artotel-bamboo.md";
+  slug: "artotel-bamboo";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "asbestos.md": {
-  id: "asbestos.md",
-  slug: "asbestos",
-  body: string,
-  collection: "posts",
+	id: "asbestos.md";
+  slug: "asbestos";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "asean-against-plastic-pollution.md": {
-  id: "asean-against-plastic-pollution.md",
-  slug: "asean-against-plastic-pollution",
-  body: string,
-  collection: "posts",
+	id: "asean-against-plastic-pollution.md";
+  slug: "asean-against-plastic-pollution";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bali-agri-tradeshow.md": {
-  id: "bali-agri-tradeshow.md",
-  slug: "bali-agri-tradeshow",
-  body: string,
-  collection: "posts",
+	id: "bali-agri-tradeshow.md";
+  slug: "bali-agri-tradeshow";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bali-plastic-bags-ban.md": {
-  id: "bali-plastic-bags-ban.md",
-  slug: "bali-plastic-bags-ban",
-  body: string,
-  collection: "posts",
+	id: "bali-plastic-bags-ban.md";
+  slug: "bali-plastic-bags-ban";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bali-solar-energy.md": {
-  id: "bali-solar-energy.md",
-  slug: "bali-solar-energy",
-  body: string,
-  collection: "posts",
+	id: "bali-solar-energy.md";
+  slug: "bali-solar-energy";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bali-water-protection.md": {
-  id: "bali-water-protection.md",
-  slug: "bali-water-protection",
-  body: string,
-  collection: "posts",
+	id: "bali-water-protection.md";
+  slug: "bali-water-protection";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bali-wave-energy-park.md": {
-  id: "bali-wave-energy-park.md",
-  slug: "bali-wave-energy-park",
-  body: string,
-  collection: "posts",
+	id: "bali-wave-energy-park.md";
+  slug: "bali-wave-energy-park";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "balsa-surfboards.md": {
-  id: "balsa-surfboards.md",
-  slug: "balsa-surfboards",
-  body: string,
-  collection: "posts",
+	id: "balsa-surfboards.md";
+  slug: "balsa-surfboards";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bamboo-bicycles.md": {
-  id: "bamboo-bicycles.md",
-  slug: "bamboo-bicycles",
-  body: string,
-  collection: "posts",
+	id: "bamboo-bicycles.md";
+  slug: "bamboo-bicycles";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bamboo-buildings-in-bali.md": {
-  id: "bamboo-buildings-in-bali.md",
-  slug: "bamboo-buildings-in-bali",
-  body: string,
-  collection: "posts",
+	id: "bamboo-buildings-in-bali.md";
+  slug: "bamboo-buildings-in-bali";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bamboo-straws.md": {
-  id: "bamboo-straws.md",
-  slug: "bamboo-straws",
-  body: string,
-  collection: "posts",
+	id: "bamboo-straws.md";
+  slug: "bamboo-straws";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bambu-indah.md": {
-  id: "bambu-indah.md",
-  slug: "bambu-indah",
-  body: string,
-  collection: "posts",
+	id: "bambu-indah.md";
+  slug: "bambu-indah";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bandwidth-and-economic-wealth.md": {
-  id: "bandwidth-and-economic-wealth.md",
-  slug: "bandwidth-and-economic-wealth",
-  body: string,
-  collection: "posts",
+	id: "bandwidth-and-economic-wealth.md";
+  slug: "bandwidth-and-economic-wealth";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bedroom-plants.md": {
-  id: "bedroom-plants.md",
-  slug: "bedroom-plants",
-  body: string,
-  collection: "posts",
+	id: "bedroom-plants.md";
+  slug: "bedroom-plants";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "benefits-of-spirulina.md": {
-  id: "benefits-of-spirulina.md",
-  slug: "benefits-of-spirulina",
-  body: string,
-  collection: "posts",
+	id: "benefits-of-spirulina.md";
+  slug: "benefits-of-spirulina";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "bio-cement.md": {
-  id: "bio-cement.md",
-  slug: "bio-cement",
-  body: string,
-  collection: "posts",
+	id: "bio-cement.md";
+  slug: "bio-cement";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "biodegradable-indonesian-plastic.md": {
-  id: "biodegradable-indonesian-plastic.md",
-  slug: "biodegradable-indonesian-plastic",
-  body: string,
-  collection: "posts",
+	id: "biodegradable-indonesian-plastic.md";
+  slug: "biodegradable-indonesian-plastic";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "brazilian-reclaimed-wood.md": {
-  id: "brazilian-reclaimed-wood.md",
-  slug: "brazilian-reclaimed-wood",
-  body: string,
-  collection: "posts",
+	id: "brazilian-reclaimed-wood.md";
+  slug: "brazilian-reclaimed-wood";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "building-with-bamboo.md": {
-  id: "building-with-bamboo.md",
-  slug: "building-with-bamboo",
-  body: string,
-  collection: "posts",
+	id: "building-with-bamboo.md";
+  slug: "building-with-bamboo";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "byebye-plastic-bags.md": {
-  id: "byebye-plastic-bags.md",
-  slug: "byebye-plastic-bags",
-  body: string,
-  collection: "posts",
+	id: "byebye-plastic-bags.md";
+  slug: "byebye-plastic-bags";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "chrysanthemum-power.md": {
-  id: "chrysanthemum-power.md",
-  slug: "chrysanthemum-power",
-  body: string,
-  collection: "posts",
+	id: "chrysanthemum-power.md";
+  slug: "chrysanthemum-power";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "consumers-want-sustainability.md": {
-  id: "consumers-want-sustainability.md",
-  slug: "consumers-want-sustainability",
-  body: string,
-  collection: "posts",
+	id: "consumers-want-sustainability.md";
+  slug: "consumers-want-sustainability";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "cool-reclaimed-wood-lamps.md": {
-  id: "cool-reclaimed-wood-lamps.md",
-  slug: "cool-reclaimed-wood-lamps",
-  body: string,
-  collection: "posts",
+	id: "cool-reclaimed-wood-lamps.md";
+  slug: "cool-reclaimed-wood-lamps";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "dracaena-benefits.md": {
-  id: "dracaena-benefits.md",
-  slug: "dracaena-benefits",
-  body: string,
-  collection: "posts",
+	id: "dracaena-benefits.md";
+  slug: "dracaena-benefits";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "eco-bali.md": {
-  id: "eco-bali.md",
-  slug: "eco-bali",
-  body: string,
-  collection: "posts",
+	id: "eco-bali.md";
+  slug: "eco-bali";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "eco-regions-indonesia.md": {
-  id: "eco-regions-indonesia.md",
-  slug: "eco-regions-indonesia",
-  body: string,
-  collection: "posts",
+	id: "eco-regions-indonesia.md";
+  slug: "eco-regions-indonesia";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "electric-cars-in-thailand.md": {
-  id: "electric-cars-in-thailand.md",
-  slug: "electric-cars-in-thailand",
-  body: string,
-  collection: "posts",
+	id: "electric-cars-in-thailand.md";
+  slug: "electric-cars-in-thailand";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "eliminate-air-pollutants.md": {
-  id: "eliminate-air-pollutants.md",
-  slug: "eliminate-air-pollutants",
-  body: string,
-  collection: "posts",
+	id: "eliminate-air-pollutants.md";
+  slug: "eliminate-air-pollutants";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "energy-saving-bulbs.md": {
-  id: "energy-saving-bulbs.md",
-  slug: "energy-saving-bulbs",
-  body: string,
-  collection: "posts",
+	id: "energy-saving-bulbs.md";
+  slug: "energy-saving-bulbs";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "et-foldable-scooter.md": {
-  id: "et-foldable-scooter.md",
-  slug: "et-foldable-scooter",
-  body: string,
-  collection: "posts",
+	id: "et-foldable-scooter.md";
+  slug: "et-foldable-scooter";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "evoware-not-plastic.md": {
-  id: "evoware-not-plastic.md",
-  slug: "evoware-not-plastic",
-  body: string,
-  collection: "posts",
+	id: "evoware-not-plastic.md";
+  slug: "evoware-not-plastic";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "fight-inflammation-with-food.md": {
-  id: "fight-inflammation-with-food.md",
-  slug: "fight-inflammation-with-food",
-  body: string,
-  collection: "posts",
+	id: "fight-inflammation-with-food.md";
+  slug: "fight-inflammation-with-food";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "flax-is-a-superfood.md": {
-  id: "flax-is-a-superfood.md",
-  slug: "flax-is-a-superfood",
-  body: string,
-  collection: "posts",
+	id: "flax-is-a-superfood.md";
+  slug: "flax-is-a-superfood";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "food-safe-plastic.md": {
-  id: "food-safe-plastic.md",
-  slug: "food-safe-plastic",
-  body: string,
-  collection: "posts",
+	id: "food-safe-plastic.md";
+  slug: "food-safe-plastic";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "gardens-by-the-bay.md": {
-  id: "gardens-by-the-bay.md",
-  slug: "gardens-by-the-bay",
-  body: string,
-  collection: "posts",
+	id: "gardens-by-the-bay.md";
+  slug: "gardens-by-the-bay";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "ginger-is-good.md": {
-  id: "ginger-is-good.md",
-  slug: "ginger-is-good",
-  body: string,
-  collection: "posts",
+	id: "ginger-is-good.md";
+  slug: "ginger-is-good";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "golden-pothos.md": {
-  id: "golden-pothos.md",
-  slug: "golden-pothos",
-  body: string,
-  collection: "posts",
+	id: "golden-pothos.md";
+  slug: "golden-pothos";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "green-school-bali.md": {
-  id: "green-school-bali.md",
-  slug: "green-school-bali",
-  body: string,
-  collection: "posts",
+	id: "green-school-bali.md";
+  slug: "green-school-bali";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "green-walls.md": {
-  id: "green-walls.md",
-  slug: "green-walls",
-  body: string,
-  collection: "posts",
+	id: "green-walls.md";
+  slug: "green-walls";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "gringgo-smarter-waste-collection.md": {
-  id: "gringgo-smarter-waste-collection.md",
-  slug: "gringgo-smarter-waste-collection",
-  body: string,
-  collection: "posts",
+	id: "gringgo-smarter-waste-collection.md";
+  slug: "gringgo-smarter-waste-collection";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "honda-electric-cub.md": {
-  id: "honda-electric-cub.md",
-  slug: "honda-electric-cub",
-  body: string,
-  collection: "posts",
+	id: "honda-electric-cub.md";
+  slug: "honda-electric-cub";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "immune-boost-drinks.md": {
-  id: "immune-boost-drinks.md",
-  slug: "immune-boost-drinks",
-  body: string,
-  collection: "posts",
+	id: "immune-boost-drinks.md";
+  slug: "immune-boost-drinks";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "indonesian-reclaimed-wood.md": {
-  id: "indonesian-reclaimed-wood.md",
-  slug: "indonesian-reclaimed-wood",
-  body: string,
-  collection: "posts",
+	id: "indonesian-reclaimed-wood.md";
+  slug: "indonesian-reclaimed-wood";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "indonesian-waste-platform.md": {
-  id: "indonesian-waste-platform.md",
-  slug: "indonesian-waste-platform",
-  body: string,
-  collection: "posts",
+	id: "indonesian-waste-platform.md";
+  slug: "indonesian-waste-platform";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "maya-green-roof.md": {
-  id: "maya-green-roof.md",
-  slug: "maya-green-roof",
-  body: string,
-  collection: "posts",
+	id: "maya-green-roof.md";
+  slug: "maya-green-roof";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "microplastic-in-your-salt.md": {
-  id: "microplastic-in-your-salt.md",
-  slug: "microplastic-in-your-salt",
-  body: string,
-  collection: "posts",
+	id: "microplastic-in-your-salt.md";
+  slug: "microplastic-in-your-salt";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "moringa-superfood.md": {
-  id: "moringa-superfood.md",
-  slug: "moringa-superfood",
-  body: string,
-  collection: "posts",
+	id: "moringa-superfood.md";
+  slug: "moringa-superfood";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "mosquito-repellent-plants.md": {
-  id: "mosquito-repellent-plants.md",
-  slug: "mosquito-repellent-plants",
-  body: string,
-  collection: "posts",
+	id: "mosquito-repellent-plants.md";
+  slug: "mosquito-repellent-plants";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "neem-tree.md": {
-  id: "neem-tree.md",
-  slug: "neem-tree",
-  body: string,
-  collection: "posts",
+	id: "neem-tree.md";
+  slug: "neem-tree";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "paper-towels.md": {
-  id: "paper-towels.md",
-  slug: "paper-towels",
-  body: string,
-  collection: "posts",
+	id: "paper-towels.md";
+  slug: "paper-towels";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "peace-lilies.md": {
-  id: "peace-lilies.md",
-  slug: "peace-lilies",
-  body: string,
-  collection: "posts",
+	id: "peace-lilies.md";
+  slug: "peace-lilies";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "plastic-bags.md": {
-  id: "plastic-bags.md",
-  slug: "plastic-bags",
-  body: string,
-  collection: "posts",
+	id: "plastic-bags.md";
+  slug: "plastic-bags";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "plastic-roads.md": {
-  id: "plastic-roads.md",
-  slug: "plastic-roads",
-  body: string,
-  collection: "posts",
+	id: "plastic-roads.md";
+  slug: "plastic-roads";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "racing-to-clean.md": {
-  id: "racing-to-clean.md",
-  slug: "racing-to-clean",
-  body: string,
-  collection: "posts",
+	id: "racing-to-clean.md";
+  slug: "racing-to-clean";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "raising-awareness.md": {
-  id: "raising-awareness.md",
-  slug: "raising-awareness",
-  body: string,
-  collection: "posts",
+	id: "raising-awareness.md";
+  slug: "raising-awareness";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "recycling-aluminum.md": {
-  id: "recycling-aluminum.md",
-  slug: "recycling-aluminum",
-  body: string,
-  collection: "posts",
+	id: "recycling-aluminum.md";
+  slug: "recycling-aluminum";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "rethink-plastic.md": {
-  id: "rethink-plastic.md",
-  slug: "rethink-plastic",
-  body: string,
-  collection: "posts",
+	id: "rethink-plastic.md";
+  slug: "rethink-plastic";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "singapore-botanic-gardens.md": {
-  id: "singapore-botanic-gardens.md",
-  slug: "singapore-botanic-gardens",
-  body: string,
-  collection: "posts",
+	id: "singapore-botanic-gardens.md";
+  slug: "singapore-botanic-gardens";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "snake-plant.md": {
-  id: "snake-plant.md",
-  slug: "snake-plant",
-  body: string,
-  collection: "posts",
+	id: "snake-plant.md";
+  slug: "snake-plant";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "sos-from-the-deep.md": {
-  id: "sos-from-the-deep.md",
-  slug: "sos-from-the-deep",
-  body: string,
-  collection: "posts",
+	id: "sos-from-the-deep.md";
+  slug: "sos-from-the-deep";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "stations-coming.md": {
-  id: "stations-coming.md",
-  slug: "stations-coming",
-  body: string,
-  collection: "posts",
+	id: "stations-coming.md";
+  slug: "stations-coming";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "stop-alien-species.md": {
-  id: "stop-alien-species.md",
-  slug: "stop-alien-species",
-  body: string,
-  collection: "posts",
+	id: "stop-alien-species.md";
+  slug: "stop-alien-species";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "sustainable-wood.md": {
-  id: "sustainable-wood.md",
-  slug: "sustainable-wood",
-  body: string,
-  collection: "posts",
+	id: "sustainable-wood.md";
+  slug: "sustainable-wood";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "the-ocean-cleanup.md": {
-  id: "the-ocean-cleanup.md",
-  slug: "the-ocean-cleanup",
-  body: string,
-  collection: "posts",
+	id: "the-ocean-cleanup.md";
+  slug: "the-ocean-cleanup";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "trash-hero.md": {
-  id: "trash-hero.md",
-  slug: "trash-hero",
-  body: string,
-  collection: "posts",
+	id: "trash-hero.md";
+  slug: "trash-hero";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "travellers-choose-sustainability.md": {
-  id: "travellers-choose-sustainability.md",
-  slug: "travellers-choose-sustainability",
-  body: string,
-  collection: "posts",
+	id: "travellers-choose-sustainability.md";
+  slug: "travellers-choose-sustainability";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "up-cycled-glass.md": {
-  id: "up-cycled-glass.md",
-  slug: "up-cycled-glass",
-  body: string,
-  collection: "posts",
+	id: "up-cycled-glass.md";
+  slug: "up-cycled-glass";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "vegetable-block-printing.md": {
-  id: "vegetable-block-printing.md",
-  slug: "vegetable-block-printing",
-  body: string,
-  collection: "posts",
+	id: "vegetable-block-printing.md";
+  slug: "vegetable-block-printing";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "xiaomi-electric-scooter.md": {
-  id: "xiaomi-electric-scooter.md",
-  slug: "xiaomi-electric-scooter",
-  body: string,
-  collection: "posts",
+	id: "xiaomi-electric-scooter.md";
+  slug: "xiaomi-electric-scooter";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "zero-electric-motorcycles.md": {
-  id: "zero-electric-motorcycles.md",
-  slug: "zero-electric-motorcycles",
-  body: string,
-  collection: "posts",
+	id: "zero-electric-motorcycles.md";
+  slug: "zero-electric-motorcycles";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
+} & { render(): Render[".md"] };
 "zooming-in-on-biodiversity.md": {
-  id: "zooming-in-on-biodiversity.md",
-  slug: "zooming-in-on-biodiversity",
-  body: string,
-  collection: "posts",
+	id: "zooming-in-on-biodiversity.md";
+  slug: "zooming-in-on-biodiversity";
+  body: string;
+  collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] },
-},
+} & { render(): Render[".md"] };
+};
 
 	};
+
+	type DataEntryMap = {
+		
+	};
+
+	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
 	type ContentConfig = typeof import("../src/content/config");
 }
