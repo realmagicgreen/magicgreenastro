@@ -1,14 +1,21 @@
 ---
-import Layout from '@layouts/Layout.astro'
+import Styles from '@components/Styles.astro'
+import Head from '@components/Head.astro'
+import Svgs from '@components/Svgs.astro'
+import Header from '@components/Header.astro'
+import Footer from '@components/Footer.astro'
 import Nav from '@components/Nav.astro'
+
+import AppendToCopyAction from '@scripts/AppendToCopyAction.astro'
+
 import { Image } from 'astro:assets'
 
-interface coverImage {
-  src: string
-  width: number
-  height: number
-  format: string
-}
+// interface coverImage {
+//   src: string
+//   width: number
+//   height: number
+//   format: string
+// }
 
 export interface Props {
   description: string
@@ -34,184 +41,190 @@ const {
   cssClass,
   cssBodyClass
 } = Astro.props
-
-
-import site from '@data/site.json'
-const resolvedImageWithDomain = new URL(coverImage.src, site.url).toString()
-console.log({coverImage})
-console.log({resolvedImageWithDomain})
 ---
 
-<Layout
-  title={title}
-  description={description}
-  cssBodyClass={cssBodyClass}
-  category={category}>
-  <Nav cssClass={cssClass} />
-  <main>
-    <article>
-      <div class="post_header container">
-        <h1 class="compacted centered">{title.toUpperCase()}</h1>
-        <h2 class="centered border_top border_bottom">
-          {subtitle}
-        </h2>
-      </div>
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <Head title={title} description={description} />
 
-      <div class="hero">
-        <div class="vegas_overlay"></div>
-        <div class="vegas_overlay2"></div>
-        <Image
-          class="coverimage"
-          src={coverImage}
-          width={1920}
-          height={1080}
-          alt={title}
-          quality="mid"
-          format="avif"
-        />
-      </div>
+  <body class={cssBodyClass}>
 
-      <div class="h5 post_metas">
-        <div class="post_meta_block post_meta_icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon_photographer"
-            ><path
-              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-            ></path><circle cx="12" cy="13" r="4"></circle></svg
-          >
-          <span class="post_meta_text nowrap">
-            {photography}
-          </span>
+    <Svgs />
+
+    <div id="top"></div>
+
+    <Header />
+
+    <Nav cssClass={cssClass} />
+
+    <main>
+      <article>
+        <div class="post_header container">
+          <h1 class="compacted centered">{title.toUpperCase()}</h1>
+          <h2 class="centered border_top border_bottom">
+            {subtitle}
+          </h2>
         </div>
 
-        <div class="post_meta_block post_meta_icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon_clock"
-            ><circle cx="12" cy="12" r="10"></circle><polyline
-              points="12 6 12 12 16 14"></polyline></svg
-          >
-          <time datetime={pubDate.toISOString()}>
-            {pubDate.toDateString()}
-          </time>
+        <div class="hero">
+          <Image
+            class="coverimage"
+            src={coverImage}
+            width={1920}
+            height={1080}
+            alt={title}
+            quality="mid"
+            format="avif"
+          />
         </div>
 
-        <div class="post_meta_block post_meta_icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon_tag">
-            <circle cx="12" cy="12" r="10"></circle><circle
-              cx="12"
-              cy="12"
-              r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg
-          >
-          {category.toUpperCase() || 'UNKNOWN'}
+        <div class="h5 post_metas">
+          <div class="post_meta_block post_meta_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon_photographer"
+              ><path
+                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+              ></path><circle cx="12" cy="13" r="4"></circle></svg
+            >
+            <span class="post_meta_text nowrap">
+              {photography}
+            </span>
+          </div>
+
+          <div class="post_meta_block post_meta_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon_clock"
+              ><circle cx="12" cy="12" r="10"></circle><polyline
+                points="12 6 12 12 16 14"></polyline></svg
+            >
+            <time datetime={pubDate.toISOString()}>
+              {pubDate.toDateString()}
+            </time>
+          </div>
+
+          <div class="post_meta_block post_meta_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon_tag">
+              <circle cx="12" cy="12" r="10"></circle><circle
+                cx="12"
+                cy="12"
+                r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg
+            >
+            {category.toUpperCase() || 'UNKNOWN'}
+          </div>
         </div>
-      </div>
 
-      <div class="post_content container padding_top">
-        <slot />
-      </div>
-    </article>
-  </main>
+        <div class="post_content container padding_top">
 
-  <script is:inline>
-    const images = Array.from(document.querySelectorAll('img'))
+          <slot />
 
-    images.forEach((image) => {
-      let alt = image.getAttribute('alt')
+        </div>
+      </article>
+    </main>
 
-      if (alt) {
-        image.insertAdjacentHTML('afterEnd', `<p class="caption">${alt}</p>`)
+    <script is:inline>
+      const images = Array.from(document.querySelectorAll('img'))
+
+      images.forEach((image) => {
+        let alt = image.getAttribute('alt')
+
+        if (alt) {
+          image.insertAdjacentHTML('afterEnd', `<p class="caption">${alt}</p>`)
+        }
+      })
+    </script>
+
+    <Footer cssClass="footer" />
+
+    <AppendToCopyAction />
+
+    <Styles />
+  </body>
+</html>
+  <style lang="scss">
+
+    article {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+      width: 100vw !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-right: var(--space_horizontal);
+      padding-left: var(--space_horizontal);
+
+    }
+
+
+    .post_header {
+      padding-top: var(--space);
+    }
+
+    .cat_name {
+      display: block;
+      opacity: 0.25;
+      font-weight: 100;
+      user-select: none;
+      padding-top: var(--space_small);
+    }
+
+    hr {
+      width: 55%;
+      color: var(--primary) !important;
+      border: 1px solid var(--primary) !important;
+    }
+    .post_metas {
+      padding-top: var(--space_small);
+      padding-bottom: var(--space_small);
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      padding-left: var(--space);
+      padding-right: var(--space);
+      @media screen and (min-width: 720px) {
+        flex-direction: row;
       }
-    })
-  </script>
-</Layout>
-
-<style lang="scss">
-  article {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    width: 100vw !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: var(--space_horizontal);
-    padding-left: var(--space_horizontal);
-  }
-
-  .post_content {
-    padding-right: 10vw;
-    padding-left: 10vw;
-  }
-  .post_header {
-    padding-top: var(--space);
-  }
-
-  .cat_name {
-    display: block;
-    opacity: 0.25;
-    font-weight: 100;
-    user-select: none;
-    padding-top: var(--space_small);
-  }
-
-  hr {
-    width: 55%;
-    color: var(--primary) !important;
-    border: 1px solid var(--primary) !important;
-  }
-  .post_metas {
-    padding-top: var(--space_small);
-    padding-bottom: var(--space_small);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    padding-left: var(--space);
-    padding-right: var(--space);
-    @media screen and (min-width: 720px) {
-      flex-direction: row;
     }
-  }
-  .post_meta_block {
-    padding-left: var(--space);
-    padding-right: var(--space);
-  }
-  .post_meta_icon {
-    color: var(--primary);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    svg {
-      stroke: var(--primary);
+    .post_meta_block {
+      padding-left: var(--space);
+      padding-right: var(--space);
     }
-  }
+    .post_meta_icon {
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      svg {
+        stroke: var(--primary);
+      }
+    }
+  </style>
 
-
-</style>

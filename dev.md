@@ -2,6 +2,7 @@
 
 ## WIP:
 
+- OG images for posts
 - tag icon before tags in posts
 - new posts
 

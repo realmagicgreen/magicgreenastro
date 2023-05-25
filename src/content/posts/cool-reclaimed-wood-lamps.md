@@ -13,7 +13,6 @@ tags:
   - learning
   - recycle
   - save-trees
-  - Surabaya
   - sustainable-construction
   - up-cycle
   - wood

@@ -1,0 +1,76 @@
+---
+//components
+import Junglestar from '@components/Junglestar.astro'
+import GoogleAnalytics from '@scripts/GoogleAnalytics.astro'
+import ExternalLinks from '@scripts/ExternalLinks.astro'
+
+//plugins
+import { SEO } from 'astro-seo'
+
+//js
+export interface Props {
+  title: string
+  description: string
+  category?: string | undefined
+}
+
+const { title, description} = Astro.props
+
+//data
+import site from '@data/site.json'
+
+const Brand = site.title
+const Mission = site.content_is_about
+
+//lets build metadatas
+const canonicalURL = new URL(Astro.url.pathname, site.url).toString()
+
+const makeTitle = title ? Brand + ' 💚 ' + title : 'J|makeTitle'
+
+const makeTitleOG = title
+  ? Brand + ', ' + Mission + ' 💚 ' + title
+  : 'J|makeTitleOG!'
+
+const resolvedImageWithDomain = new URL(site.projectimage, site.url).toString()
+const favicon = '../assets/favicons/safari-pinned-tab.svg'
+---
+
+<head>
+  <meta name="version_name" content={site.version_name} />
+  <meta name="version" content={site.version} />
+
+  <Junglestar />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="icon" type="image/svg+xml" href={favicon} />
+
+  <SEO
+    title={makeTitle}
+    description={description}
+    canonical={canonicalURL}
+    twitter={{
+      creator: site.author.twitter,
+      site: site.url,
+      card: 'summary_large_image'
+    }}
+    openGraph={{
+      basic: {
+        url: canonicalURL,
+        type: 'website',
+        title: makeTitleOG,
+        image: resolvedImageWithDomain
+      },
+      image: {
+        secureUrl: resolvedImageWithDomain,
+        alt: Mission
+      }
+    }}
+  />
+  <meta name="keywords" content={site.keywords} />
+
+  <GoogleAnalytics />
+
+  <ExternalLinks />
+</head>
