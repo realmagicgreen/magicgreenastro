@@ -48,7 +48,6 @@ const {
   <Head title={title} description={description} />
 
   <body class={cssBodyClass}>
-
     <Svgs />
 
     <div id="top"></div>
@@ -142,9 +141,7 @@ const {
         </div>
 
         <div class="post_content container padding_top">
-
           <slot />
-
         </div>
       </article>
     </main>
@@ -166,10 +163,7 @@ const {
     <AppendToCopyAction />
 
     <Styles />
-  </body>
-</html>
-  <style lang="scss">
-
+  </body><style lang="scss">
     article {
       margin-top: 0 !important;
       padding-top: 0 !important;
@@ -179,9 +173,7 @@ const {
       align-items: center;
       padding-right: var(--space_horizontal);
       padding-left: var(--space_horizontal);
-
     }
-
 
     .post_header {
       padding-top: var(--space);
@@ -227,4 +219,4 @@ const {
       }
     }
   </style>
-
+</html>

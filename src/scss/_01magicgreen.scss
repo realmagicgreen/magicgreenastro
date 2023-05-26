@@ -77,10 +77,13 @@
 
   //shadows
   --transition_shadow: box-shadow 0.2s ease;
-  --top_shadow: 0 -2px var(--radius) 0 rgba(0, 0, 0, 0.12), 0 -var(--radius) 10px 0 rgba(0, 0, 0, 0.24);
+  --top_shadow: 0 -2px var(--radius) 0 rgba(0, 0, 0, 0.12),
+    0 -var(--radius) 10px 0 rgba(0, 0, 0, 0.24);
   --bottom_shadow: 0 var(--radius) 10px 0 rgba(0, 0, 0, 0.24);
-  --card_shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.12), 2px 2px 3px 0 rgba(0, 0, 0, 0.24);
-  --card_shadow--hover: var(--radius) var(--radius) 8px 0 rgba(0, 0, 0, 0.12), 8px 8px 8px 0 rgba(0, 0, 0, 0.24);
+  --card_shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.12),
+    2px 2px 3px 0 rgba(0, 0, 0, 0.24);
+  --card_shadow--hover: var(--radius) var(--radius) 8px 0 rgba(0, 0, 0, 0.12),
+    8px 8px 8px 0 rgba(0, 0, 0, 0.24);
 
   //typography
 
@@ -458,7 +461,7 @@ main .index a {
 }
 
 // LOGIC FOR HIDING NULL FIELDS IN RESOURCE PAGE
-// somehow if i put htis in the resources.astro it DOES NOT work!
+// somehow if i put this in the resources.astro it DOES NOT work!
 [href*='null'],
 a:not([href]) {
   display: none !important;
