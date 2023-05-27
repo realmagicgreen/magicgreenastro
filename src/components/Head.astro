@@ -1,14 +1,11 @@
 ---
-//components
 import Junglestar from '@components/Junglestar.astro'
 import GoogleAnalytics from '@scripts/GoogleAnalytics.astro'
 import ExternalLinks from '@scripts/ExternalLinks.astro'
 import repoData from 'package.json'
-
-//plugins
+import site from '@data/site.json'
 import { SEO } from 'astro-seo'
 
-//js
 export interface Props {
   title: string
   description: string
@@ -17,17 +14,10 @@ export interface Props {
 
 const { title, description } = Astro.props
 
-//data
-import site from '@data/site.json'
-
 const Brand = site.title
 const Mission = site.content_is_about
-
-//lets build metadatas
 const canonicalURL = new URL(Astro.url.pathname, site.url).toString()
-
 const makeTitle = title ? Brand + ' 💚 ' + title : 'J|makeTitle'
-
 const makeTitleOG = title
   ? Brand + ', ' + Mission + ' 💚 ' + title
   : 'J|makeTitleOG!'

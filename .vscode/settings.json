@@ -6,16 +6,25 @@
     "typescript",
     "typescriptreact"
   ],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "'Jetbrains Mono', 'ProductSans', Monaco, 'Courier New', monospace, jetb",
+  "prettier.bracketSameLine": true,
+  "window.zoomLevel": 0.5,
+  "editor.fontSize": 17,
+  "editor.wordWrap": "wordWrapColumn",
+  "workbench.editor.wrapTabs": true,
+  "html-css-class-completion.enableEmmetSupport": true,
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "html.format.indentInnerHtml": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "json.format.keepLines": false,
   "prettier.documentSelectors": ["**/*.astro"],
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true,
-  "editor.wordWrap": "on",
-  "editor.experimentalWhitespaceRendering": "off",
-  "scss.format.spaceAroundSelectorSeparator": true,
-  "json.format.keepLines": false,
-  "prettier.bracketSameLine": true,
-  "window.zoomLevel": 0.5,
-  "editor.fontSize": 17
+  "emmet.includeLanguages": {
+    "html": "true",
+    "json": "true"
+  }
 }
