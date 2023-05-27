@@ -33,7 +33,10 @@ export default defineConfig({
       drafts: true
     }),
     partytown(),
-    prefetch()
+    prefetch({
+      // Allow up to three links to be prefetched concurrently
+      throttle: 5
+    })
   ],
   vite: {
     //maybe needed, not yet used!
