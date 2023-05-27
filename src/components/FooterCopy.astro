@@ -1,5 +1,6 @@
 ---
 import siteData from '@data/site.json'
+import repoData from 'package.json'
 const today = new Date()
 ---
 
@@ -21,7 +22,7 @@ const today = new Date()
   <br class="show_on_phones" />
 
   <a class="r-2deg" href={siteData.github}
-    >Open Source v{siteData.version} | {siteData.version_name}.</a
+    >Open Source v{repoData.version} | {repoData.version_name}.</a
   >
 
   <div class="r-2deg">

@@ -3,6 +3,7 @@
 import Junglestar from '@components/Junglestar.astro'
 import GoogleAnalytics from '@scripts/GoogleAnalytics.astro'
 import ExternalLinks from '@scripts/ExternalLinks.astro'
+import repoData from 'package.json'
 
 //plugins
 import { SEO } from 'astro-seo'
@@ -36,8 +37,8 @@ const favicon = '../assets/favicons/safari-pinned-tab.svg'
 ---
 
 <head>
-  <meta name="version_name" content={site.version_name} />
-  <meta name="version" content={site.version} />
+  <meta name="version_name" content={repoData.version_name} />
+  <meta name="version" content={repoData.version} />
 
   <Junglestar />
 

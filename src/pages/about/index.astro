@@ -2,6 +2,7 @@
 import Layout from '@layouts/Home.astro'
 import siteData from '@data/site.json'
 import { getEntryBySlug } from 'astro:content'
+import repoData from 'package.json'
 
 const about = await getEntryBySlug('about', 'about-us')
 
@@ -73,7 +74,7 @@ const { Content } = await about.render()
       <span class="break_on_phones"><span>|</span></span>
       {siteData.tldr.toUpperCase()}
       <span class="break_on_phones"><span>|</span></span>
-      v{siteData.version}
+      v{repoData.version} | {repoData.version_name.toUpperCase()}
     </div>
     <div>
       <hr />
