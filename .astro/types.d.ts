@@ -207,526 +207,526 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "posts": {
-"aloe-vera.md": {
-	id: "aloe-vera.md";
+"aloe-vera/index.md": {
+	id: "aloe-vera/index.md";
   slug: "aloe-vera";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"apparel-brands-go-green.md": {
-	id: "apparel-brands-go-green.md";
+"apparel-brands-go-green/index.md": {
+	id: "apparel-brands-go-green/index.md";
   slug: "apparel-brands-go-green";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"areca-palm.md": {
-	id: "areca-palm.md";
+"areca-palm/index.md": {
+	id: "areca-palm/index.md";
   slug: "areca-palm";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"artotel-bamboo.md": {
-	id: "artotel-bamboo.md";
+"artotel-bamboo/index.md": {
+	id: "artotel-bamboo/index.md";
   slug: "artotel-bamboo";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"asbestos.md": {
-	id: "asbestos.md";
+"asbestos/index.md": {
+	id: "asbestos/index.md";
   slug: "asbestos";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"asean-against-plastic-pollution.md": {
-	id: "asean-against-plastic-pollution.md";
+"asean-against-plastic-pollution/index.md": {
+	id: "asean-against-plastic-pollution/index.md";
   slug: "asean-against-plastic-pollution";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bali-agri-tradeshow.md": {
-	id: "bali-agri-tradeshow.md";
+"bali-agri-tradeshow/index.md": {
+	id: "bali-agri-tradeshow/index.md";
   slug: "bali-agri-tradeshow";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bali-plastic-bags-ban.md": {
-	id: "bali-plastic-bags-ban.md";
+"bali-plastic-bags-ban/index.md": {
+	id: "bali-plastic-bags-ban/index.md";
   slug: "bali-plastic-bags-ban";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bali-solar-energy.md": {
-	id: "bali-solar-energy.md";
+"bali-solar-energy/index.md": {
+	id: "bali-solar-energy/index.md";
   slug: "bali-solar-energy";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bali-water-protection.md": {
-	id: "bali-water-protection.md";
+"bali-water-protection/index.md": {
+	id: "bali-water-protection/index.md";
   slug: "bali-water-protection";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bali-wave-energy-park.md": {
-	id: "bali-wave-energy-park.md";
+"bali-wave-energy-park/index.md": {
+	id: "bali-wave-energy-park/index.md";
   slug: "bali-wave-energy-park";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"balsa-surfboards.md": {
-	id: "balsa-surfboards.md";
-  slug: "balsa-surfboards";
+"balsa-wood-surfboards/index.md": {
+	id: "balsa-wood-surfboards/index.md";
+  slug: "balsa-wood-surfboards";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bamboo-bicycles.md": {
-	id: "bamboo-bicycles.md";
+"bamboo-bicycles/index.md": {
+	id: "bamboo-bicycles/index.md";
   slug: "bamboo-bicycles";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bamboo-buildings-in-bali.md": {
-	id: "bamboo-buildings-in-bali.md";
+"bamboo-buildings-in-bali/index.md": {
+	id: "bamboo-buildings-in-bali/index.md";
   slug: "bamboo-buildings-in-bali";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bamboo-straws.md": {
-	id: "bamboo-straws.md";
+"bamboo-straws/index.md": {
+	id: "bamboo-straws/index.md";
   slug: "bamboo-straws";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bambu-indah.md": {
-	id: "bambu-indah.md";
+"bambu-indah/index.md": {
+	id: "bambu-indah/index.md";
   slug: "bambu-indah";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bandwidth-and-economic-wealth.md": {
-	id: "bandwidth-and-economic-wealth.md";
+"bandwidth-and-economic-wealth/index.md": {
+	id: "bandwidth-and-economic-wealth/index.md";
   slug: "bandwidth-and-economic-wealth";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bedroom-plants.md": {
-	id: "bedroom-plants.md";
+"bedroom-plants/index.md": {
+	id: "bedroom-plants/index.md";
   slug: "bedroom-plants";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"benefits-of-spirulina.md": {
-	id: "benefits-of-spirulina.md";
+"benefits-of-spirulina/index.md": {
+	id: "benefits-of-spirulina/index.md";
   slug: "benefits-of-spirulina";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"bio-cement.md": {
-	id: "bio-cement.md";
+"bio-cement/index.md": {
+	id: "bio-cement/index.md";
   slug: "bio-cement";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"biodegradable-indonesian-plastic.md": {
-	id: "biodegradable-indonesian-plastic.md";
+"biodegradable-indonesian-plastic/index.md": {
+	id: "biodegradable-indonesian-plastic/index.md";
   slug: "biodegradable-indonesian-plastic";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"brazilian-reclaimed-wood.md": {
-	id: "brazilian-reclaimed-wood.md";
+"brazilian-reclaimed-wood/index.md": {
+	id: "brazilian-reclaimed-wood/index.md";
   slug: "brazilian-reclaimed-wood";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"building-with-bamboo.md": {
-	id: "building-with-bamboo.md";
+"building-with-bamboo/index.md": {
+	id: "building-with-bamboo/index.md";
   slug: "building-with-bamboo";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"byebye-plastic-bags.md": {
-	id: "byebye-plastic-bags.md";
+"byebye-plastic-bags/index.md": {
+	id: "byebye-plastic-bags/index.md";
   slug: "byebye-plastic-bags";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"chrysanthemum-power.md": {
-	id: "chrysanthemum-power.md";
+"charging-stations-coming/index.md": {
+	id: "charging-stations-coming/index.md";
+  slug: "charging-stations-coming";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"chrysanthemum-power/index.md": {
+	id: "chrysanthemum-power/index.md";
   slug: "chrysanthemum-power";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"consumers-want-sustainability.md": {
-	id: "consumers-want-sustainability.md";
+"consumers-want-sustainability/index.md": {
+	id: "consumers-want-sustainability/index.md";
   slug: "consumers-want-sustainability";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"cool-reclaimed-wood-lamps.md": {
-	id: "cool-reclaimed-wood-lamps.md";
+"cool-reclaimed-wood-lamps/index.md": {
+	id: "cool-reclaimed-wood-lamps/index.md";
   slug: "cool-reclaimed-wood-lamps";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"dracaena-benefits.md": {
-	id: "dracaena-benefits.md";
-  slug: "dracaena-benefits";
+"dracena-benefits/index.md": {
+	id: "dracena-benefits/index.md";
+  slug: "dracena-benefits";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"eco-bali.md": {
-	id: "eco-bali.md";
+"eco-bali/index.md": {
+	id: "eco-bali/index.md";
   slug: "eco-bali";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"eco-regions-indonesia.md": {
-	id: "eco-regions-indonesia.md";
+"eco-regions-indonesia/index.md": {
+	id: "eco-regions-indonesia/index.md";
   slug: "eco-regions-indonesia";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"electric-cars-in-thailand.md": {
-	id: "electric-cars-in-thailand.md";
+"electric-cars-in-thailand/index.md": {
+	id: "electric-cars-in-thailand/index.md";
   slug: "electric-cars-in-thailand";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"eliminate-air-pollutants.md": {
-	id: "eliminate-air-pollutants.md";
-  slug: "eliminate-air-pollutants";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"energy-saving-bulbs.md": {
-	id: "energy-saving-bulbs.md";
+"energy-saving-bulbs/index.md": {
+	id: "energy-saving-bulbs/index.md";
   slug: "energy-saving-bulbs";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"et-foldable-scooter.md": {
-	id: "et-foldable-scooter.md";
+"et-foldable-scooter/index.md": {
+	id: "et-foldable-scooter/index.md";
   slug: "et-foldable-scooter";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"evoware-not-plastic.md": {
-	id: "evoware-not-plastic.md";
+"evoware-not-plastic/index.md": {
+	id: "evoware-not-plastic/index.md";
   slug: "evoware-not-plastic";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"fight-inflammation-with-food.md": {
-	id: "fight-inflammation-with-food.md";
+"fern-eliminate-air-pollutants/index.md": {
+	id: "fern-eliminate-air-pollutants/index.md";
+  slug: "fern-eliminate-air-pollutants";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"fight-inflammation-with-food/index.md": {
+	id: "fight-inflammation-with-food/index.md";
   slug: "fight-inflammation-with-food";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"flax-is-a-superfood.md": {
-	id: "flax-is-a-superfood.md";
+"flax-is-a-superfood/index.md": {
+	id: "flax-is-a-superfood/index.md";
   slug: "flax-is-a-superfood";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"food-safe-plastic.md": {
-	id: "food-safe-plastic.md";
+"food-safe-plastic/index.md": {
+	id: "food-safe-plastic/index.md";
   slug: "food-safe-plastic";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"gardens-by-the-bay.md": {
-	id: "gardens-by-the-bay.md";
+"gardens-by-the-bay/index.md": {
+	id: "gardens-by-the-bay/index.md";
   slug: "gardens-by-the-bay";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"ginger-is-good.md": {
-	id: "ginger-is-good.md";
+"ginger-is-good/index.md": {
+	id: "ginger-is-good/index.md";
   slug: "ginger-is-good";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"golden-pothos.md": {
-	id: "golden-pothos.md";
+"golden-pothos/index.md": {
+	id: "golden-pothos/index.md";
   slug: "golden-pothos";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"green-school-bali.md": {
-	id: "green-school-bali.md";
+"green-school-bali/index.md": {
+	id: "green-school-bali/index.md";
   slug: "green-school-bali";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"green-walls.md": {
-	id: "green-walls.md";
+"green-walls/index.md": {
+	id: "green-walls/index.md";
   slug: "green-walls";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"gringgo-smarter-waste-collection.md": {
-	id: "gringgo-smarter-waste-collection.md";
+"gringgo-smarter-waste-collection/index.md": {
+	id: "gringgo-smarter-waste-collection/index.md";
   slug: "gringgo-smarter-waste-collection";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"honda-electric-cub.md": {
-	id: "honda-electric-cub.md";
+"honda-electric-cub/index.md": {
+	id: "honda-electric-cub/index.md";
   slug: "honda-electric-cub";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"immune-boost-drinks.md": {
-	id: "immune-boost-drinks.md";
+"immune-boost-drinks/index.md": {
+	id: "immune-boost-drinks/index.md";
   slug: "immune-boost-drinks";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"indonesian-reclaimed-wood.md": {
-	id: "indonesian-reclaimed-wood.md";
+"indonesian-reclaimed-wood/index.md": {
+	id: "indonesian-reclaimed-wood/index.md";
   slug: "indonesian-reclaimed-wood";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"indonesian-waste-platform.md": {
-	id: "indonesian-waste-platform.md";
+"indonesian-waste-platform/index.md": {
+	id: "indonesian-waste-platform/index.md";
   slug: "indonesian-waste-platform";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"maya-green-roof.md": {
-	id: "maya-green-roof.md";
+"maya-green-roof/index.md": {
+	id: "maya-green-roof/index.md";
   slug: "maya-green-roof";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"microplastic-in-your-salt.md": {
-	id: "microplastic-in-your-salt.md";
+"microplastic-in-your-salt/index.md": {
+	id: "microplastic-in-your-salt/index.md";
   slug: "microplastic-in-your-salt";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"moringa-superfood.md": {
-	id: "moringa-superfood.md";
+"moringa-superfood/index.md": {
+	id: "moringa-superfood/index.md";
   slug: "moringa-superfood";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"mosquito-repellent-plants.md": {
-	id: "mosquito-repellent-plants.md";
+"mosquito-repellent-plants/index.md": {
+	id: "mosquito-repellent-plants/index.md";
   slug: "mosquito-repellent-plants";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"neem-tree.md": {
-	id: "neem-tree.md";
+"neem-tree/index.md": {
+	id: "neem-tree/index.md";
   slug: "neem-tree";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"paper-towels.md": {
-	id: "paper-towels.md";
+"paper-towels/index.md": {
+	id: "paper-towels/index.md";
   slug: "paper-towels";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"peace-lilies.md": {
-	id: "peace-lilies.md";
+"peace-lilies/index.md": {
+	id: "peace-lilies/index.md";
   slug: "peace-lilies";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"plastic-bags.md": {
-	id: "plastic-bags.md";
+"plastic-bags/index.md": {
+	id: "plastic-bags/index.md";
   slug: "plastic-bags";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"plastic-roads.md": {
-	id: "plastic-roads.md";
+"plastic-roads/index.md": {
+	id: "plastic-roads/index.md";
   slug: "plastic-roads";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"racing-to-clean.md": {
-	id: "racing-to-clean.md";
+"racing-to-clean/index.md": {
+	id: "racing-to-clean/index.md";
   slug: "racing-to-clean";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"raising-awareness.md": {
-	id: "raising-awareness.md";
+"raising-awareness/index.md": {
+	id: "raising-awareness/index.md";
   slug: "raising-awareness";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"recycling-aluminum.md": {
-	id: "recycling-aluminum.md";
+"recycling-aluminum/index.md": {
+	id: "recycling-aluminum/index.md";
   slug: "recycling-aluminum";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"rethink-plastic.md": {
-	id: "rethink-plastic.md";
+"rethink-plastic/index.md": {
+	id: "rethink-plastic/index.md";
   slug: "rethink-plastic";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"singapore-botanic-gardens.md": {
-	id: "singapore-botanic-gardens.md";
+"singapore-botanic-gardens/index.md": {
+	id: "singapore-botanic-gardens/index.md";
   slug: "singapore-botanic-gardens";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"snake-plant.md": {
-	id: "snake-plant.md";
+"snake-plant/index.md": {
+	id: "snake-plant/index.md";
   slug: "snake-plant";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"sos-from-the-deep.md": {
-	id: "sos-from-the-deep.md";
+"sos-from-the-deep/index.md": {
+	id: "sos-from-the-deep/index.md";
   slug: "sos-from-the-deep";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"stations-coming.md": {
-	id: "stations-coming.md";
-  slug: "stations-coming";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"stop-alien-species.md": {
-	id: "stop-alien-species.md";
+"stop-alien-species/index.md": {
+	id: "stop-alien-species/index.md";
   slug: "stop-alien-species";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"sustainable-wood.md": {
-	id: "sustainable-wood.md";
+"sustainable-wood/index.md": {
+	id: "sustainable-wood/index.md";
   slug: "sustainable-wood";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"the-ocean-cleanup.md": {
-	id: "the-ocean-cleanup.md";
+"the-ocean-cleanup/index.md": {
+	id: "the-ocean-cleanup/index.md";
   slug: "the-ocean-cleanup";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"trash-hero.md": {
-	id: "trash-hero.md";
+"trash-hero/index.md": {
+	id: "trash-hero/index.md";
   slug: "trash-hero";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"travellers-choose-sustainability.md": {
-	id: "travellers-choose-sustainability.md";
+"travellers-choose-sustainability/index.md": {
+	id: "travellers-choose-sustainability/index.md";
   slug: "travellers-choose-sustainability";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"up-cycled-glass.md": {
-	id: "up-cycled-glass.md";
+"up-cycled-glass/index.md": {
+	id: "up-cycled-glass/index.md";
   slug: "up-cycled-glass";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"vegetable-block-printing.md": {
-	id: "vegetable-block-printing.md";
+"vegetable-block-printing/index.md": {
+	id: "vegetable-block-printing/index.md";
   slug: "vegetable-block-printing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"xiaomi-electric-scooter.md": {
-	id: "xiaomi-electric-scooter.md";
+"xiaomi-electric-scooter/index.md": {
+	id: "xiaomi-electric-scooter/index.md";
   slug: "xiaomi-electric-scooter";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"zero-electric-motorcycles.md": {
-	id: "zero-electric-motorcycles.md";
+"zero-electric-motorcycles/index.md": {
+	id: "zero-electric-motorcycles/index.md";
   slug: "zero-electric-motorcycles";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"zooming-in-on-biodiversity.md": {
-	id: "zooming-in-on-biodiversity.md";
+"zooming-in-on-biodiversity/index.md": {
+	id: "zooming-in-on-biodiversity/index.md";
   slug: "zooming-in-on-biodiversity";
   body: string;
   collection: "posts";
