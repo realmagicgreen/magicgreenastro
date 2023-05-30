@@ -9,6 +9,8 @@ tags:
   - plastic
   - learning
   - wellness
+  - toxic
+  - pollutants
 coverImage: './food-safe-plastic.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
@@ -53,6 +55,8 @@ PET or PETE is commonly used in commercially sold drink bottles, and condiment b
 
 Some studies have shown up to **100 times the amount of antimony in bottled water** than in clean groundwater. The longer the bottle is on the shelf or exposed to heat or sunshine, the more antimony is likely to have leached into the product.
 
+Antimony (Sb) is a silver-white brittle solid or a dark-gray, lustrous powder. It can be harmful to the eyes and skin. **Antimony can also cause problems with the lungs, heart, and stomach**. Workers may be harmed from exposure to antimony and its compounds.
+
 ## **2. HDPE: High Density Poly Ethylene.**
 
 HDPE is commonly used in milk and juice bottles, detergent bottles, shampoo bottles, grocery bags, and cereal box liners. Like PET, it is also considered “safe,” but has been shown to **leach estrogenic chemicals dangerous to fetuses and juveniles**.
@@ -69,6 +73,7 @@ LDPE is used for dry cleaning bags, bread bags, newspaper bags, produce bags, an
 
 ## **5. PP: Poly Propylene.**
 
+**Poly Propylene is generally considered to be one of the safer plastics.**
 PP is used to make yogurt containers, deli food containers and winter clothing insulation. PP actually has a high heat tolerance and as such, **does not seem to leach many of the chemicals other plastics do**.
 
 ## **6. PS: Poly Styrene**

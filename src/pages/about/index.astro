@@ -35,7 +35,7 @@ const { Content } = await about.render()
   <br />
 
   <br />
-  <div class="centered">
+  <div class="centered projectdata">
     {siteData.subtitle.toUpperCase()}
     <span class="break_on_phones"><span>|</span></span>
     LICENSE: {siteData.license.name}
@@ -91,5 +91,8 @@ const { Content } = await about.render()
   }
   .lowercase {
     text-transform: lowercase;
+  }
+  .projectdata {
+    color: var(--primary);
   }
 </style>
