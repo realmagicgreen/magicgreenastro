@@ -10,8 +10,13 @@
 /* Can be forced with data-theme="light" */
 [data-theme='light'],
 :root:not([data-theme='dark']) {
-  --primary: hsla(92, 100%, 15%, 1); // NOT YET OK: oklch(37.4% 0.1095 135);
-  --primary-hover: hsla(92, 100%, 25%, 1); // hsl(92, 100%, 25%)  #388e3c;
+  --primary: hsla(92, 100%, 15%, 1); // oklch(37.36% 0.109 135.207);
+  --primary-hover: hsla(
+    92,
+    100%,
+    25%,
+    1
+  ); // oklch(53.22% 0.16 136.15)  #388e3c;
   --primary-focus: rgba(67, 160, 71, 0.125);
   --primary-inverse: black;
   --background-color: hsla(92, 100%, 90%, 1); // hsla(92, 100%, 90%,1)
