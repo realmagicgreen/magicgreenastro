@@ -4,7 +4,8 @@
     "javascriptreact",
     "astro",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
+    "json"
   ],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
