@@ -10,6 +10,12 @@ module.exports = {
       options: {
         parser: 'astro'
       }
+    },
+    {
+      files: '*.svg',
+      options: {
+        parser: 'html'
+      }
     }
   ]
 }
