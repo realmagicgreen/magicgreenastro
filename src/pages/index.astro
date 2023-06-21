@@ -7,6 +7,12 @@ const featuredPosts = await getCollection('posts', ({ data }) => {
   return data.publish && data.featured && data.pubDate < new Date()
 })
 
+const sortedFP = featuredPosts.sort(
+  (a, b) =>
+    Date.parse(b.data.pubDate.toString()) -
+    Date.parse(a.data.pubDate.toString())
+)
+
 const posts = await getCollection('posts', ({ data }) => {
   return data.publish && data.pubDate < new Date()
 })
@@ -30,7 +36,7 @@ const cssBodyClass = 'index'
   <h2 class="h5 uppercased centered">Featured Articles</h2>
   <div class="grida">
     {
-      featuredPosts.map((post) => (
+      sortedFP.map((post) => (
         <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
           <Card
             cssClass="card"
@@ -57,7 +63,8 @@ const cssBodyClass = 'index'
     {
       posts.map((post) => (
         <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
-          {post.data.title}
+          <h4>{post.data.title}</h4>
+          <p class="subtitle">{post.data.subtitle}</p>
         </a>
       ))
     }
@@ -70,6 +77,14 @@ const cssBodyClass = 'index'
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .card_link {
+    padding: 20px;
     text-decoration: none;
+  }
+
+  .subtitle {
+    padding-top: 0.5rem;
+    color: var(--color);
+    max-width: 64%;
+    margin: 0 auto;
   }
 </style>
