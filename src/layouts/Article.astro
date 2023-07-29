@@ -163,60 +163,93 @@ const {
     <AppendToCopyAction />
 
     <Styles />
-  </body><style lang="scss">
-    article {
-      margin-top: 0 !important;
-      padding-top: 0 !important;
-      width: 100vw !important;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-right: var(--space_horizontal);
-      padding-left: var(--space_horizontal);
-    }
-
-    .post_header {
-      padding-top: var(--space);
-    }
-
-    .cat_name {
-      display: block;
-      opacity: 0.25;
-      font-weight: 100;
-      user-select: none;
-      padding-top: var(--space_small);
-    }
-
-    hr {
-      width: 55%;
-      color: var(--primary) !important;
-      border: 1px solid var(--primary) !important;
-    }
-    .post_metas {
-      padding-top: var(--space_small);
-      padding-bottom: var(--space_small);
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      padding-left: var(--space);
-      padding-right: var(--space);
-      @media screen and (min-width: 720px) {
-        flex-direction: row;
+    <style lang="scss">
+      article {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        width: 100vw !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: var(--space_horizontal);
+        padding-left: var(--space_horizontal);
       }
-    }
-    .post_meta_block {
-      padding-left: var(--space);
-      padding-right: var(--space);
-    }
-    .post_meta_icon {
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      svg {
-        stroke: var(--primary);
+
+      .post_header {
+        padding-top: var(--space);
       }
-    }
-  </style>
+
+      .cat_name {
+        display: block;
+        opacity: 0.25;
+        font-weight: 100;
+        user-select: none;
+        padding-top: var(--space_small);
+      }
+
+      hr {
+        width: 55%;
+        color: var(--primary) !important;
+        border: 1px solid var(--primary) !important;
+      }
+      .post_metas {
+        padding-top: var(--space_small);
+        padding-bottom: var(--space_small);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding-left: var(--space);
+        padding-right: var(--space);
+        @media screen and (min-width: 720px) {
+          flex-direction: row;
+        }
+      }
+      .post_meta_block {
+        padding-left: var(--space);
+        padding-right: var(--space);
+      }
+      .post_meta_icon {
+        color: var(--primary);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        svg {
+          stroke: var(--primary);
+        }
+      }
+
+      .toc {
+        position: relative;
+        width: fit-content;
+        max-width: 900px;
+        padding: var(--space_small) calc(var(--space) / 2) var(--space_small) 0;
+        margin: 3vw auto;
+        border: 2px solid var(--primary-focus);
+        border-radius: var(--space_small);
+        & > ul {
+          margin: 0 auto;
+        }
+
+        span {
+          display: block;
+          padding: 0 0 var(--space_small) var(--space_small);
+          //vert?
+          writing-mode: vertical-lr;
+          transform: rotate(180deg);
+          position: absolute;
+          left: -2rem;
+          top: 0;
+        }
+        ul {
+          margin-bottom: 0;
+
+          li {
+            list-style: none;
+            text-transform: uppercase;
+          }
+        }
+      }
+    </style>
+  </body>
 </html>

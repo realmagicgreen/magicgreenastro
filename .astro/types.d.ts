@@ -1,14 +1,5 @@
 declare module 'astro:content' {
 	interface Render {
-		'.mdx': Promise<{
-			Content: import('astro').MarkdownInstance<{}>['Content'];
-			headings: import('astro').MarkdownHeading[];
-			remarkPluginFrontmatter: Record<string, any>;
-		}>;
-	}
-}
-declare module 'astro:content' {
-	interface Render {
 		'.md': Promise<{
 			Content: import('astro').MarkdownInstance<{}>['Content'];
 			headings: import('astro').MarkdownHeading[];
@@ -343,6 +334,13 @@ declare module 'astro:content' {
 "bio-cement/index.md": {
 	id: "bio-cement/index.md";
   slug: "bio-cement";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"biocoenosis-natural-forests/index.md": {
+	id: "biocoenosis-natural-forests/index.md";
+  slug: "biocoenosis-natural-forests";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

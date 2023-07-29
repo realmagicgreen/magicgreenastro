@@ -24,6 +24,16 @@ home_slideshow_caption: bio cement # lowercase, max 12 digits, including spaces
 photography: 'Unknown'
 ---
 
+<div class="toc">
+  <span>IN THIS PAGE</span>
+- [TLDR](#tldr)
+- [We grow biocement. No kiln firing, No CO2 emissions.](#we-grow-biocement-no-kiln-firing-no-co2-emissions)
+- [Grown sustainable building material.](#grown-sustainable-building-material)
+- [How it's made.](#how-its-made)
+- [Dust control solution](#dust-control-solution)
+- [The "Coral Reef" project.](#the-coral-reef-project)
+- [Know More Links](#know-more-links)
+
 <div class="tldr">
 
 ## TLDR
