@@ -11,15 +11,16 @@ export interface Props {
   description: string
   cssBodyClass: string
   category?: string | undefined
+  ogImage?: string | undefined
 }
 
-const { title, description, cssBodyClass } = Astro.props
+const { title, description, cssBodyClass, ogImage } = Astro.props
 ---
 
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 
-  <Head title={title} description={description} />
+  <Head title={title} description={description} ogImage={ogImage} />
 
   <body class={cssBodyClass}>
 

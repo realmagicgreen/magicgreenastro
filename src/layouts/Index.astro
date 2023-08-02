@@ -9,16 +9,18 @@ export interface Props {
   category?: string | undefined
   pubDate?: any | undefined
   cssBodyClass: string
+  ogImage?: string
 }
 
-const { category, description, title, cssBodyClass } = Astro.props
+const { category, description, title, cssBodyClass, ogImage } = Astro.props
 ---
 
 <Layout
   title={title}
   description={description}
   category={category}
-  cssBodyClass={cssBodyClass}>
+  cssBodyClass={cssBodyClass}
+  ogImage={ogImage}>
 
   <Nav cssClass="nav" />
 

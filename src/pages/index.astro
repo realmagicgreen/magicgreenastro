@@ -22,17 +22,20 @@ export interface Props {
   cssBodyClass: string
   pubDate: any
   category: string
+  ogImage?: string
 }
 
 import siteData from '@data/site.json'
 const title = 'Curated Info Platform'
 const cssBodyClass = 'index'
+const ogImage = '../og_large_image.jpg'
 ---
 
 <Layout
   title={title}
   description={siteData.description}
-  cssBodyClass={cssBodyClass}>
+  cssBodyClass={cssBodyClass}
+  ogImage={ogImage}>
   <h2 class="h5 uppercased centered">Featured Articles</h2>
   <div class="grida">
     {

@@ -14,16 +14,19 @@ export interface Props {
   cssBodyClass: string
   pubDate: any
   category: string
+  ogImage?: string
 }
 
 import siteData from '@data/site.json'
 const cssBodyClass = 'index'
+const ogImage = '../og_large_image.jpg'
 ---
 
 <Layout
   title={category.toUpperCase()}
   description={siteData.description}
-  cssBodyClass={cssBodyClass}>
+  cssBodyClass={cssBodyClass}
+  ogImage={ogImage}>
   <h2 class="h3 uppercased centered green">{category}</h2>
   <div class="grida">
     {

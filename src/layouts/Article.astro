@@ -28,6 +28,7 @@ export interface Props {
   pubDate: any
   tags: any
   cssClass: string
+  ogImage?: string
 }
 
 const {
@@ -39,13 +40,14 @@ const {
   photography,
   pubDate,
   cssClass,
-  cssBodyClass
+  cssBodyClass,
+  ogImage
 } = Astro.props
 ---
 
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
-  <Head title={title} description={description} />
+  <Head title={title} description={description} ogImage={ogImage} />
 
   <body class={cssBodyClass}>
     <Svgs />

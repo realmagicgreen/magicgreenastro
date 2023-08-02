@@ -15,15 +15,18 @@ export interface Props {
   photography: string
   coverImage: {}
   pubDate: any
+  ogImage?: string
 }
 
 const { Content } = await about.render()
+const ogImage = '../og_large_image.jpg'
 ---
 
 <Layout
   cssBodyClass="about"
   title="ABOUT US"
-  description={siteData.description}>
+  description={siteData.description}
+  ogImage={ogImage}>
   <Content />
 
   <br />

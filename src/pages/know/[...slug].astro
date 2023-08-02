@@ -23,7 +23,12 @@ const cssBodyClass = 'know'
 const cssClass = ''
 ---
 
-<Article {...post.data} cssBodyClass={cssBodyClass} cssClass={cssClass}>
+<Article
+  {...post.data}
+  cssBodyClass={cssBodyClass}
+  cssClass={cssClass}
+  description={post.data.description}
+  ogImage={post.data.coverImage.src}>
   <ul class="tags">
     {
       post.data.tags.map((tag) => {
