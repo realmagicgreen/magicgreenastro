@@ -27,34 +27,35 @@ const favicon = '../assets/favicons/safari-pinned-tab.svg'
 ---
 
 <head>
-  <meta name="version_name" content={repoData.version_name} />
   <meta name="version" content={repoData.version} />
+  <meta name="version_name" content={repoData.version_name} />
 
   <Junglestar />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width" />
   <meta name="format-detection" content="telephone=no" />
-
   <link rel="canonical" href={canonicalURL} />
   <link rel="icon" type="image/svg+xml" href={favicon} />
 
-    <!-- ROKS REPO -->
-    <meta name="version" content={repoData.version} />
+  <title>{makeTitle}</title>
 
-    <!-- ROKS OG -->
-    <meta property="og:url" content={Astro.site} />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={makeTitle} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+  <!-- ROKS REPO -->
+  <meta name="version" content={repoData.version} />
 
-    <!-- ROKS TWITTER -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={Astro.site} />
-    <meta name="twitter:title" content={makeTitle} />
-    <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+  <!-- ROKS OG -->
+  <meta property="og:url" content={Astro.site} />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={makeTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={ogImage} />
+
+  <!-- ROKS TWITTER -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content={Astro.site} />
+  <meta name="twitter:title" content={makeTitle} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
 
   <meta name="keywords" content={site.keywords} />
 
