@@ -9,6 +9,7 @@ const about = await getEntryBySlug('about', 'about-us')
 export interface Props {
   description: string
   bodyClass: string
+  mainClass: string
   title: string
   subtitle: string
   category: string
@@ -20,12 +21,14 @@ export interface Props {
 
 const { Content } = await about.render()
 const ogImage = '../assets/p/og_large_image.jpg'
+const mainClass = 'container'
 ---
 
 <Layout
   bodyClass="about"
   title="ABOUT US"
   description={siteData.description}
+  mainClass={mainClass}
   ogImage={ogImage}>
   <Content />
 

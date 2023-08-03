@@ -5,9 +5,10 @@ import Layout from '@layouts/Index.astro'
 const allPosts = await getCollection('posts')
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())]
 const title = 'ALL TAGS'
+const mainClass = 'container'
 ---
 
-<Layout bodyClass="" description="" title={title}>
+<Layout bodyClass="" description="" title={title} mainClass={mainClass}>
   <h2 class="h3 uppercased centered green">All Tags</h2>
   <div class="container centered">
     {

@@ -20,6 +20,7 @@ const posts = await getCollection('posts', ({ data }) => {
 export interface Props {
   title: string
   bodyClass: string
+  mainClass: string
   pubDate: any
   category: string
   ogImage?: string
@@ -29,12 +30,14 @@ import siteData from '@data/site.json'
 const title = 'Curated Info Platform'
 const bodyClass = 'index'
 const ogImage = '../assets/p/og_large_image.jpg'
+const mainClass = 'container'
 ---
 
 <Layout
   title={title}
   description={siteData.description}
   bodyClass={bodyClass}
+  mainClass={mainClass}
   ogImage={ogImage}>
   <h2 class="h5 uppercased centered">Featured Articles</h2>
   <div class="grida">

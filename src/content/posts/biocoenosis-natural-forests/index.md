@@ -23,9 +23,9 @@ photography: 'Unknown'
 ---
 
 <div class="toc">
+
   <span>IN THIS PAGE</span>
 
-- [TLDR](#tldr)
 - [Akira MIYAWAKI](#akira-miyawaki)
 - [MIYAWAKI method](#miyawaki-method)
 - [Method and conditions for success](#method-and-conditions-for-success)
@@ -39,7 +39,7 @@ photography: 'Unknown'
 
 - MIYAWAKI advocated for the restoration of natural forests
 
-- His method was deemed exemplary in a preparatory report[31] for the 1992 Earth Summit, and in 1994 in the biodiversity congress of the UNESCO in Paris.
+- His method was deemed exemplary in a preparatory report for the 1992 Earth Summit, and in 1994 in the biodiversity congress of the UNESCO in Paris.
 
 - Focusing on potential natural vegetation, MIYAWAKI developed, tested, and refined a method of ecological engineering, the MIYAWAKI method, to restore native forests from seeds of native trees on very degraded soils that were deforested and without humus.
 
@@ -48,23 +48,23 @@ photography: 'Unknown'
 
 ## Akira MIYAWAKI
 
-Beginning in the 1970s, MIYAWAKI advocated for the restoration of natural forests.[5]
+Beginning in the 1970s, MIYAWAKI advocated for the restoration of natural forests.
 
-In 1992, he said he believed that the Earth Summit in Rio de Janeiro failed to emphasize the protection of native forests, most of which continued to decline.[6](https://en.wikipedia.org/wiki/Akira_MIYAWAKI#cite_ref-:0_6-1)
+In 1992, he said he believed that the Earth Summit in Rio de Janeiro failed to emphasize the protection of native forests, most of which continued to decline. [Read more](https://en.wikipedia.org/wiki/Akira_MIYAWAKI)
 
 Using the concept of potential natural vegetation, MIYAWAKI developed, tested, and refined a method of ecological engineering today known as the MIYAWAKI method to restore native forests from seeds of native trees on very degraded soils that were deforested and without humus.
 
-With the results of his experiments, he restored protective forests in over 1,300 sites in Japan and various tropical countries, in particular in the Pacific region[8](https://en.wikipedia.org/wiki/Akira_MIYAWAKI#cite_ref-8) in the form of SHELTERBELTS, woodlands, and WOODLOTS, including urban, port, and industrial areas.
+With the results of his experiments, he restored protective forests in over 1,300 sites in Japan and various tropical countries, in particular in the Pacific region in the form of SHELTERBELTS, woodlands, and WOODLOTS, including urban, port, and industrial areas.
 
 ![Sasayama1](./sasayama.jpg)
 
-MIYAWAKI demonstrated that rapid restoration of forest cover and soil was possible by using a selection of pioneer and secondary indigenous species that were densely planted and provided with mycorrhiza.[6]
+MIYAWAKI demonstrated that rapid restoration of forest cover and soil was possible by using a selection of pioneer and secondary indigenous species that were densely planted and provided with mycorrhiza.
 
 MIYAWAKI observed trees that traditionally grew around temples, shrines, and cemeteries in Japan, such as the Japanese blue oak, CASTANOPSIS CUSPIDATA, bamboo-leaf oak, Japanese chestnut trees, and MACHILUS THUNBERGII. He believed that they were relicts of the primary forest.
 
 Meanwhile, he noted that trees such as Japanese cedar, cypress and larch pine, supposedly native to Japan, had been introduced into Japan over centuries by foresters to produce timber.
 
-MIYAWAKI reflected on the consequences of the change in composition and structure of most Japanese forests, most of which do not contain solely their original natural vegetation.[7](https://en.wikipedia.org/wiki/Akira_MIYAWAKI#cite_ref-MIYAWAKI_1980-1989_7-1)
+MIYAWAKI reflected on the consequences of the change in composition and structure of most Japanese forests, most of which do not contain solely their original natural vegetation.
 
 He calculated that only 0.06% of contemporary Japanese forests were indigenous forests.
 
@@ -72,7 +72,7 @@ Read [Plant ecology](https://en.wikipedia.org/wiki/Plant_ecology)
 
 ## MIYAWAKI method
 
-His method was deemed exemplary in a preparatory report[31] for the 1992 Earth Summit, and in 1994 in the biodiversity congress of the UNESCO in Paris.
+His method was deemed exemplary in a preparatory report for the 1992 Earth Summit, and in 1994 in the biodiversity congress of the UNESCO in Paris.
 
 The method was also presented in 1991 at the Symposium of the University of Bonn, and at the congresses of the International Association for Ecology, the International Society for Vegetation Science, and the International Botanical Congress, which included new aspects such as the links between growth, natural habitat, and estimated carbon fixation.
 
@@ -113,7 +113,7 @@ _The method's reconstitution of "indigenous forests by indigenous trees" produce
 
 ## Biocoenosis
 
-A biocenosis, coined by Karl Möbius in 1877, describes the interacting organisms living together in a habitat (biotope).[1](https://en.wikipedia.org/wiki/Karl_M%C3%B6bius)
+A biocenosis, coined by Karl Möbius in 1877, describes the interacting organisms living together in a habitat (biotope).[Read more](https://en.wikipedia.org/wiki/Karl_M%C3%B6bius)
 
 The use of this term has declined in the 21st сentury.
 
@@ -121,7 +121,7 @@ In the palaeontological literature, the term distinguishes "LIFE ASSEMBLAGES", w
 
 In other words, it is an assemblage of fossils or a community of specific time, which is different from "DEATH ASSEMBLAGES" (thanatocoenoses).
 
-No palaeontological assemblage will ever completely represent the original biological community (i.e. the biocoenosis, in the sense used by an ecologist); the term thus has somewhat different meanings in a palaeontological and an ecological context.[2](https://en.wikipedia.org/wiki/Biocoenosis#cite_ref-Ager_2-0)
+No palaeontological assemblage will ever completely represent the original biological community (i.e. the biocoenosis, in the sense used by an ecologist); the term thus has somewhat different meanings in a palaeontological and an ecological context.
 
 **Based on the concept of biocenosis, ecological communities can take various forms:**
 

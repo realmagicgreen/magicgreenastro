@@ -12,6 +12,7 @@ const posts = await getCollection('posts', ({ data }) => {
 export interface Props {
   title: string
   bodyClass: string
+  mainClass: string
   pubDate: any
   category: string
   ogImage?: string
@@ -20,12 +21,14 @@ export interface Props {
 import siteData from '@data/site.json'
 const bodyClass = category
 const ogImage = '../assets/p/og_large_image.jpg'
+const mainClass = 'container'
 ---
 
 <Layout
   title={category.toUpperCase()}
   description={siteData.description}
   bodyClass={bodyClass}
+  mainClass={mainClass}
   ogImage={ogImage}>
   <!-- <h2 class="h3 uppercased centered green">{category}</h2> -->
   <div class="grida">

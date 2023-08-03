@@ -19,6 +19,7 @@ export interface Props {
 
 import siteData from '@data/site.json'
 const bodyClass = category
+const mainClass = 'container'
 const ogImage = '../assets/p/og_large_image.jpg'
 ---
 
@@ -26,6 +27,7 @@ const ogImage = '../assets/p/og_large_image.jpg'
   title={category.toUpperCase()}
   description={siteData.description}
   bodyClass={bodyClass}
+  mainClass={mainClass}
   ogImage={ogImage}>
   <!-- <h2 class="h3 uppercased centered green">{category}</h2> -->
   <div class="grida">
