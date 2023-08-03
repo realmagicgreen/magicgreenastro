@@ -5,9 +5,17 @@ import Card from '@components/Card.astro'
 
 const category = 'solutions'
 
-const posts = await getCollection('posts', ({ data }) => {
-  return data.publish && data.category == category
+const unsortedPosts = await getCollection('posts', ({ data }) => {
+  return data.publish && data.category == category && data.pubDate < new Date()
 })
+
+const posts = unsortedPosts.sort(
+  (a, b) =>
+    Date.parse(b.data.pubDate.toString()) -
+    Date.parse(a.data.pubDate.toString())
+)
+
+
 
 export interface Props {
   title: string

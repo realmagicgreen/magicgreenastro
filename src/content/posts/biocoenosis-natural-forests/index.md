@@ -2,7 +2,7 @@
 title: biocoenosis natural forests
 subtitle: 'MIYAWAKI method'
 description: 'Akira MIYAWAKI 宮脇 昭, 29 January 1928, was a Japanese botanist and an expert in plant ecology who specialized in seeds and natural forests.'
-category: know
+category: techniques
 pubDate: 2023-07-03
 publish: true
 tags:
