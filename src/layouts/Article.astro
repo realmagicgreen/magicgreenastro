@@ -1,13 +1,11 @@
 ---
-import Styles from '@components/Styles.astro'
 import Head from '@components/Head.astro'
 import Svgs from '@components/Svgs.astro'
 import Header from '@components/Header.astro'
 import Footer from '@components/Footer.astro'
 import Nav from '@components/Nav.astro'
-
+import '@styles/pico.slim.scss'
 import AppendToCopyAction from '@scripts/AppendToCopyAction.astro'
-
 import { Image } from 'astro:assets'
 
 // interface coverImage {
@@ -19,7 +17,7 @@ import { Image } from 'astro:assets'
 
 export interface Props {
   description: string
-  cssBodyClass: string
+  bodyClass: string
   title: string
   subtitle: string
   category: string
@@ -40,7 +38,7 @@ const {
   photography,
   pubDate,
   cssClass,
-  cssBodyClass,
+  bodyClass,
   ogImage
 } = Astro.props
 ---
@@ -49,7 +47,7 @@ const {
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <Head title={title} description={description} ogImage={ogImage} />
 
-  <body class={cssBodyClass}>
+  <body class={bodyClass}>
     <Svgs />
 
     <div id="top"></div>
@@ -164,7 +162,6 @@ const {
 
     <AppendToCopyAction />
 
-    <Styles />
     <style lang="scss">
       article {
         margin-top: 0 !important;
@@ -195,6 +192,7 @@ const {
         border: 1px solid var(--primary) !important;
       }
       .post_metas {
+        color: var(--contrast);
         padding-top: var(--space_small);
         padding-bottom: var(--space_small);
         display: flex;
@@ -212,13 +210,9 @@ const {
         padding-right: var(--space);
       }
       .post_meta_icon {
-        color: var(--primary);
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        svg {
-          stroke: var(--primary);
-        }
       }
 
       .toc {

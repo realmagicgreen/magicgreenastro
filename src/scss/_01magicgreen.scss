@@ -490,3 +490,13 @@ a:not([href]) {
 //   border-bottom: var(--top_band) solid var(--primary) !important;
 //   border-radius: var(--radius);
 // }
+.tldr {
+  padding-top: calc(var(--spacing)*4);
+  padding-bottom: calc(var(--spacing)*2);
+  opacity: .75;
+}
+
+.small_side_pad {
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}

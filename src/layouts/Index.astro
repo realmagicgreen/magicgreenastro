@@ -8,27 +8,29 @@ export interface Props {
   title: string
   category?: string | undefined
   pubDate?: any | undefined
-  cssBodyClass: string
+  bodyClass: string
+  mainClass: string
   ogImage?: string
 }
 
-const { category, description, title, cssBodyClass, ogImage } = Astro.props
+const { category, description, title, bodyClass, mainClass, ogImage } = Astro.props
 ---
 
 <Layout
   title={title}
   description={description}
   category={category}
-  cssBodyClass={cssBodyClass}
+  bodyClass={bodyClass}
   ogImage={ogImage}>
 
   <Nav cssClass="nav" />
 
-  <main>
-    <div class="container index">
-      <slot />
-      <Slogan />
-    </div>
+  <main class={mainClass}>
+
+    <slot />
+
+    <Slogan />
+
   </main>
 </Layout>
 
@@ -37,7 +39,7 @@ const { category, description, title, cssBodyClass, ogImage } = Astro.props
   .h1 {
     font-size: calc(6vw + 6vh) !important;
   }
-  .container.index {
+  main {
     padding-top: var(--space);
   }
 </style>

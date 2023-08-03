@@ -19,13 +19,13 @@ interface Props {
 
 const { post } = Astro.props
 const { Content } = await post.render()
-const cssBodyClass = 'health'
+const bodyClass = 'health'
 const cssClass = ''
 ---
 
 <Article
   {...post.data}
-  cssBodyClass={cssBodyClass}
+  bodyClass={bodyClass}
   cssClass={cssClass}
   description={post.data.description}
   ogImage={post.data.coverImage.src}>

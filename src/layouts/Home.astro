@@ -8,18 +8,19 @@ import coverImage from '@content/about/about-us.jpg'
 export interface Props {
   description: string
   title: string
-  cssBodyClass: string
+  bodyClass: string
+  mainClass: string
   ogImage?: string
 }
 
-const { description, title, cssBodyClass, ogImage } = Astro.props
+const { description, title, bodyClass, mainClass, ogImage } = Astro.props
 ---
 
-<Layout title={title} description={description} cssBodyClass={cssBodyClass} ogImage={ogImage}>
+<Layout title={title} description={description} bodyClass={bodyClass} ogImage={ogImage}>
 
   <Nav cssClass="" />
 
-  <main>
+  <main class={mainClass}>
     <div class="hero r-5deg">
       <div class="vegas vegas_overlay7"></div>
       <div class="vegas vegas_overlay2"></div>

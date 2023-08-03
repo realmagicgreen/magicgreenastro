@@ -6,13 +6,15 @@ import ScriptList from '@scripts/ScriptList.astro'
 
 export interface Props {
   title: string
-  cssBodyClass: string
+  bodyClass: string
+  mainClass: string
   email: string
   hasEmail: boolean
 }
 
 const title = 'RESOURCES'
-const cssBodyClass = 'resources'
+const bodyClass = 'resources'
+const mainClass = 'small_side_pad'
 const ogImage = '../og_large_image.jpg'
 
 // const {
@@ -37,8 +39,9 @@ const ogImage = '../og_large_image.jpg'
 <Layout
   title={title}
   description={siteData.description}
-  cssBodyClass={cssBodyClass}>
-  <h2 class="h3 uppercased centered">Resources</h2>
+  bodyClass={bodyClass}
+  mainClass={mainClass}>
+  <!-- <h2 class="h3 uppercased centered">Resources</h2> -->
 
   <div id="brands" class="responsive_table_block">
     <div class="functionalities_block">
@@ -237,7 +240,7 @@ const ogImage = '../og_large_image.jpg'
       padding: 0;
       border: 0;
       padding-left: 10px;
-      @media (min-width: 576px) {
+      @media (min-width:750px) {
         font-size: clamp(2vw, 13px, 24px);
       }
 
@@ -264,7 +267,7 @@ const ogImage = '../og_large_image.jpg'
           justify-content: center;
           margin-bottom: 10px;
         }
-        @media (min-width: 576px) {
+        @media (min-width:750px) {
           display: table-cell;
         }
       }
@@ -275,7 +278,7 @@ const ogImage = '../og_large_image.jpg'
 
       &:empty {
         display: none;
-        @media (min-width: 576px) {
+        @media (min-width:750px) {
           display: table-cell;
         }
       }
@@ -346,7 +349,7 @@ const ogImage = '../og_large_image.jpg'
   .functionalities_block {
     display: flex;
     flex-direction: column;
-    @media (min-width: 576px) {
+    @media (min-width:750px) {
       flex-direction: row;
       justify-content: center;
     }
@@ -391,7 +394,7 @@ const ogImage = '../og_large_image.jpg'
 
   .hide_on_phones {
     display: none !important;
-    @media (min-width: 576px) {
+    @media (min-width:750px) {
       display: table-cell;
     }
   }
@@ -399,7 +402,7 @@ const ogImage = '../og_large_image.jpg'
   .responsive_table_block {
     tbody {
       margin-top: var(--space-small);
-      @media (min-width: 576px) {
+      @media (min-width:750px) {
         margin-top: 0;
       }
     }
@@ -407,14 +410,14 @@ const ogImage = '../og_large_image.jpg'
     thead td {
       display: none;
       margin-top: var(--space-small);
-      @media (min-width: 576px) {
+      @media (min-width:750px) {
         display: table-cell;
       }
     }
 
     td {
       display: block;
-      @media (min-width: 576px) {
+      @media (min-width:750px) {
         display: table-cell;
       }
 
@@ -425,7 +428,7 @@ const ogImage = '../og_large_image.jpg'
         font-size: 65%; // this refers to the already responsive size of parent!
         padding-top: calc(var(--space-small) / 2);
         width: 18%;
-        @media (min-width: 576px) {
+        @media (min-width:750px) {
           display: none;
         }
       }
@@ -433,7 +436,7 @@ const ogImage = '../og_large_image.jpg'
       &:first-child {
         margin-top: 5px;
         padding-top: 10px;
-        @media (min-width: 576px) {
+        @media (min-width:750px) {
           margin-top: 0;
           padding-top: 0;
         }
@@ -442,7 +445,7 @@ const ogImage = '../og_large_image.jpg'
       &.website_link {
         padding-bottom: 10px;
         text-align: left;
-        @media (min-width: 576px) {
+        @media (min-width:750px) {
           padding-right: 0;
           padding-bottom: 0;
           text-align: right;

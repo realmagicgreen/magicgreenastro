@@ -22,11 +22,11 @@ const { tag } = Astro.params
 const { posts } = Astro.props
 const title = 'Hastagah!'
 const description = ''
-const cssBodyClass= ''
+const bodyClass= ''
 const ogImage = '../og_large_image.jpg'
 ---
 
-<Layout title={title} description={description} cssBodyClass={cssBodyClass}
+<Layout title={title} description={description} bodyClass={bodyClass}
   ogImage={ogImage}>
   <h2 class="h3 uppercased centered green">{tag}</h2>
   <div class="grida">

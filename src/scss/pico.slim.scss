@@ -54,7 +54,7 @@ $enable-important: true;
 @import 'utilities/accessibility'; // -ms-touch-action, aria-*
 @import 'utilities/reduce-motion'; // prefers-reduced-motion
 
-//customization for magicgreen
+//customization for MAGICGREEN
 @import '01magicgreen';
 @import '02headings';
-//@import '03carson';
+@import '03carson';

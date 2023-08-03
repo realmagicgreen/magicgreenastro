@@ -41,6 +41,10 @@ import '@styles/pico.slim.scss'
       :hover {
         opacity: 95%;
       }
+      &.active button {
+        color: var(--contrast);
+        border-color: var(--contrast);
+      }
     }
     button {
       display: block;
@@ -49,3 +53,15 @@ import '@styles/pico.slim.scss'
     }
   }
 </style>
+
+<script>
+  var section = window.location.pathname.split('/')[1]
+
+  const activeNavigationElement = document.querySelector(
+    `nav a[href*="${section}"]`
+  )
+
+  if (activeNavigationElement) {
+    activeNavigationElement.classList.add('active')
+  }
+</script>

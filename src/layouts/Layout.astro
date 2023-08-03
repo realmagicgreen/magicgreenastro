@@ -1,20 +1,20 @@
 ---
-import Styles from '@components/Styles.astro'
 import Head from '@components/Head.astro'
 import Svgs from '@components/Svgs.astro'
 import Header from '@components/Header.astro'
 import Footer from '@components/Footer.astro'
 import AppendToCopyAction from '@scripts/AppendToCopyAction.astro'
+import '@styles/pico.slim.scss'
 
 export interface Props {
   title: string
   description: string
-  cssBodyClass: string
+  bodyClass: string
   category?: string | undefined
   ogImage?: string | undefined
 }
 
-const { title, description, cssBodyClass, ogImage } = Astro.props
+const { title, description, bodyClass, ogImage } = Astro.props
 ---
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@ const { title, description, cssBodyClass, ogImage } = Astro.props
 
   <Head title={title} description={description} ogImage={ogImage} />
 
-  <body class={cssBodyClass}>
+  <body class={bodyClass}>
 
     <Svgs />
 
@@ -36,7 +36,6 @@ const { title, description, cssBodyClass, ogImage } = Astro.props
 
     <AppendToCopyAction />
 
-    <Styles />
 
   </body>
 </html>

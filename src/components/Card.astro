@@ -40,6 +40,12 @@ const {
       <h2 class:list={['title', { ad_symbol: ad }]}>
         {title.toLocaleUpperCase()}
       </h2>
+
+
+      <div class="subtitle">{subtitle.toUpperCase()}</div>
+
+      <div class="desc">{description}</div>
+
       <div class="metas">
         <span class="time">
           <svg
@@ -101,18 +107,13 @@ const {
         </span>
       </div>
 
-      <div class="subtitle">{subtitle.toUpperCase()}</div>
-
-      <div class="desc">{description}</div>
     </div>
   </div>
 </div>
 
 <style lang="scss">
-  .desc {
-    // display: none;
-    padding-top: 0.5rem;
-  }
+  .metas,
+  .desc,
   .subtitle {
     padding-top: 0.5rem;
     color: var(--contrast);
@@ -126,5 +127,9 @@ const {
   }
   span {
     display: block;
+  }
+
+  .card_astro {
+    padding-bottom: calc(var(--spacing)*3);
   }
 </style>

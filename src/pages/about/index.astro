@@ -8,7 +8,7 @@ const about = await getEntryBySlug('about', 'about-us')
 
 export interface Props {
   description: string
-  cssBodyClass: string
+  bodyClass: string
   title: string
   subtitle: string
   category: string
@@ -23,7 +23,7 @@ const ogImage = '../assets/p/og_large_image.jpg'
 ---
 
 <Layout
-  cssBodyClass="about"
+  bodyClass="about"
   title="ABOUT US"
   description={siteData.description}
   ogImage={ogImage}>
