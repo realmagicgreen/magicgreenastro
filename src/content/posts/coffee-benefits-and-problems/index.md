@@ -1,19 +1,16 @@
 ---
 title: Coffee Benfits and Problems
-subtitle: Drinks it consciously.
+subtitle: Medical literature has suggested several potential health benefits associated with moderate coffee consumption. There are some problems too. Drink it consciously.
 category: health
-description: ''
+description: 'Substances are beneficial or damaging depending on dosage. Even water can be damaging in big quantities. Know what coffee does to you.'
 pubDate: 2022-08-28
 publish: true
 tags:
-  - Bali
-  - bamboo
-  - environment-friendly
-  - plastic-alternatives
-  - Indonesia
-  - social-responsibility
-  - sustainable-construction
-  - wood
+  - wellness
+  - learning
+  - superfood
+  - eating
+  - nourishment
 coverImage: './00.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
