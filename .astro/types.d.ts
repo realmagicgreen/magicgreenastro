@@ -387,6 +387,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"coffee-benefits-and-problems/index.md": {
+	id: "coffee-benefits-and-problems/index.md";
+  slug: "coffee-benefits-and-problems";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "consumers-want-sustainability/index.md": {
 	id: "consumers-want-sustainability/index.md";
   slug: "consumers-want-sustainability";

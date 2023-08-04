@@ -20,7 +20,7 @@ show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
-featured: true # use 'true' to have it displayed in home
+featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 photography: Rokma # put here photographer name
 ---

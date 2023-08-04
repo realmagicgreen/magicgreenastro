@@ -1,6 +1,6 @@
 ---
-title: biocoenosis natural forests
-subtitle: 'MIYAWAKI method'
+title: Biocoenosis Natural Forests
+subtitle: 'MIYAWAKI developed a method to restore original forests from seeds of native trees on very degraded soils that were deforested and without humus.'
 description: 'Akira MIYAWAKI 宮脇 昭, 29 January 1928, was a Japanese botanist and an expert in plant ecology who specialized in seeds and natural forests.'
 category: techniques
 pubDate: 2023-07-03

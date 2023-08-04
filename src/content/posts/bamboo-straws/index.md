@@ -1,6 +1,6 @@
 ---
 title: Bamboo Straws
-subtitle: Suck it up consciously.
+subtitle: Suck it up consciously. Offer your customers a environment-friendly way. Small acts count.
 category: products
 description: 'When you really need a straw to be able to enjoy your drink, let it be environment-friendly. These bamboo straws are locally made in Bali...'
 pubDate: 2018-05-09

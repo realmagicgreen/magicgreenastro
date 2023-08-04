@@ -1,7 +1,7 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "version_name": "BIO CEMENTING IDEAS! COMPOSTABLE...",
   "private": true,
   "scripts": {
@@ -23,7 +23,7 @@
     "@rollup/plugin-yaml": "^4.1.1",
     "@sindresorhus/slugify": "^2.2.1",
     "@typescript-eslint/parser": "^5.62.0",
-    "astro": "^2.9.7",
+    "astro": "^2.10.1",
     "astro-icon": "^0.8.1",
     "astro-og-canvas": "^0.1.8",
     "eslint": "^8.46.0",
@@ -33,9 +33,9 @@
     "prettier": "^2.8.8",
     "prettier-config-standard": "^5.0.0",
     "prettier-plugin-astro": "^0.8.1",
-    "remark-toc": "^8.0.1",
-    "rollup": "^3.27.0",
     "reading-time": "^1.5.0",
+    "remark-toc": "^8.0.1",
+    "rollup": "^3.27.1",
     "sass": "^1.64.2",
     "sharp": "^0.31.3"
   }
