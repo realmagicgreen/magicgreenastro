@@ -7,6 +7,7 @@ import Nav from '@components/Nav.astro'
 import '@styles/pico.slim.scss'
 import AppendToCopyAction from '@scripts/AppendToCopyAction.astro'
 import { Image } from 'astro:assets'
+import { Icon } from 'astro-icon'
 
 // interface coverImage {
 //   src: string
@@ -41,13 +42,19 @@ const {
   bodyClass,
   ogImage
 } = Astro.props
+
+const options = {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+}
 ---
 
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <Head title={title} description={description} ogImage={ogImage} />
 
-  <body class={bodyClass}>
+  <body class={"article " + bodyClass}>
     <Svgs />
 
     <div id="top"></div>
@@ -79,68 +86,26 @@ const {
 
         <div class="h5 post_metas">
           <div class="post_meta_block post_meta_icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon_photographer"
-              ><path
-                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-              ></path><circle cx="12" cy="13" r="4"></circle></svg
-            >
+            <Icon name="photographer"/>
             <span class="post_meta_text nowrap">
               {photography}
             </span>
           </div>
 
           <div class="post_meta_block post_meta_icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon_clock"
-              ><circle cx="12" cy="12" r="10"></circle><polyline
-                points="12 6 12 12 16 14"></polyline></svg
-            >
-            <time datetime={pubDate.toISOString()}>
-              {pubDate.toDateString()}
+            <Icon name="clock"/>
+            <time datetime={pubDate.toDateString()}>
+              {pubDate.toLocaleDateString("en-GB")}
             </time>
           </div>
 
           <div class="post_meta_block post_meta_icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon_tag">
-              <circle cx="12" cy="12" r="10"></circle><circle
-                cx="12"
-                cy="12"
-                r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg
-            >
+            <Icon name="target"/>
             {category.toUpperCase() || 'UNKNOWN'}
           </div>
         </div>
 
-        <div class="post_content container padding_top">
+        <div class="post_content padding_top">
           <slot />
         </div>
       </article>
@@ -163,7 +128,6 @@ const {
     <AppendToCopyAction />
   </body>
 </html>
-
 <style lang="scss">
   article {
     margin-top: 0 !important;
@@ -195,26 +159,40 @@ const {
   }
   .post_metas {
     color: var(--contrast);
+    margin-left: 11px;
     padding-top: var(--space_small);
     padding-bottom: var(--space_small);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    padding-left: var(--space);
-    padding-right: var(--space);
+    padding-left: var(--space_small);
+    padding-right: var(--space_small);
+    //rotated -90deg
+    transform: rotate(90deg);
+    transform-origin: center center;
+    min-height: 200px;
+    transition: transform 0.25s ease-in-out;
+
+    &:hover {
+      transform: rotate(0);
+    }
+
     @media screen and (min-width: 720px) {
       flex-direction: row;
     }
   }
   .post_meta_block {
-    padding-left: var(--space);
-    padding-right: var(--space);
+    padding-left: var(--space_small);
+    padding-right: var(--space_small);
   }
   .post_meta_icon {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    svg {
+      width: 55px;
+    }
   }
 
   article :global(.toc) {
@@ -249,5 +227,8 @@ const {
       top: 0;
     }
   }
+
+
+
 </style>
 

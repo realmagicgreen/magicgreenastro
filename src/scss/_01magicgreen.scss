@@ -499,3 +499,14 @@ a:not([href]) {
   padding-left: var(--spacing);
   padding-right: var(--spacing);
 }
+.article header svg {
+  transform: scale(1.2, 1.7);
+  position: relative;
+  top: -1px;
+
+  @media (min-width: 576px) {
+    transform: scale(1.2, 1.45);
+    position: relative;
+    top: -11px;
+  }
+}

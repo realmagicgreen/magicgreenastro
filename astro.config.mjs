@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config'
+import { defineConfig, sharpImageService } from 'astro/config'
 import { rehypeHeadingIds } from '@astrojs/markdown-remark'
 import remarkToc from 'remark-toc'
 import mdx from '@astrojs/mdx'
@@ -11,6 +11,9 @@ import prefetch from '@astrojs/prefetch'
 export default defineConfig({
   experimental: {
     assets: true
+  },
+  image: {
+    service: sharpImageService()
   },
   output: 'static',
   build: {
