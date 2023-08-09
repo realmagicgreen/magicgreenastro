@@ -3,18 +3,12 @@ import Head from '@components/Head.astro'
 import Svgs from '@components/Svgs.astro'
 import Header from '@components/Header.astro'
 import Footer from '@components/Footer.astro'
-import Nav from '@components/Nav.astro'
 import '@styles/pico.slim.scss'
+import StyleArticle from '@components/StyleArticle.astro'
+import Nav from '@components/Nav.astro'
 import AppendToCopyAction from '@scripts/AppendToCopyAction.astro'
 import { Image } from 'astro:assets'
 import { Icon } from 'astro-icon'
-
-// interface coverImage {
-//   src: string
-//   width: number
-//   height: number
-//   format: string
-// }
 
 export interface Props {
   description: string
@@ -44,9 +38,9 @@ const {
 } = Astro.props
 
 const options = {
-  weekday: "long",
-  year: "numeric",
-  month: "long",
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long'
 }
 ---
 
@@ -54,7 +48,7 @@ const options = {
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <Head title={title} description={description} ogImage={ogImage} />
 
-  <body class={"article " + bodyClass}>
+  <body class={'article ' + bodyClass}>
     <Svgs />
 
     <div id="top"></div>
@@ -86,21 +80,21 @@ const options = {
 
         <div class="h5 post_metas">
           <div class="post_meta_block post_meta_icon">
-            <Icon name="photographer"/>
+            <Icon name="photographer" />
             <span class="post_meta_text nowrap">
               {photography}
             </span>
           </div>
 
           <div class="post_meta_block post_meta_icon">
-            <Icon name="clock"/>
+            <Icon name="clock" />
             <time datetime={pubDate.toDateString()}>
-              {pubDate.toLocaleDateString("en-GB")}
+              {pubDate.toLocaleDateString('en-GB')}
             </time>
           </div>
 
           <div class="post_meta_block post_meta_icon">
-            <Icon name="target"/>
+            <Icon name="target" />
             {category.toUpperCase() || 'UNKNOWN'}
           </div>
         </div>
@@ -126,109 +120,7 @@ const options = {
     <Footer cssClass="footer" />
 
     <AppendToCopyAction />
+
+    <StyleArticle />
   </body>
 </html>
-<style lang="scss">
-  article {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    width: 100vw !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: var(--space_horizontal);
-    padding-left: var(--space_horizontal);
-  }
-
-  .post_header {
-    padding-top: var(--space);
-  }
-
-  .cat_name {
-    display: block;
-    opacity: 0.25;
-    font-weight: 100;
-    user-select: none;
-    padding-top: var(--space_small);
-  }
-
-  hr {
-    width: 55%;
-    color: var(--primary) !important;
-    border: 1px solid var(--primary) !important;
-  }
-  .post_metas {
-    color: var(--contrast);
-    margin-left: 11px;
-    padding-top: var(--space_small);
-    padding-bottom: var(--space_small);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    padding-left: var(--space_small);
-    padding-right: var(--space_small);
-    //rotated -90deg
-    transform: rotate(90deg);
-    transform-origin: center center;
-    min-height: 200px;
-    transition: transform 0.25s ease-in-out;
-
-    &:hover {
-      transform: rotate(0);
-    }
-
-    @media screen and (min-width: 720px) {
-      flex-direction: row;
-    }
-  }
-  .post_meta_block {
-    padding-left: var(--space_small);
-    padding-right: var(--space_small);
-  }
-  .post_meta_icon {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    svg {
-      width: 55px;
-    }
-  }
-
-  article :global(.toc) {
-    color: var(--primary);
-    position: relative;
-    width: fit-content;
-    max-width: 900px;
-    padding: var(--space_small) calc(var(--space) / 2);
-    margin: 3vw auto;
-    border: 2px solid var(--primary-focus);
-    border-radius: var(--space_small);
-    & > ul {
-      margin: 0 auto;
-    }
-    ul {
-      margin-bottom: 0;
-
-      li {
-        list-style: none;
-        text-transform: uppercase;
-      }
-    }
-    article .toc p span {
-      color: var(--primary-inverse);
-      display: block;
-      padding: 0 0 var(--space_small) var(--space_small);
-      //vert?
-      writing-mode: vertical-lr;
-      transform: rotate(180deg);
-      position: absolute;
-      left: -2rem;
-      top: 0;
-    }
-  }
-
-
-
-</style>
-

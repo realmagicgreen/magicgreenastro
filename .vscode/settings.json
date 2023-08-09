@@ -18,7 +18,6 @@
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.wordWrap": "wordWrapColumn",
   "workbench.editor.wrapTabs": true,
-  "html-css-class-completion.enableEmmetSupport": true,
   "scss.format.spaceAroundSelectorSeparator": true,
   "html.format.indentInnerHtml": true,
   "javascript.format.insertSpaceAfterConstructor": true,

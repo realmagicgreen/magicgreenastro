@@ -109,7 +109,7 @@ _The method's reconstitution of "indigenous forests by indigenous trees" produce
 
   In the way plants are distributed in a clearing or at the edge of the natural forest, not in rows or staggered
 
-![BIOGRADSKA SUMA](./biogradska_suma.jpg)
+![SO MUCH BIO MASS PRODUCING OXYGEN!](./biogradska_suma.jpg)
 
 ## Biocoenosis
 
@@ -128,9 +128,9 @@ No palaeontological assemblage will ever completely represent the original biolo
 - Zoocenosis for the faunal community,
 - Phytocenosis for the flora community,
 - Microbiocenosis for the microbial community.
--
+
 The geographical extent of a biocenose is limited by the requirement of a more or less uniform species composition.
 
-READ MORE:
+## Know More Links
 
 [Biocoenosis](https://en.wikipedia.org/wiki/Biocoenosis)

@@ -91,6 +91,3 @@ The prizes are pretty decent: 1st Place USD 1,500. 2nd Place USD 1,000. 3rd Plac
 
 [ASEAN Centre for Biodiversity (ACB) - website](https://aseanbiodiversity.org/)
 
-[Zooming in on Biodiversity - official contest webpage](http://www.aseanbiodiversity.org/zoomingin)
-
-[Submission page](http://www.aseanbiodiversity.org/zoomingin/submit-entry)

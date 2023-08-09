@@ -185,8 +185,7 @@ The body has natural buffering systems to maintain pH balance, and overall dieta
 
 As always, moderation and variety are key to a well-rounded and balanced diet.
 
-
-**Know more:**
+## Know More Links
 
 [Yerba Mate](https://en.wikipedia.org/wiki/Yerba_mate)
 

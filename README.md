@@ -18,6 +18,11 @@
 
 **Lighthouse score**: 100, 100, 100, 100.
 
+NOTE:
+When using Typescript, please ensure devDependencies includes the @types/node package.
+
+
+
 ---
 
 > "**Nothing is as powerful as an idea whose time has come.**" _Victor Hugo_

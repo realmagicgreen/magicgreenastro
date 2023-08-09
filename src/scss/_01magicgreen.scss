@@ -11,7 +11,12 @@
 [data-theme='light'],
 :root:not([data-theme='dark']) {
   --primary: hsla(92, 100%, 15%, 1); // oklch(37.36% 0.109 135.207);
-  --primary-hover: hsla(92, 100%, 25%, 1); // oklch(53.22% 0.16 136.15)  #388e3c;
+  --primary-hover: hsla(
+    92,
+    100%,
+    25%,
+    1
+  ); // oklch(53.22% 0.16 136.15)  #388e3c;
   --primary-focus: rgba(67, 160, 71, 0.125);
   --primary-inverse: black;
   --background-color: hsla(92, 100%, 90%, 1); // hsla(92, 100%, 90%,1)
@@ -56,7 +61,6 @@
   --up_shift: -3rem;
   --space: 2rem;
   --space_small: 1rem;
-  --space_horizontal: 0.5rem;
 
   --radius: 5px;
   --icon_size: 40px; //all svg icons are square
@@ -209,12 +213,15 @@ body {
   // }
 }
 
-ul li {
-  list-style-type: none !important; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
-}
+ul {
+  li {
+    // list-style-type: none !important; /* Remove bullets */
+    padding: 0;
 
+    margin: 0 0 0 20px;
+    width: fit-content;
+  }
+}
 .sarung {
   margin: 0 3%;
   min-width: 94%;
@@ -398,46 +405,6 @@ footer {
   animation-name: gentleSwing;
 }
 
-// .transform {
-//   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x))
-//     skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-// }
-
-//ARTICLE
-.post_content {
-  h2 {
-    transform: rotateZ(4deg) !important;
-  }
-  h3 {
-    transform: rotateZ(-2deg) !important;
-  }
-  h4 {
-    transform: rotateZ(2deg) !important;
-  }
-  h5 {
-    transform: rotateZ(-3deg) !important;
-  }
-  h6 {
-    transform: rotateZ(3deg) !important;
-  }
-  p,
-  ul,
-  ol {
-    font-size: 135%;
-    max-width: 650px;
-    margin: 0 0 0 auto;
-    padding-bottom: var(--space_small);
-    font-weight: 200;
-  }
-  p:has(img) {
-    max-width: none !important;
-    margin: 0 !important;
-  }
-  ul li {
-    list-style-type: initial !important;
-  }
-}
-
 blockquote p {
   max-width: none !important;
 }
@@ -486,19 +453,20 @@ a:not([href]) {
 //   border-radius: var(--radius);
 // }
 .tldr {
-  padding-top: calc(var(--spacing)*4);
-  padding-bottom: calc(var(--spacing)*2);
-  opacity: .75;
+  padding-top: calc(var(--spacing) * 4);
+  padding-bottom: calc(var(--spacing) * 2);
+  opacity: 0.75;
   > *,
-    h2 {
-      transform: rotate(-3deg) !important;
-    }
+  h2 {
+    transform: rotate(-3deg) !important;
+  }
 }
 
 .small_side_pad {
   padding-left: var(--spacing);
   padding-right: var(--spacing);
 }
+
 .article header svg {
   transform: scale(1.2, 1.7);
   position: relative;
