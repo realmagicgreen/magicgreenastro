@@ -39,8 +39,8 @@ const mainClass = ''
   bodyClass={bodyClass}
   mainClass={mainClass}
   ogImage={ogImage}>
-  <h2 class="h5 uppercased centered">Featured Articles</h2>
-  <div class="grida">
+  <h2 class="h5 uppercased top_pad centered">Featured Articles</h2>
+  <div class="container grida">
     {
       sortedFP.map((post) => (
         <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
@@ -65,7 +65,7 @@ const mainClass = ''
   <br />
 
   <h2 class="h5 uppercased centered">All Articles</h2>
-  <div class="grida">
+  <div class="container grida">
     {
       posts.map((post) => (
         <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
@@ -90,7 +90,7 @@ const mainClass = ''
   .subtitle {
     padding-top: 0.5rem;
     color: var(--color);
-    max-width: 64%;
+    max-width: 80dvw;
     margin: 0 auto;
   }
 </style>

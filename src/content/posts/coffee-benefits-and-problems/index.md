@@ -26,65 +26,69 @@ Kepping the correct balance is one of the oldest and most universal concept that
 In personal health is worth to remind that substances are beneficial or damaging depending on the quantity we assume. Even water, with makes a big percentage of our body, can be damaging when drunk in big quantities.
 
 
-## 5 Benefits you can get from Coffee☕
+## BENEFITS YOU CAN GET FROM COFFEE
 
 Medical literature has suggested several potential health benefits associated with moderate coffee consumption.
 
 It's important to note that individual responses to coffee can vary, and excessive coffee consumption may have adverse effects. Here are potential benefits supported by scientific research:
 
-1.
+### ENHANCED COGNITIVE FUNCTION
 
-ENHANCED COGNITIVE FUNCTION: Caffeine, a key component in coffee, is a stimulant that can improve cognitive function, including alertness, attention, and concentration.
+Caffeine, a key component in coffee, is a stimulant that can improve cognitive function, including alertness, attention, and concentration.
 
 It may also help enhance memory and reduce the risk of cognitive decline, particularly in older adults.
 
-2.
+### REDUCED RISK OF CERTAIN DISEASES
 
-REDUCED RISK of Certain Diseases: Some studies have shown that moderate coffee consumption may be associated with a reduced risk of certain diseases, including type 2 diabetes, Parkinson's disease, and certain types of cancers, such as liver and colorectal cancer.
+Some studies have shown that moderate coffee consumption may be associated with a reduced risk of certain diseases, including type 2 diabetes, Parkinson's disease, and certain types of cancers, such as liver and colorectal cancer.
 
-3.
+### IMPROVES PERFORMANCE
 
 Improved PHYSICAL PERFORMANCE: Caffeine can stimulate the release of adrenaline, which can lead to increased endurance during physical activities.
 
 This can result in improved performance in various types of exercise and sports.
 
-4.
+### ANTIOXIDANT
 
-ANTIOXIDANT PROPERTIES: Coffee contains various antioxidants, such as chlorogenic acid, which can help neutralize harmful free radicals in the body.
+Coffee contains various antioxidants, such as chlorogenic acid, which can help neutralize harmful free radicals in the body.
 
 Antioxidants play a crucial role in reducing oxidative stress and inflammation, potentially benefiting overall health.
 
-5.
+### LIVER PROTECTION
 
-PROTECTION FOR THE LIVER: Some research suggests that moderate coffee consumption may be linked to a reduced risk of liver diseases, including liver cirrhosis and non-alcoholic fatty liver disease (NAFLD).
+Some research suggests that moderate coffee consumption may be linked to a reduced risk of liver diseases, including liver cirrhosis and non-alcoholic fatty liver disease (NAFLD).
 
 It's essential to remember that individual responses to coffee can differ, and excessive consumption may lead to adverse effects like insomnia, increased heart rate, and anxiety.
 
-If you have specific health concerns or conditions, it's always a good idea to consult with a healthcare professional to determine how coffee consumption may affect you personally.
+If you have specific health concerns or conditions, it's always a good idea to consult with a healthcare professional to determine how your coffee consumption may affect you.
 
 
 ![Italian Espresso style small coffee has taken over the world](./01.jpg)
 
 
-## 5 Reasons to moderate Coffee intake.
+## REASONS TO MODERATE COFFEE INTAKE.
 
-1.
+### ACIDIFYING
 
-Coffee is an extremely ACIDIFYING drink. When we're alrady consuming many acidifying foods, as meats, dairy foods, alcohol, beans, oils and sugary processed food, consider limiting coffee intake or compensate with foods which promote blood alkalinity as leafy greens, seeds, vinegar, broccoli, avocados,beets, alomonds, garlic and most fruits.
+Coffee is an extremely ACIDIFYING drink.
 
-Otherwise coffee can activate compensatory mechanisms in the body such as decalcifying the bones and injecting calcium (alkalinising mineral) into our blood plasma.
+When we're alrady consuming many acidifying foods, as meats, dairy foods, alcohol, beans, oils and sugary processed food, consider limiting coffee intake.
 
-2.
+Or compensate with foods which promote blood alkalinity as leafy greens, seeds, vinegar, broccoli, avocados,beets, alomonds, garlic and most fruits.
+
+Otherwise coffee can activate compensatory mechanisms in the body such as decalcifying the bones and using that calcium, an alkalinising mineral, for blood plasma.
+
+### NUTRIENTS DEPLETION
 
 Coffee can DEPLETE NUTRIENTS and cause a deficiency of B vitamins, specifically B1, thiamine.
 
 This can make us feel tired, nervous and sore. In addition, regular coffee consumption can lead to a reduction of nutrients absorption in the intestine, leading to future deficiencies.
 
-3.
+### PESTICIDES
 
 Coffee is one of the most heavily PESTICIDED crops. The main exporters of coffee are South American countries, such as Colombia, where pesticides such as [Heptachlor](https://en.wikipedia.org/wiki/Heptachlor), [Chlordane](https://en.wikipedia.org/wiki/Chlordane) and [Dieldrin](https://en.wikipedia.org/wiki/Dieldrin) are used. These chemicals are toxins to our bodies.
 
-4.
+### LIVER OVERWORK
 
 DRINKING COFFEE IN ECCESS can take its toll on the LIVER, the main organ in charge of burning fat and purifying the body.
 
@@ -92,9 +96,7 @@ The liver can become overloaded trying to clean out all the chemical residues in
 
 This prevents our blood from cleansing properly and allowing us to regenerate our tissues healthily.
 
-5.
-
-Coffee stresses the SUPRARENAL GLANDS.
+### SUPRARENAL GLANDS STRESS
 
 Are you one of those people who can't get rid of dark circles under your eyes? This may be related to an overload of your adrenal glands.
 
@@ -102,7 +104,7 @@ Coffee contains an acidic oil which can irritate the stomach especially if empty
 
 [To limit coffee acidity problem drink it with no milk and no sugar.](./02.jpg)
 
-## Balance according to Traditional Chinese Medicine
+## BALANCE ACCORDING TO TRADITIONAL CHINESE MEDICINE.
 
 In Traditional Chinese Medicine (TCM), food and its effects on the body is viewed in terms of balancing YIN and YANG, as well as the principles of QI (vital energy) and the body's organ systems.
 
@@ -114,7 +116,9 @@ Excessive consumption of coffee, like any strongly warming or stimulating substa
 
 Here are some ways coffee consumption, including its acidity, can be related to blood health in TCM terms:
 
-LIVER AND BLOOD: The liver is closely linked to the health of the blood. The liver is responsible for storing blood and ensuring the smooth flow of QI and blood.
+### LIVER AND BLOOD
+
+The liver is closely linked to the health of the blood. The liver is responsible for storing blood and ensuring the smooth flow of QI and blood.
 
 Excessive consumption of coffee's warming and stimulating properties may affect the liver's function, potentially leading to liver QI stagnation or heat in the liver.
 
@@ -124,7 +128,9 @@ HEART AND BLOOD CIRCULATION: The heart plays a vital role in blood circulation. 
 
 In TCM terms, this could be seen as an excess of YANG energy, potentially affecting the heart and blood vessels.
 
-QI AND BLOOD DEFICIENCY: Chronic excessive coffee consumption can lead to imbalances. Excessive YANG can consume YIN and fluids over time. This imbalance could manifest as symptoms such as dryness, fatigue, and even affect menstrual health.
+### QI AND BLOOD DEFICIENCY
+
+Chronic excessive coffee consumption can lead to imbalances. Excessive YANG can consume YIN and fluids over time. This imbalance could manifest as symptoms such as dryness, fatigue, and even affect menstrual health.
 
 It's important to remember that TCM views each person as an individual with a unique constitution, and the effects of coffee or any other food or beverage can vary from person to person.
 
@@ -137,7 +143,7 @@ They may recommend specific dietary adjustments or herbal remedies to support yo
 
 [Coffee roasted beans and in the backgroud the red ripe beans as the the appear on the plant](./03.jpg)
 
-## Recommendations if you decide that coffee benefits are more important than the problems it can bring
+## Recommendations if you decide that coffee benefits are more important than the problems it can bring.
 
 Drink ORGANIC COFFEE, don't pollute your body with all the chemicals used in coffee cultivation.
 
@@ -152,32 +158,52 @@ Do not drink more than 1 coffee a day. One cup of coffee won't hurt you.
 Black tea, [Yerba Mate](https://en.wikipedia.org/wiki/Yerba_mate) or [Matcha Tea](https://en.wikipedia.org/wiki/Matcha) contain similar substances to caffeine or its derivatives but in smaller quantities, and are good substitutes.
 
 
-## Alkalinizing foods
+## ALKALINIZING FOODS
 
-LEAFY GREENS: Leafy green vegetables like spinach, kale, collard greens, Swiss chard, and arugula are highly alkaline and packed with nutrients like vitamins, minerals, and antioxidants.
+### LEAFY GREENS
 
-CUCUMBERS: Cucumbers have a high water content and are known for their alkalizing properties. They are refreshing and versatile, making them a popular addition to salads and other dishes.
+Leafy green vegetables like spinach, kale, collard greens, Swiss chard, and arugula are highly alkaline and packed with nutrients like vitamins, minerals, and antioxidants.
 
-AVOCADO: Avocado is a nutrient-dense fruit that is not only alkaline but also rich in healthy fats, fiber, vitamins, and minerals.
+### CUCUMBERS
 
-BROCCOLI: Broccoli is a cruciferous vegetable that is both alkaline and an excellent source of vitamins C and K, fiber, and various antioxidants.
+Cucumbers have a high water content and are known for their alkalizing properties. They are refreshing and versatile, making them a popular addition to salads and other dishes.
 
-BELL PEPPERS: Red, green, and yellow bell peppers are alkaline and provide a good amount of vitamins A and C, along with other beneficial nutrients.
+### AVOCADO
+
+Avocado is a nutrient-dense fruit that is not only alkaline but also rich in healthy fats, fiber, vitamins, and minerals.
+
+### BROCCOLI
+
+Broccoli is a cruciferous vegetable that is both alkaline and an excellent source of vitamins C and K, fiber, and various antioxidants.
+
+### BELL PEPPERS
+
+Red, green, and yellow bell peppers are alkaline and provide a good amount of vitamins A and C, along with other beneficial nutrients.
 
 Including these alkaline foods in your diet can help promote a balanced pH level in the body and contribute to overall health and well-being.
 
 
-## Acidifying foods
+## ACIDIFYING FOODS
 
-MEAT: All types of meat, including beef, poultry, pork, and fish, are considered acidifying foods.
+### MEAT
 
-DAIRY PRODUCTS: Most dairy products, such as milk, cheese, yogurt, and butter, have an acidifying effect on the body.
+All types of meat, including beef, poultry, pork, and fish, are considered acidifying foods.
 
-GRAINS: Many grains, including wheat, rice, oats, and corn, are acid-forming when metabolized in the body.
+### DAIRY PRODUCTS
 
-PROCESSED FOODS: Processed and refined foods, including sugary snacks, sodas, and packaged foods, tend to be acidifying due to their high sugar and artificial ingredient content.
+Most dairy products, such as milk, cheese, yogurt, and butter, have an acidifying effect on the body.
 
-Certain Fruits: Some fruits, such as cranberries, blueberries, and plums, have an acidifying effect on the body.
+### GRAINS
+
+Many grains, including wheat, rice, oats, and corn, are acid-forming when metabolized in the body.
+
+### PROCESSED FOODS
+
+Processed and refined foods, including sugary snacks, sodas, and packaged foods, tend to be acidifying due to their high sugar and artificial ingredient content.
+
+### CERTAIN FRUITS
+
+Some fruits, such as cranberries, blueberries, and plums, have an acidifying effect on the body.
 
 While these foods are considered acidifying, it's essential to remember that a healthy diet should include a balance of both alkaline and acidifying foods.
 

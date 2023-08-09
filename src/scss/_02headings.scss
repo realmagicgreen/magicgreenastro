@@ -2,39 +2,39 @@ h1,
 .h1 {
   padding-top: 4vh;
   font-size: initial; /* Fallback value */
-  font-size: clamp(5.5rem, 12vw, 45vw);
-  font-weight: 100;
-  line-height: 0.75;
+  font-size: clamp(5rem, 9vw, 38vw);
+  font-weight: 200;
+  line-height: 1.2ch;
 }
 
 h2,
 .h2 {
   font-size: initial; /* Fallback value */
-  font-size: clamp(4rem, 7vw, 18vw);
-  font-weight: 100;
-  line-height: 0.75;
+  font-size: clamp(4rem, 6vw, 16vw);
+  font-weight: 200;
+  line-height: 1.2ch;
 }
 
 h3,
 .h3 {
   font-size: initial; /* Fallback value */
   font-size: clamp(3rem, 5vw, 13vw);
-  font-weight: 100;
-  line-height: 0.75;
+  font-weight: 200;
+  line-height: 1.2ch;
 }
 
 h4,
 .h4 {
   font-size: initial; /* Fallback value */
   font-size: clamp(2rem, 3vw, 9vw);
-  font-weight: 100;
-  line-height: 0.75;
+  font-weight: 200;
+  line-height: 0.9;
 }
 
 h5,
 .h5 {
   font-size: initial; /* Fallback value */
   font-size: clamp(1.5rem, 2vw, 7vw);
-  font-weight: 100;
-  line-height: 0.75;
+  //font-weight: 200;
+  line-height: 0.9;
 }
