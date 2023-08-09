@@ -33,7 +33,8 @@ export default defineConfig({
       [
         remarkToc,
         {
-          heading: 'contents'
+          heading: 'contents',
+          maxDepth: 2
         }
       ]
     ]

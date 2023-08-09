@@ -5,16 +5,16 @@ import Layout from '@layouts/Index.astro'
 const allPosts = await getCollection('posts')
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())]
 const title = 'ALL TAGS'
-const mainClass = 'container'
+const mainClass = 'container_slim'
 ---
 
 <Layout bodyClass="" description="" title={title} mainClass={mainClass}>
   <h2 class="h3 uppercased centered green">All Tags</h2>
-  <div class="container centered">
+  <div class="centered">
     {
       tags.map((tag) => (
-        <a class="taglink" href={`/${tag}`} style={"font-size: calc(" + `${tag.length}` + "vw /6 + 1rem) ;"}>
-          {tag} <small class="post_count ">{tag.length}</small>
+        <a class="taglink" href={`/${tag}`} style={"font-size: calc(" + `${tag.length}` + "vw /8 + .5rem) ;"}>
+          {tag}
         </a>
       ))
     }
@@ -25,13 +25,13 @@ const mainClass = 'container'
     padding-right: 1rem;
     text-transform: uppercase;
     display: inline-block !important;
-    min-height: 48px;
+    min-height: 44px;
     line-height: 1;
     word-break: break-all;
     padding: 10px;
     margin: 10px;
-    border: 1px solid var(--primary);
-    border-radius: 10px;
+    // border: 1px solid var(--primary);
+    // border-radius: 10px;
     opacity: .75;
   }
   .post_count {

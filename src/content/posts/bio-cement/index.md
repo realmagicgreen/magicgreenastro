@@ -26,9 +26,7 @@ photography: 'Unknown'
 
 <div class="toc">
 
-<span>IN THIS PAGE</span>
-
-- [We grow biocement. No kiln firing, No CO2 emissions.](#we-grow-biocement-no-kiln-firing-no-co2-emissions)
+- [We grow biocement.](#we-grow-biocement-no-kiln-firing-no-co2-emissions)
 - [Grown sustainable building material.](#grown-sustainable-building-material)
 - [How it's made.](#how-its-made)
 - [Dust control solution](#dust-control-solution)

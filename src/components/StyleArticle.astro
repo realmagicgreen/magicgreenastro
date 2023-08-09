@@ -28,14 +28,27 @@
   }
 
   .tags {
-    max-width: none !important;
+    max-width: none;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    padding-left: 0;
     li {
       display: inline-block;
-      padding-right: 1rem;
+      margin: 0;
+      padding: 0;
       text-transform: uppercase;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      margin: 1px;
+      font-size: 85%;
+      min-height: 42px;
+      line-height: 1;
     }
   }
 
@@ -66,10 +79,9 @@
       width: 100dvw;
     }
     p,
-    ul,
+    ul:not(.tags),
     ol {
-      font-size: 135%;
-      width: 80dvw;
+      width: 82dvw;
       max-width: 650px;
       margin: 0 auto;
       padding-bottom: var(--space_small);
@@ -80,7 +92,7 @@
       max-width: none !important;
       margin: 0 !important;
     }
-    ul {
+    ul:not(.tags) {
       padding-left: calc(var(--spacing) / 2);
     }
 
@@ -92,35 +104,25 @@
     color: var(--primary);
     position: relative;
     width: fit-content;
-    padding: calc(var(--space) / 4);
-    max-width: 80vw;
+    padding: 0 calc(var(--space) / 4);
+    max-width: 75vw;
     margin: 3vw auto;
-    border: 2px solid var(--primary-focus);
-    border-radius: var(--radius);
+    border-left: 0.25rem solid var(--primary-focus);
+    ul {
+      margin: 0 auto;
+      padding: 0 !important;
+    }
+    li {
+      list-style: none !important;
+      text-transform: uppercase;
+      text-decoration: none !important;
+    }
+    li::marker {
+      display: none !important;
+    }
   }
-  .toc ul {
-    margin: 0 auto;
-    margin-bottom: 0;
-  }
-  .toc li {
-    list-style: none !important;
-    text-transform: uppercase;
-    text-decoration: none !important;
-  }
-  .toc li::marker {
-    display: none !important;
-  }
-  .toc span {
-    color: var(--primary-inverse);
-    display: block;
-    padding: 0 0 var(--space_small) var(--space_small);
-    //vert?
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    position: absolute;
-    left: -2rem;
-    top: 1rem;
-  }
+
+
 
   .cat_name {
     display: block;
@@ -142,9 +144,6 @@
     flex-wrap: wrap;
     align-items: flex-start;
     padding-top: var(--space);
-    // padding-bottom: var(--space);
-    // padding-left: var(--space_small);
-    // padding-right: var(--space_small);
 
     @media screen and (min-width: 840px) {
       flex-direction: row;

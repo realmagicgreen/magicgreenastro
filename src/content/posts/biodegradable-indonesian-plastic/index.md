@@ -24,7 +24,18 @@ featured: true # use 'true' to have it displayed in home
 sticky: true # 'true' or empty
 photography: 'Unknown'
 ---
+<div class="toc">
+<!-- TOC -->
 
+- [TLDR](#tldr)
+- [BIODEGRADABLE CASSAVA BAG](#biodegradable-cassava-bag)
+- [BIODEGRADABLE PONCHO](#biodegradable-poncho)
+- [BIODEGRADABLE CUTLERY](#biodegradable-cutlery)
+- [Pla cups, straws, forks...](#pla-cups-straws-forks)
+- [Know More Links](#know-more-links)
+
+<!-- /TOC -->
+</div>
 <div class="tldr">
 
 ## TLDR
@@ -41,7 +52,7 @@ It's imperative today to replace plastic with biodegradable solutions made from 
 
 Avani makes bags from industrial grade cassava starch and other natural ingredients, and a full range of compostable and biodegradable food packaging and hospitality products made from sustainable, renewable resources.
 
-### BIO-CASSAVA BAG
+## BIODEGRADABLE CASSAVA BAG
 
 Every year, an estimated 1 trillion plastic bags are consumed worldwide. Avaniâ€™s cassava-based biodegradable bags are a solution to mitigate this horrible worldwide epidemic.
 
@@ -49,7 +60,7 @@ Every year, an estimated 1 trillion plastic bags are consumed worldwide. Avaniâ€
 
 Avani bags are bio-based, an ideal replacement to petroleum-based plastic bags. Compostable and biodegradable these bags can be recycled along with paper.
 
-### Bio-poncho
+## BIODEGRADABLE PONCHO
 
 An eco-friendly alternative to the petroleum based rain poncho, Avani offer a rain poncho made of renewable resources of corn, soy and sunflower seeds.
 
@@ -57,7 +68,7 @@ An eco-friendly alternative to the petroleum based rain poncho, Avani offer a ra
 
 It could last up to 3 months, and then can become compost for our soil. It looks, feels and performs like plastic but is made 100% from renewables non polluting resources.
 
-### Bio-cutlery
+## BIODEGRADABLE CUTLERY
 
 Avani wooden cutleries is derived from certified forests. Made from birchwood, they become the perfect substitute in replacing the normally used plastic cutlery. They are also aesthetically more natural and provide a flexible and durable feel for your consuming needs.
 
@@ -65,13 +76,13 @@ Avani wooden cutleries is derived from certified forests. Made from birchwood, t
 
 Derived from sustainable, replanted forest wood and produced in an ETO sterilization facility and have been CE, FSC and ISO 13485 certified.
 
-### Pla cups, straws, forks...
+## Pla cups, straws, forks...
 
 Made from polylactic acid (PLA) or corn starch, Avani PLA products will release no toxic chemicals a big problem we have when using conventional plastic and they are compostable.
 
 ![polylactic acid (PLA) or corn starch glass](./biodegradable-indonesian-plastic-04.jpg)
 
-### Established in 2014
+### Avani was established in 2014
 
 Avani was established in 2014 by individuals who want to make a difference using technology solutions for the global plastic epidemic.
 

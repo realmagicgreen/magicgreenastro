@@ -21,40 +21,55 @@ sticky: # 'true' or empty
 photography: 'Unknown'
 ---
 
+<div class="toc">
+<!-- TOC depthfrom:2 depthto:2 -->
+
+- [BENEFITS YOU CAN GET FROM COFFEE.](#benefits-you-can-get-from-coffee)
+- [REASONS TO MODERATE COFFEE INTAKE.](#reasons-to-moderate-coffee-intake)
+- [TRADITIONAL CHINESE MEDICINE BALANCE.](#traditional-chinese-medicine-balance)
+- [HEALTH RECOMMENDATIONS](#health-recommendations)
+- [SWITCH TO TEAS.](#switch-to-teas)
+- [ALKALINIZING FOODS.](#alkalinizing-foods)
+- [ACIDIFYING FOODS.](#acidifying-foods)
+- [Know More Links](#know-more-links)
+
+<!-- /TOC -->
+</div>
+
 Kepping the correct balance is one of the oldest and most universal concept that you can apply to many reasoning in life. From phisolophy to health to communication the concept has a paramount importance. There is even a word to express the concept, [homeostasis](https://en.wikipedia.org/wiki/Homeostasis), and it was considered by [Maslov](https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs) as a basic human need.
 
 In personal health is worth to remind that substances are beneficial or damaging depending on the quantity we assume. Even water, with makes a big percentage of our body, can be damaging when drunk in big quantities.
 
 
-## BENEFITS YOU CAN GET FROM COFFEE
+## BENEFITS YOU CAN GET FROM COFFEE.
 
 Medical literature has suggested several potential health benefits associated with moderate coffee consumption.
 
 It's important to note that individual responses to coffee can vary, and excessive coffee consumption may have adverse effects. Here are potential benefits supported by scientific research:
 
-### ENHANCED COGNITIVE FUNCTION
+### ENHANCED COGNITIVE FUNCTION.
 
 Caffeine, a key component in coffee, is a stimulant that can improve cognitive function, including alertness, attention, and concentration.
 
 It may also help enhance memory and reduce the risk of cognitive decline, particularly in older adults.
 
-### REDUCED RISK OF CERTAIN DISEASES
+### REDUCED RISK OF CERTAIN DISEASES.
 
 Some studies have shown that moderate coffee consumption may be associated with a reduced risk of certain diseases, including type 2 diabetes, Parkinson's disease, and certain types of cancers, such as liver and colorectal cancer.
 
-### IMPROVES PERFORMANCE
+### IMPROVES PERFORMANCE.
 
 Improved PHYSICAL PERFORMANCE: Caffeine can stimulate the release of adrenaline, which can lead to increased endurance during physical activities.
 
 This can result in improved performance in various types of exercise and sports.
 
-### ANTIOXIDANT
+### ANTIOXIDANT.
 
 Coffee contains various antioxidants, such as chlorogenic acid, which can help neutralize harmful free radicals in the body.
 
 Antioxidants play a crucial role in reducing oxidative stress and inflammation, potentially benefiting overall health.
 
-### LIVER PROTECTION
+### LIVER PROTECTION.
 
 Some research suggests that moderate coffee consumption may be linked to a reduced risk of liver diseases, including liver cirrhosis and non-alcoholic fatty liver disease (NAFLD).
 
@@ -104,7 +119,7 @@ Coffee contains an acidic oil which can irritate the stomach especially if empty
 
 [To limit coffee acidity problem drink it with no milk and no sugar.](./02.jpg)
 
-## BALANCE ACCORDING TO TRADITIONAL CHINESE MEDICINE.
+## TRADITIONAL CHINESE MEDICINE BALANCE.
 
 In Traditional Chinese Medicine (TCM), food and its effects on the body is viewed in terms of balancing YIN and YANG, as well as the principles of QI (vital energy) and the body's organ systems.
 
@@ -116,7 +131,7 @@ Excessive consumption of coffee, like any strongly warming or stimulating substa
 
 Here are some ways coffee consumption, including its acidity, can be related to blood health in TCM terms:
 
-### LIVER AND BLOOD
+### LIVER AND BLOOD.
 
 The liver is closely linked to the health of the blood. The liver is responsible for storing blood and ensuring the smooth flow of QI and blood.
 
@@ -128,7 +143,7 @@ HEART AND BLOOD CIRCULATION: The heart plays a vital role in blood circulation. 
 
 In TCM terms, this could be seen as an excess of YANG energy, potentially affecting the heart and blood vessels.
 
-### QI AND BLOOD DEFICIENCY
+### QI AND BLOOD DEFICIENCY.
 
 Chronic excessive coffee consumption can lead to imbalances. Excessive YANG can consume YIN and fluids over time. This imbalance could manifest as symptoms such as dryness, fatigue, and even affect menstrual health.
 
@@ -143,7 +158,9 @@ They may recommend specific dietary adjustments or herbal remedies to support yo
 
 [Coffee roasted beans and in the backgroud the red ripe beans as the the appear on the plant](./03.jpg)
 
-## Recommendations if you decide that coffee benefits are more important than the problems it can bring.
+## HEALTH RECOMMENDATIONS
+
+When you decide that coffee benefits are more important than the problems it can bring.
 
 Drink ORGANIC COFFEE, don't pollute your body with all the chemicals used in coffee cultivation.
 
@@ -153,12 +170,12 @@ If you like your coffee with milk or sugar, use VEGETABLE MILK SUBSITUTES and sw
 
 Do not drink more than 1 coffee a day. One cup of coffee won't hurt you.
 
-## Switch to TEAS
+## SWITCH TO TEAS.
 
 Black tea, [Yerba Mate](https://en.wikipedia.org/wiki/Yerba_mate) or [Matcha Tea](https://en.wikipedia.org/wiki/Matcha) contain similar substances to caffeine or its derivatives but in smaller quantities, and are good substitutes.
 
 
-## ALKALINIZING FOODS
+## ALKALINIZING FOODS.
 
 ### LEAFY GREENS
 
@@ -183,7 +200,7 @@ Red, green, and yellow bell peppers are alkaline and provide a good amount of vi
 Including these alkaline foods in your diet can help promote a balanced pH level in the body and contribute to overall health and well-being.
 
 
-## ACIDIFYING FOODS
+## ACIDIFYING FOODS.
 
 ### MEAT
 

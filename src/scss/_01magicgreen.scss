@@ -11,12 +11,7 @@
 [data-theme='light'],
 :root:not([data-theme='dark']) {
   --primary: hsla(92, 100%, 15%, 1); // oklch(37.36% 0.109 135.207);
-  --primary-hover: hsla(
-    92,
-    100%,
-    25%,
-    1
-  ); // oklch(53.22% 0.16 136.15)  #388e3c;
+  --primary-hover: hsla(92,  100%,25%,1); // oklch(53.22% 0.16 136.15)  #388e3c;
   --primary-focus: rgba(67, 160, 71, 0.125);
   --primary-inverse: black;
   --background-color: hsla(92, 100%, 90%, 1); // hsla(92, 100%, 90%,1)
@@ -55,7 +50,6 @@
   --form-element-focus-color: var(--primary-focus);
   --switch-color: var(--primary-inverse);
   --switch-checked-background-color: var(--primary);
-
   --hearth_color: hsla(36, 88%, 12%, 1);
 
   --up_shift: -3rem;
@@ -89,26 +83,38 @@
   --card_shadow--hover: var(--radius) var(--radius) 8px 0 rgba(0, 0, 0, 0.12),
     8px 8px 8px 0 rgba(0, 0, 0, 0.24);
 
-  //typography
-
-  // --base_font_size--tiny: 17px;
-  // --base_font-size--min: 18px;
-  // --base_font_size--bp1: 19px;
-  // --base_font_size--max: 20px;
-
-  // --base_line_height: 1.4446;
-
-  // --base_font_weight: 400;
-  // --semibold_font_weight: 600;
-
-  // --heading1: 1.7rem;
-  // --heading2: 1.7rem/10 * 8;
-  // --heading3: 1.7rem/10 * 7;
-  // --heading4: 1.7rem/10 * 6.5;
-  // --heading5: 1.7rem/10 * 5.5;
-
   --top_band: 1vh;
   --top_band_opacity: 1;
+
+
+  --font-size: 20px;
+
+  // Responsive typography
+  @if $enable-responsive-typography {
+    @if map-get($breakpoints, "sm") {
+      @media (min-width: map-get($breakpoints, "sm")) {
+        --font-size: 21px;
+      }
+    }
+
+    @if map-get($breakpoints, "md") {
+      @media (min-width: map-get($breakpoints, "md")) {
+        --font-size: 23px;
+      }
+    }
+
+    @if map-get($breakpoints, "lg") {
+      @media (min-width: map-get($breakpoints, "lg")) {
+        --font-size: 25px;
+      }
+    }
+
+    @if map-get($breakpoints, "xl") {
+      @media (min-width: map-get($breakpoints, "xl")) {
+        --font-size: 27px;
+      }
+    }
+  }
 }
 
 // MAGICGREEN OVERRIDES
@@ -150,68 +156,8 @@ body {
   .green {
     color: var(--primary) !important;
   }
-
-  // .services::before {
-  //   content: '';
-  //   width: 100%;
-  //   height: var(--top_band);
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   opacity: var(--top_band_opacity);
-  //   background-color: var(--color_services);
-  // }
-  // .know::before {
-  //   content: '';
-  //   width: 100%;
-  //   height: var(--top_band);
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   opacity: var(--top_band_opacity);
-  //   background-color: var(--color_know);
-  // }
-  // .health::before {
-  //   content: '';
-  //   width: 100%;
-  //   height: var(--top_band);
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   opacity: var(--top_band_opacity);
-  //   background-color: var(--color_health);
-  // }
-  // .products::before {
-  //   content: '';
-  //   width: 100%;
-  //   height: var(--top_band);
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   opacity: var(--top_band_opacity);
-  //   background-color: var(--color_products);
-  // }
-  // .solutions::before {
-  //   content: '';
-  //   width: 100%;
-  //   height: var(--top_band);
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   opacity: var(--top_band_opacity);
-  //   background-color: var(--color_solutions);
-  // }
-  // .techniques::before {
-  //   content: '';
-  //   width: 100%;
-  //   height: var(--top_band);
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   opacity: var(--top_band_opacity);
-  //   background-color: var(--color_techniques);
-  // }
 }
+
 
 ul {
   li {
@@ -269,6 +215,10 @@ ul {
       display: none !important;
     }
   }
+}
+
+.container_slim {
+  width: 80vdw;
 }
 
 // TYPOGRAPHY

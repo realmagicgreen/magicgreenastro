@@ -12,6 +12,7 @@ tags:
   - learning
   - ecological-engineering
   - restoration
+  - forest
 coverImage: './diego_garcia_mixed_species_marsh.jpg'
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: BIO DIVERSITY # lowercase, max 12 digits, including spaces
@@ -23,14 +24,16 @@ photography: 'Unknown'
 ---
 
 <div class="toc">
+<!-- TOC -->
 
-  <span>IN THIS PAGE</span>
-
+- [TLDR](#tldr)
 - [Akira MIYAWAKI](#akira-miyawaki)
 - [MIYAWAKI method](#miyawaki-method)
-- [Method and conditions for success](#method-and-conditions-for-success)
+- [Conditions for success](#conditions-for-success)
 - [Biocoenosis](#biocoenosis)
+- [Know More Links](#know-more-links)
 
+<!-- /TOC -->
 </div>
 
 <div class="tldr">
@@ -76,7 +79,7 @@ His method was deemed exemplary in a preparatory report for the 1992 Earth Summi
 
 The method was also presented in 1991 at the Symposium of the University of Bonn, and at the congresses of the International Association for Ecology, the International Society for Vegetation Science, and the International Botanical Congress, which included new aspects such as the links between growth, natural habitat, and estimated carbon fixation.
 
-## Method and conditions for success
+## Conditions for success
 
 _The method's reconstitution of "indigenous forests by indigenous trees" produces rich, dense and efficient protective pioneer forests in 20 to 30 years, where natural succession would need 200 years in temperate Japan and 300 to 500 years in the tropics. Success phases_:
 
