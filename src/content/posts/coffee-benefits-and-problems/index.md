@@ -24,8 +24,8 @@ photography: 'Unknown'
 <div class="toc">
 <!-- TOC depthfrom:2 depthto:2 -->
 
-- [BENEFITS YOU CAN GET FROM COFFEE](#benefits-you-can-get-from-coffee)
-- [REASONS TO MODERATE COFFEE INTAKE](#reasons-to-moderate-coffee-intake)
+- [BENEFITS OF COFFEE](#benefits-of-coffee)
+- [REASONS TO MODERATE COFFEE](#reasons-to-moderate-coffee-intake)
 - [TRADITIONAL CHINESE MEDICINE BALANCE](#traditional-chinese-medicine-balance)
 - [HEALTH RECOMMENDATIONS](#health-recommendations)
 - [SWITCH TO TEAS](#switch-to-teas)
@@ -47,7 +47,7 @@ In personal health is worth to remind that substances are beneficial or damaging
 Even water, with makes a big percentage of our body, can be damaging when drunk in big quantities.
 
 
-## BENEFITS YOU CAN GET FROM COFFEE
+## BENEFITS OF COFFEE
 
 Medical literature has suggested several potential health benefits associated with moderate coffee consumption.
 
@@ -89,7 +89,7 @@ If you have specific health concerns or conditions, it's always a good idea to c
 ![Italian Espresso style small coffee has taken over the world](./01.jpg)
 
 
-## REASONS TO MODERATE COFFEE INTAKE
+## REASONS TO MODERATE COFFEE
 
 ### ACIDIFYING
 
