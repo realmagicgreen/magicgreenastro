@@ -1,7 +1,7 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "7.1.6",
+  "version": "7.1.7",
   "version_name": "LEARNING, OBSERVING MOVEMENT!",
   "private": true,
   "scripts": {
@@ -22,12 +22,12 @@
     "@astrojs/rss": "^2.4.4",
     "@rollup/plugin-yaml": "^4.1.1",
     "@sindresorhus/slugify": "^2.2.1",
-    "@types/node": "^20.4.9",
+    "@types/node": "^20.5.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "astro": "^2.10.5",
+    "astro": "^2.10.10",
     "astro-icon": "^0.8.1",
     "astro-og-canvas": "^0.1.8",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "eslint-plugin-astro": "^0.27.2",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "mdast-util-to-string": "^3.2.0",
@@ -37,7 +37,7 @@
     "reading-time": "^1.5.0",
     "remark-toc": "^8.0.1",
     "rollup": "^3.28.0",
-    "sass": "^1.65.1",
-    "sharp": "^0.32.4"
+    "sass": "^1.66.0",
+    "sharp": "^0.32.5"
   }
 }
