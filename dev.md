@@ -2,30 +2,27 @@
 
 ## WIP:
 
-- OG images for posts
+- OG images fix:
+  - https://magicgreen.junglestar.org/health/coffee-benefits-and-problems/
+  - https://magicgreen.junglestar.org/techniques/biocoenosis-natural-forests/
 - tag icon before tags in posts
-- new posts
 
 ## 2DOs:
 
-- move img to post folder (finally can, but need testing!)
-- tags see Astro Paper
-- make head menu responsive
 - standalone web-app
 - search
 - Add Patreon
+- feed
 - build ADD YOURSELF FORM > gform > gsheet
-- css overlay ala VEGAS, via frontmatter true false, for crappy jpgs
 - i18n + make indo posts (using G translate)
 - Know section: make memes img 4 social with pill statistics phrases (img)
 - tooltip showing categories descriptions
 - FB post some stuff + setup post robot (buffer?)
 - make contributor guide page w/ what's needed in an article, writing style, checklist.
-- Twitter account
+- Twitter/Threads account
 - add ?ref=magicgreen.org with JS
 - footer: accordion | only popular posts, just topics..
 - web mentions
-- feed
 - gsheet is shared with iam.gservice user (magicgreen-admin@magicgreen-205703.iam.gserviceaccount.com) and given EDIT permissions, maybe need only read, test later, when it's working!
 - listen to this post (use Soundcloud! + find free tier pro text-to-speach )
 - why medium-zoom use jpgs and not avifs?
@@ -43,6 +40,9 @@
 - add img caption from alt via JS
 - GA4
 - partytown
+- img in each post folder
+- tags
+- css overlay ala VEGAS, via frontmatter true false, for crappy jpgs
 
 ## Get VSCode, eslint & prettier working with Astro
 
