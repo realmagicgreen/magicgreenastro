@@ -1,7 +1,7 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "7.1.12",
+  "version": "7.1.13",
   "version_name": "OBSERVING MOVEMENTS AROUND YOU!",
   "private": true,
   "scripts": {
