@@ -1,7 +1,7 @@
 {
   "name": "magic-green",
   "type": "module",
-  "version": "7.1.13",
+  "version": "7.2.0",
   "version_name": "OBSERVING MOVEMENTS AROUND YOU!",
   "private": true,
   "scripts": {
@@ -16,19 +16,19 @@
   },
   "devDependencies": {
     "@astrojs/markdown-remark": "^2.2.1",
-    "@astrojs/mdx": "^0.15.2",
+    "@astrojs/mdx": "^1.1.0",
     "@astrojs/partytown": "^1.2.3",
     "@astrojs/prefetch": "^0.2.3",
     "@astrojs/rss": "^2.4.4",
     "@rollup/plugin-yaml": "^4.1.1",
     "@sindresorhus/slugify": "^2.2.1",
-    "@types/node": "^20.5.7",
+    "@types/node": "^20.6.1",
     "@typescript-eslint/parser": "^5.62.0",
-    "astro": "^2.10.15",
+    "astro": "^3.1.0",
     "astro-auto-import": "^0.3.1",
     "astro-icon": "^0.8.1",
     "astro-robots-txt": "^0.5.0",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-plugin-astro": "^0.27.2",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "mdast-util-to-string": "^3.2.0",
@@ -37,8 +37,8 @@
     "prettier-plugin-astro": "^0.8.1",
     "reading-time": "^1.5.0",
     "remark-toc": "^8.0.1",
-    "rollup": "^3.28.1",
-    "sass": "^1.66.1",
+    "rollup": "^3.29.2",
+    "sass": "^1.67.0",
     "sharp": "^0.32.5"
   }
 }
