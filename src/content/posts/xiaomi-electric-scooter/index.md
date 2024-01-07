@@ -78,6 +78,6 @@ photography: 'Unknown'
 
 ## Know More Links
 
-[Rp 6.500.000 from Lazada](https://www.lazada.co.id/products/xiaomi-mijia-365-smart-electric-scooter-black-i100345353-s100434790.html)
+[IDR 6.500.000 from Lazada](https://www.lazada.co.id/products/xiaomi-mijia-365-smart-electric-scooter-black-i100345353-s100434790.html)
 
-[Rp 7.199.000 from Tokopedia](https://www.tokopedia.com/budgetgadget/xiaomi-mijia-smart-electric-scooter-m365-otoped-listrik-lipat)
+[IDR 7.199.000 from Tokopedia](https://www.tokopedia.com/budgetgadget/xiaomi-mijia-smart-electric-scooter-m365-otoped-listrik-lipat)
