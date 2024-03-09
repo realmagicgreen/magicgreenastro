@@ -25,7 +25,7 @@ photography: 'Unknown'
 <!-- TOC depthfrom:2 depthto:2 -->
 
 - [BENEFITS OF COFFEE](#benefits-of-coffee)
-- [REASONS TO MODERATE COFFEE](#reasons-to-moderate-coffee-intake)
+- [REASONS TO MODERATE COFFEE](#reasons-to-moderate-coffee)
 - [TRADITIONAL CHINESE MEDICINE BALANCE](#traditional-chinese-medicine-balance)
 - [HEALTH RECOMMENDATIONS](#health-recommendations)
 - [SWITCH TO TEAS](#switch-to-teas)
@@ -242,7 +242,13 @@ As always, moderation and variety are key to a well-rounded and balanced diet.
 
 [Matcha Tea](https://en.wikipedia.org/wiki/Matcha)
 
+[Coffee - European Food Safety Association ](https://www.efsa.europa.eu/en/topics/topic/caffeine)
+
 [A list of Acid / Alkaline Forming Foods](https://www.courts.ca.gov/documents/List_of_Acid-Alkaline_Forming_Foods_-_NEED_PRINT.pdf)
+
+[Coffee myths and misconceptions](https://www.wired.com/story/coffee-myths-and-misconceptions)
+
+[Alcohol and Caffeine](https://www.cdc.gov/alcohol/fact-sheets/caffeine-and-alcohol.htm)
 
 [The alkaline diet myth | healthline](https://www.healthline.com/nutrition/the-alkaline-diet-myth)
 
