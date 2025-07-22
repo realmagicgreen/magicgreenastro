@@ -1,14 +1,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/91072c23-42b0-45bf-ab7a-e7749162b0f5/deploy-status)](https://app.netlify.com/sites/magicgreenastro/deploys)
 
-# MAGIC GREEN (Astro)
+# MAGIC GREEN W/ junglo shop? (Astro)
 
 [![magic green](./src/assets/p/og_large_image.jpg)](https://magicgreen.junglestar.org)
 
 ## DEV TECH STACK:
 
 - plain [Astro SSG](https://docs.astro.build/en/getting-started/) | [Astro repo](https://github.com/withastro/astro)
-- [Astro Experimental assets](https://docs.astro.build/en/guides/assets/)
-- new built-in [Astro Image component](https://docs.astro.build/en/guides/assets/#convert-from-astrojsimage)
+- built-in [Astro Image component](https://docs.astro.build/en/guides/assets/#convert-from-astrojsimage)
 - [Astro Avif images](https://docs.astro.build/en/guides/assets/#properties)
 - [Typescript](https://docs.astro.build/en/guides/typescript/)
 - [Get VSCode, eslint & prettier working with Astro](https://patheticgeek.dev/blog/astro-prettier-eslint-vscode) | [Prettier](https://docs.astro.build/en/editor-setup/#prettier) | [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)

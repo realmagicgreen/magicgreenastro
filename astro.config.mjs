@@ -1,17 +1,18 @@
-import { defineConfig, sharpImageService } from 'astro/config'
-import { rehypeHeadingIds } from '@astrojs/markdown-remark'
-import remarkToc from 'remark-toc'
-import mdx from '@astrojs/mdx'
-import partytown from '@astrojs/partytown'
+import { defineConfig, sharpImageService } from "astro/config";
+import mdx from "@astrojs/mdx";
+import sitemap from "@astrojs/sitemap";
+import { rehypeHeadingIds } from "@astrojs/markdown-remark";
+import remarkToc from "remark-toc";
+import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
   image: {
-    service: sharpImageService()
+    service: sharpImageService(),
   },
-  output: 'static',
+  output: "static",
   build: {
-    inlineStylesheets: 'always'
+    inlineStylesheets: "always",
   },
   markdown: {
     drafts: true,
@@ -20,24 +21,25 @@ export default defineConfig({
       [
         remarkToc,
         {
-          heading: 'contents',
-          maxDepth: 2
-        }
-      ]
-    ]
+          heading: "contents",
+          maxDepth: 2,
+        },
+      ],
+    ],
   },
-  integrations: [
-    mdx({
-      extendMarkdownConfig: false,
-      gfm: true,
-      drafts: true
-    }),
-    partytown()
-  ],
-  experimental: {
-    contentCollectionCache: true
+  integrations: [sitemap(), mdx(), partytown()],
+  outDir: "./dist",
+  site: "https://magicgreen.junglestar.org/",
+  base: "/",
+  prefetch: true,
+  vite: {
+    // plugins: [rawFonts([".ttf", ".woff"])],
+    // optimizeDeps: {
+    // 	exclude: ["@resvg/resvg-js"],
+    // },
+    css: {
+      //it works, but cant save, so kinda useless
+      devSourcemap: true,
+    },
   },
-  outDir: './dist',
-  site: 'https://magicgreen.junglestar.org/',
-  base: '/'
-})
+});

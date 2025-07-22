@@ -1,96 +1,104 @@
 ---
-import Layout from '@layouts/Home.astro'
-import { getCollection } from 'astro:content'
-import Card from '@components/Card.astro'
+import Layout from "@layouts/Home.astro";
+import { getCollection } from "astro:content";
+import Card from "@components/Card.astro";
 
-const featuredPosts = await getCollection('posts', ({ data }) => {
-  return data.publish && data.featured && data.pubDate < new Date()
-})
+const featuredPosts = await getCollection("posts", ({ data }) => {
+    return data.publish && data.featured && data.pubDate < new Date();
+});
 
 const sortedFP = featuredPosts.sort(
-  (a, b) =>
-    Date.parse(b.data.pubDate.toString()) -
-    Date.parse(a.data.pubDate.toString())
-)
+    (a, b) =>
+        Date.parse(b.data.pubDate.toString()) -
+        Date.parse(a.data.pubDate.toString()),
+);
 
-const posts = await getCollection('posts', ({ data }) => {
-  return data.publish && data.pubDate < new Date()
-})
+const posts = await getCollection("posts", ({ data }) => {
+    return data.publish && data.pubDate < new Date();
+});
 
 export interface Props {
-  title: string
-  bodyClass: string
-  mainClass: string
-  pubDate: any
-  category: string
-  ogImage?: string
+    title: string;
+    bodyClass: string;
+    mainClass: string;
+    pubDate: any;
+    category: string;
+    ogImage?: string;
 }
 
-import siteData from '@data/site.json'
-const title = 'Curated Info Platform'
-const bodyClass = 'index'
-const ogImage = '../assets/p/og_large_image.jpg'
-const mainClass = ''
+import siteData from "@data/site.json";
+const title = "Curated Info Platform";
+const bodyClass = "index";
+const ogImage = "../assets/p/og_large_image.jpg";
+const mainClass = "";
 ---
 
-<Layout
-  title={title}
-  description={siteData.description}
-  bodyClass={bodyClass}
-  mainClass={mainClass}
-  ogImage={ogImage}>
-  <h2 class="h5 uppercased top_pad centered">Featured Articles</h2>
-  <div class="container grida">
-    {
-      sortedFP.map((post) => (
-        <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
-          <Card
-            cssClass="card"
-            pubDate={post.data.pubDate}
-            subtitle={post.data.subtitle}
-            description={post.data.description}
-            photography={post.data.photography}
-            category={post.data.category}
-            title={post.data.title}
-            coverImage={post.data.coverImage}
-            ad={post.data.ad}
-          />
-        </a>
-      ))
-    }
-  </div>
-
-  <br />
-  <hr />
-  <br />
-
-  <h2 class="h5 uppercased centered">All Articles</h2>
-  <div class="container grida">
-    {
-      posts.map((post) => (
-        <a class="card_link" href={`/${post.data.category}/${post.slug}`}>
-          <h4>{post.data.title}</h4>
-          <p class="subtitle">{post.data.subtitle}</p>
-        </a>
-      ))
-    }
-  </div>
-</Layout>
 <style lang="scss">
-  .grida {
-    display: grid;
-    grid-gap: 0.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-  .card_link {
-    padding: 20px;
-    text-decoration: none;
-  }
+    .grida {
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .card_link {
+        padding: 20px;
+        text-decoration: none;
+    }
 
-  .subtitle {
-    padding-top: 0.5rem;
-    color: var(--color);
-    max-width: 80dvw;
-    margin: 0 auto;
-  }
+    .subtitle {
+        padding-top: 0.5rem;
+        color: var(--color);
+        max-width: 80dvw;
+        margin: 0 auto;
+    }
 </style>
+
+<Layout
+    title={title}
+    description={siteData.description}
+    bodyClass={bodyClass}
+    mainClass={mainClass}
+    ogImage={ogImage}
+>
+    <h2 class="h5 uppercased top_pad centered">Featured Articles</h2>
+    <div class="container grida">
+        {
+            sortedFP.map((post) => (
+                <a
+                    class="card_link"
+                    href={`/${post.data.category}/${post.slug}`}
+                >
+                    <Card
+                        cssClass="card"
+                        pubDate={post.data.pubDate}
+                        subtitle={post.data.subtitle}
+                        description={post.data.description}
+                        photography={post.data.photography}
+                        category={post.data.category}
+                        title={post.data.title}
+                        coverImage={post.data.coverImage}
+                        ad={post.data.ad}
+                    />
+                </a>
+            ))
+        }
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <h2 class="h5 uppercased centered">All Articles</h2>
+    <div class="container grida">
+        {
+            posts.map((post) => (
+                <a
+                    class="card_link"
+                    href={`/${post.data.category}/${post.slug}`}
+                >
+                    <h4>{post.data.title}</h4>
+                    <p class="subtitle">{post.data.subtitle}</p>
+                </a>
+            ))
+        }
+    </div>
+</Layout>

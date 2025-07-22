@@ -1,6 +1,16 @@
 {
   "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["node_modules", "**/node_modules/*", ".vscode", "dist"],
   "compilerOptions": {
+    "verbatimModuleSyntax": false,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ES2022",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
@@ -14,6 +24,9 @@
       "@overlays/*": ["src/assets/overlays/*"],
       "@content/*": ["src/content/*"],
       "@scripts/*": ["src/scripts/*"]
-    }
+    },
+    "strictNullChecks": true,
+    "allowJs": true,
+    "jsx": "react-jsx"
   }
 }

@@ -1,104 +1,111 @@
 ---
-import Layout from '@layouts/Home.astro'
-import siteData from '@data/site.json'
-import { getEntryBySlug } from 'astro:content'
-import repoData from 'package.json'
+import Layout from "@layouts/Home.astro";
+import siteData from "@data/site.json";
+import repoData from "package.json";
 
-const about = await getEntryBySlug('about', 'about-us')
+import { getEntry, render } from "astro:content";
 
-export interface Props {
-  description: string
-  bodyClass: string
-  mainClass: string
-  title: string
-  subtitle: string
-  category: string
-  photography: string
-  coverImage: {}
-  pubDate: any
-  ogImage?: string
+const entry = await getEntry("about", "about-us");
+if (!entry) {
+    // Handle Error, for example:
+    throw new Error("Oh oh, no find about-us! Oops");
 }
 
-const { Content } = await about.render()
-const ogImage = '../assets/p/og_large_image.jpg'
-const mainClass = 'container'
+export interface Props {
+    description: string;
+    bodyClass: string;
+    mainClass: string;
+    title: string;
+    subtitle: string;
+    category: string;
+    photography: string;
+    coverImage: {};
+    pubDate: any;
+    ogImage?: string;
+}
+const { Content, title, ogImage, mainClass } = await render(entry);
 ---
 
 <Layout
-  bodyClass="about"
-  title="ABOUT US"
-  description={siteData.description}
-  mainClass={mainClass}
-  ogImage={ogImage}>
-  <Content />
+    bodyClass="about"
+    title="ABOUT US"
+    description={siteData.description}
+    mainClass={mainClass}
+    ogImage={ogImage}
+>
+    <p>Published on: {entry.data.pubDate.toString()}</p>
+    <Content />
 
-  <br />
+    <br />
+    <hr />
+    <hr />
+    <hr />
+    <br />
+    <br />
 
-  <hr />
-  <hr />
-  <hr />
+    <div class="centered projectdata">
+        {siteData.subtitle.toUpperCase()}
+        <span class="break_on_phones"><span>|</span></span>
+        LICENSE: {siteData.license.name}
+        <span class="break_on_phones"><span>|</span></span>
+        AUTHOR: {siteData.author.name.toUpperCase()}
 
-  <br />
-
-  <br />
-  <div class="centered projectdata">
-    {siteData.subtitle.toUpperCase()}
-    <span class="break_on_phones"><span>|</span></span>
-    LICENSE: {siteData.license.name}
-    <span class="break_on_phones"><span>|</span></span>
-    AUTHOR: {siteData.author.name.toUpperCase()}
-
-    <hr />
-    <div>PROJECTIMAGE: {siteData.projectimage}</div>
-    <hr />
-    <div>author: {siteData.author.name.toUpperCase()}</div>
-    <hr />
-    <div>{siteData.company.name.toUpperCase()}</div>
-    <hr />
-    <div>
-      MAIL: {siteData.company.email}
+        <hr />
+        <div>PROJECTIMAGE: {siteData.projectimage}</div>
+        <hr />
+        <div>author: {siteData.author.name.toUpperCase()}</div>
+        <hr />
+        <div>{siteData.company.name.toUpperCase()}</div>
+        <hr />
+        <div>
+            MAIL: {siteData.company.email}
+        </div>
+        <hr />
+        <div>
+            GITHUB: {siteData.company.github}
+        </div>
+        <hr />
+        <div>
+            IG: {siteData.company.instagram}
+        </div>
+        <hr />
+        <a title="licence" href={siteData.license.url}
+            >{siteData.license.name}</a
+        >
+        <hr />
+        <a title="produced by" href={siteData.producer.url}
+            >{siteData.producer.name}</a
+        >
+        <hr />
+        <a class="lowercase" title="site url" href={siteData.url}
+            >{siteData.url}</a
+        >
+        <hr />
+        <div>
+            {siteData.company.name.toUpperCase()}
+            <span class="break_on_phones"><span>|</span></span>
+            {siteData.tldr.toUpperCase()}
+            <span class="break_on_phones"><span>|</span></span>
+            v{repoData.version} | {repoData.version_name.toUpperCase()}
+        </div>
+        <div>
+            <hr />
+            {about.data.title}<br />
+            {about.data.subtitle}<br />
+            {about.data.description}<br />
+            <hr />
+        </div>
     </div>
-    <hr />
-    <div>
-      GITHUB: {siteData.company.github}
-    </div>
-    <hr />
-    <div>
-      IG: {siteData.company.instagram}
-    </div>
-    <hr />
-    <a title="licence" href={siteData.license.url}>{siteData.license.name}</a>
-    <hr />
-    <a title="produced by" href={siteData.producer.url}
-      >{siteData.producer.name}</a
-    >
-    <hr />
-    <a class="lowercase" title="site url" href={siteData.url}>{siteData.url}</a>
-    <hr />
-    <div>
-      {siteData.company.name.toUpperCase()}
-      <span class="break_on_phones"><span>|</span></span>
-      {siteData.tldr.toUpperCase()}
-      <span class="break_on_phones"><span>|</span></span>
-      v{repoData.version} | {repoData.version_name.toUpperCase()}
-    </div>
-    <div>
-      <hr />
-      {about.data.title}<br />
-      {about.data.subtitle}<br />
-      {about.data.description}<br />
-      <hr />
-    </div>
-  </div>
 </Layout>
+
 <style>
-  hr {
-    opacity: 0.25;
-  }
-  .lowercase {
-    text-transform: lowercase;
-  }
-  .projectdata {
-    color: var(--primary);
-  }
+    hr {
+        opacity: 0.25;
+    }
+    .lowercase {
+        text-transform: lowercase;
+    }
+    .projectdata {
+        color: var(--primary);
+    }
 </style>

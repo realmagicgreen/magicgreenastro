@@ -1,20 +1,7 @@
-.env
-.env.production
-.DS_Store
-\n.astro
-# .astro cos it's useful
-.cache/**
-.cache/image/**
-
-## Github Versioning '_astro' dir to speed up the Netlify builds? Its small
-#_astro
-
-dist/
+# build output better keep cos when you fuckup then you have a working copy
+# dist/
+# .astro
 .output/
-.cache
-.cache/image
-.cache/image/**
-.workinprogress
 
 # dependencies
 node_modules/
@@ -24,3 +11,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# misc
+*.pem
+.cache

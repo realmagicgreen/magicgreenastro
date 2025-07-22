@@ -5,7 +5,7 @@ category: about
 pubDate: 2018-05-02
 updatedDate: 2023-03-03
 description: We are a network of communication professionals who feel the need to make something meaningful and necessary. To push the world towards the right direction.
-coverImage: './about-us.jpg'
+coverImage: './00.jpg'
 many_pictures: false # 'true' or empty
 photography: 'Unknown'
 tags:

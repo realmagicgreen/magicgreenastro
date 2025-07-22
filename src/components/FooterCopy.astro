@@ -1,53 +1,52 @@
 ---
-import siteData from '@data/site.json'
-import repoData from 'package.json'
-const today = new Date()
+import siteData from "@data/site.json";
+import repoData from "package.json";
+const today = new Date();
 ---
 
 <div class="copyright">
-  <span>Copyright © 2018-{today.getFullYear()} </span>
-  <span class="uppercase">{siteData.title}.</span>
-  <br class="show_on_phones" />
-  Released under
+    <span>Copyright © 2018-{today.getFullYear()} </span>
+    <span class="uppercase">{siteData.title}.</span>
 
-  <a
-    class="open_in_new_window r-2deg"
-    id="magicgreen-to-creativecommons"
-    title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials."
-    href={siteData.license.url}
-    target="_blank"
-    rel="noopener"
-    >{siteData.license.name}.
-  </a>
-  <br class="show_on_phones" />
+    Released under
 
-  <a class="r-2deg" href={siteData.github}
-    >Open Source v{repoData.version} | {repoData.version_name}</a
-  >
+    <a
+        class="open_in_new_window r-2deg"
+        id="magicgreen-to-creativecommons"
+        title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials."
+        href={siteData.license.url}
+        target="_blank"
+        rel="noopener"
+        >{siteData.license.name}.
+    </a>
+    <br />
 
-  <div class="r-2deg">
-    Powered by <a
-      id="magicgreen-to-junglestar"
-      href={siteData.producer.url}
-      target="_blank"
-      class="open_in_new_window"
-      rel="noopener">{siteData.producer.name}</a
+    <a class="r-2deg" href={siteData.github}>
+        Open Source Repo v{repoData.version} | {repoData.version_name}</a
     >
-  </div>
+
+    <div class="r-2deg">
+        Powered, Maintained, Curated by <a
+            id="magicgreen-to-junglestar"
+            href={siteData.producer.url}
+            target="_blank"
+            class="open_in_new_window"
+            rel="noopener">{siteData.producer.name}</a
+        >
+    </div>
 </div>
 
 <style lang="scss">
-  .copyright {
-    width: 100%;
-    text-align: center;
-    background-color: rgba($color: #000000, $alpha: 0.25);
-    color: var(--primary-hover);
-    text-align: center;
-    padding-top: calc(var(--space) * 2);
-    padding-bottom: calc(var(--space) * 3);
-    padding-left: calc(var(--space) * 3);
-    padding-right: calc(var(--space) * 3);
-    font-size: 90%;
-  }
-
+    .copyright {
+        width: 100%;
+        text-align: center;
+        background-color: rgba($color: #000000, $alpha: 0.25);
+        color: var(--primary-hover);
+        text-align: center;
+        padding-top: calc(var(--space) * 2);
+        padding-bottom: calc(var(--space) * 3);
+        padding-left: calc(var(--space) * 3);
+        padding-right: calc(var(--space) * 3);
+        font-size: 90%;
+    }
 </style>

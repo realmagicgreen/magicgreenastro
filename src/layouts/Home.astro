@@ -1,88 +1,91 @@
 ---
-import Layout from '@layouts/Layout.astro'
-import Nav from '@components/Nav.astro'
-import Slogan from '@components/Slogan.astro'
-import { Image } from 'astro:assets'
-import coverImage from '@content/about/about-us.jpg'
+import Layout from "@layouts/Layout.astro";
+import Nav from "@components/Nav.astro";
+import Slogan from "@components/Slogan.astro";
+import { Image } from "astro:assets";
+import coverImage from "@p/og_large_image.jpg";
 
 export interface Props {
-  description: string
-  title: string
-  bodyClass: string
-  mainClass: string
-  ogImage?: string
+    description: string;
+    title: string;
+    bodyClass: string;
+    mainClass: string;
+    ogImage?: string;
 }
 
-const { description, title, bodyClass, mainClass, ogImage } = Astro.props
+const { description, title, bodyClass, mainClass, ogImage } = Astro.props;
 ---
 
-<Layout title={title} description={description} bodyClass={bodyClass} ogImage={ogImage}>
+<Layout
+    title={title}
+    description={description}
+    bodyClass={bodyClass}
+    ogImage={ogImage}
+>
+    <Nav cssClass="" />
 
-  <Nav cssClass="" />
+    <main class={mainClass}>
+        <div class="hero r-5deg">
+            <div class="vegas vegas_overlay7"></div>
+            <div class="vegas vegas_overlay2"></div>
+            <Image
+                class="coverimage"
+                src={coverImage}
+                width={1920}
+                height={1080}
+                alt={title}
+                quality="mid"
+                format="avif"
+                loading="eager"
+            />
+        </div>
 
-  <main class={mainClass}>
-    <div class="hero r-5deg">
-      <div class="vegas vegas_overlay7"></div>
-      <div class="vegas vegas_overlay2"></div>
-      <Image
-        class="coverimage"
-        src={coverImage}
-        width={1920}
-        height={1080}
-        alt={title}
-        quality="mid"
-        format="avif"
-        loading="eager"
-      />
-    </div>
+        <Slogan />
 
-    <Slogan />
-
-    <slot />
-
-  </main>
+        <slot />
+    </main>
 </Layout>
 
 <style lang="scss">
-  h1 {
-    font-size: calc(6vw + 6vh) !important;
-  }
-  .container.index {
-    padding-top: var(--space);
-  }
-  .coverimage {
-    width: 105vw;
-    max-width: initial;
-    margin-left: -20px;
-  }
-  .hero {
-    margin-top: 1rem;
-  }
+    h1 {
+        font-size: calc(6vw + 6vh) !important;
+    }
+    .container.index {
+        padding-top: var(--space);
+    }
+    .coverimage {
+        width: 105vw;
+        max-width: initial;
+        margin-left: -20px;
+    }
+    .hero {
+        margin-top: 1rem;
+    }
 
-  .vegas {
-    width: 105vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-    border: none;
-    padding: 0;
-    margin: 0;
-    margin-left: -20px;
-    opacity: 0.5;
-  }
+    .vegas {
+        width: 105vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow: hidden;
+        border: none;
+        padding: 0;
+        margin: 0;
+        margin-left: -20px;
+        opacity: 0.5;
+    }
 
-  .vegas_overlay2 {
-    background: transparent
-      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADAQMAAABs5if8AAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAAAxJREFUCNdjaGAAAgAChgCB/5LsuQAAAABJRU5ErkJggg==)
-      center center repeat;
-  }
+    .vegas_overlay2 {
+        background: transparent
+            url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADAQMAAABs5if8AAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAAAxJREFUCNdjaGAAAgAChgCB/5LsuQAAAABJRU5ErkJggg==)
+            center center repeat;
+    }
 
-  .vegas_overlay7 {
-    background: transparent
-      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAABBJREFUCNdjUGAIYGhgCAAABEgBQXXpfAgAAAAASUVORK5CYII=)
-      center center repeat;
-  }
+    .vegas_overlay7 {
+        background: transparent
+            url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAABBJREFUCNdjUGAIYGhgCAAABEgBQXXpfAgAAAAASUVORK5CYII=)
+            center center repeat;
+    }
 </style>
