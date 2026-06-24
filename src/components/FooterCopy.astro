@@ -11,7 +11,7 @@ const today = new Date();
     Released under
 
     <a
-        class="open_in_new_window r-2deg"
+        class="open_in_new_window r-2deg inline"
         id="magicgreen-to-creativecommons"
         title="This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials."
         href={siteData.license.url}
@@ -19,24 +19,31 @@ const today = new Date();
         rel="noopener"
         >{siteData.license.name}.
     </a>
-    <br />
 
-    <a class="r-2deg" href={siteData.github}>
-        Open Source Repo v{repoData.version} | {repoData.version_name}</a
-    >
+    <a class="r-1deg" href={siteData.github}>
+        Open Source Repo v{repoData.version}
+    </a>
+
+    <div class="r1deg">• {repoData.version_name} •</div>
 
     <div class="r-2deg">
-        Powered, Maintained, Curated by <a
+        Created, curated, powered, maintained by <a
             id="magicgreen-to-junglestar"
             href={siteData.producer.url}
             target="_blank"
-            class="open_in_new_window"
+            class="open_in_new_window inline"
             rel="noopener">{siteData.producer.name}</a
         >
     </div>
 </div>
 
 <style lang="scss">
+    a:not(.inline) {
+        display: block;
+    }
+    .inline {
+        display: inline-block;
+    }
     .copyright {
         width: 100%;
         text-align: center;
@@ -45,8 +52,8 @@ const today = new Date();
         text-align: center;
         padding-top: calc(var(--space) * 2);
         padding-bottom: calc(var(--space) * 3);
-        padding-left: calc(var(--space) * 3);
-        padding-right: calc(var(--space) * 3);
+        padding-left: calc(var(--space) * 1.25);
+        padding-right: calc(var(--space) * 1.25);
         font-size: 90%;
     }
 </style>

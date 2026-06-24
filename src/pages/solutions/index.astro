@@ -42,7 +42,7 @@ const mainClass = 'container'
   <div class="container grida">
     {
       posts.map((post) => (
-        <a class="card_link" href={`/${category}/${post.slug}`}>
+        <a class="card_link" href={`/${category}/${post.id.replace(/\/index$/, "")}`}>
           <Card
             cssClass="card"
             pubDate={post.data.pubDate}

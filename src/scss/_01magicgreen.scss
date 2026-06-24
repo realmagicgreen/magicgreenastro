@@ -8,10 +8,15 @@
 
 /* LIGHT */
 /* Can be forced with data-theme="light" */
-[data-theme='light'],
-:root:not([data-theme='dark']) {
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
   --primary: hsla(92, 100%, 15%, 1); // oklch(37.36% 0.109 135.207);
-  --primary-hover: hsla(92,  100%,25%,1); // oklch(53.22% 0.16 136.15)  #388e3c;
+  --primary-hover: hsla(
+    92,
+    100%,
+    25%,
+    1
+  ); // oklch(53.22% 0.16 136.15)  #388e3c;
   --primary-focus: rgba(67, 160, 71, 0.125);
   --primary-inverse: black;
   --background-color: hsla(92, 100%, 90%, 1); // hsla(92, 100%, 90%,1)
@@ -21,7 +26,7 @@
 /* DARK (Auto) */
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) {
+  :root:not([data-theme="light"]) {
     --primary: hsla(92, 100%, 50%, 1); // oklch(88% 0.268 137); NOT YET OK!
     --primary-hover: hsla(92, 100%, 40%, 1); // hsla(92, 100%, 40%, 1)  #4caf50;
     --primary-focus: rgba(67, 160, 71, 0.25);
@@ -33,7 +38,7 @@
 
 /* DARK (Forced) */
 /* Enabled if forced with data-theme="dark" */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --primary: hsla(92, 100%, 50%, 1); //oklch(88% 0.268 137);
   --primary-hover: hsla(92, 100%, 40%, 1); // hsla(92, 100%, 40%,1)  #4caf50;
   --primary-focus: rgba(67, 160, 71, 0.25);
@@ -75,17 +80,18 @@
 
   //shadows
   --transition_shadow: box-shadow 0.2s ease;
-  --top_shadow: 0 -2px var(--radius) 0 rgba(0, 0, 0, 0.12),
+  --top_shadow:
+    0 -2px var(--radius) 0 rgba(0, 0, 0, 0.12),
     0 -var(--radius) 10px 0 rgba(0, 0, 0, 0.24);
   --bottom_shadow: 0 var(--radius) 10px 0 rgba(0, 0, 0, 0.24);
-  --card_shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.12),
-    2px 2px 3px 0 rgba(0, 0, 0, 0.24);
-  --card_shadow--hover: var(--radius) var(--radius) 8px 0 rgba(0, 0, 0, 0.12),
+  --card_shadow:
+    1px 1px 2px 0 rgba(0, 0, 0, 0.12), 2px 2px 3px 0 rgba(0, 0, 0, 0.24);
+  --card_shadow--hover:
+    var(--radius) var(--radius) 8px 0 rgba(0, 0, 0, 0.12),
     8px 8px 8px 0 rgba(0, 0, 0, 0.24);
 
   --top_band: 1vh;
   --top_band_opacity: 1;
-
 
   --font-size: 20px;
 
@@ -156,7 +162,6 @@ body {
     color: var(--primary) !important;
   }
 }
-
 
 ul {
   li {
@@ -314,13 +319,6 @@ footer {
   background-color: unset;
 }
 
-.r5deg {
-  transform: rotateZ(2deg);
-}
-.r-5deg {
-  transform: rotateZ(-2deg);
-}
-
 .r1deg {
   transform: rotateZ(1deg);
 }
@@ -333,6 +331,13 @@ footer {
 }
 .r-2deg {
   transform: rotateZ(-2deg);
+}
+
+.r5deg {
+  transform: rotateZ(5deg);
+}
+.r-5deg {
+  transform: rotateZ(-5deg);
 }
 
 .r20deg {
@@ -375,7 +380,7 @@ main .index a {
 // }
 
 .ad_symbol:after {
-  content: 'Ad';
+  content: "Ad";
   margin-left: 7px;
   margin-right: 0;
   border-radius: 4px;
@@ -392,7 +397,7 @@ main .index a {
 
 // LOGIC FOR HIDING NULL FIELDS IN RESOURCE PAGE
 // somehow if i put this in the resources.astro it DOES NOT work!
-[href*='null'],
+[href*="null"],
 a:not([href]) {
   display: none !important;
 }

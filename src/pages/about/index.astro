@@ -23,7 +23,9 @@ export interface Props {
     pubDate: any;
     ogImage?: string;
 }
-const { Content, title, ogImage, mainClass } = await render(entry);
+const { Content } = await render(entry);
+const mainClass = "";
+const ogImage = entry.data.coverImage.src;
 ---
 
 <Layout
@@ -33,7 +35,6 @@ const { Content, title, ogImage, mainClass } = await render(entry);
     mainClass={mainClass}
     ogImage={ogImage}
 >
-    <p>Published on: {entry.data.pubDate.toString()}</p>
     <Content />
 
     <br />
@@ -90,9 +91,9 @@ const { Content, title, ogImage, mainClass } = await render(entry);
         </div>
         <div>
             <hr />
-            {about.data.title}<br />
-            {about.data.subtitle}<br />
-            {about.data.description}<br />
+            {entry.data.title}<br />
+            {entry.data.subtitle}<br />
+            {entry.data.description}<br />
             <hr />
         </div>
     </div>

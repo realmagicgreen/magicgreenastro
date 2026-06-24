@@ -2,10 +2,10 @@ import eslint from '@eslint/js';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import typescriptParser from '@typescript-eslint/parser';
 import astro from 'eslint-plugin-astro';
-import astroEslintParser from 'astro-eslint-parser';
+import * as astroEslintParser from 'astro-eslint-parser';
 import perfectionist from 'eslint-plugin-perfectionist';
 import regexp from 'eslint-plugin-regexp';
-import markdown from 'eslint-plugin-markdown';
+import markdown from '@eslint/markdown';
 import globals from 'globals';
 
 export default [
@@ -17,6 +17,7 @@ export default [
       '.astro/**',  // Auto-generated Astro files
       'public/**/*.md',  // Markdown with code blocks
       'src/pages/og-image/**',  // Image generation files with JSX syntax
+      'src/js/font-to-width.js',  // Vendored browser utility
     ],
   },
 
@@ -137,14 +138,12 @@ export default [
   },
 
   // Markdown files
-  {
-    files: ['**/*.md'],
-    plugins: {
-      markdown,
+  ...markdown.configs.recommended.map((config) => ({
+    ...config,
+    language: 'markdown/gfm',
+    languageOptions: {
+      ...config.languageOptions,
+      frontmatter: 'yaml',
     },
-    processor: 'markdown/markdown',
-    rules: {
-      ...markdown.configs.recommended.rules,
-    },
-  },
+  })),
 ];

@@ -25,7 +25,7 @@ const { description, title, bodyClass, mainClass, ogImage } = Astro.props;
     <Nav cssClass="" />
 
     <main class={mainClass}>
-        <div class="hero r-5deg">
+        <div class="hero vegas_wrap">
             <div class="vegas vegas_overlay7"></div>
             <div class="vegas vegas_overlay2"></div>
             <Image
@@ -46,7 +46,7 @@ const { description, title, bodyClass, mainClass, ogImage } = Astro.props;
     </main>
 </Layout>
 
-<style lang="scss">
+<style>
     h1 {
         font-size: calc(6vw + 6vh) !important;
     }
@@ -60,6 +60,10 @@ const { description, title, bodyClass, mainClass, ogImage } = Astro.props;
     }
     .hero {
         margin-top: 1rem;
+        overflow: hidden;
+    }
+    .vegas_wrap {
+        position: relative;
     }
 
     .vegas {

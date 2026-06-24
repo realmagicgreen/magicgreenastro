@@ -1,0 +1,118 @@
+---
+import Layout from '@layouts/Index.astro'
+import {
+  createMarkdownProcessor,
+  rehypeHeadingIds
+} from '@astrojs/markdown-remark'
+import remarkToc from 'remark-toc'
+import { getDrafts, type Draft } from '../../utils/drafts'
+
+export function getStaticPaths() {
+  if (!import.meta.env.DEV) {
+    return []
+  }
+
+  const drafts = getDrafts()
+
+  return [
+    {
+      params: { slug: undefined },
+      props: { drafts }
+    },
+    ...drafts.map((draft) => ({
+      params: { slug: draft.slug },
+      props: { draft, drafts }
+    }))
+  ]
+}
+
+type Props = {
+  draft?: Draft
+  drafts: Draft[]
+}
+
+const { draft } = Astro.props
+const drafts = getDrafts()
+const processor = await createMarkdownProcessor({
+  rehypePlugins: [rehypeHeadingIds],
+  remarkPlugins: [
+    [
+      remarkToc,
+      {
+        heading: 'contents',
+        maxDepth: 2
+      }
+    ]
+  ]
+})
+const renderedDraft = draft
+  ? await processor.render(draft.body, {
+      fileURL: new URL(`../../content/posts/${draft.slug}.md`, import.meta.url)
+    })
+  : undefined
+
+const title = draft ? `Draft: ${draft.title}` : 'Drafts'
+---
+
+<Layout
+  title={title}
+  description="Development-only draft previews"
+  bodyClass="drafts"
+  mainClass="container drafts-preview">
+  {
+    draft ? (
+      <article>
+        <p class="drafts-preview__meta">
+          <a href="/drafts">Drafts</a>
+          <span>{draft.path}</span>
+        </p>
+        <h1>{draft.title}</h1>
+        <div set:html={renderedDraft?.code} />
+      </article>
+    ) : (
+      <section>
+        <h1>Drafts</h1>
+        <ul class="drafts-preview__list">
+          {drafts.map((item) => (
+            <li>
+              <a href={item.href}>{item.title}</a>
+              <span>{item.path}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+</Layout>
+
+<style lang="scss">
+  .drafts-preview {
+    max-width: 78ch;
+  }
+
+  .drafts-preview__meta,
+  .drafts-preview__list span {
+    color: #667;
+    font-family: monospace;
+    font-size: 0.875rem;
+  }
+
+  .drafts-preview__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .drafts-preview__list {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: grid;
+      gap: 0.25rem;
+    }
+  }
+</style>

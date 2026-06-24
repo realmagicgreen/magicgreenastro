@@ -1,6 +1,4 @@
-# build output better keep cos when you fuckup then you have a working copy
-# dist/
-# .astro
+dist/
 .output/
 
 # dependencies
@@ -23,3 +21,4 @@ pnpm-debug.log*
 # misc
 *.pem
 .cache
+/.pnpm-store

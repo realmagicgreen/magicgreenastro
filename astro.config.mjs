@@ -1,9 +1,11 @@
 import { defineConfig, sharpImageService } from "astro/config";
-import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import { rehypeHeadingIds } from "@astrojs/markdown-remark";
+import { rehypeHeadingIds, unified } from "@astrojs/markdown-remark";
 import remarkToc from "remark-toc";
 import partytown from "@astrojs/partytown";
+import icon from "astro-icon";
+
+import mcp from "astro-mcp";
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,18 +18,20 @@ export default defineConfig({
   },
   markdown: {
     drafts: true,
-    rehypePlugins: [rehypeHeadingIds],
-    remarkPlugins: [
-      [
-        remarkToc,
-        {
-          heading: "contents",
-          maxDepth: 2,
-        },
+    processor: unified({
+      rehypePlugins: [rehypeHeadingIds],
+      remarkPlugins: [
+        [
+          remarkToc,
+          {
+            heading: "contents",
+            maxDepth: 2,
+          },
+        ],
       ],
-    ],
+    }),
   },
-  integrations: [sitemap(), mdx(), partytown()],
+  integrations: [sitemap(), partytown(), icon(), mcp()],
   outDir: "./dist",
   site: "https://magicgreen.junglestar.org/",
   base: "/",

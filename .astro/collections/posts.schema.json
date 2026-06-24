@@ -1,96 +1,75 @@
 {
-  "$ref": "#/definitions/posts",
-  "definitions": {
-    "posts": {
-      "type": "object",
-      "properties": {
-        "coverImage": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string"
-        },
-        "subtitle": {
-          "type": "string"
-        },
-        "category": {
-          "type": "string"
-        },
-        "pubDate": {
-          "anyOf": [
-            {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "format": "date-time"
-                },
-                {
-                  "type": "string",
-                  "format": "date"
-                },
-                {
-                  "type": "integer",
-                  "format": "unix-time"
-                }
-              ]
-            },
-            {
-              "type": "string"
-            }
-          ]
-        },
-        "updatedpubDate": {
-          "type": "string"
-        },
-        "tags": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "description": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "coverImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "pubDate": {
+      "anyOf": [
+        {
           "type": "string",
-          "minLength": 11,
-          "maxLength": 160,
-          "errorMessage": {
-            "maxLength": "BEST SEO MAX 160 CHARACTERS."
-          }
+          "format": "date-time"
         },
-        "ad": {
-          "type": "boolean",
-          "default": false
-        },
-        "featured": {
-          "type": "boolean",
-          "default": false
-        },
-        "publish": {
-          "type": "boolean",
-          "default": false
-        },
-        "photography": {
-          "type": "string",
-          "default": "unknown"
-        },
-        "canonicalURL": {
-          "type": "string",
-          "format": "uri"
-        },
-        "$schema": {
+        {
           "type": "string"
         }
-      },
-      "required": [
-        "coverImage",
-        "title",
-        "subtitle",
-        "category",
-        "pubDate",
-        "tags",
-        "description"
-      ],
-      "additionalProperties": false
+      ]
+    },
+    "updatedpubDate": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string",
+      "minLength": 11,
+      "maxLength": 160
+    },
+    "ad": {
+      "default": false,
+      "type": "boolean"
+    },
+    "featured": {
+      "default": false,
+      "type": "boolean"
+    },
+    "publish": {
+      "default": false,
+      "type": "boolean"
+    },
+    "photography": {
+      "default": "unknown",
+      "type": "string"
+    },
+    "canonicalURL": {
+      "type": "string",
+      "format": "uri"
+    },
+    "$schema": {
+      "type": "string"
     }
   },
-  "$schema": "http://json-schema.org/draft-07/schema#"
+  "required": [
+    "coverImage",
+    "title",
+    "subtitle",
+    "category",
+    "pubDate",
+    "tags",
+    "description"
+  ]
 }

@@ -1,6 +1,6 @@
 ---
 title: Aloe Vera
-subtitle: 'Exceptional properties for your skin, guts and more.'
+subtitle: Exceptional properties for your skin, guts and more.
 category: health
 pubDate: 2018-05-02
 updatedDate: 2023-02-17
@@ -15,14 +15,14 @@ tags:
   - pollutants-remove
   - wellness
   - superfood
-coverImage: './00.jpg'
-description: 'Aloe Vera is known for antiviral and antibacterial properties. It can improve the effectiveness of your diet and maximise your weight-loss potential.' # max 160 digits cos dunno how to trim it, yet......
-ad: false # use 'true' to have post displaying AD
-featured: false # use 'true' to have it displayed in home
-sticky: # 'true' or empty
-show_in_home_slideshow: # 'true' or empty
-home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: 'Unknown'
+coverImage: ./00.jpg
+description: Aloe Vera is known for antiviral and antibacterial properties. It can improve the effectiveness of your diet and maximise your weight-loss potential.
+ad: false
+featured: false
+sticky: true
+show_in_home_slideshow: 
+home_slideshow_caption: 
+photography: Unknown
 ---
 
 Aloe Vera is a miracle plant known for several health benefits. It has antiviral and antibacterial properties.

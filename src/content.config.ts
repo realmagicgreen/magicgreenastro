@@ -1,7 +1,14 @@
-import { z, defineCollection } from 'astro:content'
+import { defineCollection } from 'astro:content'
+import { glob } from 'astro/loaders'
+import { z } from 'astro/zod'
 //import { blogSchema } from "./_schemas";
 
 const articleCollection = defineCollection({
+  loader: glob({
+    base: './src/content/posts',
+    pattern: '**/index.md',
+    generateId: ({ entry }) => entry.replace(/\/index\.md$/, '').replace(/\.md$/, '')
+  }),
   schema: ({ image }) =>
     z.object({
       // coverImage: image().refine((img) => img.width >= 1920, {
@@ -24,10 +31,15 @@ const articleCollection = defineCollection({
       publish: z.boolean().optional().default(false),
       photography: z.string().optional().default('unknown'),
       // Advanced: Validate that the string is also a URL
-      canonicalURL: z.string().url().optional()
+      canonicalURL: z.url().optional()
     })
 })
 const aboutCollection = defineCollection({
+  loader: glob({
+    base: './src/content/about',
+    pattern: '**/*.md',
+    generateId: () => 'about-us'
+  }),
   schema: ({ image }) =>
     z.object({
       coverImage: image(),
@@ -35,7 +47,7 @@ const aboutCollection = defineCollection({
       subtitle: z.string(),
       description: z.string().min(11).max(160, 'BEST SEO MAX 160 CHARACTERS.'),
       photography: z.string().optional().default('unknown'),
-      canonicalURL: z.string().url().optional()
+      canonicalURL: z.url().optional()
     })
 })
 
