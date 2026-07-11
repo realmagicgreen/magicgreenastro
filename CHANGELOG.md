@@ -1,5 +1,15 @@
 # Changelog
 
+## 8.2.0 — 2026-07-11
+
+New content release: two new posts.
+
+### Content
+
+- **Little Mountain Goat** (`solutions`) — a Fiat 500 reimagined as an electric machine. Featured and sticky on the home page.
+- **Tropical Rustproofing for Off-Grid Metalwork** (`techniques`) — protecting tools, hardware, roofs and blades in coastal/tropical climates without industrial coatings.
+- Fixed a minor heading in **Coffee: Benefits and Problems** (`Know More Links` → `Know More Links:`).
+
 ## 8.1.1 — 2026-07-11
 
 Security and housekeeping. No changes to site content or rendered output.
