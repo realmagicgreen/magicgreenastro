@@ -2,7 +2,7 @@
 title: Bamboo Straws
 subtitle: Suck it up consciously. Offer your customers a environment-friendly way. Small acts count.
 category: products
-description: 'When you really need a straw to be able to enjoy your drink, let it be environment-friendly. These bamboo straws are locally made in Bali...'
+description: "When you really need a straw to be able to enjoy your drink, let it be environment-friendly. These bamboo straws are locally made in Bali..."
 pubDate: 2018-05-09
 publish: true
 tags:
@@ -14,14 +14,14 @@ tags:
   - social-responsibility
   - sustainable-construction
   - wood
-coverImage: './bamboo-straws.jpg'
+coverImage: "./bamboo-straws.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: 'Unknown'
+photography: "Unknown"
 ---
 
 When you really need a straw to be able to enjoy your drink, let it be environment-friendly. These bamboo straws are locally made in Bali.

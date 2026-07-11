@@ -1,16 +1,16 @@
 ---
-import { Image } from 'astro:assets'
+import { Image } from "astro:assets";
 
 export interface Props {
-  description: string
-  title: string
-  subtitle: string
-  photography?: string
-  category?: string | undefined
-  coverImage: any
-  pubDate: any
-  cssClass: string
-  ad: boolean
+  description: string;
+  title: string;
+  subtitle: string;
+  photography?: string;
+  category?: string | undefined;
+  coverImage: any;
+  pubDate: any;
+  cssClass: string;
+  ad: boolean;
 }
 
 const {
@@ -22,8 +22,8 @@ const {
   category,
   pubDate,
   cssClass,
-  ad
-} = Astro.props
+  ad,
+} = Astro.props;
 ---
 
 <div class="card_astro">
@@ -37,10 +37,9 @@ const {
     />
 
     <div class="text">
-      <h2 class:list={['title', { ad_symbol: ad }]}>
+      <h2 class:list={["title", { ad_symbol: ad }]}>
         {title.toLocaleUpperCase()}
       </h2>
-
 
       <div class="h5">{subtitle.toUpperCase()}</div>
 
@@ -78,7 +77,8 @@ const {
             stroke-width="1"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="icon_photographer">
+            class="icon_photographer"
+          >
             <path
               d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
             ></path><circle cx="12" cy="13" r="4"></circle>
@@ -97,7 +97,8 @@ const {
             stroke-width="1"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="icon_tag">
+            class="icon_tag"
+          >
             <circle cx="12" cy="12" r="10"></circle><circle
               cx="12"
               cy="12"
@@ -106,7 +107,6 @@ const {
           {category?.toUpperCase()}
         </span>
       </div>
-
     </div>
   </div>
 </div>
@@ -136,6 +136,6 @@ const {
   }
 
   .card_astro {
-    padding-bottom: calc(var(--spacing)*3);
+    padding-bottom: calc(var(--spacing) * 3);
   }
 </style>

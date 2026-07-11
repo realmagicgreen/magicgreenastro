@@ -1,6 +1,4 @@
-Yes, approach safety which makes sense! 
-
-
+Yes, approach safety which makes sense!
 
 1. “Your Smarts, Your Solution: A Natural, DIY Way to Dust-Free, Healthy Walls”
 
@@ -11,19 +9,11 @@ Yes, approach safety which makes sense!
 TLDR
 In Italian, ‘calce’ refers to lime (calcium hydroxide), a crucial component in ancient Roman construction. The Romans’ innovative use of lime, particularly through ‘hot mixing’ techniques, endowed their concrete with self-healing properties. This approach allowed their structures to endure for over 2,000 years, as the lime would expand and seal micro-cracks upon exposure to water, effectively enabling the concrete to repair itself over time.
 
-  
-
 Here’s how you can proceed step by step:
-
-  
 
 **Step 1: Prepare the Limewash (Calce)**
 
-  
-
 Limewash is breathable, natural, and ideal for your purpose since it whitens the walls and acts as a binder.
-
-  
 
 **Materials Needed:**
 
@@ -37,8 +27,6 @@ Limewash is breathable, natural, and ideal for your purpose since it whitens the
 
 • **Paintbrush or Roller**: For application.
 
-  
-
 **Preparation:**
 
 1. In a bucket, mix **1 part hydrated lime** with **3 parts water** (by volume).
@@ -49,15 +37,9 @@ Limewash is breathable, natural, and ideal for your purpose since it whitens the
 
 4. Optionally, add natural pigments to tint the mixture and stir again.
 
-  
-
 **Step 2: Apply the Limewash**
 
-  
-
 Limewash will create a natural white coating, ideal for an old house’s walls.
-
-  
 
 **Application:**
 
@@ -69,15 +51,9 @@ Limewash will create a natural white coating, ideal for an old house’s walls.
 
 4. **Second Coat (Optional):** Apply a second or third coat if needed, allowing each to dry in between.
 
-  
-
 **Step 3: Seal with Duraseal Zero**
 
-  
-
 Once the limewash has cured completely (several days to a week), you can seal it with **Duraseal Zero** to lock in the lime, preventing dust and ensuring a durable finish.
-
-  
 
 **Sealing Process:**
 
@@ -91,8 +67,6 @@ Once the limewash has cured completely (several days to a week), you can seal it
 
 5. Apply a second coat if needed for added protection.
 
-  
-
 **Benefits of This Method**
 
 1. **Natural and Breathable:** Limewash and Duraseal Zero both allow the walls to breathe, preventing moisture buildup.
@@ -100,7 +74,5 @@ Once the limewash has cured completely (several days to a week), you can seal it
 2. **Dust-Free Finish:** Sealing the limewash prevents the common dusting issue of traditional lime coatings.
 
 3. **Eco-Friendly:** Both limewash and Duraseal Zero are non-toxic and sustainable.
-
-  
 
 This combination ensures your walls are white, stabilized, and safe, while maintaining the breathable and aesthetic qualities of lime.

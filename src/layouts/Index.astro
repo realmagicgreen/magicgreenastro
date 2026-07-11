@@ -1,19 +1,20 @@
 ---
-import Layout from '@layouts/Layout.astro'
-import Nav from '@components/Nav.astro'
-import Slogan from '@components/Slogan.astro'
+import Layout from "@layouts/Layout.astro";
+import Nav from "@components/Nav.astro";
+import Slogan from "@components/Slogan.astro";
 
 export interface Props {
-  description: string
-  title: string
-  category?: string | undefined
-  pubDate?: any | undefined
-  bodyClass: string
-  mainClass: string
-  ogImage?: string
+  description: string;
+  title: string;
+  category?: string | undefined;
+  pubDate?: any | undefined;
+  bodyClass: string;
+  mainClass: string;
+  ogImage?: string;
 }
 
-const { category, description, title, bodyClass, mainClass, ogImage } = Astro.props
+const { category, description, title, bodyClass, mainClass, ogImage } =
+  Astro.props;
 ---
 
 <Layout
@@ -21,16 +22,14 @@ const { category, description, title, bodyClass, mainClass, ogImage } = Astro.pr
   description={description}
   category={category}
   bodyClass={bodyClass}
-  ogImage={ogImage}>
-
+  ogImage={ogImage}
+>
   <Nav cssClass="nav" />
 
   <main class={mainClass}>
-
     <slot />
 
     <Slogan />
-
   </main>
 </Layout>
 

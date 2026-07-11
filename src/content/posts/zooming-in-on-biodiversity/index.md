@@ -1,7 +1,7 @@
 ---
 title: Zooming In On Biodiversity
-subtitle: 'An ASEAN wide photo contest capturing the richness of biological resources in the region.'
-description: 'Biodiversity is the variety of life on Earth and include microorganisms, fungi, plants, and animals, the communities they form, the habitats in which they live.'
+subtitle: "An ASEAN wide photo contest capturing the richness of biological resources in the region."
+description: "Biodiversity is the variety of life on Earth and include microorganisms, fungi, plants, and animals, the communities they form, the habitats in which they live."
 category: know
 pubDate: 2018-06-13
 publish: true
@@ -17,14 +17,14 @@ tags:
   - learning
   - permaculture
   - tropical
-coverImage: './zooming-in-on-biodiversity.jpg'
+coverImage: "./zooming-in-on-biodiversity.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: BIO DIVERSITY # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: 'Unknown'
+photography: "Unknown"
 ---
 
 Biodiversity is the variety of life on Earth. These forms of life include microorganisms, fungi, plants, and animals, including the communities that they form and the habitats in which they live.
@@ -90,4 +90,3 @@ The prizes are pretty decent: 1st Place USD 1,500. 2nd Place USD 1,000. 3rd Plac
 ## Know More Links
 
 [ASEAN Centre for Biodiversity (ACB) - website](https://aseanbiodiversity.org/)
-

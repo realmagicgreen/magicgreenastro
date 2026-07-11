@@ -13,14 +13,14 @@ tags:
   - sustainable-construction
   - save-trees
   - wood
-coverImage: './building-with-bamboo.jpg'
-description: 'Bamboo has been used in building for centuries. Impressive strength, twice the compressive strength of concrete and same strength-to-weight of steel in tension.' # max 160 digits cos dunno how to trim it, yet......
+coverImage: "./building-with-bamboo.jpg"
+description: "Bamboo has been used in building for centuries. Impressive strength, twice the compressive strength of concrete and same strength-to-weight of steel in tension." # max 160 digits cos dunno how to trim it, yet......
 ad: false # use 'true' to have post displaying AD
 featured: false # use 'true' to have it displayed in home
 sticky: # 'true' or empty
 show_in_home_slideshow: # 'true' or empty
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
-photography: 'Unknown'
+photography: "Unknown"
 ---
 
 <div class="toc">
@@ -48,7 +48,6 @@ Its leaves are a high-quality forage for livestock and its shoots are delicacy e
 > "Bamboo is unmatched as a sustainable building material. What it can do is remarkable. It grows far more quickly than timber and doesn't destroy the land it's grown on" _Ben Ripple, Big Tree Farms Bali co-founder_
 
 All over the world buildings utilize bamboo. It is used for skeletons for his strength, for furniture, curtains, accessories or coffee tables made from thin bamboo slats.
-
 
 ## Flexibility.
 

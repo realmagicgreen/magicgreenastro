@@ -1,7 +1,7 @@
 ---
 title: Bricks from unrecyclable waste
-subtitle: 'Rebricks is creating recycled building materials from waste'
-description: 'Indonesia firm REBRICKS turns waste plastic into bricks. Shredded and molded, without any burning. They are reusable, recyclable and can be remanufactured.'
+subtitle: "Rebricks is creating recycled building materials from waste"
+description: "Indonesia firm REBRICKS turns waste plastic into bricks. Shredded and molded, without any burning. They are reusable, recyclable and can be remanufactured."
 category: solutions
 pubDate: 2023-08-20
 publish: true
@@ -12,14 +12,14 @@ tags:
   - recycle
   - sustainable
   - ecological-engineering
-coverImage: './rebricks-05.jpg'
+coverImage: "./rebricks-05.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: true # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: 'Unknown'
+photography: "Unknown"
 ---
 
 <div class="toc">
@@ -52,8 +52,6 @@ Transforming plastic waste into recycled building materials they provide a solut
 
 </div>
 
-
-
 ## REBRICKS MISSION
 
 Ovy Sabrina and Novita Tan, Rebricks founders, where very concerned for the environment. Indonesia is one of the most polluted country in the world.
@@ -72,19 +70,15 @@ Rebricks estensively tested possible techniques, leveragin Ovy's experience in t
 
 Paving blocks, the first Rebricks product, have been tested at [B4T](https://www.b4t.go.id/)(Great Hall of Material and Technical Goods) where they meet the SNI class B criteria, suitable for use as parking lots for pedestrians and parks.
 
-
 ![Paving blocks, the first Rebricks product.](./rebricks-02.jpg)
 
 From each Rebricks paving block, almost 20% is rejected plastic waste.
 
 ## HOLLOW BLOCKS AND ROOF TILES
 
-
 ![Rosters are aventilation brick used in hot climates.](./rebricks-03.jpg)
 
 Rebrick now offers a variety of products, including hollow blocks and rosters where the absorption of plastic waste is even greater.
-
-
 
 ![Rosters are aventilation brick used in hot climates.](./rebricks-04.jpg)
 
@@ -95,7 +89,6 @@ Their products are able to compete in price and strength with other conventional
 The actual making avoids pollution and does not generate new waste in the production process.
 
 Rebricks' production capacity is currently 100 m2/day, recycling 88,000 sachets of plastic waste, about 25 kilograms of waste plastic. They are active in Jakarta, an other places in Java, Sulawesi, Bali and Sumatra.
-
 
 ## MOTIVATION: DO SOMETHING GOOD FOR THE PLANET
 
@@ -142,7 +135,6 @@ Rebricks buys rejected waste from the Habitat fostered community in Mauk, Tanger
 This waste is then recycled into raw materials for constructions. Then, Habitat will use the recycled product making houses for the community in Mauk.
 
 Also through this program, 1 house built is able to avoid 270 kg of rubbish ending up in landfill or sea.
-
 
 ## Know More Links
 

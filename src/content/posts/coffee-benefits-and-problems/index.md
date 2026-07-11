@@ -2,7 +2,7 @@
 title: Coffee Benfits and Problems
 subtitle: Medical literature proved coffee health benefits. There are problems too. Drink it consciously.
 category: health
-description: 'Substances are beneficial or damaging depending on dosage. Even water can be damaging in big quantities. Know what coffee does to you.'
+description: "Substances are beneficial or damaging depending on dosage. Even water can be damaging in big quantities. Know what coffee does to you."
 pubDate: 2022-08-28
 publish: true
 tags:
@@ -11,14 +11,14 @@ tags:
   - superfood
   - eating
   - nourishment
-coverImage: './00.jpg'
+coverImage: "./00.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: 'Unknown'
+photography: "Unknown"
 ---
 
 <div class="toc">
@@ -45,7 +45,6 @@ There is even a word for it, [homeostasis](https://en.wikipedia.org/wiki/Homeost
 In personal health is worth to remind that substances are beneficial or damaging depending on the quantity we assume.
 
 Even water, with makes a big percentage of our body, can be damaging when drunk in big quantities.
-
 
 ## BENEFITS OF COFFEE
 
@@ -85,9 +84,7 @@ It's essential to remember that individual responses to coffee can differ, and e
 
 If you have specific health concerns or conditions, it's always a good idea to consult with a healthcare professional to determine how your coffee consumption may affect you.
 
-
 ![Italian Espresso style small coffee has taken over the world](./01.jpg)
-
 
 ## REASONS TO MODERATE COFFEE
 
@@ -163,7 +160,6 @@ If you are concerned about how coffee consumption may be affecting your health f
 
 They may recommend specific dietary adjustments or herbal remedies to support your individual constitution and address any imbalances that may arise from coffee consumption.
 
-
 [Coffee roasted beans and in the backgroud the red ripe beans as the the appear on the plant](./03.jpg)
 
 ## HEALTH RECOMMENDATIONS
@@ -181,7 +177,6 @@ Do not drink more than 1 coffee a day. One cup of coffee won't hurt you.
 ## SWITCH TO TEAS
 
 Black tea, [Yerba Mate](https://en.wikipedia.org/wiki/Yerba_mate) or [Matcha Tea](https://en.wikipedia.org/wiki/Matcha) contain similar substances to caffeine or its derivatives but in smaller quantities, and are good substitutes.
-
 
 ## ALKALINIZING FOODS
 
@@ -206,7 +201,6 @@ Broccoli is a cruciferous vegetable that is both alkaline and an excellent sourc
 Red, green, and yellow bell peppers are alkaline and provide a good amount of vitamins A and C, along with other beneficial nutrients.
 
 Including these alkaline foods in your diet can help promote a balanced pH level in the body and contribute to overall health and well-being.
-
 
 ## ACIDIFYING FOODS
 

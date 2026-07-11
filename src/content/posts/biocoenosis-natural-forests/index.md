@@ -1,7 +1,7 @@
 ---
 title: Biocoenosis Natural Forests
-subtitle: 'MIYAWAKI developed a method to restore forests with native trees on very degraded soils that were deforested and without humus.'
-description: 'Akira MIYAWAKI 宮脇 昭, 29 January 1928, was a Japanese botanist and an expert in plant ecology who specialized in seeds and natural forests.'
+subtitle: "MIYAWAKI developed a method to restore forests with native trees on very degraded soils that were deforested and without humus."
+description: "Akira MIYAWAKI 宮脇 昭, 29 January 1928, was a Japanese botanist and an expert in plant ecology who specialized in seeds and natural forests."
 category: techniques
 pubDate: 2023-07-03
 publish: true
@@ -13,14 +13,14 @@ tags:
   - ecological-engineering
   - restoration
   - forest
-coverImage: './diego_garcia_mixed_species_marsh.jpg'
+coverImage: "./diego_garcia_mixed_species_marsh.jpg"
 show_in_home_slideshow: # use 'true' to have it displayed in home slideshow
 home_slideshow_caption: BIO DIVERSITY # lowercase, max 12 digits, including spaces
 flag: # new or other...
 ad: false # use 'true' to have post displaying AD
 featured: true # use 'true' to have it displayed in home
 sticky: # 'true' or empty
-photography: 'Unknown'
+photography: "Unknown"
 ---
 
 <div class="toc">
@@ -47,7 +47,6 @@ photography: 'Unknown'
 - Focusing on potential natural vegetation, MIYAWAKI developed, tested, and refined a method of ecological engineering, the MIYAWAKI method, to restore native forests from seeds of native trees on very degraded soils that were deforested and without humus.
 
 </div>
-
 
 ## Akira MIYAWAKI
 
@@ -93,20 +92,17 @@ _The method's reconstitution of "indigenous forests by indigenous trees" produce
 
   Which requires additional maintenance for some species; for example, those that germinate only after passing through the digestive tract of a certain animal, need a particular symbiotic fungus, or a cold induced dorming phase.
 
-
 - PREPARATION OF THE SUBSTRATE
 
   If it is very degraded, such as the addition of organic matter or mulch, and, in areas with heavy or torrential rainfall, planting mounds for taproot species that require a well-drained soil surface.
 
   Hill slopes can be planted with more ubiquitous surface roots species, such as cedar, Japanese cypress, and pine.
 
-
 - PLANTATIONS RESPECTING BIODIVERSITY
 
   Inspired by the model of the natural forest. A dense plantation of very young seedlings (but with an already mature root system: with symbiotic bacteria and fungi present) is recommended.
 
   Density aims at stirring competition between species and the onset of phytosociological relations close to what would happen in nature (three to five plants per square metre in the temperate zone, up to five or ten seedlings per square metre in Borneo).
-
 
 - PLANTATIONS RANDOMLY DISTRIBUTED IN SPACE
 

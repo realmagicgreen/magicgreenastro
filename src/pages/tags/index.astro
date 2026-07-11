@@ -1,13 +1,13 @@
 ---
 //import { getCollection, getEntryBySlug } from "astro:content";
-import { getCollection } from 'astro:content'
-import Layout from '@layouts/Index.astro'
-const allPosts = await getCollection('posts', ({ data }) => {
-  return data.publish && data.pubDate < new Date()
-})
-const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())]
-const title = 'ALL TAGS'
-const mainClass = 'container_slim'
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Index.astro";
+const allPosts = await getCollection("posts", ({ data }) => {
+  return data.publish && data.pubDate < new Date();
+});
+const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+const title = "ALL TAGS";
+const mainClass = "container_slim";
 ---
 
 <Layout bodyClass="" description="" title={title} mainClass={mainClass}>
@@ -15,7 +15,11 @@ const mainClass = 'container_slim'
   <div class="centered">
     {
       tags.map((tag) => (
-        <a class="taglink" href={`/${tag}`} style={"font-size: calc(" + `${tag.length}` + "vw /8 + .5rem) ;"}>
+        <a
+          class="taglink"
+          href={`/${tag}`}
+          style={"font-size: calc(" + `${tag.length}` + "vw /8 + .5rem) ;"}
+        >
           {tag}
         </a>
       ))
@@ -34,11 +38,11 @@ const mainClass = 'container_slim'
     margin: 10px;
     // border: 1px solid var(--primary);
     // border-radius: 10px;
-    opacity: .75;
+    opacity: 0.75;
   }
   .post_count {
     //color: var(--primary-inverse);
-    opacity: .5;
+    opacity: 0.5;
     white-space: nowrap;
   }
 </style>

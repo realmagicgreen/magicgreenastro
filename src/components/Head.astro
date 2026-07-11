@@ -1,28 +1,28 @@
 ---
-import Junglestar from '@components/Junglestar.astro'
-import GoogleAnalytics from '@scripts/GoogleAnalytics.astro'
-import ExternalLinks from '@scripts/ExternalLinks.astro'
-import repoData from 'package.json'
-import site from '@data/site.json'
+import Junglestar from "@components/Junglestar.astro";
+import GoogleAnalytics from "@scripts/GoogleAnalytics.astro";
+import ExternalLinks from "@scripts/ExternalLinks.astro";
+import repoData from "package.json";
+import site from "@data/site.json";
 
 export interface Props {
-  title: string
-  description: string
-  category?: string | undefined
-  ogImage?: string
+  title: string;
+  description: string;
+  category?: string | undefined;
+  ogImage?: string;
 }
 
-const { title, description, ogImage } = Astro.props
+const { title, description, ogImage } = Astro.props;
 
-const Brand = site.title
-const Mission = site.content_is_about
-const canonicalURL = new URL(Astro.url.pathname, site.url).toString()
-const makeTitle = title ? Brand + ' 💚 ' + title : 'J|makeTitle'
+const Brand = site.title;
+const Mission = site.content_is_about;
+const canonicalURL = new URL(Astro.url.pathname, site.url).toString();
+const makeTitle = title ? Brand + " 💚 " + title : "J|makeTitle";
 // const makeDescription = description
 //   ? Brand + ', ' + Mission + ' 💚 ' + title
 //   : 'J|makeTitleOG!'
 
-const favicon = '../assets/favicons/safari-pinned-tab.svg'
+const favicon = "../assets/favicons/safari-pinned-tab.svg";
 ---
 
 <head>

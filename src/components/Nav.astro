@@ -1,13 +1,13 @@
 ---
-import navigation from '@data/navigation.json'
-const sections = navigation.sections
+import navigation from "@data/navigation.json";
+const sections = navigation.sections;
 export interface Props {
-  cssClass: string
+  cssClass: string;
 }
 
-const cssClass = 'nav_category_top'
+const cssClass = "nav_category_top";
 
-import '@styles/pico.slim.scss'
+import "@styles/pico.slim.scss";
 ---
 
 <nav class={cssClass}>
@@ -17,7 +17,8 @@ import '@styles/pico.slim.scss'
         rel="prefetch"
         class={section.color_name}
         href={section.url}
-        title={section.description}>
+        title={section.description}
+      >
         <button class="outline">{section.label.toUpperCase()}</button>
       </a>
     ))
@@ -60,13 +61,13 @@ import '@styles/pico.slim.scss'
 </style>
 
 <script>
-  var section = window.location.pathname.split('/')[1]
+  var section = window.location.pathname.split("/")[1];
 
   const activeNavigationElement = document.querySelector(
-    `nav a[href*="${section}"]`
-  )
+    `nav a[href*="${section}"]`,
+  );
 
   if (activeNavigationElement) {
-    activeNavigationElement.classList.add('active')
+    activeNavigationElement.classList.add("active");
   }
 </script>

@@ -1,64 +1,65 @@
 ---
-import Layout from '@layouts/Index.astro'
+import Layout from "@layouts/Index.astro";
 import {
   createMarkdownProcessor,
-  rehypeHeadingIds
-} from '@astrojs/markdown-remark'
-import remarkToc from 'remark-toc'
-import { getDrafts, type Draft } from '../../utils/drafts'
+  rehypeHeadingIds,
+} from "@astrojs/markdown-remark";
+import remarkToc from "remark-toc";
+import { getDrafts, type Draft } from "../../utils/drafts";
 
 export function getStaticPaths() {
   if (!import.meta.env.DEV) {
-    return []
+    return [];
   }
 
-  const drafts = getDrafts()
+  const drafts = getDrafts();
 
   return [
     {
       params: { slug: undefined },
-      props: { drafts }
+      props: { drafts },
     },
     ...drafts.map((draft) => ({
       params: { slug: draft.slug },
-      props: { draft, drafts }
-    }))
-  ]
+      props: { draft, drafts },
+    })),
+  ];
 }
 
 type Props = {
-  draft?: Draft
-  drafts: Draft[]
-}
+  draft?: Draft;
+  drafts: Draft[];
+};
 
-const { draft } = Astro.props
-const drafts = getDrafts()
+const { draft } = Astro.props;
+const drafts = getDrafts();
 const processor = await createMarkdownProcessor({
   rehypePlugins: [rehypeHeadingIds],
   remarkPlugins: [
     [
       remarkToc,
       {
-        heading: 'contents',
-        maxDepth: 2
-      }
-    ]
-  ]
-})
+        heading: "contents",
+        maxDepth: 2,
+      },
+    ],
+  ],
+});
 const renderedDraft = draft
   ? await processor.render(draft.body, {
-      fileURL: new URL(`../../content/posts/${draft.slug}.md`, import.meta.url)
+      fileURL: new URL(`../../content/posts/${draft.slug}.md`, import.meta.url),
     })
-  : undefined
+  : undefined;
 
-const title = draft ? `Draft: ${draft.title}` : 'Drafts'
+const title = draft ? `Draft: ${draft.title}` : "Drafts";
 ---
 
 <Layout
   title={title}
   description="Development-only draft previews"
   bodyClass="drafts"
-  mainClass="container drafts-preview">
+  mainClass="container drafts-preview"
+>
   {
     draft ? (
       <article>

@@ -1,27 +1,27 @@
 ---
-import Head from '@components/Head.astro'
-import Svgs from '@components/Svgs.astro'
-import Header from '@components/Header.astro'
-import Footer from '@components/Footer.astro'
-import '@styles/pico.slim.scss'
-import StyleArticle from '@components/StyleArticle.astro'
-import Nav from '@components/Nav.astro'
-import AppendToCopyAction from '@scripts/AppendToCopyAction.astro'
-import { Image } from 'astro:assets'
-import { Icon } from 'astro-icon/components'
+import Head from "@components/Head.astro";
+import Svgs from "@components/Svgs.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import "@styles/pico.slim.scss";
+import StyleArticle from "@components/StyleArticle.astro";
+import Nav from "@components/Nav.astro";
+import AppendToCopyAction from "@scripts/AppendToCopyAction.astro";
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 
 export interface Props {
-  description: string
-  bodyClass: string
-  title: string
-  subtitle: string
-  category: string
-  photography: string
-  coverImage: any
-  pubDate: any
-  tags: any
-  cssClass: string
-  ogImage?: string
+  description: string;
+  bodyClass: string;
+  title: string;
+  subtitle: string;
+  category: string;
+  photography: string;
+  coverImage: any;
+  pubDate: any;
+  tags: any;
+  cssClass: string;
+  ogImage?: string;
 }
 
 const {
@@ -34,21 +34,21 @@ const {
   pubDate,
   cssClass,
   bodyClass,
-  ogImage
-} = Astro.props
+  ogImage,
+} = Astro.props;
 
 const options = {
-  weekday: 'long',
-  year: 'numeric',
-  month: 'long'
-}
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+};
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <Head title={title} description={description} ogImage={ogImage} />
 
-  <body class={'article ' + bodyClass}>
+  <body class={"article " + bodyClass}>
     <Svgs />
 
     <div id="top"></div>
@@ -89,13 +89,13 @@ const options = {
           <div class="post_meta_block post_meta_icon">
             <Icon name="clock" />
             <time datetime={pubDate.toDateString()}>
-              {pubDate.toLocaleDateString('en-GB')}
+              {pubDate.toLocaleDateString("en-GB")}
             </time>
           </div>
 
           <div class="post_meta_block post_meta_icon">
             <Icon name="target" />
-            {category.toUpperCase() || 'UNKNOWN'}
+            {category.toUpperCase() || "UNKNOWN"}
           </div>
         </div>
 
@@ -106,15 +106,15 @@ const options = {
     </main>
 
     <script is:inline>
-      const images = Array.from(document.querySelectorAll('img'))
+      const images = Array.from(document.querySelectorAll("img"));
 
       images.forEach((image) => {
-        let alt = image.getAttribute('alt')
+        let alt = image.getAttribute("alt");
 
         if (alt) {
-          image.insertAdjacentHTML('afterEnd', `<p class="caption">${alt}</p>`)
+          image.insertAdjacentHTML("afterEnd", `<p class="caption">${alt}</p>`);
         }
-      })
+      });
     </script>
 
     <Footer cssClass="footer" />

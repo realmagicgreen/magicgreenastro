@@ -1,33 +1,33 @@
 ---
-import Layout from '@layouts/Index.astro'
-import { getCollection } from 'astro:content'
-import Card from '@components/Card.astro'
+import Layout from "@layouts/Index.astro";
+import { getCollection } from "astro:content";
+import Card from "@components/Card.astro";
 
-const category = 'know'
+const category = "know";
 
-const unsortedPosts = await getCollection('posts', ({ data }) => {
-  return data.publish && data.category == category && data.pubDate < new Date()
-})
+const unsortedPosts = await getCollection("posts", ({ data }) => {
+  return data.publish && data.category == category && data.pubDate < new Date();
+});
 
 const posts = unsortedPosts.sort(
   (a, b) =>
     Date.parse(b.data.pubDate.toString()) -
-    Date.parse(a.data.pubDate.toString())
-)
+    Date.parse(a.data.pubDate.toString()),
+);
 
 export interface Props {
-  title: string
-  bodyClass: string
-  mainClass: string
-  pubDate: any
-  category: string
-  ogImage?: string
+  title: string;
+  bodyClass: string;
+  mainClass: string;
+  pubDate: any;
+  category: string;
+  ogImage?: string;
 }
 
-import siteData from '@data/site.json'
-const bodyClass = 'index'
-const ogImage = '../assets/p/og_large_image.jpg'
-const mainClass = 'container'
+import siteData from "@data/site.json";
+const bodyClass = "index";
+const ogImage = "../assets/p/og_large_image.jpg";
+const mainClass = "container";
 ---
 
 <Layout
@@ -35,12 +35,16 @@ const mainClass = 'container'
   description={siteData.description}
   bodyClass={bodyClass}
   mainClass={mainClass}
-  ogImage={ogImage}>
+  ogImage={ogImage}
+>
   <!-- <h2 class="h3 uppercased centered green">{category}</h2> -->
   <div class="container grida">
     {
       posts.map((post) => (
-        <a class="card_link" href={`/${category}/${post.id.replace(/\/index$/, "")}`}>
+        <a
+          class="card_link"
+          href={`/${category}/${post.id.replace(/\/index$/, "")}`}
+        >
           <Card
             cssClass="card"
             pubDate={post.data.pubDate}

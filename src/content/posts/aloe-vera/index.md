@@ -20,8 +20,8 @@ description: Aloe Vera is known for antiviral and antibacterial properties. It c
 ad: false
 featured: false
 sticky: true
-show_in_home_slideshow: 
-home_slideshow_caption: 
+show_in_home_slideshow:
+home_slideshow_caption:
 photography: Unknown
 ---
 

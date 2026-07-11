@@ -27,7 +27,7 @@ Use this skill when the user asks for `/preflight`, "preflight", "ship", "safe t
 - Public post collection reads should filter with both:
 
 ```ts
-data.publish && data.pubDate < new Date()
+data.publish && data.pubDate < new Date();
 ```
 
 - Verify tag routes too, not only homepage, category pages, and post detail pages:
@@ -36,7 +36,7 @@ data.publish && data.pubDate < new Date()
 - The draft preview route should remain dev-only:
 
 ```ts
-if (!import.meta.env.DEV) return []
+if (!import.meta.env.DEV) return [];
 ```
 
 - Draft content inside `src/content/posts` still has to satisfy the content schema. Blank frontmatter values can block `astro sync` and `astro build`, even when `publish: false`.
@@ -102,4 +102,3 @@ git diff --cached
    - Which checks passed.
    - Any known warnings that remain.
    - Commit hash and push status when applicable.
-

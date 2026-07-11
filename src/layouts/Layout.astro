@@ -1,29 +1,27 @@
 ---
-import Head from '@components/Head.astro'
-import Svgs from '@components/Svgs.astro'
-import Header from '@components/Header.astro'
-import Footer from '@components/Footer.astro'
-import AppendToCopyAction from '@scripts/AppendToCopyAction.astro'
-import '@styles/pico.slim.scss'
+import Head from "@components/Head.astro";
+import Svgs from "@components/Svgs.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import AppendToCopyAction from "@scripts/AppendToCopyAction.astro";
+import "@styles/pico.slim.scss";
 
 export interface Props {
-  title: string
-  description: string
-  bodyClass: string
-  category?: string | undefined
-  ogImage?: string | undefined
+  title: string;
+  description: string;
+  bodyClass: string;
+  category?: string | undefined;
+  ogImage?: string | undefined;
 }
 
-const { title, description, bodyClass, ogImage } = Astro.props
+const { title, description, bodyClass, ogImage } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
-
   <Head title={title} description={description} ogImage={ogImage} />
 
   <body class={bodyClass}>
-
     <Svgs />
 
     <div id="top"></div>
@@ -35,7 +33,5 @@ const { title, description, bodyClass, ogImage } = Astro.props
     <Footer cssClass="footer" />
 
     <AppendToCopyAction />
-
-
   </body>
 </html>
