@@ -22,3 +22,7 @@ pnpm-debug.log*
 *.pem
 .cache
 /.pnpm-store
+
+# generated / local state
+.astro/
+.netlify/
