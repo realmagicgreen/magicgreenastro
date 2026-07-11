@@ -1,3 +1,6 @@
+@use "sass:map";
+@use "variables";
+
 /* GREEN LIGHT SCHEME (Glassy) */
 
 :root {
@@ -96,27 +99,27 @@
   --font-size: 20px;
 
   // Responsive typography
-  @if $enable-responsive-typography {
-    @if map-get($breakpoints, "sm") {
-      @media (min-width: map-get($breakpoints, "sm")) {
+  @if variables.$enable-responsive-typography {
+    @if map.get(variables.$breakpoints, "sm") {
+      @media (min-width: map.get(variables.$breakpoints, "sm")) {
         --font-size: 21px;
       }
     }
 
-    @if map-get($breakpoints, "md") {
-      @media (min-width: map-get($breakpoints, "md")) {
+    @if map.get(variables.$breakpoints, "md") {
+      @media (min-width: map.get(variables.$breakpoints, "md")) {
         --font-size: 23px;
       }
     }
 
-    @if map-get($breakpoints, "lg") {
-      @media (min-width: map-get($breakpoints, "lg")) {
+    @if map.get(variables.$breakpoints, "lg") {
+      @media (min-width: map.get(variables.$breakpoints, "lg")) {
         --font-size: 25px;
       }
     }
 
-    @if map-get($breakpoints, "xl") {
-      @media (min-width: map-get($breakpoints, "xl")) {
+    @if map.get(variables.$breakpoints, "xl") {
+      @media (min-width: map.get(variables.$breakpoints, "xl")) {
         --font-size: 27px;
       }
     }

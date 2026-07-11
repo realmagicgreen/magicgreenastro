@@ -1,4 +1,4 @@
-import { defineConfig, sharpImageService } from "astro/config";
+import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import { rehypeHeadingIds, unified } from "@astrojs/markdown-remark";
 import remarkToc from "remark-toc";
@@ -9,15 +9,13 @@ import mcp from "astro-mcp";
 
 // https://astro.build/config
 export default defineConfig({
-  image: {
-    service: sharpImageService(),
-  },
   output: "static",
   build: {
     inlineStylesheets: "always",
   },
   markdown: {
-    drafts: true,
+    // Astro 7 expects a full `unified()` processor here; the flat
+    // `remarkPlugins`/`rehypePlugins` keys are deprecated.
     processor: unified({
       rehypePlugins: [rehypeHeadingIds],
       remarkPlugins: [

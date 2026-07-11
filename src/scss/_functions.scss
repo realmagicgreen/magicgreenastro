@@ -1,4 +1,12 @@
-// Output color in RGB format
+@use "sass:color";
+@use "sass:math";
+@use "sass:string";
+
+// Output color in RGB format.
+// Channels are rounded to integers to match the legacy red()/green()/blue()
+// behaviour (color.channel returns unrounded floats).
 @function to-rgb($color) {
-  @return unquote("rgb(#{red($color)}, #{green($color)}, #{blue($color)})");
+  @return string.unquote(
+    "rgb(#{math.round(color.channel($color, 'red', $space: rgb))}, #{math.round(color.channel($color, 'green', $space: rgb))}, #{math.round(color.channel($color, 'blue', $space: rgb))})"
+  );
 }

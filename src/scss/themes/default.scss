@@ -3,29 +3,29 @@
  */
 
 // Variables
-@import "../variables";
-@import "default/colors";
+@forward "../variables" show $enable-responsive-spacings, $enable-transitions, $enable-important;
+@use "default/colors";
 
 // Commons styles
-@import "default/styles";
+@use "default/styles";
 
 // Light theme (Default)
 // Can be forced with data-theme="light"
-@import "default/light";
+@use "default/light";
 
 // Dark theme (Auto)
 // Automatically enabled if user has Dark mode enabled
-@import "default/dark";
+@use "default/dark";
 @media only screen and (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    @include dark;
+    @include dark.dark;
   }
 }
 
 // Dark theme (Forced)
 // Enabled if forced with data-theme="dark"
 [data-theme="dark"] {
-  @include dark;
+  @include dark.dark;
 }
 
 // Accent-color
