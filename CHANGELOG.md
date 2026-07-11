@@ -1,5 +1,19 @@
 # Changelog
 
+## 8.1.1 — 2026-07-11
+
+Security and housekeeping. No changes to site content or rendered output.
+
+### Security
+
+- Added pnpm `overrides` to patch two transitive-dependency advisories:
+  - `rollup` → `>=4.59.0` (GHSA-mw96-cpmx-2vgc, arbitrary file write via path traversal). Astro 7 bundles Rolldown, so rollup was only an unused optional peer of `@rollup/pluginutils`; the override drops the vulnerable copy. `pnpm audit` is now clean.
+  - `yaml` → `>=2.8.3` (GHSA-48c2-rrv3-qjmp, stack overflow via deeply nested collections; pulled in dev-only via `@astrojs/check`).
+
+### Housekeeping
+
+- Formatted the entire repository with Prettier now that `prettier-plugin-astro` is wired up (previous separate commit). Formatting only — no functional changes.
+
 ## 8.1.0 — 2026-07-11
 
 Maintenance release: build/dependency cleanup and a full Dart Sass module migration. No changes to site content or rendered output (compiled CSS is byte-identical).
