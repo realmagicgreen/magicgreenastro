@@ -12,7 +12,7 @@ tags:
   - ecological-engineering
   - restoration
   - plants
-  - sustanable-development
+  - sustainable-development
 coverImage: ./00.jpg
 description: The goal was never subtle. Hold back deserts, protect farmland, stop dust storms off the Gobi choking cities as far away as Beijing and the east coast.
 ad: false
